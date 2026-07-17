@@ -6,9 +6,7 @@ Designed as a college 3rd-year final project and recruiter showcase, it demonstr
 
 ---
 
-## 🚀 Resume / LinkedIn Description
-
-> **CustomerIQ — AI-Powered Customer Intelligence SaaS Platform**
+## **CustomerIQ — AI-Powered Customer Intelligence SaaS Platform**
 > Engineered an end-to-end customer intelligence dashboard using React (TypeScript), FastAPI, and Scikit-Learn. Designed K-Means clustering pipelines for RFM (Recency, Frequency, Monetary) segmentation and trained Random Forest classifiers to predict customer churn with 89%+ validation accuracy. Implemented JWT role-based access control, CSV bulk ingestion, real-time prediction sandboxes, and Dockerized the entire microservices architecture.
 
 ---
