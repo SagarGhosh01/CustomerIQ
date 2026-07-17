@@ -1,0 +1,1208 @@
+ReviewID,CustomerID,Rating,Comment,Date
+1,1,5,Very happy with the purchase. High quality and works perfectly.,2025-06-20
+2,1,5,Excellent product! Exceeded my expectations.,2026-07-16
+3,1,4,Satisfied with this purchase. Minor issues but overall great.,2026-03-07
+4,1,4,Good quality product. Worth the money.,2026-04-20
+5,1,5,"Fast shipping, great value. Highly recommend!",2025-03-07
+6,1,5,Amazing service and outstanding quality!,2025-08-24
+7,1,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-15
+8,1,5,Amazing service and outstanding quality!,2025-08-18
+9,2,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-10-19
+10,2,5,"Fast shipping, great value. Highly recommend!",2025-08-07
+11,2,5,"Fast shipping, great value. Highly recommend!",2025-12-19
+12,2,5,Exactly what I was looking for. Five stars!,2025-10-18
+13,2,3,"It is okay, does the job but nothing special.",2025-10-26
+14,3,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-04-24
+15,4,4,"Decent performance, looks nice in my room.",2025-02-09
+16,4,4,Satisfied with this purchase. Minor issues but overall great.,2025-01-26
+17,4,5,Exactly what I was looking for. Five stars!,2025-10-13
+18,4,5,"Fast shipping, great value. Highly recommend!",2025-08-25
+19,5,4,Good quality product. Worth the money.,2026-07-09
+20,5,5,"Fast shipping, great value. Highly recommend!",2026-04-22
+21,5,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-09
+22,5,4,Satisfied with this purchase. Minor issues but overall great.,2026-02-10
+23,5,4,Very solid build. Would buy again.,2026-05-17
+24,5,4,Very solid build. Would buy again.,2025-12-10
+25,5,5,Very happy with the purchase. High quality and works perfectly.,2026-05-18
+26,5,5,"Fast shipping, great value. Highly recommend!",2026-05-20
+27,6,1,"Horrible experience, stopped working on day one.",2026-04-27
+28,7,3,"It is okay, does the job but nothing special.",2024-06-27
+29,7,5,"Fast shipping, great value. Highly recommend!",2025-05-13
+30,10,5,Amazing service and outstanding quality!,2025-06-25
+31,10,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-02-29
+32,10,5,Excellent product! Exceeded my expectations.,2024-11-26
+33,11,3,Average quality. You get what you pay for.,2026-03-15
+34,11,3,"Decent product, but I expected more features.",2025-09-02
+35,12,3,"It is okay, does the job but nothing special.",2026-04-15
+36,12,3,"It is okay, does the job but nothing special.",2026-07-19
+37,13,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-04-02
+38,13,5,Amazing service and outstanding quality!,2024-10-25
+39,14,5,Excellent product! Exceeded my expectations.,2026-04-28
+40,14,4,"Works well, though delivery took a bit longer than expected.",2026-06-29
+41,14,4,Good quality product. Worth the money.,2026-06-28
+42,14,5,"Fast shipping, great value. Highly recommend!",2026-04-02
+43,14,4,Good quality product. Worth the money.,2026-04-08
+44,14,5,Very happy with the purchase. High quality and works perfectly.,2026-06-25
+45,14,5,Excellent product! Exceeded my expectations.,2026-05-06
+46,14,4,Good quality product. Worth the money.,2026-04-30
+47,15,5,Amazing service and outstanding quality!,2026-06-12
+48,15,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-29
+49,15,5,Exactly what I was looking for. Five stars!,2026-07-08
+50,15,5,"Fast shipping, great value. Highly recommend!",2026-07-19
+51,15,4,Very solid build. Would buy again.,2026-06-26
+52,15,4,"Decent performance, looks nice in my room.",2026-06-15
+53,15,5,Exactly what I was looking for. Five stars!,2026-07-17
+54,18,3,"It is okay, does the job but nothing special.",2026-05-15
+55,19,5,Excellent product! Exceeded my expectations.,2025-07-22
+56,19,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-11-18
+57,20,5,Excellent product! Exceeded my expectations.,2023-12-25
+58,22,4,Very solid build. Would buy again.,2026-02-17
+59,22,4,"Decent performance, looks nice in my room.",2026-01-22
+60,22,4,Good quality product. Worth the money.,2026-07-09
+61,22,5,Exactly what I was looking for. Five stars!,2026-06-24
+62,23,3,"It is okay, does the job but nothing special.",2026-07-15
+63,23,5,Amazing service and outstanding quality!,2026-07-01
+64,24,4,Good quality product. Worth the money.,2026-04-29
+65,24,5,Exactly what I was looking for. Five stars!,2024-03-12
+66,24,4,"Works well, though delivery took a bit longer than expected.",2025-12-01
+67,25,5,Amazing service and outstanding quality!,2025-11-04
+68,25,5,Very happy with the purchase. High quality and works perfectly.,2024-10-17
+69,26,1,Complete waste of money. Arrived broken.,2024-09-24
+70,26,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-09-17
+71,27,5,Exactly what I was looking for. Five stars!,2026-06-19
+72,27,4,"Works well, though delivery took a bit longer than expected.",2025-07-04
+73,27,5,Exactly what I was looking for. Five stars!,2026-04-01
+74,29,4,Satisfied with this purchase. Minor issues but overall great.,2025-08-19
+75,29,4,Very solid build. Would buy again.,2026-06-14
+76,29,4,Very solid build. Would buy again.,2026-04-20
+77,29,5,Very happy with the purchase. High quality and works perfectly.,2026-01-06
+78,29,5,Exactly what I was looking for. Five stars!,2025-12-01
+79,29,4,Good quality product. Worth the money.,2025-08-05
+80,29,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-17
+81,29,5,Amazing service and outstanding quality!,2025-11-05
+82,29,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-25
+83,30,3,It works but has some minor design flaws.,2025-07-08
+84,30,5,Very happy with the purchase. High quality and works perfectly.,2026-03-02
+85,30,3,"Decent product, but I expected more features.",2025-10-09
+86,31,3,"Decent product, but I expected more features.",2024-12-14
+87,31,5,Exactly what I was looking for. Five stars!,2025-06-29
+88,31,3,It works but has some minor design flaws.,2026-06-02
+89,32,3,It works but has some minor design flaws.,2026-05-30
+90,32,3,"It is okay, does the job but nothing special.",2026-01-30
+91,33,4,Satisfied with this purchase. Minor issues but overall great.,2025-08-06
+92,33,5,Amazing service and outstanding quality!,2025-07-05
+93,34,3,It works but has some minor design flaws.,2025-12-31
+94,35,5,Amazing service and outstanding quality!,2025-10-31
+95,35,3,"It is okay, does the job but nothing special.",2025-07-12
+96,36,3,Average quality. You get what you pay for.,2026-07-01
+97,36,5,Excellent product! Exceeded my expectations.,2025-11-15
+98,36,3,"Decent product, but I expected more features.",2026-04-16
+99,37,3,Average quality. You get what you pay for.,2024-03-29
+100,37,1,Terrible product. Do not buy!,2024-07-03
+101,40,5,Amazing service and outstanding quality!,2026-04-03
+102,40,3,"It is okay, does the job but nothing special.",2026-05-14
+103,41,5,"Fast shipping, great value. Highly recommend!",2026-05-26
+104,41,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-01-09
+105,41,5,Exactly what I was looking for. Five stars!,2026-06-10
+106,42,3,"It is okay, does the job but nothing special.",2025-11-08
+107,44,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-03-10
+108,44,3,"Decent product, but I expected more features.",2026-05-06
+109,44,5,Very happy with the purchase. High quality and works perfectly.,2026-04-23
+110,45,3,"It is okay, does the job but nothing special.",2026-02-08
+111,45,3,"Decent product, but I expected more features.",2025-02-08
+112,46,5,Amazing service and outstanding quality!,2026-04-30
+113,47,3,"Decent product, but I expected more features.",2025-08-24
+114,47,5,Amazing service and outstanding quality!,2026-06-23
+115,47,5,Excellent product! Exceeded my expectations.,2025-10-03
+116,48,3,"It is okay, does the job but nothing special.",2025-09-24
+117,48,3,Average quality. You get what you pay for.,2025-07-31
+118,48,3,Average quality. You get what you pay for.,2025-11-28
+119,48,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-03
+120,49,3,Average quality. You get what you pay for.,2026-04-15
+121,49,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-20
+122,49,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-08-07
+123,49,3,It works but has some minor design flaws.,2025-08-30
+124,50,5,Excellent product! Exceeded my expectations.,2026-04-07
+125,51,5,Amazing service and outstanding quality!,2026-06-18
+126,51,5,Exactly what I was looking for. Five stars!,2026-07-02
+127,51,5,Exactly what I was looking for. Five stars!,2025-07-15
+128,51,4,Good quality product. Worth the money.,2025-08-18
+129,51,5,Very happy with the purchase. High quality and works perfectly.,2026-02-17
+130,52,3,"It is okay, does the job but nothing special.",2026-04-01
+131,53,1,"Horrible experience, stopped working on day one.",2024-11-25
+132,53,1,Extremely poor quality. Customer service refused to refund.,2024-12-01
+133,54,4,Very solid build. Would buy again.,2025-10-28
+134,54,5,Very happy with the purchase. High quality and works perfectly.,2026-07-12
+135,54,4,Very solid build. Would buy again.,2026-04-26
+136,54,4,Satisfied with this purchase. Minor issues but overall great.,2025-12-13
+137,54,5,Very happy with the purchase. High quality and works perfectly.,2026-03-01
+138,54,5,Very happy with the purchase. High quality and works perfectly.,2025-09-21
+139,56,5,"Fast shipping, great value. Highly recommend!",2025-02-14
+140,57,5,"Fast shipping, great value. Highly recommend!",2026-06-27
+141,58,5,"Fast shipping, great value. Highly recommend!",2024-09-08
+142,58,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-07-08
+143,59,3,"Decent product, but I expected more features.",2026-07-15
+144,59,5,Amazing service and outstanding quality!,2026-07-13
+145,61,5,Exactly what I was looking for. Five stars!,2026-02-03
+146,62,4,"Decent performance, looks nice in my room.",2026-06-28
+147,62,4,Very solid build. Would buy again.,2026-05-28
+148,64,3,"Decent product, but I expected more features.",2026-06-15
+149,64,3,It works but has some minor design flaws.,2026-05-09
+150,65,3,It works but has some minor design flaws.,2026-07-16
+151,66,3,"It is okay, does the job but nothing special.",2025-12-23
+152,66,3,It works but has some minor design flaws.,2025-10-18
+153,66,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-08-07
+154,67,3,It works but has some minor design flaws.,2025-05-16
+155,67,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-04-06
+156,68,5,Excellent product! Exceeded my expectations.,2024-10-19
+157,68,3,"It is okay, does the job but nothing special.",2025-08-17
+158,68,5,"Fast shipping, great value. Highly recommend!",2026-03-07
+159,68,5,Very happy with the purchase. High quality and works perfectly.,2026-06-25
+160,68,5,"Fast shipping, great value. Highly recommend!",2025-04-26
+161,69,3,Average quality. You get what you pay for.,2025-04-29
+162,70,5,Very happy with the purchase. High quality and works perfectly.,2025-09-29
+163,71,4,Very solid build. Would buy again.,2025-12-29
+164,71,5,Excellent product! Exceeded my expectations.,2025-09-25
+165,71,4,Satisfied with this purchase. Minor issues but overall great.,2026-07-02
+166,71,5,"Fast shipping, great value. Highly recommend!",2026-04-01
+167,71,4,Good quality product. Worth the money.,2026-06-10
+168,71,5,Very happy with the purchase. High quality and works perfectly.,2025-11-04
+169,72,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-01-17
+170,73,5,"Fast shipping, great value. Highly recommend!",2026-05-15
+171,73,5,"Fast shipping, great value. Highly recommend!",2026-05-09
+172,74,5,Exactly what I was looking for. Five stars!,2025-10-16
+173,74,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-03-31
+174,74,5,Very happy with the purchase. High quality and works perfectly.,2025-05-22
+175,75,5,Exactly what I was looking for. Five stars!,2026-03-06
+176,75,5,Excellent product! Exceeded my expectations.,2025-11-12
+177,75,5,Exactly what I was looking for. Five stars!,2025-08-07
+178,75,5,"Fast shipping, great value. Highly recommend!",2026-05-25
+179,76,5,Excellent product! Exceeded my expectations.,2025-08-30
+180,76,5,Very happy with the purchase. High quality and works perfectly.,2025-12-18
+181,76,3,"Decent product, but I expected more features.",2025-05-06
+182,76,3,"Decent product, but I expected more features.",2024-09-25
+183,77,5,Very happy with the purchase. High quality and works perfectly.,2026-02-14
+184,77,4,Satisfied with this purchase. Minor issues but overall great.,2025-03-21
+185,77,4,"Works well, though delivery took a bit longer than expected.",2025-04-13
+186,77,5,Excellent product! Exceeded my expectations.,2026-01-10
+187,78,3,"Decent product, but I expected more features.",2026-05-05
+188,78,3,It works but has some minor design flaws.,2026-06-11
+189,79,4,Satisfied with this purchase. Minor issues but overall great.,2025-10-10
+190,79,4,"Decent performance, looks nice in my room.",2026-03-09
+191,79,5,Exactly what I was looking for. Five stars!,2025-12-02
+192,79,5,Exactly what I was looking for. Five stars!,2024-07-05
+193,79,4,Satisfied with this purchase. Minor issues but overall great.,2025-05-25
+194,79,5,Amazing service and outstanding quality!,2026-04-11
+195,80,3,"It is okay, does the job but nothing special.",2025-11-13
+196,80,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-11-23
+197,81,3,It works but has some minor design flaws.,2024-08-15
+198,81,5,Excellent product! Exceeded my expectations.,2024-12-10
+199,81,3,Average quality. You get what you pay for.,2026-02-01
+200,82,3,"It is okay, does the job but nothing special.",2025-08-05
+201,82,5,"Fast shipping, great value. Highly recommend!",2026-01-10
+202,85,3,"It is okay, does the job but nothing special.",2024-07-10
+203,85,5,Exactly what I was looking for. Five stars!,2026-07-06
+204,86,3,Average quality. You get what you pay for.,2025-12-19
+205,86,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-01-07
+206,86,5,Very happy with the purchase. High quality and works perfectly.,2026-06-15
+207,86,5,Exactly what I was looking for. Five stars!,2025-12-14
+208,87,3,Average quality. You get what you pay for.,2026-02-10
+209,87,3,"It is okay, does the job but nothing special.",2026-01-07
+210,87,5,Exactly what I was looking for. Five stars!,2026-04-20
+211,87,5,Amazing service and outstanding quality!,2026-03-02
+212,88,5,Amazing service and outstanding quality!,2025-08-19
+213,88,3,"Decent product, but I expected more features.",2025-10-12
+214,89,4,Very solid build. Would buy again.,2024-09-11
+215,89,5,Amazing service and outstanding quality!,2025-10-30
+216,89,5,Exactly what I was looking for. Five stars!,2024-10-20
+217,89,5,Exactly what I was looking for. Five stars!,2024-10-15
+218,90,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-06-17
+219,90,3,It works but has some minor design flaws.,2025-02-08
+220,90,3,"Decent product, but I expected more features.",2026-02-28
+221,90,5,"Fast shipping, great value. Highly recommend!",2026-05-11
+222,92,3,It works but has some minor design flaws.,2025-04-02
+223,93,5,"Fast shipping, great value. Highly recommend!",2025-08-02
+224,93,3,It works but has some minor design flaws.,2026-04-25
+225,96,5,Amazing service and outstanding quality!,2026-06-04
+226,96,5,"Fast shipping, great value. Highly recommend!",2025-06-14
+227,97,5,Excellent product! Exceeded my expectations.,2025-12-27
+228,97,5,Amazing service and outstanding quality!,2025-12-14
+229,97,5,Very happy with the purchase. High quality and works perfectly.,2026-04-15
+230,97,5,Excellent product! Exceeded my expectations.,2026-02-08
+231,97,4,Good quality product. Worth the money.,2026-02-19
+232,97,4,"Decent performance, looks nice in my room.",2026-07-04
+233,97,5,Very happy with the purchase. High quality and works perfectly.,2026-05-22
+234,97,5,Very happy with the purchase. High quality and works perfectly.,2026-03-06
+235,99,3,Average quality. You get what you pay for.,2025-09-14
+236,99,5,Excellent product! Exceeded my expectations.,2025-10-10
+237,99,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-04-11
+238,101,5,"Fast shipping, great value. Highly recommend!",2025-08-16
+239,101,3,"It is okay, does the job but nothing special.",2025-08-07
+240,101,5,Exactly what I was looking for. Five stars!,2026-04-11
+241,101,3,"It is okay, does the job but nothing special.",2026-05-21
+242,102,3,It works but has some minor design flaws.,2024-10-21
+243,102,5,Exactly what I was looking for. Five stars!,2026-04-14
+244,103,5,Amazing service and outstanding quality!,2026-05-03
+245,103,3,Average quality. You get what you pay for.,2026-05-30
+246,104,3,It works but has some minor design flaws.,2026-04-01
+247,104,5,Very happy with the purchase. High quality and works perfectly.,2026-05-15
+248,104,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-04-28
+249,104,3,"Decent product, but I expected more features.",2026-04-26
+250,105,1,"Horrible experience, stopped working on day one.",2024-09-03
+251,107,3,"Decent product, but I expected more features.",2024-09-14
+252,107,5,Exactly what I was looking for. Five stars!,2026-05-03
+253,107,3,"It is okay, does the job but nothing special.",2024-07-05
+254,108,5,Excellent product! Exceeded my expectations.,2026-04-04
+255,108,3,Average quality. You get what you pay for.,2026-01-28
+256,111,3,It works but has some minor design flaws.,2024-02-08
+257,111,3,"It is okay, does the job but nothing special.",2026-01-26
+258,112,3,Average quality. You get what you pay for.,2025-09-05
+259,112,5,Excellent product! Exceeded my expectations.,2026-04-01
+260,113,5,Excellent product! Exceeded my expectations.,2025-10-14
+261,113,5,Exactly what I was looking for. Five stars!,2026-04-17
+262,114,3,Average quality. You get what you pay for.,2025-02-19
+263,114,5,"Fast shipping, great value. Highly recommend!",2025-04-02
+264,115,5,Excellent product! Exceeded my expectations.,2024-04-28
+265,115,3,It works but has some minor design flaws.,2024-01-25
+266,115,5,Excellent product! Exceeded my expectations.,2024-05-04
+267,115,5,Excellent product! Exceeded my expectations.,2025-04-20
+268,116,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-03-12
+269,116,3,"Decent product, but I expected more features.",2025-01-20
+270,116,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-02-10
+271,118,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-03-03
+272,120,3,"It is okay, does the job but nothing special.",2026-06-18
+273,120,3,Average quality. You get what you pay for.,2026-03-31
+274,120,3,"Decent product, but I expected more features.",2026-05-01
+275,121,1,Worst purchase I've made. Fails to work.,2025-12-12
+276,122,3,It works but has some minor design flaws.,2024-06-14
+277,123,5,Amazing service and outstanding quality!,2026-07-14
+278,123,5,Excellent product! Exceeded my expectations.,2026-01-15
+279,125,5,Excellent product! Exceeded my expectations.,2026-06-14
+280,125,5,Excellent product! Exceeded my expectations.,2026-05-03
+281,126,3,"Decent product, but I expected more features.",2026-04-18
+282,126,5,Amazing service and outstanding quality!,2025-09-23
+283,126,5,"Fast shipping, great value. Highly recommend!",2025-09-07
+284,127,3,"It is okay, does the job but nothing special.",2024-05-22
+285,127,5,Excellent product! Exceeded my expectations.,2025-02-25
+286,128,5,Very happy with the purchase. High quality and works perfectly.,2024-10-26
+287,128,5,Very happy with the purchase. High quality and works perfectly.,2025-02-27
+288,128,4,Very solid build. Would buy again.,2025-08-23
+289,128,5,Very happy with the purchase. High quality and works perfectly.,2025-09-06
+290,129,1,"Horrible experience, stopped working on day one.",2025-10-16
+291,130,5,Excellent product! Exceeded my expectations.,2026-06-09
+292,130,3,"Decent product, but I expected more features.",2024-06-22
+293,131,3,"Decent product, but I expected more features.",2026-05-25
+294,131,3,"Decent product, but I expected more features.",2026-05-17
+295,132,4,Good quality product. Worth the money.,2025-11-15
+296,132,4,Good quality product. Worth the money.,2025-12-15
+297,133,3,It works but has some minor design flaws.,2025-10-16
+298,133,5,Exactly what I was looking for. Five stars!,2025-09-12
+299,133,5,Exactly what I was looking for. Five stars!,2025-08-01
+300,133,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-06-23
+301,134,3,"It is okay, does the job but nothing special.",2025-05-04
+302,134,3,It works but has some minor design flaws.,2026-02-12
+303,134,5,Very happy with the purchase. High quality and works perfectly.,2024-09-11
+304,136,3,"It is okay, does the job but nothing special.",2026-04-06
+305,136,5,Exactly what I was looking for. Five stars!,2026-04-06
+306,136,3,It works but has some minor design flaws.,2025-11-22
+307,136,5,"Fast shipping, great value. Highly recommend!",2026-07-18
+308,136,5,Very happy with the purchase. High quality and works perfectly.,2026-02-20
+309,138,5,Exactly what I was looking for. Five stars!,2025-04-15
+310,138,5,"Fast shipping, great value. Highly recommend!",2026-05-03
+311,138,4,Good quality product. Worth the money.,2025-08-22
+312,138,5,Excellent product! Exceeded my expectations.,2024-11-05
+313,138,4,"Works well, though delivery took a bit longer than expected.",2024-06-11
+314,139,3,Average quality. You get what you pay for.,2026-01-05
+315,139,3,It works but has some minor design flaws.,2026-01-22
+316,140,3,"Decent product, but I expected more features.",2025-11-17
+317,140,3,It works but has some minor design flaws.,2025-06-26
+318,140,3,Average quality. You get what you pay for.,2025-11-15
+319,140,5,Excellent product! Exceeded my expectations.,2025-05-12
+320,140,3,It works but has some minor design flaws.,2025-04-20
+321,141,5,Amazing service and outstanding quality!,2026-07-18
+322,141,5,Exactly what I was looking for. Five stars!,2026-07-11
+323,142,5,Excellent product! Exceeded my expectations.,2024-07-04
+324,143,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-06-25
+325,143,5,Amazing service and outstanding quality!,2026-07-17
+326,145,5,Amazing service and outstanding quality!,2026-02-28
+327,145,4,"Works well, though delivery took a bit longer than expected.",2026-05-15
+328,145,5,"Fast shipping, great value. Highly recommend!",2026-02-14
+329,145,5,Amazing service and outstanding quality!,2025-11-21
+330,145,5,Exactly what I was looking for. Five stars!,2025-12-06
+331,146,3,"It is okay, does the job but nothing special.",2025-05-30
+332,146,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-09
+333,147,5,"Fast shipping, great value. Highly recommend!",2025-11-10
+334,147,5,Exactly what I was looking for. Five stars!,2026-07-05
+335,147,4,Satisfied with this purchase. Minor issues but overall great.,2025-11-12
+336,147,4,Very solid build. Would buy again.,2026-02-02
+337,147,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-19
+338,148,4,"Decent performance, looks nice in my room.",2026-06-12
+339,148,5,Excellent product! Exceeded my expectations.,2026-05-26
+340,148,5,Excellent product! Exceeded my expectations.,2026-06-07
+341,148,4,"Decent performance, looks nice in my room.",2026-06-06
+342,148,5,Exactly what I was looking for. Five stars!,2026-05-30
+343,148,4,Very solid build. Would buy again.,2026-06-24
+344,148,5,Excellent product! Exceeded my expectations.,2026-05-25
+345,148,4,Good quality product. Worth the money.,2026-07-01
+346,150,3,"Decent product, but I expected more features.",2026-03-24
+347,152,3,"Decent product, but I expected more features.",2026-06-22
+348,153,4,"Decent performance, looks nice in my room.",2026-06-23
+349,153,5,"Fast shipping, great value. Highly recommend!",2025-06-21
+350,153,5,Excellent product! Exceeded my expectations.,2026-03-18
+351,153,5,Exactly what I was looking for. Five stars!,2025-01-14
+352,153,4,Good quality product. Worth the money.,2025-10-09
+353,153,4,Good quality product. Worth the money.,2026-07-08
+354,153,4,"Decent performance, looks nice in my room.",2025-10-14
+355,154,5,"Fast shipping, great value. Highly recommend!",2026-02-17
+356,154,5,Amazing service and outstanding quality!,2026-06-21
+357,154,3,"It is okay, does the job but nothing special.",2026-07-13
+358,155,4,Very solid build. Would buy again.,2026-04-06
+359,155,4,Satisfied with this purchase. Minor issues but overall great.,2024-08-16
+360,155,5,"Fast shipping, great value. Highly recommend!",2024-05-10
+361,155,4,"Decent performance, looks nice in my room.",2024-06-20
+362,155,5,Amazing service and outstanding quality!,2025-08-01
+363,156,5,"Fast shipping, great value. Highly recommend!",2026-06-29
+364,156,5,Very happy with the purchase. High quality and works perfectly.,2025-09-12
+365,156,4,"Works well, though delivery took a bit longer than expected.",2025-08-11
+366,156,5,Very happy with the purchase. High quality and works perfectly.,2026-04-30
+367,156,5,Exactly what I was looking for. Five stars!,2024-06-28
+368,157,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-01-23
+369,157,3,It works but has some minor design flaws.,2025-09-15
+370,157,5,"Fast shipping, great value. Highly recommend!",2026-02-10
+371,159,5,Excellent product! Exceeded my expectations.,2025-12-18
+372,159,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-04-08
+373,159,3,"Decent product, but I expected more features.",2025-11-15
+374,160,5,"Fast shipping, great value. Highly recommend!",2025-06-12
+375,160,5,Exactly what I was looking for. Five stars!,2025-08-13
+376,162,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-06-17
+377,162,3,Average quality. You get what you pay for.,2025-09-26
+378,162,3,"It is okay, does the job but nothing special.",2026-04-03
+379,163,5,Excellent product! Exceeded my expectations.,2026-01-20
+380,163,5,Excellent product! Exceeded my expectations.,2026-05-08
+381,165,5,Very happy with the purchase. High quality and works perfectly.,2026-02-20
+382,165,4,Good quality product. Worth the money.,2026-03-11
+383,165,4,Good quality product. Worth the money.,2026-06-09
+384,165,5,Exactly what I was looking for. Five stars!,2025-02-18
+385,165,5,Amazing service and outstanding quality!,2025-09-14
+386,165,5,Amazing service and outstanding quality!,2025-05-21
+387,165,4,Good quality product. Worth the money.,2025-09-22
+388,165,4,Good quality product. Worth the money.,2026-06-08
+389,166,5,Amazing service and outstanding quality!,2026-02-20
+390,167,5,Amazing service and outstanding quality!,2026-04-14
+391,167,5,Excellent product! Exceeded my expectations.,2026-01-01
+392,167,5,"Fast shipping, great value. Highly recommend!",2025-12-29
+393,168,5,"Fast shipping, great value. Highly recommend!",2026-05-28
+394,169,4,"Decent performance, looks nice in my room.",2026-07-09
+395,169,4,"Works well, though delivery took a bit longer than expected.",2025-09-16
+396,169,4,"Works well, though delivery took a bit longer than expected.",2025-11-29
+397,169,5,Exactly what I was looking for. Five stars!,2026-03-06
+398,169,5,"Fast shipping, great value. Highly recommend!",2025-07-25
+399,169,4,Good quality product. Worth the money.,2026-02-11
+400,169,5,Exactly what I was looking for. Five stars!,2026-01-11
+401,169,4,"Decent performance, looks nice in my room.",2026-03-17
+402,169,4,Very solid build. Would buy again.,2026-07-04
+403,170,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-11-20
+404,170,3,It works but has some minor design flaws.,2026-02-14
+405,170,3,"It is okay, does the job but nothing special.",2026-05-11
+406,171,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-04
+407,171,3,Average quality. You get what you pay for.,2026-04-26
+408,173,4,Very solid build. Would buy again.,2026-06-24
+409,173,4,"Works well, though delivery took a bit longer than expected.",2026-06-22
+410,173,4,Very solid build. Would buy again.,2026-06-19
+411,173,5,"Fast shipping, great value. Highly recommend!",2026-07-10
+412,176,5,"Fast shipping, great value. Highly recommend!",2026-02-06
+413,177,5,Exactly what I was looking for. Five stars!,2026-06-01
+414,178,3,It works but has some minor design flaws.,2026-01-05
+415,179,5,Exactly what I was looking for. Five stars!,2025-06-29
+416,179,5,"Fast shipping, great value. Highly recommend!",2026-04-17
+417,179,5,Very happy with the purchase. High quality and works perfectly.,2026-06-24
+418,179,5,Amazing service and outstanding quality!,2026-07-04
+419,179,4,Very solid build. Would buy again.,2025-12-05
+420,179,5,"Fast shipping, great value. Highly recommend!",2026-06-02
+421,179,5,"Fast shipping, great value. Highly recommend!",2025-08-15
+422,179,5,"Fast shipping, great value. Highly recommend!",2025-10-09
+423,179,4,Good quality product. Worth the money.,2025-09-19
+424,180,5,Excellent product! Exceeded my expectations.,2026-05-15
+425,181,5,Very happy with the purchase. High quality and works perfectly.,2024-11-20
+426,181,5,Excellent product! Exceeded my expectations.,2024-11-29
+427,181,4,Good quality product. Worth the money.,2026-05-08
+428,181,5,"Fast shipping, great value. Highly recommend!",2025-04-29
+429,182,5,"Fast shipping, great value. Highly recommend!",2026-07-01
+430,183,5,Very happy with the purchase. High quality and works perfectly.,2026-03-25
+431,183,5,Excellent product! Exceeded my expectations.,2025-02-19
+432,184,3,"Decent product, but I expected more features.",2025-11-10
+433,184,5,"Fast shipping, great value. Highly recommend!",2026-05-06
+434,185,5,Amazing service and outstanding quality!,2025-10-26
+435,185,3,Average quality. You get what you pay for.,2026-05-11
+436,185,3,"It is okay, does the job but nothing special.",2025-09-20
+437,185,5,Exactly what I was looking for. Five stars!,2026-05-22
+438,185,5,Excellent product! Exceeded my expectations.,2026-06-22
+439,185,3,"Decent product, but I expected more features.",2025-10-19
+440,186,3,Average quality. You get what you pay for.,2025-07-14
+441,186,3,Average quality. You get what you pay for.,2026-05-27
+442,189,4,"Works well, though delivery took a bit longer than expected.",2025-11-09
+443,189,5,Amazing service and outstanding quality!,2026-04-24
+444,189,4,Very solid build. Would buy again.,2025-06-04
+445,189,5,"Fast shipping, great value. Highly recommend!",2024-12-05
+446,189,4,Satisfied with this purchase. Minor issues but overall great.,2024-12-04
+447,189,5,Very happy with the purchase. High quality and works perfectly.,2024-08-08
+448,189,4,Satisfied with this purchase. Minor issues but overall great.,2026-02-09
+449,189,5,Amazing service and outstanding quality!,2025-01-04
+450,190,5,Very happy with the purchase. High quality and works perfectly.,2025-04-10
+451,190,4,Satisfied with this purchase. Minor issues but overall great.,2025-06-07
+452,190,5,Very happy with the purchase. High quality and works perfectly.,2026-05-07
+453,190,5,Very happy with the purchase. High quality and works perfectly.,2024-10-26
+454,190,5,Excellent product! Exceeded my expectations.,2025-02-14
+455,190,5,Exactly what I was looking for. Five stars!,2026-07-17
+456,190,4,"Decent performance, looks nice in my room.",2026-03-29
+457,191,5,Very happy with the purchase. High quality and works perfectly.,2026-02-22
+458,191,5,Amazing service and outstanding quality!,2025-08-04
+459,193,5,Amazing service and outstanding quality!,2025-09-01
+460,193,5,Very happy with the purchase. High quality and works perfectly.,2025-04-30
+461,194,1,Terrible product. Do not buy!,2024-08-30
+462,195,5,Amazing service and outstanding quality!,2026-03-20
+463,195,5,Excellent product! Exceeded my expectations.,2025-05-19
+464,195,4,"Decent performance, looks nice in my room.",2025-03-07
+465,195,5,Very happy with the purchase. High quality and works perfectly.,2026-06-07
+466,196,4,"Decent performance, looks nice in my room.",2026-07-16
+467,196,4,Good quality product. Worth the money.,2026-07-18
+468,196,4,"Works well, though delivery took a bit longer than expected.",2026-01-31
+469,196,4,"Decent performance, looks nice in my room.",2026-05-06
+470,196,5,Excellent product! Exceeded my expectations.,2026-03-21
+471,196,4,Good quality product. Worth the money.,2025-11-08
+472,196,5,Exactly what I was looking for. Five stars!,2026-05-21
+473,197,5,Excellent product! Exceeded my expectations.,2026-02-11
+474,197,3,"Decent product, but I expected more features.",2026-05-04
+475,198,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-12-09
+476,199,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-03-10
+477,199,3,"Decent product, but I expected more features.",2025-06-14
+478,199,3,It works but has some minor design flaws.,2025-08-07
+479,200,5,Amazing service and outstanding quality!,2025-08-14
+480,200,5,Very happy with the purchase. High quality and works perfectly.,2025-02-27
+481,200,3,It works but has some minor design flaws.,2025-04-02
+482,201,3,It works but has some minor design flaws.,2026-03-30
+483,201,5,"Fast shipping, great value. Highly recommend!",2025-12-28
+484,202,3,"Decent product, but I expected more features.",2026-07-01
+485,202,5,Amazing service and outstanding quality!,2026-06-21
+486,202,3,"Decent product, but I expected more features.",2026-05-27
+487,204,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-10-10
+488,204,5,Amazing service and outstanding quality!,2026-02-23
+489,204,5,Excellent product! Exceeded my expectations.,2026-05-29
+490,205,3,"It is okay, does the job but nothing special.",2025-08-25
+491,205,5,Exactly what I was looking for. Five stars!,2024-09-25
+492,205,5,Exactly what I was looking for. Five stars!,2025-01-28
+493,205,5,Very happy with the purchase. High quality and works perfectly.,2024-10-11
+494,205,3,Average quality. You get what you pay for.,2024-09-20
+495,206,5,Amazing service and outstanding quality!,2026-01-09
+496,206,5,Excellent product! Exceeded my expectations.,2025-03-26
+497,206,5,Exactly what I was looking for. Five stars!,2026-01-22
+498,207,3,"Decent product, but I expected more features.",2026-05-23
+499,208,4,"Decent performance, looks nice in my room.",2025-12-21
+500,208,5,"Fast shipping, great value. Highly recommend!",2025-06-18
+501,208,4,Very solid build. Would buy again.,2025-05-20
+502,208,5,Excellent product! Exceeded my expectations.,2025-03-27
+503,208,5,"Fast shipping, great value. Highly recommend!",2025-05-16
+504,208,5,Exactly what I was looking for. Five stars!,2026-06-09
+505,208,4,Good quality product. Worth the money.,2025-10-01
+506,208,4,Satisfied with this purchase. Minor issues but overall great.,2025-08-22
+507,208,4,Satisfied with this purchase. Minor issues but overall great.,2025-06-18
+508,208,4,"Works well, though delivery took a bit longer than expected.",2025-09-13
+509,209,5,Exactly what I was looking for. Five stars!,2025-12-21
+510,209,5,"Fast shipping, great value. Highly recommend!",2025-10-08
+511,209,5,Exactly what I was looking for. Five stars!,2025-08-07
+512,209,5,Very happy with the purchase. High quality and works perfectly.,2026-02-22
+513,212,5,"Fast shipping, great value. Highly recommend!",2026-05-27
+514,212,5,Amazing service and outstanding quality!,2024-05-05
+515,212,5,Exactly what I was looking for. Five stars!,2024-09-14
+516,213,3,It works but has some minor design flaws.,2024-06-13
+517,213,3,It works but has some minor design flaws.,2025-11-08
+518,214,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-24
+519,214,1,Terrible product. Do not buy!,2025-07-22
+520,215,5,Exactly what I was looking for. Five stars!,2025-03-28
+521,217,5,Exactly what I was looking for. Five stars!,2025-12-29
+522,217,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-06-18
+523,217,3,It works but has some minor design flaws.,2025-12-19
+524,218,5,Excellent product! Exceeded my expectations.,2026-06-19
+525,218,4,Very solid build. Would buy again.,2026-05-27
+526,218,5,Exactly what I was looking for. Five stars!,2026-07-15
+527,218,4,"Works well, though delivery took a bit longer than expected.",2025-12-26
+528,218,4,"Works well, though delivery took a bit longer than expected.",2026-04-30
+529,218,5,Amazing service and outstanding quality!,2026-01-10
+530,218,4,Good quality product. Worth the money.,2026-07-14
+531,219,3,Average quality. You get what you pay for.,2025-10-09
+532,221,5,Very happy with the purchase. High quality and works perfectly.,2026-02-15
+533,221,3,It works but has some minor design flaws.,2026-06-24
+534,221,5,Excellent product! Exceeded my expectations.,2026-03-20
+535,221,5,"Fast shipping, great value. Highly recommend!",2026-02-12
+536,221,5,"Fast shipping, great value. Highly recommend!",2026-05-30
+537,223,4,Good quality product. Worth the money.,2025-10-23
+538,223,5,Very happy with the purchase. High quality and works perfectly.,2026-04-21
+539,223,5,Excellent product! Exceeded my expectations.,2026-02-15
+540,223,4,Good quality product. Worth the money.,2026-03-17
+541,223,5,Very happy with the purchase. High quality and works perfectly.,2025-09-30
+542,224,5,Amazing service and outstanding quality!,2026-01-15
+543,224,5,Excellent product! Exceeded my expectations.,2025-11-18
+544,224,3,Average quality. You get what you pay for.,2026-02-16
+545,225,3,"Decent product, but I expected more features.",2025-08-06
+546,225,3,"Decent product, but I expected more features.",2025-08-08
+547,225,3,It works but has some minor design flaws.,2024-10-01
+548,226,3,Average quality. You get what you pay for.,2024-04-03
+549,227,5,"Fast shipping, great value. Highly recommend!",2025-03-17
+550,227,5,Very happy with the purchase. High quality and works perfectly.,2026-01-25
+551,227,4,Good quality product. Worth the money.,2025-06-16
+552,227,4,Satisfied with this purchase. Minor issues but overall great.,2026-04-02
+553,227,4,Satisfied with this purchase. Minor issues but overall great.,2026-07-02
+554,227,4,Good quality product. Worth the money.,2025-01-29
+555,228,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-10-29
+556,229,5,Exactly what I was looking for. Five stars!,2025-09-24
+557,230,5,Amazing service and outstanding quality!,2025-10-10
+558,232,5,Very happy with the purchase. High quality and works perfectly.,2024-12-16
+559,232,4,Satisfied with this purchase. Minor issues but overall great.,2025-10-07
+560,232,4,Good quality product. Worth the money.,2025-10-01
+561,232,4,"Decent performance, looks nice in my room.",2025-02-08
+562,232,4,"Works well, though delivery took a bit longer than expected.",2026-04-27
+563,232,4,"Works well, though delivery took a bit longer than expected.",2024-09-12
+564,233,3,"Decent product, but I expected more features.",2025-06-24
+565,233,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-12-31
+566,233,3,"Decent product, but I expected more features.",2025-10-26
+567,234,3,It works but has some minor design flaws.,2026-06-04
+568,234,5,Excellent product! Exceeded my expectations.,2026-07-21
+569,235,3,"Decent product, but I expected more features.",2026-06-15
+570,235,5,"Fast shipping, great value. Highly recommend!",2026-05-17
+571,236,5,Exactly what I was looking for. Five stars!,2026-04-15
+572,236,3,"Decent product, but I expected more features.",2026-07-19
+573,236,3,"Decent product, but I expected more features.",2026-06-14
+574,240,5,Very happy with the purchase. High quality and works perfectly.,2026-05-13
+575,240,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-01-15
+576,240,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-03-14
+577,241,1,Extremely poor quality. Customer service refused to refund.,2024-05-27
+578,241,1,Terrible product. Do not buy!,2024-04-20
+579,242,5,Exactly what I was looking for. Five stars!,2025-05-10
+580,242,5,Exactly what I was looking for. Five stars!,2024-09-20
+581,242,4,"Works well, though delivery took a bit longer than expected.",2025-03-04
+582,242,4,Good quality product. Worth the money.,2024-03-24
+583,242,5,Amazing service and outstanding quality!,2025-04-02
+584,242,4,"Works well, though delivery took a bit longer than expected.",2026-06-21
+585,242,5,Amazing service and outstanding quality!,2024-05-02
+586,244,1,"Horrible experience, stopped working on day one.",2024-06-27
+587,244,1,Complete waste of money. Arrived broken.,2024-06-17
+588,245,3,It works but has some minor design flaws.,2026-05-06
+589,245,3,Average quality. You get what you pay for.,2024-09-07
+590,245,5,"Fast shipping, great value. Highly recommend!",2024-10-28
+591,246,1,Terrible product. Do not buy!,2026-05-18
+592,248,5,"Fast shipping, great value. Highly recommend!",2025-01-14
+593,248,5,Amazing service and outstanding quality!,2026-02-19
+594,249,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-04-19
+595,250,5,Very happy with the purchase. High quality and works perfectly.,2026-05-28
+596,252,5,Excellent product! Exceeded my expectations.,2024-12-22
+597,252,5,Exactly what I was looking for. Five stars!,2025-09-30
+598,253,3,"It is okay, does the job but nothing special.",2026-05-20
+599,254,5,Excellent product! Exceeded my expectations.,2026-06-13
+600,255,3,Average quality. You get what you pay for.,2025-05-28
+601,255,5,Exactly what I was looking for. Five stars!,2025-08-13
+602,255,5,Amazing service and outstanding quality!,2026-02-25
+603,255,3,It works but has some minor design flaws.,2026-05-16
+604,255,5,"Fast shipping, great value. Highly recommend!",2025-12-02
+605,258,5,"Fast shipping, great value. Highly recommend!",2026-02-08
+606,258,5,Very happy with the purchase. High quality and works perfectly.,2025-12-11
+607,259,5,Excellent product! Exceeded my expectations.,2026-04-25
+608,261,5,Very happy with the purchase. High quality and works perfectly.,2026-04-07
+609,261,5,Amazing service and outstanding quality!,2026-04-20
+610,261,3,Average quality. You get what you pay for.,2026-01-11
+611,262,3,"Decent product, but I expected more features.",2025-11-11
+612,262,5,Excellent product! Exceeded my expectations.,2024-09-23
+613,263,3,Average quality. You get what you pay for.,2026-02-27
+614,263,5,Excellent product! Exceeded my expectations.,2025-10-30
+615,263,3,Average quality. You get what you pay for.,2025-12-16
+616,264,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-04-16
+617,264,5,Amazing service and outstanding quality!,2026-06-24
+618,264,3,"It is okay, does the job but nothing special.",2025-10-04
+619,264,3,"It is okay, does the job but nothing special.",2026-04-11
+620,264,5,Amazing service and outstanding quality!,2025-09-04
+621,265,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-21
+622,266,5,Very happy with the purchase. High quality and works perfectly.,2025-12-09
+623,266,5,Excellent product! Exceeded my expectations.,2026-02-16
+624,267,3,"Decent product, but I expected more features.",2024-12-05
+625,267,3,"Decent product, but I expected more features.",2025-05-16
+626,267,5,"Fast shipping, great value. Highly recommend!",2024-03-19
+627,268,5,Amazing service and outstanding quality!,2026-06-17
+628,268,5,"Fast shipping, great value. Highly recommend!",2026-06-08
+629,268,3,It works but has some minor design flaws.,2026-07-06
+630,268,5,Amazing service and outstanding quality!,2026-07-05
+631,270,3,"It is okay, does the job but nothing special.",2025-02-24
+632,271,5,Amazing service and outstanding quality!,2024-10-12
+633,271,5,Very happy with the purchase. High quality and works perfectly.,2025-08-09
+634,271,5,"Fast shipping, great value. Highly recommend!",2025-04-20
+635,271,5,Very happy with the purchase. High quality and works perfectly.,2025-01-01
+636,271,3,"It is okay, does the job but nothing special.",2025-05-04
+637,271,5,Amazing service and outstanding quality!,2025-06-01
+638,272,3,"It is okay, does the job but nothing special.",2025-12-23
+639,272,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-05-14
+640,272,3,Average quality. You get what you pay for.,2026-03-06
+641,272,3,"Decent product, but I expected more features.",2026-06-03
+642,273,4,Very solid build. Would buy again.,2024-11-28
+643,273,5,Very happy with the purchase. High quality and works perfectly.,2024-08-22
+644,273,5,Amazing service and outstanding quality!,2025-01-05
+645,273,5,"Fast shipping, great value. Highly recommend!",2024-12-01
+646,273,5,Very happy with the purchase. High quality and works perfectly.,2026-01-13
+647,273,5,Very happy with the purchase. High quality and works perfectly.,2025-08-10
+648,273,5,"Fast shipping, great value. Highly recommend!",2023-11-17
+649,273,4,Very solid build. Would buy again.,2024-03-30
+650,273,5,"Fast shipping, great value. Highly recommend!",2025-11-26
+651,273,5,Very happy with the purchase. High quality and works perfectly.,2024-10-26
+652,274,5,"Fast shipping, great value. Highly recommend!",2026-03-19
+653,275,3,"Decent product, but I expected more features.",2025-04-20
+654,275,5,Very happy with the purchase. High quality and works perfectly.,2026-03-01
+655,275,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-09-28
+656,276,3,"It is okay, does the job but nothing special.",2025-05-13
+657,276,3,It works but has some minor design flaws.,2024-12-20
+658,277,3,Average quality. You get what you pay for.,2025-12-01
+659,278,3,"It is okay, does the job but nothing special.",2026-03-10
+660,278,5,Very happy with the purchase. High quality and works perfectly.,2026-06-05
+661,282,5,Amazing service and outstanding quality!,2026-07-17
+662,282,4,Very solid build. Would buy again.,2026-06-09
+663,282,5,"Fast shipping, great value. Highly recommend!",2026-06-17
+664,282,4,"Works well, though delivery took a bit longer than expected.",2026-07-17
+665,282,5,Very happy with the purchase. High quality and works perfectly.,2026-07-08
+666,282,5,"Fast shipping, great value. Highly recommend!",2026-07-04
+667,282,4,"Works well, though delivery took a bit longer than expected.",2026-06-29
+668,282,4,Good quality product. Worth the money.,2026-07-16
+669,283,5,Very happy with the purchase. High quality and works perfectly.,2026-06-27
+670,283,5,Excellent product! Exceeded my expectations.,2026-06-26
+671,283,4,Good quality product. Worth the money.,2026-06-18
+672,283,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-09
+673,283,4,Very solid build. Would buy again.,2026-05-18
+674,283,5,Excellent product! Exceeded my expectations.,2026-06-08
+675,283,5,Very happy with the purchase. High quality and works perfectly.,2026-07-19
+676,283,5,Very happy with the purchase. High quality and works perfectly.,2026-07-06
+677,283,5,Very happy with the purchase. High quality and works perfectly.,2026-05-29
+678,284,5,Exactly what I was looking for. Five stars!,2025-08-22
+679,284,4,Good quality product. Worth the money.,2026-02-10
+680,284,4,"Works well, though delivery took a bit longer than expected.",2025-09-07
+681,285,5,"Fast shipping, great value. Highly recommend!",2026-07-12
+682,285,5,"Fast shipping, great value. Highly recommend!",2024-08-15
+683,286,4,"Works well, though delivery took a bit longer than expected.",2025-09-05
+684,287,3,Average quality. You get what you pay for.,2026-02-26
+685,287,3,It works but has some minor design flaws.,2025-11-14
+686,287,3,Average quality. You get what you pay for.,2026-05-06
+687,288,3,It works but has some minor design flaws.,2025-12-05
+688,288,5,Amazing service and outstanding quality!,2025-08-20
+689,288,3,It works but has some minor design flaws.,2025-10-11
+690,288,3,"Decent product, but I expected more features.",2026-07-01
+691,290,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-01-10
+692,291,5,Exactly what I was looking for. Five stars!,2025-08-19
+693,291,5,Exactly what I was looking for. Five stars!,2025-11-01
+694,292,5,Exactly what I was looking for. Five stars!,2026-05-26
+695,292,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-24
+696,292,4,"Decent performance, looks nice in my room.",2026-05-11
+697,292,5,Amazing service and outstanding quality!,2026-06-27
+698,292,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-17
+699,292,4,Satisfied with this purchase. Minor issues but overall great.,2026-03-30
+700,294,5,"Fast shipping, great value. Highly recommend!",2026-05-14
+701,294,3,Average quality. You get what you pay for.,2026-01-26
+702,294,5,Exactly what I was looking for. Five stars!,2026-04-28
+703,295,5,Excellent product! Exceeded my expectations.,2024-12-22
+704,295,5,Amazing service and outstanding quality!,2025-05-05
+705,295,4,Satisfied with this purchase. Minor issues but overall great.,2026-02-01
+706,295,5,Exactly what I was looking for. Five stars!,2025-07-13
+707,295,5,Amazing service and outstanding quality!,2025-08-03
+708,295,4,Very solid build. Would buy again.,2025-03-06
+709,296,5,"Fast shipping, great value. Highly recommend!",2026-06-09
+710,296,3,Average quality. You get what you pay for.,2026-05-23
+711,296,5,Excellent product! Exceeded my expectations.,2026-05-18
+712,296,3,"It is okay, does the job but nothing special.",2026-06-18
+713,296,3,Average quality. You get what you pay for.,2026-05-19
+714,297,5,Excellent product! Exceeded my expectations.,2026-01-02
+715,297,3,Average quality. You get what you pay for.,2026-07-18
+716,297,5,Excellent product! Exceeded my expectations.,2026-01-09
+717,298,3,It works but has some minor design flaws.,2026-02-26
+718,299,3,"It is okay, does the job but nothing special.",2025-12-29
+719,299,5,Amazing service and outstanding quality!,2026-05-29
+720,299,3,Average quality. You get what you pay for.,2026-03-14
+721,299,3,It works but has some minor design flaws.,2025-12-13
+722,300,5,Amazing service and outstanding quality!,2026-02-26
+723,300,5,Excellent product! Exceeded my expectations.,2025-12-27
+724,300,5,Amazing service and outstanding quality!,2025-04-07
+725,300,3,It works but has some minor design flaws.,2025-06-05
+726,301,5,Very happy with the purchase. High quality and works perfectly.,2025-04-17
+727,301,4,Good quality product. Worth the money.,2026-01-07
+728,301,5,Amazing service and outstanding quality!,2025-12-08
+729,301,5,Very happy with the purchase. High quality and works perfectly.,2026-04-30
+730,302,5,Amazing service and outstanding quality!,2026-05-06
+731,302,4,Good quality product. Worth the money.,2026-07-17
+732,303,4,"Works well, though delivery took a bit longer than expected.",2025-11-19
+733,303,5,"Fast shipping, great value. Highly recommend!",2025-09-18
+734,303,4,Satisfied with this purchase. Minor issues but overall great.,2025-09-13
+735,303,4,"Works well, though delivery took a bit longer than expected.",2025-02-11
+736,303,4,Satisfied with this purchase. Minor issues but overall great.,2026-03-12
+737,303,4,"Decent performance, looks nice in my room.",2025-09-01
+738,303,4,Very solid build. Would buy again.,2025-05-18
+739,303,4,Very solid build. Would buy again.,2025-04-06
+740,303,5,Excellent product! Exceeded my expectations.,2025-12-31
+741,303,4,"Decent performance, looks nice in my room.",2026-02-28
+742,304,3,It works but has some minor design flaws.,2026-06-22
+743,304,3,"It is okay, does the job but nothing special.",2026-06-03
+744,304,5,Excellent product! Exceeded my expectations.,2026-06-20
+745,305,3,It works but has some minor design flaws.,2026-04-04
+746,306,3,"Decent product, but I expected more features.",2026-02-24
+747,307,5,Amazing service and outstanding quality!,2024-11-25
+748,307,4,Satisfied with this purchase. Minor issues but overall great.,2025-07-14
+749,307,4,Good quality product. Worth the money.,2026-04-11
+750,307,4,Good quality product. Worth the money.,2026-04-14
+751,307,4,Satisfied with this purchase. Minor issues but overall great.,2025-12-16
+752,307,4,"Works well, though delivery took a bit longer than expected.",2025-09-23
+753,310,4,Very solid build. Would buy again.,2025-04-08
+754,310,5,"Fast shipping, great value. Highly recommend!",2026-05-21
+755,310,5,Excellent product! Exceeded my expectations.,2025-05-11
+756,310,5,Exactly what I was looking for. Five stars!,2025-06-07
+757,310,5,Amazing service and outstanding quality!,2026-03-16
+758,311,3,It works but has some minor design flaws.,2025-10-19
+759,311,3,"It is okay, does the job but nothing special.",2026-02-28
+760,312,3,Average quality. You get what you pay for.,2025-05-19
+761,312,3,It works but has some minor design flaws.,2025-04-19
+762,315,1,Complete waste of money. Arrived broken.,2024-07-12
+763,315,1,Worst purchase I've made. Fails to work.,2024-11-07
+764,316,3,Average quality. You get what you pay for.,2026-06-22
+765,316,5,Excellent product! Exceeded my expectations.,2026-06-22
+766,316,5,"Fast shipping, great value. Highly recommend!",2026-01-04
+767,316,5,"Fast shipping, great value. Highly recommend!",2026-05-01
+768,317,5,Excellent product! Exceeded my expectations.,2026-02-09
+769,317,3,Average quality. You get what you pay for.,2025-01-27
+770,317,3,"It is okay, does the job but nothing special.",2024-12-05
+771,318,4,"Decent performance, looks nice in my room.",2026-04-24
+772,318,5,Excellent product! Exceeded my expectations.,2026-03-30
+773,318,4,"Decent performance, looks nice in my room.",2026-02-11
+774,319,5,"Fast shipping, great value. Highly recommend!",2026-06-09
+775,320,5,Very happy with the purchase. High quality and works perfectly.,2026-03-05
+776,320,3,It works but has some minor design flaws.,2026-06-15
+777,320,3,"Decent product, but I expected more features.",2026-03-04
+778,321,3,"Decent product, but I expected more features.",2025-11-20
+779,321,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-08-06
+780,321,3,"Decent product, but I expected more features.",2025-12-19
+781,322,1,"Horrible experience, stopped working on day one.",2026-04-18
+782,323,3,"It is okay, does the job but nothing special.",2026-01-03
+783,323,5,Very happy with the purchase. High quality and works perfectly.,2026-03-30
+784,323,5,Excellent product! Exceeded my expectations.,2026-04-28
+785,323,3,Average quality. You get what you pay for.,2026-01-09
+786,324,5,Excellent product! Exceeded my expectations.,2026-05-11
+787,324,3,Average quality. You get what you pay for.,2026-05-20
+788,324,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-06-20
+789,325,5,Very happy with the purchase. High quality and works perfectly.,2024-04-16
+790,325,5,Very happy with the purchase. High quality and works perfectly.,2025-12-28
+791,325,3,"Decent product, but I expected more features.",2024-02-22
+792,326,3,It works but has some minor design flaws.,2025-06-01
+793,326,3,"It is okay, does the job but nothing special.",2025-02-19
+794,327,4,Good quality product. Worth the money.,2025-05-29
+795,327,4,"Works well, though delivery took a bit longer than expected.",2025-07-04
+796,327,5,Exactly what I was looking for. Five stars!,2026-04-12
+797,327,5,Very happy with the purchase. High quality and works perfectly.,2025-04-04
+798,327,4,"Decent performance, looks nice in my room.",2025-03-04
+799,327,5,Very happy with the purchase. High quality and works perfectly.,2024-11-15
+800,327,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-26
+801,327,5,Excellent product! Exceeded my expectations.,2026-05-18
+802,327,5,"Fast shipping, great value. Highly recommend!",2025-08-04
+803,327,4,"Works well, though delivery took a bit longer than expected.",2025-05-23
+804,328,5,"Fast shipping, great value. Highly recommend!",2026-01-05
+805,328,4,Satisfied with this purchase. Minor issues but overall great.,2025-07-14
+806,328,4,Satisfied with this purchase. Minor issues but overall great.,2026-02-17
+807,328,4,"Works well, though delivery took a bit longer than expected.",2025-09-19
+808,329,4,"Works well, though delivery took a bit longer than expected.",2024-09-13
+809,329,4,Satisfied with this purchase. Minor issues but overall great.,2025-06-13
+810,329,4,"Decent performance, looks nice in my room.",2024-02-07
+811,329,5,Excellent product! Exceeded my expectations.,2024-09-17
+812,329,4,Good quality product. Worth the money.,2024-04-26
+813,330,3,It works but has some minor design flaws.,2026-02-19
+814,330,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-02-14
+815,330,3,"Decent product, but I expected more features.",2026-05-31
+816,331,3,"Decent product, but I expected more features.",2026-03-28
+817,332,3,It works but has some minor design flaws.,2025-06-02
+818,335,5,Exactly what I was looking for. Five stars!,2026-07-14
+819,336,3,"Decent product, but I expected more features.",2024-06-26
+820,336,1,Worst purchase I've made. Fails to work.,2024-10-19
+821,337,3,"It is okay, does the job but nothing special.",2025-06-13
+822,337,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-02-22
+823,337,3,It works but has some minor design flaws.,2026-06-14
+824,338,3,"It is okay, does the job but nothing special.",2024-12-08
+825,339,4,Very solid build. Would buy again.,2025-12-17
+826,339,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-20
+827,339,4,"Decent performance, looks nice in my room.",2025-11-04
+828,340,5,Exactly what I was looking for. Five stars!,2026-06-10
+829,340,5,Excellent product! Exceeded my expectations.,2026-06-26
+830,340,5,Very happy with the purchase. High quality and works perfectly.,2026-05-29
+831,341,3,"It is okay, does the job but nothing special.",2025-06-16
+832,341,5,Amazing service and outstanding quality!,2025-08-18
+833,341,5,"Fast shipping, great value. Highly recommend!",2025-07-27
+834,342,5,Amazing service and outstanding quality!,2025-02-22
+835,344,3,Average quality. You get what you pay for.,2026-06-20
+836,345,5,Amazing service and outstanding quality!,2026-03-13
+837,346,5,Amazing service and outstanding quality!,2025-09-09
+838,346,5,Excellent product! Exceeded my expectations.,2024-09-17
+839,347,5,"Fast shipping, great value. Highly recommend!",2025-04-02
+840,347,3,"It is okay, does the job but nothing special.",2025-04-23
+841,348,3,Average quality. You get what you pay for.,2025-07-29
+842,349,5,Very happy with the purchase. High quality and works perfectly.,2026-01-04
+843,349,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-07-18
+844,351,1,Worst purchase I've made. Fails to work.,2025-01-27
+845,352,5,"Fast shipping, great value. Highly recommend!",2026-01-22
+846,352,5,Exactly what I was looking for. Five stars!,2026-01-19
+847,352,4,"Works well, though delivery took a bit longer than expected.",2026-02-11
+848,352,4,"Works well, though delivery took a bit longer than expected.",2026-05-28
+849,352,5,Exactly what I was looking for. Five stars!,2026-01-06
+850,352,4,Good quality product. Worth the money.,2026-03-12
+851,353,3,Satisfactory but probably wouldn't recommend it over alternatives.,2024-09-09
+852,354,3,"Decent product, but I expected more features.",2025-03-04
+853,355,5,Amazing service and outstanding quality!,2025-09-19
+854,355,5,Very happy with the purchase. High quality and works perfectly.,2026-01-24
+855,355,4,Good quality product. Worth the money.,2026-02-02
+856,355,4,Satisfied with this purchase. Minor issues but overall great.,2026-07-11
+857,355,4,"Works well, though delivery took a bit longer than expected.",2025-07-11
+858,355,5,Very happy with the purchase. High quality and works perfectly.,2026-06-10
+859,355,5,Very happy with the purchase. High quality and works perfectly.,2025-12-04
+860,356,3,Average quality. You get what you pay for.,2025-12-12
+861,357,3,It works but has some minor design flaws.,2025-05-20
+862,357,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-02-27
+863,357,5,"Fast shipping, great value. Highly recommend!",2024-11-13
+864,358,3,Average quality. You get what you pay for.,2026-07-08
+865,359,3,"It is okay, does the job but nothing special.",2024-11-28
+866,360,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-04-16
+867,360,3,It works but has some minor design flaws.,2026-02-25
+868,360,5,Exactly what I was looking for. Five stars!,2026-03-29
+869,360,5,Amazing service and outstanding quality!,2026-05-08
+870,361,5,Exactly what I was looking for. Five stars!,2025-10-18
+871,361,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-07-20
+872,362,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-28
+873,362,5,Very happy with the purchase. High quality and works perfectly.,2026-02-08
+874,362,4,Very solid build. Would buy again.,2026-03-19
+875,362,4,"Works well, though delivery took a bit longer than expected.",2026-03-03
+876,362,4,Good quality product. Worth the money.,2026-01-22
+877,362,5,Excellent product! Exceeded my expectations.,2025-08-27
+878,362,5,Exactly what I was looking for. Five stars!,2025-05-23
+879,362,5,"Fast shipping, great value. Highly recommend!",2025-08-11
+880,363,5,Very happy with the purchase. High quality and works perfectly.,2024-07-06
+881,363,4,"Decent performance, looks nice in my room.",2025-01-16
+882,363,5,"Fast shipping, great value. Highly recommend!",2026-02-13
+883,363,5,Amazing service and outstanding quality!,2025-11-05
+884,363,4,Very solid build. Would buy again.,2025-12-31
+885,364,5,Excellent product! Exceeded my expectations.,2025-03-08
+886,364,5,Exactly what I was looking for. Five stars!,2026-02-21
+887,365,5,Amazing service and outstanding quality!,2026-06-23
+888,365,5,"Fast shipping, great value. Highly recommend!",2026-03-16
+889,366,5,"Fast shipping, great value. Highly recommend!",2024-11-15
+890,367,5,Excellent product! Exceeded my expectations.,2026-05-20
+891,367,5,Very happy with the purchase. High quality and works perfectly.,2026-01-05
+892,367,5,Amazing service and outstanding quality!,2025-11-07
+893,368,5,Very happy with the purchase. High quality and works perfectly.,2026-02-13
+894,370,3,It works but has some minor design flaws.,2026-07-11
+895,370,3,It works but has some minor design flaws.,2026-06-26
+896,371,4,Satisfied with this purchase. Minor issues but overall great.,2026-03-23
+897,371,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-01
+898,371,4,"Decent performance, looks nice in my room.",2025-05-25
+899,371,5,Exactly what I was looking for. Five stars!,2025-01-13
+900,371,4,Satisfied with this purchase. Minor issues but overall great.,2025-11-05
+901,371,5,"Fast shipping, great value. Highly recommend!",2026-04-11
+902,371,5,Excellent product! Exceeded my expectations.,2026-03-29
+903,372,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-21
+904,372,4,Satisfied with this purchase. Minor issues but overall great.,2025-09-13
+905,372,4,Satisfied with this purchase. Minor issues but overall great.,2026-04-26
+906,372,4,Satisfied with this purchase. Minor issues but overall great.,2026-01-15
+907,372,5,"Fast shipping, great value. Highly recommend!",2025-09-03
+908,372,4,Very solid build. Would buy again.,2025-07-25
+909,373,3,"It is okay, does the job but nothing special.",2026-01-19
+910,373,3,Average quality. You get what you pay for.,2025-08-10
+911,373,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-07-23
+912,373,3,Average quality. You get what you pay for.,2025-09-29
+913,374,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-03-30
+914,375,5,Amazing service and outstanding quality!,2025-06-30
+915,375,3,"Decent product, but I expected more features.",2026-02-25
+916,377,5,Excellent product! Exceeded my expectations.,2024-10-17
+917,378,5,Amazing service and outstanding quality!,2024-07-01
+918,378,3,"It is okay, does the job but nothing special.",2024-09-29
+919,379,5,Exactly what I was looking for. Five stars!,2026-05-26
+920,379,3,"Decent product, but I expected more features.",2026-04-23
+921,379,5,"Fast shipping, great value. Highly recommend!",2026-06-20
+922,381,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-07-14
+923,381,5,Amazing service and outstanding quality!,2026-05-31
+924,381,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-07-09
+925,381,5,Amazing service and outstanding quality!,2026-07-09
+926,381,5,Very happy with the purchase. High quality and works perfectly.,2026-06-14
+927,384,3,"Decent product, but I expected more features.",2026-07-14
+928,384,5,Exactly what I was looking for. Five stars!,2025-09-13
+929,384,5,Very happy with the purchase. High quality and works perfectly.,2025-11-20
+930,384,5,Amazing service and outstanding quality!,2025-11-08
+931,385,3,"Decent product, but I expected more features.",2024-12-17
+932,386,1,Extremely poor quality. Customer service refused to refund.,2025-06-06
+933,387,3,Average quality. You get what you pay for.,2026-03-17
+934,387,3,"It is okay, does the job but nothing special.",2026-06-25
+935,387,5,Very happy with the purchase. High quality and works perfectly.,2026-02-12
+936,388,5,"Fast shipping, great value. Highly recommend!",2026-01-03
+937,388,5,Exactly what I was looking for. Five stars!,2025-12-07
+938,389,4,Very solid build. Would buy again.,2025-12-13
+939,390,3,"It is okay, does the job but nothing special.",2026-06-28
+940,391,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-05-16
+941,393,5,Excellent product! Exceeded my expectations.,2024-10-29
+942,393,5,Very happy with the purchase. High quality and works perfectly.,2024-10-27
+943,393,5,Excellent product! Exceeded my expectations.,2026-07-04
+944,393,3,It works but has some minor design flaws.,2026-04-29
+945,395,5,Very happy with the purchase. High quality and works perfectly.,2024-04-14
+946,395,3,"It is okay, does the job but nothing special.",2025-12-07
+947,396,3,"Decent product, but I expected more features.",2026-05-30
+948,398,4,"Works well, though delivery took a bit longer than expected.",2025-05-08
+949,398,5,"Fast shipping, great value. Highly recommend!",2026-06-24
+950,398,4,"Decent performance, looks nice in my room.",2026-03-10
+951,398,5,"Fast shipping, great value. Highly recommend!",2025-09-10
+952,398,4,Very solid build. Would buy again.,2025-10-26
+953,398,5,Excellent product! Exceeded my expectations.,2026-05-29
+954,398,5,Excellent product! Exceeded my expectations.,2025-09-19
+955,402,3,"Decent product, but I expected more features.",2026-05-27
+956,404,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-02-15
+957,405,5,"Fast shipping, great value. Highly recommend!",2025-12-21
+958,406,5,Amazing service and outstanding quality!,2025-12-16
+959,407,5,Amazing service and outstanding quality!,2026-05-22
+960,407,5,Excellent product! Exceeded my expectations.,2025-12-21
+961,407,3,"Decent product, but I expected more features.",2025-07-13
+962,409,5,Excellent product! Exceeded my expectations.,2026-01-27
+963,409,3,It works but has some minor design flaws.,2025-09-16
+964,409,3,Average quality. You get what you pay for.,2025-01-11
+965,409,3,"Decent product, but I expected more features.",2026-01-18
+966,410,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-08-12
+967,410,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-06-02
+968,410,3,Average quality. You get what you pay for.,2025-05-04
+969,410,5,"Fast shipping, great value. Highly recommend!",2025-11-20
+970,411,5,Excellent product! Exceeded my expectations.,2024-07-29
+971,411,5,Exactly what I was looking for. Five stars!,2025-03-03
+972,411,5,Excellent product! Exceeded my expectations.,2025-09-11
+973,411,4,Good quality product. Worth the money.,2024-08-25
+974,411,4,"Decent performance, looks nice in my room.",2025-07-15
+975,411,4,"Works well, though delivery took a bit longer than expected.",2025-04-17
+976,412,4,"Decent performance, looks nice in my room.",2025-01-21
+977,412,4,Good quality product. Worth the money.,2025-09-05
+978,412,4,Satisfied with this purchase. Minor issues but overall great.,2025-05-13
+979,412,4,Good quality product. Worth the money.,2026-06-23
+980,412,5,Very happy with the purchase. High quality and works perfectly.,2025-09-09
+981,412,5,Amazing service and outstanding quality!,2026-05-30
+982,412,5,Excellent product! Exceeded my expectations.,2025-11-07
+983,415,3,"Decent product, but I expected more features.",2026-06-23
+984,415,3,"Decent product, but I expected more features.",2024-05-21
+985,416,3,It works but has some minor design flaws.,2024-03-18
+986,417,5,Excellent product! Exceeded my expectations.,2025-12-25
+987,418,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-01-30
+988,418,3,"Decent product, but I expected more features.",2025-12-02
+989,419,5,Exactly what I was looking for. Five stars!,2024-04-15
+990,419,3,Average quality. You get what you pay for.,2024-07-25
+991,419,3,"Decent product, but I expected more features.",2025-12-05
+992,419,3,It works but has some minor design flaws.,2026-05-28
+993,420,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-12-23
+994,420,3,"Decent product, but I expected more features.",2025-12-21
+995,421,5,"Fast shipping, great value. Highly recommend!",2026-07-06
+996,421,3,It works but has some minor design flaws.,2025-02-16
+997,421,3,It works but has some minor design flaws.,2025-01-17
+998,422,4,"Decent performance, looks nice in my room.",2025-08-05
+999,422,5,Amazing service and outstanding quality!,2025-02-08
+1000,422,4,"Works well, though delivery took a bit longer than expected.",2025-12-19
+1001,422,4,Very solid build. Would buy again.,2026-05-25
+1002,422,4,Satisfied with this purchase. Minor issues but overall great.,2026-01-13
+1003,423,3,"It is okay, does the job but nothing special.",2025-03-07
+1004,423,5,Excellent product! Exceeded my expectations.,2025-10-04
+1005,424,3,"It is okay, does the job but nothing special.",2026-04-09
+1006,426,5,Amazing service and outstanding quality!,2025-07-12
+1007,426,4,"Works well, though delivery took a bit longer than expected.",2024-10-30
+1008,426,5,Very happy with the purchase. High quality and works perfectly.,2024-10-26
+1009,426,5,Excellent product! Exceeded my expectations.,2026-04-28
+1010,426,5,Very happy with the purchase. High quality and works perfectly.,2026-01-25
+1011,426,5,Exactly what I was looking for. Five stars!,2024-03-12
+1012,426,4,"Works well, though delivery took a bit longer than expected.",2025-02-03
+1013,426,4,Very solid build. Would buy again.,2024-11-24
+1014,427,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-22
+1015,427,5,Very happy with the purchase. High quality and works perfectly.,2025-11-16
+1016,427,5,Exactly what I was looking for. Five stars!,2025-05-04
+1017,427,5,Amazing service and outstanding quality!,2025-03-03
+1018,427,5,Amazing service and outstanding quality!,2024-12-29
+1019,428,5,Excellent product! Exceeded my expectations.,2026-01-12
+1020,428,5,Very happy with the purchase. High quality and works perfectly.,2026-05-19
+1021,428,3,Average quality. You get what you pay for.,2026-03-23
+1022,429,5,Amazing service and outstanding quality!,2025-03-29
+1023,429,5,"Fast shipping, great value. Highly recommend!",2025-05-05
+1024,429,5,"Fast shipping, great value. Highly recommend!",2026-03-20
+1025,429,5,Excellent product! Exceeded my expectations.,2025-05-31
+1026,429,5,"Fast shipping, great value. Highly recommend!",2025-02-17
+1027,429,5,"Fast shipping, great value. Highly recommend!",2025-03-06
+1028,429,5,Exactly what I was looking for. Five stars!,2025-09-01
+1029,429,5,Exactly what I was looking for. Five stars!,2026-03-10
+1030,429,5,Amazing service and outstanding quality!,2025-11-27
+1031,430,3,"It is okay, does the job but nothing special.",2025-04-29
+1032,430,3,It works but has some minor design flaws.,2025-05-31
+1033,431,5,Excellent product! Exceeded my expectations.,2026-07-15
+1034,431,5,Amazing service and outstanding quality!,2026-07-10
+1035,432,5,"Fast shipping, great value. Highly recommend!",2026-05-01
+1036,432,4,"Works well, though delivery took a bit longer than expected.",2025-09-01
+1037,432,5,Amazing service and outstanding quality!,2026-01-13
+1038,432,5,Amazing service and outstanding quality!,2026-06-12
+1039,432,4,Satisfied with this purchase. Minor issues but overall great.,2025-05-19
+1040,432,5,Excellent product! Exceeded my expectations.,2025-08-12
+1041,432,4,"Works well, though delivery took a bit longer than expected.",2025-12-02
+1042,432,5,Exactly what I was looking for. Five stars!,2025-03-15
+1043,432,4,Good quality product. Worth the money.,2025-10-13
+1044,434,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-02-03
+1045,434,3,"It is okay, does the job but nothing special.",2025-08-23
+1046,435,5,Amazing service and outstanding quality!,2025-03-08
+1047,435,5,Exactly what I was looking for. Five stars!,2025-07-26
+1048,435,3,"It is okay, does the job but nothing special.",2026-03-10
+1049,435,5,Amazing service and outstanding quality!,2025-05-01
+1050,436,3,"It is okay, does the job but nothing special.",2026-07-15
+1051,436,5,"Fast shipping, great value. Highly recommend!",2026-05-26
+1052,437,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-09-18
+1053,437,3,Average quality. You get what you pay for.,2026-06-26
+1054,437,5,Excellent product! Exceeded my expectations.,2025-09-29
+1055,438,3,"Decent product, but I expected more features.",2026-06-15
+1056,438,3,Average quality. You get what you pay for.,2025-12-16
+1057,438,3,"It is okay, does the job but nothing special.",2026-04-16
+1058,439,4,"Works well, though delivery took a bit longer than expected.",2026-05-06
+1059,439,4,Good quality product. Worth the money.,2026-05-23
+1060,439,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-28
+1061,440,5,"Fast shipping, great value. Highly recommend!",2026-03-17
+1062,440,5,"Fast shipping, great value. Highly recommend!",2025-09-17
+1063,440,5,Amazing service and outstanding quality!,2025-07-27
+1064,440,5,"Fast shipping, great value. Highly recommend!",2024-09-08
+1065,441,4,"Decent performance, looks nice in my room.",2026-05-27
+1066,441,4,Good quality product. Worth the money.,2025-06-26
+1067,442,5,Amazing service and outstanding quality!,2026-06-27
+1068,442,4,Good quality product. Worth the money.,2026-07-03
+1069,442,4,"Decent performance, looks nice in my room.",2026-07-09
+1070,442,4,Satisfied with this purchase. Minor issues but overall great.,2026-06-28
+1071,443,1,"Horrible experience, stopped working on day one.",2026-05-29
+1072,444,3,It works but has some minor design flaws.,2026-03-02
+1073,444,5,Exactly what I was looking for. Five stars!,2026-06-20
+1074,445,3,"Decent product, but I expected more features.",2026-04-09
+1075,446,5,Exactly what I was looking for. Five stars!,2026-02-21
+1076,447,3,"It is okay, does the job but nothing special.",2026-01-31
+1077,448,4,Very solid build. Would buy again.,2024-08-24
+1078,448,4,Satisfied with this purchase. Minor issues but overall great.,2024-04-14
+1079,448,5,Excellent product! Exceeded my expectations.,2025-10-24
+1080,449,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-06-02
+1081,449,5,Amazing service and outstanding quality!,2026-03-14
+1082,449,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-06-18
+1083,449,3,"Decent product, but I expected more features.",2026-01-30
+1084,449,3,Satisfactory but probably wouldn't recommend it over alternatives.,2025-03-30
+1085,450,3,"Decent product, but I expected more features.",2026-04-18
+1086,450,5,Very happy with the purchase. High quality and works perfectly.,2025-09-12
+1087,450,5,Exactly what I was looking for. Five stars!,2025-10-22
+1088,451,3,Average quality. You get what you pay for.,2026-01-15
+1089,451,3,It works but has some minor design flaws.,2025-11-11
+1090,452,3,"Decent product, but I expected more features.",2026-06-05
+1091,453,3,Average quality. You get what you pay for.,2026-03-22
+1092,453,3,"Decent product, but I expected more features.",2025-09-23
+1093,454,3,"It is okay, does the job but nothing special.",2025-08-15
+1094,456,3,"It is okay, does the job but nothing special.",2024-07-12
+1095,457,4,Very solid build. Would buy again.,2026-05-26
+1096,457,5,"Fast shipping, great value. Highly recommend!",2026-05-09
+1097,457,4,"Works well, though delivery took a bit longer than expected.",2026-07-11
+1098,457,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-30
+1099,457,4,Very solid build. Would buy again.,2026-05-22
+1100,457,4,Very solid build. Would buy again.,2026-05-05
+1101,457,4,Good quality product. Worth the money.,2026-05-12
+1102,458,5,Amazing service and outstanding quality!,2026-04-28
+1103,458,5,Amazing service and outstanding quality!,2026-05-14
+1104,458,5,Excellent product! Exceeded my expectations.,2026-07-15
+1105,458,4,Good quality product. Worth the money.,2026-06-19
+1106,458,4,"Works well, though delivery took a bit longer than expected.",2026-06-20
+1107,458,5,"Fast shipping, great value. Highly recommend!",2026-07-16
+1108,459,5,Very happy with the purchase. High quality and works perfectly.,2026-06-24
+1109,459,5,Exactly what I was looking for. Five stars!,2026-01-27
+1110,459,5,Excellent product! Exceeded my expectations.,2025-12-21
+1111,460,5,Excellent product! Exceeded my expectations.,2025-08-11
+1112,460,5,Amazing service and outstanding quality!,2025-05-02
+1113,461,1,Terrible product. Do not buy!,2024-06-18
+1114,462,5,"Fast shipping, great value. Highly recommend!",2025-07-21
+1115,462,3,"It is okay, does the job but nothing special.",2025-10-07
+1116,462,5,Exactly what I was looking for. Five stars!,2026-03-04
+1117,462,3,"Decent product, but I expected more features.",2025-11-03
+1118,462,5,Excellent product! Exceeded my expectations.,2026-04-28
+1119,463,1,Complete waste of money. Arrived broken.,2026-07-18
+1120,463,3,"Decent product, but I expected more features.",2026-06-24
+1121,464,3,Satisfactory but probably wouldn't recommend it over alternatives.,2026-02-01
+1122,464,3,"Decent product, but I expected more features.",2026-07-08
+1123,464,5,Excellent product! Exceeded my expectations.,2026-02-13
+1124,464,5,Exactly what I was looking for. Five stars!,2026-01-11
+1125,466,5,Amazing service and outstanding quality!,2026-05-23
+1126,466,5,"Fast shipping, great value. Highly recommend!",2026-06-19
+1127,466,4,"Works well, though delivery took a bit longer than expected.",2026-06-16
+1128,466,5,Excellent product! Exceeded my expectations.,2026-05-07
+1129,467,5,"Fast shipping, great value. Highly recommend!",2025-05-21
+1130,467,4,Good quality product. Worth the money.,2025-07-20
+1131,467,5,Exactly what I was looking for. Five stars!,2025-06-27
+1132,467,5,Amazing service and outstanding quality!,2024-09-12
+1133,467,5,Very happy with the purchase. High quality and works perfectly.,2025-11-01
+1134,468,4,"Works well, though delivery took a bit longer than expected.",2025-05-23
+1135,468,5,"Fast shipping, great value. Highly recommend!",2025-07-27
+1136,468,4,Satisfied with this purchase. Minor issues but overall great.,2026-05-15
+1137,468,4,Satisfied with this purchase. Minor issues but overall great.,2026-04-01
+1138,468,4,Very solid build. Would buy again.,2026-02-22
+1139,470,3,It works but has some minor design flaws.,2026-05-27
+1140,472,4,"Works well, though delivery took a bit longer than expected.",2025-02-07
+1141,472,4,Good quality product. Worth the money.,2024-03-06
+1142,472,4,Good quality product. Worth the money.,2025-03-22
+1143,472,4,Satisfied with this purchase. Minor issues but overall great.,2026-01-06
+1144,472,4,Very solid build. Would buy again.,2024-12-27
+1145,472,5,Excellent product! Exceeded my expectations.,2025-07-01
+1146,472,4,Very solid build. Would buy again.,2024-04-17
+1147,474,4,Very solid build. Would buy again.,2026-06-20
+1148,474,5,Amazing service and outstanding quality!,2026-06-11
+1149,474,4,Good quality product. Worth the money.,2026-06-06
+1150,474,4,"Works well, though delivery took a bit longer than expected.",2025-11-13
+1151,474,4,Good quality product. Worth the money.,2026-02-11
+1152,474,5,Amazing service and outstanding quality!,2025-09-20
+1153,474,4,Good quality product. Worth the money.,2024-09-19
+1154,474,5,Amazing service and outstanding quality!,2026-04-09
+1155,474,5,"Fast shipping, great value. Highly recommend!",2025-07-06
+1156,475,3,It works but has some minor design flaws.,2026-06-16
+1157,476,4,Very solid build. Would buy again.,2025-12-03
+1158,476,5,"Fast shipping, great value. Highly recommend!",2026-03-13
+1159,476,5,Amazing service and outstanding quality!,2026-05-27
+1160,476,5,"Fast shipping, great value. Highly recommend!",2026-05-15
+1161,477,5,Amazing service and outstanding quality!,2025-08-17
+1162,477,5,Amazing service and outstanding quality!,2025-09-05
+1163,479,1,Terrible product. Do not buy!,2026-06-20
+1164,480,1,Worst purchase I've made. Fails to work.,2024-08-11
+1165,481,3,It works but has some minor design flaws.,2026-03-22
+1166,481,3,"Decent product, but I expected more features.",2025-11-27
+1167,483,3,Average quality. You get what you pay for.,2026-05-27
+1168,484,3,"Decent product, but I expected more features.",2026-03-10
+1169,485,5,Very happy with the purchase. High quality and works perfectly.,2025-09-28
+1170,485,5,Excellent product! Exceeded my expectations.,2026-05-02
+1171,485,3,"Decent product, but I expected more features.",2025-07-05
+1172,485,5,Excellent product! Exceeded my expectations.,2026-01-26
+1173,486,5,Exactly what I was looking for. Five stars!,2026-01-08
+1174,486,5,Amazing service and outstanding quality!,2025-10-27
+1175,486,5,Exactly what I was looking for. Five stars!,2025-10-08
+1176,486,4,Good quality product. Worth the money.,2026-06-08
+1177,486,4,Good quality product. Worth the money.,2025-11-27
+1178,487,5,"Fast shipping, great value. Highly recommend!",2025-04-13
+1179,488,4,Good quality product. Worth the money.,2025-11-14
+1180,488,4,"Works well, though delivery took a bit longer than expected.",2024-12-19
+1181,488,5,Very happy with the purchase. High quality and works perfectly.,2025-05-22
+1182,488,5,"Fast shipping, great value. Highly recommend!",2025-02-16
+1183,488,5,Excellent product! Exceeded my expectations.,2024-10-20
+1184,488,4,Very solid build. Would buy again.,2024-11-14
+1185,488,5,Exactly what I was looking for. Five stars!,2025-12-21
+1186,488,5,Amazing service and outstanding quality!,2024-08-22
+1187,489,3,It works but has some minor design flaws.,2025-10-25
+1188,490,3,"It is okay, does the job but nothing special.",2026-04-27
+1189,491,3,It works but has some minor design flaws.,2024-03-15
+1190,491,3,Average quality. You get what you pay for.,2025-03-26
+1191,492,1,Terrible product. Do not buy!,2024-07-30
+1192,493,5,Excellent product! Exceeded my expectations.,2026-03-02
+1193,493,5,Very happy with the purchase. High quality and works perfectly.,2025-04-21
+1194,494,3,"It is okay, does the job but nothing special.",2025-06-22
+1195,494,5,Exactly what I was looking for. Five stars!,2025-05-17
+1196,495,3,Average quality. You get what you pay for.,2024-08-04
+1197,496,4,"Works well, though delivery took a bit longer than expected.",2026-07-14
+1198,496,5,"Fast shipping, great value. Highly recommend!",2026-01-17
+1199,496,5,"Fast shipping, great value. Highly recommend!",2025-09-22
+1200,496,4,Very solid build. Would buy again.,2026-02-14
+1201,496,4,"Works well, though delivery took a bit longer than expected.",2025-09-11
+1202,497,5,Exactly what I was looking for. Five stars!,2026-04-02
+1203,499,3,"Decent product, but I expected more features.",2024-12-10
+1204,500,3,Average quality. You get what you pay for.,2025-02-16
+1205,500,5,"Fast shipping, great value. Highly recommend!",2024-06-01
+1206,500,5,Exactly what I was looking for. Five stars!,2024-06-12
+1207,500,3,It works but has some minor design flaws.,2026-04-01

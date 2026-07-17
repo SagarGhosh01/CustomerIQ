@@ -1,0 +1,3087 @@
+OrderID,CustomerID,Product,Category,Price,Quantity,Date
+1,1,Coffee Maker,Home,49.99,3,2025-08-28
+2,1,Mechanical Keyboard,Electronics,89.99,2,2025-10-05
+3,1,"27"" Monitor",Electronics,249.99,3,2025-06-17
+4,1,"27"" Monitor",Electronics,249.99,2,2025-11-09
+5,1,Running Shoes,Apparel,65.0,2,2024-11-22
+6,1,Mystery Novel: Dark Woods,Books,12.99,1,2026-07-13
+7,1,Sport Socks (5 pack),Apparel,14.99,2,2025-12-09
+8,1,Mechanical Keyboard,Electronics,89.99,3,2026-03-06
+9,1,Wireless Mouse,Electronics,29.99,3,2026-04-18
+10,1,Data Science Handbook,Books,44.99,1,2025-11-07
+11,1,Ergonomic Chair,Home,189.99,1,2025-03-04
+12,1,Running Shoes,Apparel,65.0,2,2025-08-19
+13,1,Leather Backpack,Apparel,79.99,2,2025-07-26
+14,1,Water Bottle,Home,18.0,2,2025-01-24
+15,1,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-14
+16,1,Smart Watch,Electronics,149.99,2,2026-04-02
+17,1,Business Strategy Guide,Books,24.99,1,2025-08-13
+18,1,History of the World,Books,18.99,3,2025-04-22
+19,1,Data Science Handbook,Books,44.99,3,2024-11-19
+20,2,Sport Socks (5 pack),Apparel,14.99,2,2025-10-18
+21,2,Coffee Maker,Home,49.99,2,2026-03-20
+22,2,Water Bottle,Home,18.0,3,2025-08-02
+23,2,Wireless Mouse,Electronics,29.99,2,2025-12-18
+24,2,Sci-Fi Novel: The Stars,Books,14.99,1,2026-01-06
+25,2,Denim Jacket,Apparel,55.0,3,2025-10-17
+26,2,Mechanical Keyboard,Electronics,89.99,1,2025-10-24
+27,3,Smart Watch,Electronics,149.99,1,2024-10-10
+28,3,Business Strategy Guide,Books,24.99,2,2025-03-31
+29,3,Coffee Maker,Home,49.99,1,2025-04-08
+30,3,Water Bottle,Home,18.0,1,2025-04-23
+31,4,Noise Cancelling Headphones,Electronics,199.99,1,2026-01-01
+32,4,Scented Candle,Home,12.5,3,2025-11-21
+33,4,USB-C Hub,Electronics,39.99,3,2025-02-04
+34,4,USB-C Hub,Electronics,39.99,1,2025-04-14
+35,4,Mystery Novel: Dark Woods,Books,12.99,2,2025-09-29
+36,4,Graphic T-Shirt,Apparel,19.99,2,2026-04-21
+37,4,Sunglasses,Apparel,24.99,1,2025-01-23
+38,4,Coffee Maker,Home,49.99,3,2025-09-17
+39,4,USB-C Hub,Electronics,39.99,2,2025-10-08
+40,4,Mystery Novel: Dark Woods,Books,12.99,2,2025-04-20
+41,4,USB-C Hub,Electronics,39.99,3,2025-08-21
+42,4,Coffee Maker,Home,49.99,2,2026-06-03
+43,4,Business Strategy Guide,Books,24.99,3,2026-06-14
+44,4,Denim Jacket,Apparel,55.0,1,2025-07-20
+45,5,Sport Socks (5 pack),Apparel,14.99,1,2026-04-11
+46,5,Sunglasses,Apparel,24.99,1,2026-07-07
+47,5,"27"" Monitor",Electronics,249.99,1,2026-04-20
+48,5,Data Science Handbook,Books,44.99,3,2026-04-17
+49,5,"27"" Monitor",Electronics,249.99,1,2026-06-08
+50,5,Business Strategy Guide,Books,24.99,2,2026-03-26
+51,5,Ergonomic Chair,Home,189.99,2,2026-02-08
+52,5,"27"" Monitor",Electronics,249.99,2,2026-05-14
+53,5,Wireless Mouse,Electronics,29.99,2,2026-06-19
+54,5,USB-C Hub,Electronics,39.99,1,2025-11-10
+55,5,USB-C Hub,Electronics,39.99,2,2025-12-05
+56,5,Sci-Fi Novel: The Stars,Books,14.99,1,2026-01-16
+57,5,Scented Candle,Home,12.5,3,2026-05-13
+58,5,Water Bottle,Home,18.0,1,2026-04-02
+59,5,Sci-Fi Novel: The Stars,Books,14.99,2,2026-07-13
+60,5,Ergonomic Chair,Home,189.99,1,2026-03-21
+61,5,Smart Thermostat,Home,129.99,1,2026-05-18
+62,5,Wireless Mouse,Electronics,29.99,2,2026-05-01
+63,6,Noise Cancelling Headphones,Electronics,199.99,3,2026-04-24
+64,6,Denim Jacket,Apparel,55.0,3,2026-04-09
+65,7,Mechanical Keyboard,Electronics,89.99,1,2024-06-26
+66,7,"27"" Monitor",Electronics,249.99,1,2026-04-25
+67,7,Water Bottle,Home,18.0,1,2026-01-03
+68,7,Leather Backpack,Apparel,79.99,3,2026-03-10
+69,7,History of the World,Books,18.99,2,2025-09-22
+70,7,Coffee Maker,Home,49.99,2,2025-08-28
+71,7,Water Bottle,Home,18.0,2,2025-05-11
+72,8,Denim Jacket,Apparel,55.0,1,2026-01-09
+73,8,Smart Watch,Electronics,149.99,1,2026-03-24
+74,8,Sport Socks (5 pack),Apparel,14.99,2,2026-01-18
+75,9,History of the World,Books,18.99,1,2025-08-25
+76,9,Smart Watch,Electronics,149.99,1,2025-02-12
+77,9,Sunglasses,Apparel,24.99,3,2025-09-04
+78,9,Mystery Novel: Dark Woods,Books,12.99,3,2025-01-04
+79,10,Desk Lamp,Home,29.99,1,2025-06-23
+80,10,Noise Cancelling Headphones,Electronics,199.99,1,2024-09-16
+81,10,Scented Candle,Home,12.5,1,2024-07-21
+82,10,Denim Jacket,Apparel,55.0,2,2025-11-21
+83,10,Python Programming Guide,Books,34.99,2,2024-02-26
+84,10,Leather Backpack,Apparel,79.99,1,2025-09-08
+85,10,Coffee Maker,Home,49.99,1,2024-11-23
+86,10,Running Shoes,Apparel,65.0,2,2023-11-29
+87,11,Wireless Mouse,Electronics,29.99,1,2026-03-14
+88,11,Leather Backpack,Apparel,79.99,2,2025-08-29
+89,11,Denim Jacket,Apparel,55.0,2,2025-10-17
+90,12,Data Science Handbook,Books,44.99,2,2026-04-25
+91,12,Mechanical Keyboard,Electronics,89.99,2,2026-04-24
+92,12,Noise Cancelling Headphones,Electronics,199.99,2,2026-06-21
+93,12,Business Strategy Guide,Books,24.99,1,2026-04-11
+94,12,Sport Socks (5 pack),Apparel,14.99,2,2026-07-15
+95,13,Smart Thermostat,Home,129.99,3,2026-06-08
+96,13,Wireless Mouse,Electronics,29.99,3,2026-04-01
+97,13,Smart Watch,Electronics,149.99,2,2024-10-22
+98,13,Graphic T-Shirt,Apparel,19.99,3,2025-12-23
+99,14,"27"" Monitor",Electronics,249.99,1,2026-04-25
+100,14,Coffee Maker,Home,49.99,2,2026-06-25
+101,14,Graphic T-Shirt,Apparel,19.99,2,2026-04-04
+102,14,Mystery Novel: Dark Woods,Books,12.99,3,2026-06-25
+103,14,Smart Thermostat,Home,129.99,3,2026-05-25
+104,14,Python Programming Guide,Books,34.99,2,2026-04-12
+105,14,Mystery Novel: Dark Woods,Books,12.99,3,2026-05-03
+106,14,History of the World,Books,18.99,2,2026-04-01
+107,14,Sci-Fi Novel: The Stars,Books,14.99,2,2026-04-03
+108,14,Sport Socks (5 pack),Apparel,14.99,3,2026-05-12
+109,14,USB-C Hub,Electronics,39.99,2,2026-05-03
+110,14,Sport Socks (5 pack),Apparel,14.99,1,2026-04-05
+111,14,Python Programming Guide,Books,34.99,3,2026-06-23
+112,14,Running Shoes,Apparel,65.0,2,2026-04-05
+113,14,Mystery Novel: Dark Woods,Books,12.99,2,2026-05-12
+114,14,Mechanical Keyboard,Electronics,89.99,2,2026-05-12
+115,14,Leather Backpack,Apparel,79.99,1,2026-05-02
+116,14,Graphic T-Shirt,Apparel,19.99,2,2026-04-29
+117,15,Leather Backpack,Apparel,79.99,3,2026-06-07
+118,15,Running Shoes,Apparel,65.0,2,2026-06-09
+119,15,Data Science Handbook,Books,44.99,3,2026-06-15
+120,15,Water Bottle,Home,18.0,2,2026-07-06
+121,15,Noise Cancelling Headphones,Electronics,199.99,1,2026-07-12
+122,15,Wireless Mouse,Electronics,29.99,3,2026-07-07
+123,15,Denim Jacket,Apparel,55.0,2,2026-06-27
+124,15,Data Science Handbook,Books,44.99,3,2026-07-07
+125,15,Scented Candle,Home,12.5,3,2026-04-26
+126,15,Smart Thermostat,Home,129.99,2,2026-04-15
+127,15,Desk Lamp,Home,29.99,1,2026-06-11
+128,15,Desk Lamp,Home,29.99,1,2026-07-15
+129,15,Smart Watch,Electronics,149.99,1,2026-04-16
+130,15,"27"" Monitor",Electronics,249.99,2,2026-06-24
+131,15,Running Shoes,Apparel,65.0,2,2026-06-11
+132,15,Wireless Mouse,Electronics,29.99,1,2026-07-03
+133,15,Ergonomic Chair,Home,189.99,2,2026-07-14
+134,15,Sport Socks (5 pack),Apparel,14.99,3,2026-06-13
+135,16,Sci-Fi Novel: The Stars,Books,14.99,3,2025-03-12
+136,17,Running Shoes,Apparel,65.0,2,2025-06-09
+137,17,Leather Backpack,Apparel,79.99,3,2026-06-28
+138,18,Mystery Novel: Dark Woods,Books,12.99,2,2024-04-25
+139,18,Python Programming Guide,Books,34.99,3,2024-07-22
+140,18,History of the World,Books,18.99,2,2026-05-13
+141,18,Water Bottle,Home,18.0,1,2025-08-01
+142,18,Business Strategy Guide,Books,24.99,1,2024-04-18
+143,19,Mystery Novel: Dark Woods,Books,12.99,3,2025-07-20
+144,19,"27"" Monitor",Electronics,249.99,3,2025-10-21
+145,19,Smart Thermostat,Home,129.99,1,2025-11-18
+146,19,"27"" Monitor",Electronics,249.99,3,2025-11-16
+147,19,Smart Thermostat,Home,129.99,2,2026-02-14
+148,20,Sport Socks (5 pack),Apparel,14.99,1,2024-01-07
+149,20,Ergonomic Chair,Home,189.99,2,2025-10-28
+150,20,Running Shoes,Apparel,65.0,2,2023-12-21
+151,21,Denim Jacket,Apparel,55.0,3,2026-06-19
+152,21,Scented Candle,Home,12.5,3,2026-07-12
+153,22,Denim Jacket,Apparel,55.0,2,2026-03-13
+154,22,Sunglasses,Apparel,24.99,3,2026-02-14
+155,22,Data Science Handbook,Books,44.99,2,2026-05-08
+156,22,Denim Jacket,Apparel,55.0,2,2026-04-08
+157,22,Desk Lamp,Home,29.99,2,2026-06-10
+158,22,Smart Watch,Electronics,149.99,3,2026-06-09
+159,22,Data Science Handbook,Books,44.99,3,2026-01-20
+160,22,USB-C Hub,Electronics,39.99,1,2026-02-11
+161,22,Mystery Novel: Dark Woods,Books,12.99,3,2026-05-08
+162,22,History of the World,Books,18.99,1,2026-07-07
+163,22,USB-C Hub,Electronics,39.99,3,2026-05-06
+164,22,Denim Jacket,Apparel,55.0,3,2026-01-28
+165,22,Business Strategy Guide,Books,24.99,2,2026-04-25
+166,22,"27"" Monitor",Electronics,249.99,1,2026-06-27
+167,22,Graphic T-Shirt,Apparel,19.99,2,2026-06-20
+168,22,USB-C Hub,Electronics,39.99,1,2026-07-14
+169,22,Sport Socks (5 pack),Apparel,14.99,3,2026-04-11
+170,23,Mystery Novel: Dark Woods,Books,12.99,1,2026-07-17
+171,23,Smart Thermostat,Home,129.99,1,2026-07-14
+172,23,Denim Jacket,Apparel,55.0,2,2026-07-09
+173,23,Scented Candle,Home,12.5,2,2026-06-13
+174,23,Smart Thermostat,Home,129.99,2,2026-06-27
+175,23,Denim Jacket,Apparel,55.0,3,2026-06-12
+176,24,Business Strategy Guide,Books,24.99,1,2026-07-12
+177,24,Leather Backpack,Apparel,79.99,3,2024-03-07
+178,24,Denim Jacket,Apparel,55.0,1,2025-12-21
+179,24,Water Bottle,Home,18.0,2,2026-04-27
+180,24,Business Strategy Guide,Books,24.99,1,2024-04-14
+181,24,Business Strategy Guide,Books,24.99,1,2024-03-10
+182,24,History of the World,Books,18.99,1,2024-04-19
+183,24,Leather Backpack,Apparel,79.99,1,2025-11-28
+184,24,USB-C Hub,Electronics,39.99,3,2025-11-01
+185,24,Noise Cancelling Headphones,Electronics,199.99,1,2025-06-07
+186,24,Graphic T-Shirt,Apparel,19.99,3,2026-04-27
+187,25,Water Bottle,Home,18.0,1,2024-09-29
+188,25,Coffee Maker,Home,49.99,1,2025-09-28
+189,25,Sport Socks (5 pack),Apparel,14.99,2,2025-10-30
+190,25,Python Programming Guide,Books,34.99,2,2024-10-13
+191,26,Wireless Mouse,Electronics,29.99,2,2024-09-19
+192,26,Business Strategy Guide,Books,24.99,1,2024-09-13
+193,27,Scented Candle,Home,12.5,1,2026-06-15
+194,27,Graphic T-Shirt,Apparel,19.99,2,2026-04-02
+195,27,Python Programming Guide,Books,34.99,3,2025-08-07
+196,27,Water Bottle,Home,18.0,2,2025-04-13
+197,27,"27"" Monitor",Electronics,249.99,1,2025-07-03
+198,27,Ergonomic Chair,Home,189.99,1,2025-06-07
+199,27,Data Science Handbook,Books,44.99,2,2025-04-20
+200,27,USB-C Hub,Electronics,39.99,3,2025-08-14
+201,27,Running Shoes,Apparel,65.0,1,2025-04-23
+202,27,Desk Lamp,Home,29.99,3,2025-04-20
+203,27,"27"" Monitor",Electronics,249.99,1,2026-03-28
+204,28,Smart Thermostat,Home,129.99,1,2025-09-30
+205,28,Sunglasses,Apparel,24.99,1,2026-02-07
+206,29,Desk Lamp,Home,29.99,2,2025-08-18
+207,29,Scented Candle,Home,12.5,2,2025-08-14
+208,29,History of the World,Books,18.99,1,2026-06-10
+209,29,Business Strategy Guide,Books,24.99,1,2025-08-02
+210,29,Sci-Fi Novel: The Stars,Books,14.99,3,2025-11-23
+211,29,Business Strategy Guide,Books,24.99,2,2026-04-19
+212,29,Data Science Handbook,Books,44.99,1,2026-01-05
+213,29,Sci-Fi Novel: The Stars,Books,14.99,3,2025-11-26
+214,29,Ergonomic Chair,Home,189.99,2,2025-08-03
+215,29,Denim Jacket,Apparel,55.0,3,2026-05-15
+216,29,Smart Thermostat,Home,129.99,3,2026-02-23
+217,29,Ergonomic Chair,Home,189.99,2,2025-09-13
+218,29,Water Bottle,Home,18.0,3,2026-01-06
+219,29,Sci-Fi Novel: The Stars,Books,14.99,3,2025-11-01
+220,29,Desk Lamp,Home,29.99,2,2025-07-31
+221,29,Data Science Handbook,Books,44.99,3,2026-06-23
+222,30,Business Strategy Guide,Books,24.99,1,2025-07-07
+223,30,Scented Candle,Home,12.5,2,2026-02-28
+224,30,Denim Jacket,Apparel,55.0,1,2025-10-06
+225,30,Data Science Handbook,Books,44.99,1,2025-10-30
+226,31,"27"" Monitor",Electronics,249.99,3,2024-12-09
+227,31,Data Science Handbook,Books,44.99,2,2025-06-25
+228,31,Water Bottle,Home,18.0,1,2026-06-01
+229,31,Graphic T-Shirt,Apparel,19.99,1,2025-09-21
+230,32,Noise Cancelling Headphones,Electronics,199.99,3,2025-12-23
+231,32,"27"" Monitor",Electronics,249.99,3,2025-12-29
+232,32,USB-C Hub,Electronics,39.99,1,2026-05-28
+233,32,Sunglasses,Apparel,24.99,2,2026-01-28
+234,32,Ergonomic Chair,Home,189.99,1,2026-03-04
+235,32,Coffee Maker,Home,49.99,1,2026-07-01
+236,32,Data Science Handbook,Books,44.99,3,2026-02-26
+237,32,Mystery Novel: Dark Woods,Books,12.99,1,2026-04-23
+238,33,USB-C Hub,Electronics,39.99,3,2025-09-03
+239,33,USB-C Hub,Electronics,39.99,1,2026-06-16
+240,33,Business Strategy Guide,Books,24.99,3,2025-08-03
+241,33,Sport Socks (5 pack),Apparel,14.99,3,2025-11-22
+242,33,Mechanical Keyboard,Electronics,89.99,1,2026-03-22
+243,33,Water Bottle,Home,18.0,2,2025-06-30
+244,33,Leather Backpack,Apparel,79.99,2,2026-06-28
+245,33,Python Programming Guide,Books,34.99,1,2026-04-21
+246,33,Leather Backpack,Apparel,79.99,2,2025-12-18
+247,33,Business Strategy Guide,Books,24.99,1,2026-07-06
+248,33,History of the World,Books,18.99,2,2026-04-25
+249,34,Running Shoes,Apparel,65.0,1,2025-12-29
+250,34,Sunglasses,Apparel,24.99,2,2026-05-09
+251,34,Mystery Novel: Dark Woods,Books,12.99,2,2026-01-11
+252,34,Sci-Fi Novel: The Stars,Books,14.99,3,2025-10-19
+253,34,Sport Socks (5 pack),Apparel,14.99,3,2026-01-02
+254,35,Noise Cancelling Headphones,Electronics,199.99,2,2025-10-26
+255,35,Denim Jacket,Apparel,55.0,2,2025-10-09
+256,35,Mystery Novel: Dark Woods,Books,12.99,1,2024-12-24
+257,35,Python Programming Guide,Books,34.99,1,2025-07-07
+258,35,Sci-Fi Novel: The Stars,Books,14.99,2,2026-06-20
+259,36,Water Bottle,Home,18.0,2,2026-06-28
+260,36,Python Programming Guide,Books,34.99,3,2025-11-13
+261,36,"27"" Monitor",Electronics,249.99,3,2026-05-30
+262,36,Sport Socks (5 pack),Apparel,14.99,1,2025-06-26
+263,36,History of the World,Books,18.99,3,2026-05-15
+264,36,"27"" Monitor",Electronics,249.99,3,2026-04-14
+265,37,Leather Backpack,Apparel,79.99,1,2024-03-28
+266,37,Denim Jacket,Apparel,55.0,3,2024-04-21
+267,37,Leather Backpack,Apparel,79.99,1,2024-06-30
+268,38,Ergonomic Chair,Home,189.99,2,2026-06-07
+269,38,Sport Socks (5 pack),Apparel,14.99,2,2026-06-10
+270,39,Water Bottle,Home,18.0,2,2024-07-24
+271,39,Desk Lamp,Home,29.99,3,2024-07-20
+272,40,Mystery Novel: Dark Woods,Books,12.99,3,2026-04-03
+273,40,Desk Lamp,Home,29.99,2,2026-06-20
+274,40,History of the World,Books,18.99,1,2026-03-29
+275,40,Desk Lamp,Home,29.99,1,2026-03-18
+276,40,Mystery Novel: Dark Woods,Books,12.99,3,2026-05-11
+277,40,Smart Watch,Electronics,149.99,2,2025-12-30
+278,41,Noise Cancelling Headphones,Electronics,199.99,3,2025-12-23
+279,41,Sport Socks (5 pack),Apparel,14.99,3,2026-05-25
+280,41,Sport Socks (5 pack),Apparel,14.99,2,2025-11-12
+281,41,Noise Cancelling Headphones,Electronics,199.99,1,2026-01-05
+282,41,Data Science Handbook,Books,44.99,1,2026-06-07
+283,41,Leather Backpack,Apparel,79.99,3,2026-01-25
+284,42,Ergonomic Chair,Home,189.99,2,2026-02-18
+285,42,Sport Socks (5 pack),Apparel,14.99,3,2025-05-26
+286,42,Coffee Maker,Home,49.99,3,2025-11-06
+287,42,History of the World,Books,18.99,2,2024-11-20
+288,43,History of the World,Books,18.99,3,2026-04-19
+289,43,Leather Backpack,Apparel,79.99,3,2026-04-19
+290,43,History of the World,Books,18.99,3,2026-06-04
+291,43,"27"" Monitor",Electronics,249.99,1,2026-01-04
+292,43,Business Strategy Guide,Books,24.99,3,2026-05-25
+293,43,USB-C Hub,Electronics,39.99,2,2026-05-29
+294,43,Python Programming Guide,Books,34.99,1,2026-01-25
+295,43,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-14
+296,44,History of the World,Books,18.99,1,2026-03-05
+297,44,Graphic T-Shirt,Apparel,19.99,1,2026-03-31
+298,44,Smart Watch,Electronics,149.99,2,2026-03-12
+299,44,History of the World,Books,18.99,1,2026-05-02
+300,44,Scented Candle,Home,12.5,1,2026-05-16
+301,44,Graphic T-Shirt,Apparel,19.99,2,2026-04-28
+302,44,Sci-Fi Novel: The Stars,Books,14.99,3,2026-04-20
+303,45,Sport Socks (5 pack),Apparel,14.99,1,2026-04-25
+304,45,Ergonomic Chair,Home,189.99,1,2025-03-21
+305,45,Smart Watch,Electronics,149.99,3,2026-02-07
+306,45,Noise Cancelling Headphones,Electronics,199.99,2,2025-02-07
+307,46,Smart Watch,Electronics,149.99,1,2026-04-25
+308,46,Smart Thermostat,Home,129.99,1,2026-05-21
+309,47,History of the World,Books,18.99,1,2025-03-14
+310,47,Python Programming Guide,Books,34.99,2,2025-10-25
+311,47,Running Shoes,Apparel,65.0,3,2025-08-22
+312,47,Business Strategy Guide,Books,24.99,1,2026-06-18
+313,47,Coffee Maker,Home,49.99,2,2025-05-22
+314,47,Smart Thermostat,Home,129.99,2,2026-04-17
+315,47,Smart Thermostat,Home,129.99,2,2025-10-01
+316,48,History of the World,Books,18.99,3,2025-09-19
+317,48,Desk Lamp,Home,29.99,2,2026-03-21
+318,48,Data Science Handbook,Books,44.99,1,2025-05-08
+319,48,"27"" Monitor",Electronics,249.99,2,2025-07-26
+320,48,Leather Backpack,Apparel,79.99,3,2025-11-23
+321,48,Python Programming Guide,Books,34.99,2,2025-07-25
+322,48,Graphic T-Shirt,Apparel,19.99,2,2025-09-01
+323,49,Ergonomic Chair,Home,189.99,1,2025-12-11
+324,49,USB-C Hub,Electronics,39.99,2,2026-07-01
+325,49,Python Programming Guide,Books,34.99,2,2026-04-10
+326,49,Python Programming Guide,Books,34.99,1,2025-10-04
+327,49,Leather Backpack,Apparel,79.99,1,2025-09-19
+328,49,Desk Lamp,Home,29.99,2,2025-11-24
+329,49,Mechanical Keyboard,Electronics,89.99,1,2025-08-02
+330,49,Python Programming Guide,Books,34.99,3,2025-08-27
+331,50,Water Bottle,Home,18.0,1,2026-07-14
+332,50,Ergonomic Chair,Home,189.99,2,2025-05-10
+333,50,Running Shoes,Apparel,65.0,3,2025-11-20
+334,50,Business Strategy Guide,Books,24.99,1,2026-02-04
+335,50,Scented Candle,Home,12.5,2,2026-04-06
+336,50,Wireless Mouse,Electronics,29.99,3,2025-10-25
+337,51,Running Shoes,Apparel,65.0,3,2025-06-17
+338,51,Desk Lamp,Home,29.99,3,2026-06-17
+339,51,Mechanical Keyboard,Electronics,89.99,2,2026-06-05
+340,51,Coffee Maker,Home,49.99,2,2026-07-16
+341,51,Graphic T-Shirt,Apparel,19.99,2,2025-08-30
+342,51,"27"" Monitor",Electronics,249.99,3,2026-06-28
+343,51,"27"" Monitor",Electronics,249.99,1,2025-07-12
+344,51,Python Programming Guide,Books,34.99,1,2026-02-13
+345,51,Sport Socks (5 pack),Apparel,14.99,3,2025-08-17
+346,51,Smart Thermostat,Home,129.99,3,2025-05-29
+347,51,Scented Candle,Home,12.5,2,2026-02-13
+348,52,Desk Lamp,Home,29.99,2,2026-03-30
+349,52,Python Programming Guide,Books,34.99,1,2026-04-30
+350,53,Scented Candle,Home,12.5,3,2024-12-04
+351,53,Noise Cancelling Headphones,Electronics,199.99,3,2024-11-20
+352,53,Wireless Mouse,Electronics,29.99,3,2024-11-26
+353,54,Desk Lamp,Home,29.99,1,2025-05-26
+354,54,Smart Thermostat,Home,129.99,3,2025-10-26
+355,54,History of the World,Books,18.99,3,2026-07-07
+356,54,Coffee Maker,Home,49.99,2,2026-01-07
+357,54,Noise Cancelling Headphones,Electronics,199.99,3,2026-06-12
+358,54,History of the World,Books,18.99,3,2025-08-07
+359,54,Mechanical Keyboard,Electronics,89.99,2,2026-04-21
+360,54,Python Programming Guide,Books,34.99,1,2025-12-12
+361,54,"27"" Monitor",Electronics,249.99,2,2025-08-02
+362,54,History of the World,Books,18.99,3,2025-11-22
+363,54,Scented Candle,Home,12.5,2,2026-03-25
+364,54,Running Shoes,Apparel,65.0,2,2026-02-27
+365,54,Smart Watch,Electronics,149.99,2,2025-09-20
+366,54,"27"" Monitor",Electronics,249.99,3,2026-03-15
+367,54,Desk Lamp,Home,29.99,3,2026-06-14
+368,55,Leather Backpack,Apparel,79.99,2,2026-02-07
+369,55,"27"" Monitor",Electronics,249.99,3,2026-06-24
+370,55,Wireless Mouse,Electronics,29.99,2,2024-03-08
+371,56,Water Bottle,Home,18.0,3,2026-02-13
+372,56,Desk Lamp,Home,29.99,3,2025-08-07
+373,56,Water Bottle,Home,18.0,3,2025-06-08
+374,56,Smart Thermostat,Home,129.99,3,2025-02-11
+375,57,Data Science Handbook,Books,44.99,2,2026-06-25
+376,57,Running Shoes,Apparel,65.0,2,2026-06-26
+377,57,Mystery Novel: Dark Woods,Books,12.99,3,2026-04-15
+378,58,Sunglasses,Apparel,24.99,3,2024-09-07
+379,58,USB-C Hub,Electronics,39.99,2,2025-07-07
+380,59,Mechanical Keyboard,Electronics,89.99,2,2026-07-11
+381,59,History of the World,Books,18.99,3,2026-04-21
+382,59,Sci-Fi Novel: The Stars,Books,14.99,2,2026-07-11
+383,59,Smart Thermostat,Home,129.99,3,2026-07-06
+384,60,Denim Jacket,Apparel,55.0,3,2026-04-11
+385,60,Scented Candle,Home,12.5,2,2025-10-27
+386,61,Sunglasses,Apparel,24.99,1,2025-11-23
+387,61,Mechanical Keyboard,Electronics,89.99,3,2026-01-30
+388,61,Python Programming Guide,Books,34.99,3,2025-10-06
+389,62,Smart Thermostat,Home,129.99,3,2026-07-02
+390,62,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-20
+391,62,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-08
+392,62,Business Strategy Guide,Books,24.99,1,2026-06-25
+393,62,Sci-Fi Novel: The Stars,Books,14.99,1,2026-06-18
+394,62,Desk Lamp,Home,29.99,1,2026-05-27
+395,62,Scented Candle,Home,12.5,3,2026-05-30
+396,62,Coffee Maker,Home,49.99,3,2026-05-27
+397,63,Ergonomic Chair,Home,189.99,1,2025-07-14
+398,63,Water Bottle,Home,18.0,2,2026-07-09
+399,64,Coffee Maker,Home,49.99,1,2026-05-14
+400,64,Noise Cancelling Headphones,Electronics,199.99,3,2026-06-14
+401,64,Desk Lamp,Home,29.99,2,2026-05-04
+402,64,Water Bottle,Home,18.0,3,2026-04-12
+403,65,Leather Backpack,Apparel,79.99,1,2026-07-15
+404,65,Sci-Fi Novel: The Stars,Books,14.99,2,2026-06-16
+405,66,Mechanical Keyboard,Electronics,89.99,3,2025-12-20
+406,66,Sport Socks (5 pack),Apparel,14.99,2,2025-10-13
+407,66,Data Science Handbook,Books,44.99,1,2024-08-06
+408,67,Leather Backpack,Apparel,79.99,1,2025-05-11
+409,67,Noise Cancelling Headphones,Electronics,199.99,2,2025-04-05
+410,68,Sport Socks (5 pack),Apparel,14.99,3,2024-10-16
+411,68,Mechanical Keyboard,Electronics,89.99,3,2025-07-17
+412,68,Mystery Novel: Dark Woods,Books,12.99,1,2025-08-14
+413,68,Desk Lamp,Home,29.99,2,2026-01-14
+414,68,"27"" Monitor",Electronics,249.99,3,2026-03-05
+415,68,Ergonomic Chair,Home,189.99,3,2026-06-21
+416,68,Leather Backpack,Apparel,79.99,1,2025-04-23
+417,69,Smart Thermostat,Home,129.99,3,2023-11-29
+418,69,Noise Cancelling Headphones,Electronics,199.99,1,2025-06-03
+419,69,Graphic T-Shirt,Apparel,19.99,3,2025-12-19
+420,69,Wireless Mouse,Electronics,29.99,3,2025-04-26
+421,69,Noise Cancelling Headphones,Electronics,199.99,2,2024-07-18
+422,70,Wireless Mouse,Electronics,29.99,3,2025-09-24
+423,70,USB-C Hub,Electronics,39.99,1,2025-08-15
+424,71,Scented Candle,Home,12.5,1,2025-12-28
+425,71,Sport Socks (5 pack),Apparel,14.99,2,2025-09-22
+426,71,Sunglasses,Apparel,24.99,2,2025-09-20
+427,71,Leather Backpack,Apparel,79.99,1,2026-06-29
+428,71,Sport Socks (5 pack),Apparel,14.99,3,2026-01-22
+429,71,Scented Candle,Home,12.5,3,2025-09-09
+430,71,Noise Cancelling Headphones,Electronics,199.99,1,2026-03-29
+431,71,Sport Socks (5 pack),Apparel,14.99,1,2026-06-05
+432,71,Business Strategy Guide,Books,24.99,1,2025-09-24
+433,71,Water Bottle,Home,18.0,2,2025-10-31
+434,72,Denim Jacket,Apparel,55.0,2,2026-05-26
+435,72,USB-C Hub,Electronics,39.99,3,2026-01-14
+436,72,Sunglasses,Apparel,24.99,3,2026-07-02
+437,73,Wireless Mouse,Electronics,29.99,2,2026-05-23
+438,73,Smart Thermostat,Home,129.99,2,2026-06-06
+439,73,Business Strategy Guide,Books,24.99,1,2026-04-28
+440,73,Data Science Handbook,Books,44.99,2,2026-05-25
+441,73,"27"" Monitor",Electronics,249.99,1,2026-05-11
+442,73,Coffee Maker,Home,49.99,1,2026-05-04
+443,74,Sunglasses,Apparel,24.99,1,2025-12-11
+444,74,Business Strategy Guide,Books,24.99,1,2025-10-13
+445,74,Desk Lamp,Home,29.99,1,2025-03-30
+446,74,Mechanical Keyboard,Electronics,89.99,3,2025-05-20
+447,74,Sunglasses,Apparel,24.99,3,2025-06-07
+448,74,Mystery Novel: Dark Woods,Books,12.99,3,2025-04-24
+449,75,Sunglasses,Apparel,24.99,1,2026-03-02
+450,75,Noise Cancelling Headphones,Electronics,199.99,2,2025-11-11
+451,75,Scented Candle,Home,12.5,1,2026-07-08
+452,75,USB-C Hub,Electronics,39.99,3,2026-07-11
+453,75,Desk Lamp,Home,29.99,1,2025-08-29
+454,75,Running Shoes,Apparel,65.0,1,2025-08-04
+455,75,Sci-Fi Novel: The Stars,Books,14.99,3,2026-05-22
+456,75,Smart Thermostat,Home,129.99,1,2026-04-11
+457,75,Water Bottle,Home,18.0,2,2026-03-28
+458,75,Desk Lamp,Home,29.99,1,2026-04-11
+459,75,Leather Backpack,Apparel,79.99,1,2025-12-01
+460,76,Denim Jacket,Apparel,55.0,2,2025-08-25
+461,76,Wireless Mouse,Electronics,29.99,3,2025-12-15
+462,76,Denim Jacket,Apparel,55.0,2,2024-12-13
+463,76,Smart Thermostat,Home,129.99,1,2025-05-03
+464,76,Desk Lamp,Home,29.99,3,2024-06-21
+465,76,Sunglasses,Apparel,24.99,1,2024-09-21
+466,77,Sport Socks (5 pack),Apparel,14.99,3,2026-02-13
+467,77,Noise Cancelling Headphones,Electronics,199.99,1,2025-03-16
+468,77,Mechanical Keyboard,Electronics,89.99,3,2025-04-08
+469,77,History of the World,Books,18.99,2,2026-04-18
+470,77,Mystery Novel: Dark Woods,Books,12.99,2,2025-12-04
+471,77,Mechanical Keyboard,Electronics,89.99,3,2025-05-27
+472,77,Mystery Novel: Dark Woods,Books,12.99,3,2025-11-23
+473,77,USB-C Hub,Electronics,39.99,1,2026-01-08
+474,78,Business Strategy Guide,Books,24.99,3,2026-05-03
+475,78,Python Programming Guide,Books,34.99,1,2025-10-22
+476,78,Scented Candle,Home,12.5,1,2026-06-06
+477,79,Coffee Maker,Home,49.99,3,2026-01-11
+478,79,"27"" Monitor",Electronics,249.99,1,2025-10-07
+479,79,Water Bottle,Home,18.0,3,2025-10-03
+480,79,Mechanical Keyboard,Electronics,89.99,3,2026-03-08
+481,79,Scented Candle,Home,12.5,1,2024-10-28
+482,79,"27"" Monitor",Electronics,249.99,1,2026-05-15
+483,79,Water Bottle,Home,18.0,3,2025-11-30
+484,79,Mechanical Keyboard,Electronics,89.99,2,2024-07-03
+485,79,Data Science Handbook,Books,44.99,2,2025-05-21
+486,79,Mechanical Keyboard,Electronics,89.99,3,2026-04-09
+487,80,Sunglasses,Apparel,24.99,2,2023-11-25
+488,80,Running Shoes,Apparel,65.0,1,2025-11-12
+489,80,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-23
+490,80,Denim Jacket,Apparel,55.0,2,2023-12-01
+491,80,Smart Watch,Electronics,149.99,1,2025-05-31
+492,80,Desk Lamp,Home,29.99,2,2025-06-17
+493,80,Desk Lamp,Home,29.99,2,2025-11-19
+494,81,Desk Lamp,Home,29.99,2,2024-07-24
+495,81,Denim Jacket,Apparel,55.0,1,2024-08-13
+496,81,Noise Cancelling Headphones,Electronics,199.99,1,2025-11-24
+497,81,Python Programming Guide,Books,34.99,1,2024-12-09
+498,81,Water Bottle,Home,18.0,1,2026-01-27
+499,81,Water Bottle,Home,18.0,2,2025-03-10
+500,81,Sport Socks (5 pack),Apparel,14.99,1,2026-04-07
+501,81,Coffee Maker,Home,49.99,2,2025-02-17
+502,82,Data Science Handbook,Books,44.99,1,2025-07-31
+503,82,History of the World,Books,18.99,2,2026-01-05
+504,82,USB-C Hub,Electronics,39.99,2,2024-08-19
+505,82,Ergonomic Chair,Home,189.99,1,2025-09-30
+506,82,Leather Backpack,Apparel,79.99,3,2024-10-05
+507,83,Running Shoes,Apparel,65.0,3,2026-07-17
+508,83,Leather Backpack,Apparel,79.99,1,2026-02-24
+509,83,Sci-Fi Novel: The Stars,Books,14.99,3,2026-06-11
+510,84,Python Programming Guide,Books,34.99,3,2024-06-22
+511,84,Desk Lamp,Home,29.99,3,2024-05-27
+512,85,History of the World,Books,18.99,3,2024-07-08
+513,85,Smart Thermostat,Home,129.99,3,2026-07-03
+514,85,Sunglasses,Apparel,24.99,3,2024-08-31
+515,86,History of the World,Books,18.99,2,2026-02-12
+516,86,Leather Backpack,Apparel,79.99,2,2025-12-15
+517,86,Mechanical Keyboard,Electronics,89.99,3,2025-10-13
+518,86,Python Programming Guide,Books,34.99,1,2025-12-15
+519,86,Business Strategy Guide,Books,24.99,1,2026-01-06
+520,86,Water Bottle,Home,18.0,3,2025-12-29
+521,86,"27"" Monitor",Electronics,249.99,1,2026-06-14
+522,86,Graphic T-Shirt,Apparel,19.99,3,2025-12-09
+523,87,Sunglasses,Apparel,24.99,3,2026-02-09
+524,87,Python Programming Guide,Books,34.99,1,2026-01-04
+525,87,Wireless Mouse,Electronics,29.99,3,2026-04-26
+526,87,Mechanical Keyboard,Electronics,89.99,1,2026-04-16
+527,87,Scented Candle,Home,12.5,3,2026-02-28
+528,87,Ergonomic Chair,Home,189.99,2,2025-12-23
+529,88,Ergonomic Chair,Home,189.99,1,2025-08-14
+530,88,Denim Jacket,Apparel,55.0,2,2025-02-11
+531,88,Business Strategy Guide,Books,24.99,3,2026-06-17
+532,88,Graphic T-Shirt,Apparel,19.99,3,2025-07-20
+533,88,Python Programming Guide,Books,34.99,2,2025-10-08
+534,88,"27"" Monitor",Electronics,249.99,3,2026-01-14
+535,89,History of the World,Books,18.99,1,2026-06-02
+536,89,Mechanical Keyboard,Electronics,89.99,3,2024-09-06
+537,89,Ergonomic Chair,Home,189.99,2,2024-10-12
+538,89,Running Shoes,Apparel,65.0,1,2025-08-23
+539,89,Water Bottle,Home,18.0,3,2025-10-25
+540,89,Running Shoes,Apparel,65.0,2,2024-10-19
+541,89,Sunglasses,Apparel,24.99,2,2025-04-13
+542,89,Sci-Fi Novel: The Stars,Books,14.99,2,2024-10-11
+543,90,Python Programming Guide,Books,34.99,1,2026-01-24
+544,90,Wireless Mouse,Electronics,29.99,2,2025-08-24
+545,90,Mechanical Keyboard,Electronics,89.99,1,2025-06-14
+546,90,Data Science Handbook,Books,44.99,1,2025-02-04
+547,90,Water Bottle,Home,18.0,3,2026-02-27
+548,90,Mechanical Keyboard,Electronics,89.99,3,2026-05-09
+549,90,History of the World,Books,18.99,3,2025-11-15
+550,90,Smart Watch,Electronics,149.99,3,2025-05-18
+551,91,Smart Thermostat,Home,129.99,2,2026-06-12
+552,91,Running Shoes,Apparel,65.0,3,2026-01-18
+553,91,Sunglasses,Apparel,24.99,2,2026-03-31
+554,91,Python Programming Guide,Books,34.99,2,2025-12-21
+555,91,Desk Lamp,Home,29.99,3,2026-05-11
+556,92,Mechanical Keyboard,Electronics,89.99,2,2025-03-29
+557,92,Water Bottle,Home,18.0,2,2024-09-09
+558,93,Wireless Mouse,Electronics,29.99,2,2025-08-01
+559,93,Business Strategy Guide,Books,24.99,1,2024-08-03
+560,93,"27"" Monitor",Electronics,249.99,1,2025-01-18
+561,93,Wireless Mouse,Electronics,29.99,2,2026-04-22
+562,93,Water Bottle,Home,18.0,2,2026-03-05
+563,94,Denim Jacket,Apparel,55.0,2,2026-05-12
+564,94,Coffee Maker,Home,49.99,2,2026-03-20
+565,95,Desk Lamp,Home,29.99,3,2025-01-18
+566,95,Denim Jacket,Apparel,55.0,3,2026-01-05
+567,95,Denim Jacket,Apparel,55.0,2,2025-01-25
+568,96,Python Programming Guide,Books,34.99,3,2026-06-01
+569,96,Mystery Novel: Dark Woods,Books,12.99,2,2025-07-10
+570,96,Business Strategy Guide,Books,24.99,2,2025-06-11
+571,96,Wireless Mouse,Electronics,29.99,3,2026-05-25
+572,97,Scented Candle,Home,12.5,2,2026-06-21
+573,97,Data Science Handbook,Books,44.99,3,2025-12-26
+574,97,"27"" Monitor",Electronics,249.99,2,2025-12-12
+575,97,Wireless Mouse,Electronics,29.99,1,2026-04-11
+576,97,Graphic T-Shirt,Apparel,19.99,3,2026-02-07
+577,97,Graphic T-Shirt,Apparel,19.99,1,2026-05-14
+578,97,Coffee Maker,Home,49.99,3,2026-02-16
+579,97,Noise Cancelling Headphones,Electronics,199.99,3,2026-07-02
+580,97,Business Strategy Guide,Books,24.99,1,2026-04-15
+581,97,Business Strategy Guide,Books,24.99,2,2026-05-18
+582,97,Sport Socks (5 pack),Apparel,14.99,2,2026-03-03
+583,97,Running Shoes,Apparel,65.0,1,2025-09-16
+584,98,Business Strategy Guide,Books,24.99,3,2025-09-14
+585,98,Ergonomic Chair,Home,189.99,3,2026-02-06
+586,98,USB-C Hub,Electronics,39.99,1,2025-08-17
+587,99,Water Bottle,Home,18.0,1,2026-04-11
+588,99,"27"" Monitor",Electronics,249.99,2,2025-07-09
+589,99,Mystery Novel: Dark Woods,Books,12.99,2,2025-09-09
+590,99,Sunglasses,Apparel,24.99,2,2025-04-09
+591,99,Noise Cancelling Headphones,Electronics,199.99,1,2025-10-05
+592,99,Noise Cancelling Headphones,Electronics,199.99,3,2026-05-26
+593,99,Leather Backpack,Apparel,79.99,3,2025-09-15
+594,99,USB-C Hub,Electronics,39.99,1,2025-04-07
+595,100,Sport Socks (5 pack),Apparel,14.99,2,2026-01-02
+596,100,Sunglasses,Apparel,24.99,3,2025-01-07
+597,100,Running Shoes,Apparel,65.0,2,2025-05-01
+598,100,Mystery Novel: Dark Woods,Books,12.99,3,2025-01-26
+599,101,Denim Jacket,Apparel,55.0,1,2026-04-12
+600,101,Ergonomic Chair,Home,189.99,3,2025-08-13
+601,101,Coffee Maker,Home,49.99,3,2025-08-02
+602,101,Sci-Fi Novel: The Stars,Books,14.99,2,2026-04-06
+603,101,Sport Socks (5 pack),Apparel,14.99,3,2026-05-17
+604,102,History of the World,Books,18.99,1,2025-11-08
+605,102,"27"" Monitor",Electronics,249.99,3,2024-10-18
+606,102,Sci-Fi Novel: The Stars,Books,14.99,1,2026-04-13
+607,102,History of the World,Books,18.99,3,2024-11-22
+608,102,Leather Backpack,Apparel,79.99,1,2026-02-11
+609,103,USB-C Hub,Electronics,39.99,3,2026-04-30
+610,103,Leather Backpack,Apparel,79.99,3,2026-07-11
+611,103,Mechanical Keyboard,Electronics,89.99,3,2026-05-15
+612,103,Sci-Fi Novel: The Stars,Books,14.99,3,2026-06-28
+613,103,History of the World,Books,18.99,2,2026-06-03
+614,103,Water Bottle,Home,18.0,2,2026-05-25
+615,104,Water Bottle,Home,18.0,2,2026-03-29
+616,104,History of the World,Books,18.99,3,2026-03-27
+617,104,Smart Watch,Electronics,149.99,3,2026-04-07
+618,104,Ergonomic Chair,Home,189.99,2,2026-06-27
+619,104,Leather Backpack,Apparel,79.99,1,2026-05-14
+620,104,Water Bottle,Home,18.0,1,2026-04-27
+621,104,Running Shoes,Apparel,65.0,3,2026-04-25
+622,104,Sunglasses,Apparel,24.99,3,2026-06-25
+623,105,Smart Watch,Electronics,149.99,3,2024-09-19
+624,105,Graphic T-Shirt,Apparel,19.99,2,2024-09-01
+625,106,Denim Jacket,Apparel,55.0,1,2025-07-01
+626,106,Smart Thermostat,Home,129.99,3,2026-03-26
+627,106,Running Shoes,Apparel,65.0,2,2024-08-13
+628,107,Smart Watch,Electronics,149.99,3,2025-07-20
+629,107,Sport Socks (5 pack),Apparel,14.99,1,2024-09-09
+630,107,Smart Thermostat,Home,129.99,3,2026-04-30
+631,107,Smart Thermostat,Home,129.99,2,2024-01-22
+632,107,Graphic T-Shirt,Apparel,19.99,2,2025-03-13
+633,107,Denim Jacket,Apparel,55.0,3,2024-07-01
+634,107,"27"" Monitor",Electronics,249.99,1,2026-03-31
+635,108,Water Bottle,Home,18.0,1,2026-04-01
+636,108,Coffee Maker,Home,49.99,3,2026-01-27
+637,108,Denim Jacket,Apparel,55.0,3,2026-07-11
+638,109,Ergonomic Chair,Home,189.99,2,2024-05-28
+639,109,Sunglasses,Apparel,24.99,1,2024-07-07
+640,109,Water Bottle,Home,18.0,1,2024-11-11
+641,110,Leather Backpack,Apparel,79.99,3,2026-05-19
+642,110,Water Bottle,Home,18.0,1,2026-05-04
+643,111,Python Programming Guide,Books,34.99,3,2024-04-24
+644,111,Desk Lamp,Home,29.99,1,2025-03-23
+645,111,Running Shoes,Apparel,65.0,2,2024-02-03
+646,111,Scented Candle,Home,12.5,2,2025-06-21
+647,111,Python Programming Guide,Books,34.99,2,2026-01-24
+648,111,Mystery Novel: Dark Woods,Books,12.99,3,2024-11-21
+649,111,Mechanical Keyboard,Electronics,89.99,1,2024-08-26
+650,111,Python Programming Guide,Books,34.99,3,2024-04-03
+651,112,Running Shoes,Apparel,65.0,2,2025-07-06
+652,112,Coffee Maker,Home,49.99,2,2025-09-01
+653,112,Coffee Maker,Home,49.99,1,2026-05-27
+654,112,Running Shoes,Apparel,65.0,3,2026-03-29
+655,113,Sunglasses,Apparel,24.99,2,2025-10-13
+656,113,Ergonomic Chair,Home,189.99,3,2026-04-15
+657,113,Noise Cancelling Headphones,Electronics,199.99,2,2026-02-20
+658,113,Graphic T-Shirt,Apparel,19.99,1,2025-10-29
+659,113,Sport Socks (5 pack),Apparel,14.99,2,2026-02-14
+660,114,Business Strategy Guide,Books,24.99,3,2025-02-15
+661,114,Coffee Maker,Home,49.99,2,2025-09-28
+662,114,Business Strategy Guide,Books,24.99,3,2026-03-29
+663,114,USB-C Hub,Electronics,39.99,3,2025-03-28
+664,114,Water Bottle,Home,18.0,3,2026-05-20
+665,115,Smart Thermostat,Home,129.99,1,2024-05-13
+666,115,Python Programming Guide,Books,34.99,3,2025-09-21
+667,115,History of the World,Books,18.99,1,2024-04-24
+668,115,Sport Socks (5 pack),Apparel,14.99,2,2024-01-22
+669,115,Water Bottle,Home,18.0,1,2024-04-30
+670,115,Mystery Novel: Dark Woods,Books,12.99,2,2026-02-23
+671,115,"27"" Monitor",Electronics,249.99,1,2025-04-19
+672,115,Sunglasses,Apparel,24.99,1,2026-07-11
+673,116,USB-C Hub,Electronics,39.99,3,2025-03-10
+674,116,Smart Watch,Electronics,149.99,1,2026-04-03
+675,116,Noise Cancelling Headphones,Electronics,199.99,2,2026-07-01
+676,116,Python Programming Guide,Books,34.99,3,2025-01-19
+677,116,Sport Socks (5 pack),Apparel,14.99,2,2026-02-05
+678,117,Mechanical Keyboard,Electronics,89.99,3,2026-06-13
+679,117,Mystery Novel: Dark Woods,Books,12.99,3,2025-12-25
+680,118,Noise Cancelling Headphones,Electronics,199.99,1,2025-10-30
+681,118,Water Bottle,Home,18.0,3,2024-02-27
+682,118,Ergonomic Chair,Home,189.99,1,2025-11-11
+683,118,Mechanical Keyboard,Electronics,89.99,2,2025-10-23
+684,118,Business Strategy Guide,Books,24.99,1,2024-10-11
+685,119,Python Programming Guide,Books,34.99,1,2024-08-31
+686,119,Noise Cancelling Headphones,Electronics,199.99,3,2024-04-17
+687,120,Noise Cancelling Headphones,Electronics,199.99,2,2026-05-11
+688,120,Sunglasses,Apparel,24.99,3,2026-06-15
+689,120,Water Bottle,Home,18.0,1,2026-03-29
+690,120,Mystery Novel: Dark Woods,Books,12.99,1,2026-05-13
+691,120,Graphic T-Shirt,Apparel,19.99,1,2026-02-07
+692,120,USB-C Hub,Electronics,39.99,2,2026-05-09
+693,120,Smart Watch,Electronics,149.99,1,2026-03-29
+694,120,History of the World,Books,18.99,2,2026-04-27
+695,121,Sport Socks (5 pack),Apparel,14.99,2,2025-12-11
+696,122,Coffee Maker,Home,49.99,2,2024-07-25
+697,122,Leather Backpack,Apparel,79.99,2,2024-06-13
+698,123,Mystery Novel: Dark Woods,Books,12.99,3,2026-07-09
+699,123,Mechanical Keyboard,Electronics,89.99,1,2026-01-13
+700,124,Graphic T-Shirt,Apparel,19.99,3,2025-08-17
+701,124,Smart Thermostat,Home,129.99,3,2024-12-24
+702,125,Smart Thermostat,Home,129.99,3,2025-07-09
+703,125,History of the World,Books,18.99,1,2025-05-05
+704,125,Running Shoes,Apparel,65.0,1,2024-08-09
+705,125,Scented Candle,Home,12.5,1,2026-06-12
+706,125,Mechanical Keyboard,Electronics,89.99,2,2025-01-19
+707,125,Data Science Handbook,Books,44.99,3,2026-04-29
+708,126,Running Shoes,Apparel,65.0,1,2025-10-27
+709,126,USB-C Hub,Electronics,39.99,3,2026-04-17
+710,126,Sunglasses,Apparel,24.99,3,2026-01-03
+711,126,Mechanical Keyboard,Electronics,89.99,3,2025-09-21
+712,126,Wireless Mouse,Electronics,29.99,2,2026-03-18
+713,126,Smart Thermostat,Home,129.99,1,2025-11-07
+714,126,Graphic T-Shirt,Apparel,19.99,1,2025-09-04
+715,127,Scented Candle,Home,12.5,3,2024-05-21
+716,127,Sci-Fi Novel: The Stars,Books,14.99,2,2025-02-23
+717,128,Running Shoes,Apparel,65.0,1,2024-12-20
+718,128,Running Shoes,Apparel,65.0,3,2024-10-21
+719,128,Smart Thermostat,Home,129.99,3,2024-12-12
+720,128,"27"" Monitor",Electronics,249.99,2,2024-06-01
+721,128,Sport Socks (5 pack),Apparel,14.99,3,2024-07-24
+722,128,Ergonomic Chair,Home,189.99,1,2025-02-24
+723,128,Sci-Fi Novel: The Stars,Books,14.99,3,2026-01-27
+724,128,Water Bottle,Home,18.0,2,2024-11-22
+725,128,Mechanical Keyboard,Electronics,89.99,2,2026-05-29
+726,128,Water Bottle,Home,18.0,3,2025-08-21
+727,128,Sunglasses,Apparel,24.99,2,2025-09-04
+728,128,Wireless Mouse,Electronics,29.99,1,2025-12-13
+729,129,Graphic T-Shirt,Apparel,19.99,2,2025-12-05
+730,129,Data Science Handbook,Books,44.99,1,2025-10-15
+731,129,"27"" Monitor",Electronics,249.99,2,2025-06-22
+732,130,USB-C Hub,Electronics,39.99,2,2026-06-04
+733,130,Water Bottle,Home,18.0,3,2024-04-17
+734,130,Smart Watch,Electronics,149.99,3,2025-12-10
+735,130,Wireless Mouse,Electronics,29.99,1,2024-06-19
+736,130,Sport Socks (5 pack),Apparel,14.99,1,2024-11-21
+737,130,Python Programming Guide,Books,34.99,3,2024-04-25
+738,131,Data Science Handbook,Books,44.99,1,2026-05-24
+739,131,Scented Candle,Home,12.5,1,2026-05-14
+740,132,Denim Jacket,Apparel,55.0,1,2026-03-21
+741,132,Running Shoes,Apparel,65.0,1,2025-11-10
+742,132,Mechanical Keyboard,Electronics,89.99,3,2026-05-27
+743,132,Ergonomic Chair,Home,189.99,3,2024-12-17
+744,132,Coffee Maker,Home,49.99,1,2026-02-02
+745,132,Sci-Fi Novel: The Stars,Books,14.99,2,2025-12-13
+746,132,Running Shoes,Apparel,65.0,1,2025-04-08
+747,132,Data Science Handbook,Books,44.99,2,2025-11-16
+748,133,History of the World,Books,18.99,1,2026-06-14
+749,133,Running Shoes,Apparel,65.0,3,2026-02-20
+750,133,Data Science Handbook,Books,44.99,2,2025-10-15
+751,133,Ergonomic Chair,Home,189.99,2,2025-09-11
+752,133,Mechanical Keyboard,Electronics,89.99,1,2025-07-28
+753,133,Data Science Handbook,Books,44.99,3,2025-06-16
+754,133,Desk Lamp,Home,29.99,3,2025-06-22
+755,134,Data Science Handbook,Books,44.99,2,2025-05-02
+756,134,Sci-Fi Novel: The Stars,Books,14.99,3,2026-02-28
+757,134,USB-C Hub,Electronics,39.99,1,2025-01-03
+758,134,Smart Watch,Electronics,149.99,3,2026-02-11
+759,134,Water Bottle,Home,18.0,3,2024-09-06
+760,134,Desk Lamp,Home,29.99,2,2024-05-30
+761,135,History of the World,Books,18.99,2,2026-07-05
+762,135,Scented Candle,Home,12.5,1,2026-05-13
+763,135,Smart Thermostat,Home,129.99,1,2025-05-03
+764,135,Leather Backpack,Apparel,79.99,2,2026-01-25
+765,136,Graphic T-Shirt,Apparel,19.99,2,2026-05-16
+766,136,Mystery Novel: Dark Woods,Books,12.99,2,2025-07-22
+767,136,Leather Backpack,Apparel,79.99,1,2026-04-04
+768,136,Smart Watch,Electronics,149.99,1,2026-04-05
+769,136,Water Bottle,Home,18.0,1,2025-11-21
+770,136,Python Programming Guide,Books,34.99,2,2026-07-17
+771,136,Mystery Novel: Dark Woods,Books,12.99,2,2026-02-17
+772,136,Sport Socks (5 pack),Apparel,14.99,3,2026-06-16
+773,137,History of the World,Books,18.99,3,2025-11-27
+774,137,Desk Lamp,Home,29.99,2,2026-05-23
+775,137,Sci-Fi Novel: The Stars,Books,14.99,2,2026-04-18
+776,138,Noise Cancelling Headphones,Electronics,199.99,1,2025-04-23
+777,138,Smart Thermostat,Home,129.99,3,2025-04-11
+778,138,Mechanical Keyboard,Electronics,89.99,2,2026-04-29
+779,138,Denim Jacket,Apparel,55.0,1,2025-08-18
+780,138,Denim Jacket,Apparel,55.0,1,2024-11-28
+781,138,Wireless Mouse,Electronics,29.99,2,2024-10-31
+782,138,Sunglasses,Apparel,24.99,1,2025-08-29
+783,138,Running Shoes,Apparel,65.0,3,2024-06-08
+784,138,"27"" Monitor",Electronics,249.99,1,2025-07-22
+785,139,Denim Jacket,Apparel,55.0,1,2025-09-15
+786,139,Noise Cancelling Headphones,Electronics,199.99,3,2026-07-07
+787,139,Smart Thermostat,Home,129.99,3,2026-01-04
+788,139,Data Science Handbook,Books,44.99,3,2026-01-17
+789,139,Sci-Fi Novel: The Stars,Books,14.99,3,2026-06-10
+790,139,Sci-Fi Novel: The Stars,Books,14.99,1,2026-03-22
+791,140,Denim Jacket,Apparel,55.0,1,2025-11-15
+792,140,Smart Watch,Electronics,149.99,3,2025-06-23
+793,140,Smart Watch,Electronics,149.99,3,2025-11-11
+794,140,Wireless Mouse,Electronics,29.99,1,2025-05-09
+795,140,Wireless Mouse,Electronics,29.99,3,2026-01-27
+796,140,Denim Jacket,Apparel,55.0,1,2025-08-25
+797,140,Running Shoes,Apparel,65.0,3,2025-04-18
+798,141,Mechanical Keyboard,Electronics,89.99,2,2026-05-29
+799,141,Denim Jacket,Apparel,55.0,3,2026-06-28
+800,141,Denim Jacket,Apparel,55.0,3,2026-07-17
+801,141,Data Science Handbook,Books,44.99,2,2026-07-08
+802,142,Running Shoes,Apparel,65.0,1,2024-03-11
+803,142,Scented Candle,Home,12.5,2,2024-06-29
+804,142,Smart Watch,Electronics,149.99,2,2025-04-23
+805,143,"27"" Monitor",Electronics,249.99,2,2026-05-09
+806,143,USB-C Hub,Electronics,39.99,1,2026-03-09
+807,143,Graphic T-Shirt,Apparel,19.99,3,2026-06-23
+808,143,History of the World,Books,18.99,1,2026-06-06
+809,143,Water Bottle,Home,18.0,1,2026-04-23
+810,143,Denim Jacket,Apparel,55.0,2,2026-07-14
+811,143,Water Bottle,Home,18.0,3,2026-05-08
+812,143,Smart Watch,Electronics,149.99,1,2026-03-05
+813,144,Wireless Mouse,Electronics,29.99,2,2026-04-22
+814,144,Business Strategy Guide,Books,24.99,2,2026-01-25
+815,145,Denim Jacket,Apparel,55.0,1,2026-02-26
+816,145,Smart Thermostat,Home,129.99,1,2026-03-23
+817,145,Water Bottle,Home,18.0,1,2026-01-19
+818,145,Graphic T-Shirt,Apparel,19.99,1,2026-04-18
+819,145,Sci-Fi Novel: The Stars,Books,14.99,2,2026-03-04
+820,145,Water Bottle,Home,18.0,2,2026-04-20
+821,145,Running Shoes,Apparel,65.0,3,2026-05-14
+822,145,Leather Backpack,Apparel,79.99,2,2026-02-10
+823,145,Smart Watch,Electronics,149.99,2,2026-02-04
+824,145,Scented Candle,Home,12.5,3,2026-05-21
+825,145,Water Bottle,Home,18.0,1,2025-11-20
+826,145,Smart Watch,Electronics,149.99,2,2025-12-02
+827,145,Sunglasses,Apparel,24.99,3,2026-03-05
+828,145,"27"" Monitor",Electronics,249.99,3,2026-02-05
+829,145,Sunglasses,Apparel,24.99,2,2025-12-18
+830,146,Noise Cancelling Headphones,Electronics,199.99,2,2025-05-28
+831,146,Noise Cancelling Headphones,Electronics,199.99,2,2025-06-28
+832,146,Water Bottle,Home,18.0,1,2025-09-06
+833,147,Coffee Maker,Home,49.99,1,2026-06-17
+834,147,Smart Watch,Electronics,149.99,2,2025-11-06
+835,147,Denim Jacket,Apparel,55.0,3,2026-01-27
+836,147,Sci-Fi Novel: The Stars,Books,14.99,1,2026-06-13
+837,147,"27"" Monitor",Electronics,249.99,3,2026-07-03
+838,147,Running Shoes,Apparel,65.0,2,2025-11-11
+839,147,Business Strategy Guide,Books,24.99,2,2026-01-30
+840,147,Smart Thermostat,Home,129.99,2,2026-04-28
+841,147,Ergonomic Chair,Home,189.99,2,2026-05-18
+842,147,Wireless Mouse,Electronics,29.99,2,2026-03-22
+843,148,Mechanical Keyboard,Electronics,89.99,2,2026-05-30
+844,148,Leather Backpack,Apparel,79.99,2,2026-06-10
+845,148,Data Science Handbook,Books,44.99,2,2026-06-11
+846,148,Data Science Handbook,Books,44.99,2,2026-06-28
+847,148,Scented Candle,Home,12.5,2,2026-05-24
+848,148,"27"" Monitor",Electronics,249.99,1,2026-06-06
+849,148,Running Shoes,Apparel,65.0,3,2026-06-06
+850,148,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-24
+851,148,Mystery Novel: Dark Woods,Books,12.99,3,2026-06-05
+852,148,Water Bottle,Home,18.0,1,2026-05-28
+853,148,Graphic T-Shirt,Apparel,19.99,1,2026-06-22
+854,148,Running Shoes,Apparel,65.0,1,2026-07-03
+855,148,Data Science Handbook,Books,44.99,2,2026-06-02
+856,148,Smart Watch,Electronics,149.99,1,2026-06-04
+857,148,Coffee Maker,Home,49.99,1,2026-05-21
+858,148,"27"" Monitor",Electronics,249.99,3,2026-07-02
+859,148,Running Shoes,Apparel,65.0,1,2026-06-24
+860,148,Wireless Mouse,Electronics,29.99,1,2026-07-12
+861,148,Smart Watch,Electronics,149.99,3,2026-05-20
+862,148,USB-C Hub,Electronics,39.99,2,2026-06-27
+863,149,Data Science Handbook,Books,44.99,1,2026-02-11
+864,149,"27"" Monitor",Electronics,249.99,1,2025-12-21
+865,150,Ergonomic Chair,Home,189.99,3,2026-01-16
+866,150,Coffee Maker,Home,49.99,2,2026-03-22
+867,150,Graphic T-Shirt,Apparel,19.99,3,2026-02-15
+868,150,Noise Cancelling Headphones,Electronics,199.99,2,2026-02-11
+869,150,Graphic T-Shirt,Apparel,19.99,3,2026-06-14
+870,150,Sunglasses,Apparel,24.99,3,2026-02-22
+871,151,Sunglasses,Apparel,24.99,1,2025-07-29
+872,151,Wireless Mouse,Electronics,29.99,3,2025-03-16
+873,152,Mystery Novel: Dark Woods,Books,12.99,2,2025-11-08
+874,152,Ergonomic Chair,Home,189.99,3,2026-03-27
+875,152,History of the World,Books,18.99,2,2026-01-02
+876,152,USB-C Hub,Electronics,39.99,2,2025-11-07
+877,152,Smart Watch,Electronics,149.99,1,2025-08-01
+878,152,Noise Cancelling Headphones,Electronics,199.99,1,2026-06-23
+879,152,"27"" Monitor",Electronics,249.99,1,2026-06-19
+880,153,Running Shoes,Apparel,65.0,3,2026-06-20
+881,153,Running Shoes,Apparel,65.0,2,2025-06-20
+882,153,Denim Jacket,Apparel,55.0,3,2026-03-14
+883,153,"27"" Monitor",Electronics,249.99,3,2026-01-15
+884,153,Water Bottle,Home,18.0,3,2025-01-13
+885,153,Sci-Fi Novel: The Stars,Books,14.99,1,2025-05-10
+886,153,Smart Thermostat,Home,129.99,2,2025-10-05
+887,153,Mystery Novel: Dark Woods,Books,12.99,1,2025-05-06
+888,153,Sci-Fi Novel: The Stars,Books,14.99,2,2026-01-24
+889,153,Sport Socks (5 pack),Apparel,14.99,3,2026-03-07
+890,153,"27"" Monitor",Electronics,249.99,3,2025-06-20
+891,153,Business Strategy Guide,Books,24.99,3,2025-11-03
+892,153,Smart Watch,Electronics,149.99,1,2026-07-05
+893,153,Leather Backpack,Apparel,79.99,1,2024-12-30
+894,153,"27"" Monitor",Electronics,249.99,1,2025-09-30
+895,153,Graphic T-Shirt,Apparel,19.99,2,2025-03-16
+896,153,Noise Cancelling Headphones,Electronics,199.99,3,2025-10-11
+897,154,Denim Jacket,Apparel,55.0,3,2026-02-11
+898,154,Scented Candle,Home,12.5,2,2026-02-16
+899,154,Ergonomic Chair,Home,189.99,3,2026-06-19
+900,154,Mechanical Keyboard,Electronics,89.99,1,2026-05-16
+901,154,Coffee Maker,Home,49.99,2,2026-05-02
+902,154,Noise Cancelling Headphones,Electronics,199.99,3,2026-07-12
+903,155,Sunglasses,Apparel,24.99,2,2026-04-02
+904,155,"27"" Monitor",Electronics,249.99,2,2025-08-15
+905,155,Running Shoes,Apparel,65.0,1,2024-06-30
+906,155,Running Shoes,Apparel,65.0,1,2024-08-11
+907,155,"27"" Monitor",Electronics,249.99,1,2024-05-06
+908,155,Business Strategy Guide,Books,24.99,2,2026-06-05
+909,155,Mystery Novel: Dark Woods,Books,12.99,2,2025-11-27
+910,155,Sport Socks (5 pack),Apparel,14.99,1,2025-08-05
+911,155,Graphic T-Shirt,Apparel,19.99,3,2025-02-14
+912,155,Ergonomic Chair,Home,189.99,1,2026-02-23
+913,155,Wireless Mouse,Electronics,29.99,1,2024-06-19
+914,155,Business Strategy Guide,Books,24.99,1,2026-02-17
+915,155,Ergonomic Chair,Home,189.99,3,2026-05-21
+916,155,Data Science Handbook,Books,44.99,1,2026-07-07
+917,155,Coffee Maker,Home,49.99,1,2025-07-27
+918,155,Desk Lamp,Home,29.99,2,2024-08-19
+919,155,Denim Jacket,Apparel,55.0,1,2025-11-22
+920,155,Business Strategy Guide,Books,24.99,3,2026-04-06
+921,155,Sport Socks (5 pack),Apparel,14.99,3,2025-06-12
+922,156,Scented Candle,Home,12.5,1,2025-06-09
+923,156,Python Programming Guide,Books,34.99,1,2026-06-14
+924,156,Sport Socks (5 pack),Apparel,14.99,2,2026-06-26
+925,156,Leather Backpack,Apparel,79.99,3,2024-09-04
+926,156,"27"" Monitor",Electronics,249.99,1,2025-09-10
+927,156,Coffee Maker,Home,49.99,1,2025-08-08
+928,156,Sunglasses,Apparel,24.99,3,2025-11-26
+929,156,Business Strategy Guide,Books,24.99,3,2025-11-27
+930,156,Graphic T-Shirt,Apparel,19.99,1,2025-03-02
+931,156,Coffee Maker,Home,49.99,2,2025-07-05
+932,156,Graphic T-Shirt,Apparel,19.99,3,2025-05-12
+933,156,Graphic T-Shirt,Apparel,19.99,2,2024-07-11
+934,156,Coffee Maker,Home,49.99,2,2025-10-26
+935,156,Coffee Maker,Home,49.99,1,2024-09-17
+936,156,Sunglasses,Apparel,24.99,1,2026-04-29
+937,156,History of the World,Books,18.99,3,2024-06-27
+938,157,Graphic T-Shirt,Apparel,19.99,1,2025-04-07
+939,157,Mechanical Keyboard,Electronics,89.99,1,2025-01-18
+940,157,Scented Candle,Home,12.5,2,2025-09-10
+941,157,Business Strategy Guide,Books,24.99,1,2024-10-18
+942,157,Smart Thermostat,Home,129.99,1,2026-02-05
+943,158,Water Bottle,Home,18.0,2,2026-02-17
+944,158,Business Strategy Guide,Books,24.99,1,2026-04-22
+945,159,"27"" Monitor",Electronics,249.99,2,2026-04-13
+946,159,Mechanical Keyboard,Electronics,89.99,1,2025-12-15
+947,159,Sci-Fi Novel: The Stars,Books,14.99,1,2026-04-03
+948,159,History of the World,Books,18.99,1,2025-11-13
+949,159,Smart Watch,Electronics,149.99,1,2026-01-25
+950,159,USB-C Hub,Electronics,39.99,3,2025-11-13
+951,159,Business Strategy Guide,Books,24.99,2,2025-10-16
+952,160,Mystery Novel: Dark Woods,Books,12.99,1,2025-06-11
+953,160,History of the World,Books,18.99,3,2025-10-23
+954,160,Mystery Novel: Dark Woods,Books,12.99,3,2026-01-29
+955,160,Scented Candle,Home,12.5,3,2025-08-08
+956,161,Desk Lamp,Home,29.99,1,2024-04-07
+957,162,Denim Jacket,Apparel,55.0,3,2026-06-12
+958,162,Leather Backpack,Apparel,79.99,1,2025-11-23
+959,162,Water Bottle,Home,18.0,1,2025-08-17
+960,162,Sci-Fi Novel: The Stars,Books,14.99,1,2025-11-02
+961,162,History of the World,Books,18.99,2,2026-07-09
+962,162,Coffee Maker,Home,49.99,1,2025-07-12
+963,162,Python Programming Guide,Books,34.99,1,2025-09-21
+964,162,Graphic T-Shirt,Apparel,19.99,3,2026-03-30
+965,163,Water Bottle,Home,18.0,2,2026-02-08
+966,163,Sport Socks (5 pack),Apparel,14.99,2,2026-06-08
+967,163,Sport Socks (5 pack),Apparel,14.99,1,2026-05-01
+968,163,Ergonomic Chair,Home,189.99,3,2026-01-12
+969,163,Ergonomic Chair,Home,189.99,3,2026-03-27
+970,163,Business Strategy Guide,Books,24.99,2,2026-01-17
+971,163,Ergonomic Chair,Home,189.99,2,2026-05-03
+972,163,Business Strategy Guide,Books,24.99,2,2026-04-08
+973,163,Sport Socks (5 pack),Apparel,14.99,2,2026-05-03
+974,164,Coffee Maker,Home,49.99,2,2024-12-03
+975,164,Smart Watch,Electronics,149.99,1,2025-04-27
+976,164,Smart Thermostat,Home,129.99,3,2024-12-06
+977,165,Graphic T-Shirt,Apparel,19.99,1,2026-05-13
+978,165,Noise Cancelling Headphones,Electronics,199.99,2,2025-04-29
+979,165,Sci-Fi Novel: The Stars,Books,14.99,1,2026-02-18
+980,165,Data Science Handbook,Books,44.99,1,2025-07-11
+981,165,Denim Jacket,Apparel,55.0,3,2026-03-08
+982,165,History of the World,Books,18.99,3,2026-06-06
+983,165,Ergonomic Chair,Home,189.99,3,2024-12-29
+984,165,Mystery Novel: Dark Woods,Books,12.99,3,2026-06-30
+985,165,Scented Candle,Home,12.5,2,2025-02-15
+986,165,Wireless Mouse,Electronics,29.99,2,2025-09-12
+987,165,History of the World,Books,18.99,1,2025-05-16
+988,165,Denim Jacket,Apparel,55.0,3,2025-09-17
+989,165,Data Science Handbook,Books,44.99,3,2025-04-08
+990,165,USB-C Hub,Electronics,39.99,3,2025-09-14
+991,165,Coffee Maker,Home,49.99,3,2026-03-21
+992,165,History of the World,Books,18.99,2,2026-06-03
+993,165,USB-C Hub,Electronics,39.99,3,2026-06-24
+994,166,Sunglasses,Apparel,24.99,3,2026-06-09
+995,166,Business Strategy Guide,Books,24.99,1,2026-02-19
+996,166,Wireless Mouse,Electronics,29.99,2,2026-07-07
+997,166,Sci-Fi Novel: The Stars,Books,14.99,1,2026-07-15
+998,166,Graphic T-Shirt,Apparel,19.99,2,2026-02-17
+999,166,History of the World,Books,18.99,1,2026-03-17
+1000,167,Smart Thermostat,Home,129.99,1,2025-09-10
+1001,167,Water Bottle,Home,18.0,2,2025-09-14
+1002,167,Desk Lamp,Home,29.99,1,2026-04-10
+1003,167,Sunglasses,Apparel,24.99,3,2025-10-22
+1004,167,Smart Thermostat,Home,129.99,1,2025-09-29
+1005,167,Leather Backpack,Apparel,79.99,1,2025-12-28
+1006,167,USB-C Hub,Electronics,39.99,3,2025-11-07
+1007,167,Denim Jacket,Apparel,55.0,1,2026-04-04
+1008,167,Noise Cancelling Headphones,Electronics,199.99,1,2025-10-30
+1009,167,Business Strategy Guide,Books,24.99,1,2025-12-27
+1010,167,Water Bottle,Home,18.0,2,2026-04-29
+1011,167,History of the World,Books,18.99,3,2026-02-23
+1012,168,Sunglasses,Apparel,24.99,2,2026-05-26
+1013,168,Data Science Handbook,Books,44.99,1,2026-05-26
+1014,168,Python Programming Guide,Books,34.99,3,2026-07-05
+1015,168,Wireless Mouse,Electronics,29.99,1,2026-06-26
+1016,169,Running Shoes,Apparel,65.0,3,2025-07-11
+1017,169,Sport Socks (5 pack),Apparel,14.99,3,2026-07-05
+1018,169,Sci-Fi Novel: The Stars,Books,14.99,2,2025-09-14
+1019,169,USB-C Hub,Electronics,39.99,2,2025-11-28
+1020,169,Smart Watch,Electronics,149.99,2,2025-07-27
+1021,169,Smart Watch,Electronics,149.99,1,2025-08-31
+1022,169,Desk Lamp,Home,29.99,1,2026-06-13
+1023,169,Desk Lamp,Home,29.99,1,2026-03-05
+1024,169,Smart Thermostat,Home,129.99,2,2026-04-22
+1025,169,Noise Cancelling Headphones,Electronics,199.99,1,2025-07-23
+1026,169,Noise Cancelling Headphones,Electronics,199.99,2,2026-02-08
+1027,169,Noise Cancelling Headphones,Electronics,199.99,3,2026-01-06
+1028,169,Mechanical Keyboard,Electronics,89.99,1,2026-03-12
+1029,169,Mechanical Keyboard,Electronics,89.99,2,2026-07-02
+1030,170,Desk Lamp,Home,29.99,2,2025-07-16
+1031,170,Python Programming Guide,Books,34.99,2,2025-11-18
+1032,170,Sport Socks (5 pack),Apparel,14.99,3,2026-02-10
+1033,170,Sci-Fi Novel: The Stars,Books,14.99,2,2025-08-01
+1034,170,Mechanical Keyboard,Electronics,89.99,3,2026-06-24
+1035,170,Python Programming Guide,Books,34.99,3,2025-12-06
+1036,170,Scented Candle,Home,12.5,1,2026-05-10
+1037,171,"27"" Monitor",Electronics,249.99,1,2026-05-18
+1038,171,Denim Jacket,Apparel,55.0,1,2025-08-30
+1039,171,Running Shoes,Apparel,65.0,1,2026-01-16
+1040,171,Sunglasses,Apparel,24.99,1,2026-04-24
+1041,172,Mechanical Keyboard,Electronics,89.99,3,2025-09-17
+1042,172,Noise Cancelling Headphones,Electronics,199.99,3,2026-04-10
+1043,172,Desk Lamp,Home,29.99,2,2026-06-22
+1044,172,Noise Cancelling Headphones,Electronics,199.99,3,2025-06-27
+1045,172,"27"" Monitor",Electronics,249.99,2,2025-06-28
+1046,173,USB-C Hub,Electronics,39.99,3,2026-06-21
+1047,173,Noise Cancelling Headphones,Electronics,199.99,3,2026-06-23
+1048,173,Data Science Handbook,Books,44.99,2,2026-06-17
+1049,173,Mystery Novel: Dark Woods,Books,12.99,2,2026-07-11
+1050,173,Water Bottle,Home,18.0,2,2026-06-17
+1051,173,Scented Candle,Home,12.5,3,2026-06-21
+1052,173,Leather Backpack,Apparel,79.99,3,2026-06-18
+1053,173,Data Science Handbook,Books,44.99,2,2026-07-02
+1054,173,Denim Jacket,Apparel,55.0,2,2026-07-01
+1055,173,Mechanical Keyboard,Electronics,89.99,3,2026-07-06
+1056,173,Water Bottle,Home,18.0,1,2026-07-09
+1057,173,Smart Watch,Electronics,149.99,2,2026-07-05
+1058,174,Noise Cancelling Headphones,Electronics,199.99,1,2026-06-10
+1059,174,Mechanical Keyboard,Electronics,89.99,1,2025-04-04
+1060,175,Graphic T-Shirt,Apparel,19.99,3,2024-10-12
+1061,176,Scented Candle,Home,12.5,3,2026-02-02
+1062,176,Wireless Mouse,Electronics,29.99,3,2025-09-23
+1063,177,Water Bottle,Home,18.0,3,2026-05-01
+1064,177,Business Strategy Guide,Books,24.99,2,2025-12-25
+1065,177,Mechanical Keyboard,Electronics,89.99,2,2025-12-14
+1066,177,Desk Lamp,Home,29.99,1,2025-12-04
+1067,177,"27"" Monitor",Electronics,249.99,3,2026-05-29
+1068,177,Noise Cancelling Headphones,Electronics,199.99,2,2026-04-17
+1069,177,Noise Cancelling Headphones,Electronics,199.99,2,2026-06-22
+1070,178,"27"" Monitor",Electronics,249.99,1,2026-04-16
+1071,178,Leather Backpack,Apparel,79.99,1,2026-01-03
+1072,179,Data Science Handbook,Books,44.99,3,2025-06-27
+1073,179,Mechanical Keyboard,Electronics,89.99,1,2025-07-11
+1074,179,Water Bottle,Home,18.0,2,2026-04-16
+1075,179,Noise Cancelling Headphones,Electronics,199.99,2,2026-03-15
+1076,179,Graphic T-Shirt,Apparel,19.99,2,2025-10-30
+1077,179,Desk Lamp,Home,29.99,2,2026-06-22
+1078,179,Data Science Handbook,Books,44.99,3,2026-07-03
+1079,179,Coffee Maker,Home,49.99,2,2025-12-04
+1080,179,Scented Candle,Home,12.5,3,2025-09-19
+1081,179,Mechanical Keyboard,Electronics,89.99,1,2026-03-29
+1082,179,Python Programming Guide,Books,34.99,1,2026-01-04
+1083,179,Leather Backpack,Apparel,79.99,2,2026-02-23
+1084,179,Scented Candle,Home,12.5,2,2025-12-01
+1085,179,Graphic T-Shirt,Apparel,19.99,1,2025-10-02
+1086,179,Smart Thermostat,Home,129.99,1,2026-05-30
+1087,179,Noise Cancelling Headphones,Electronics,199.99,1,2025-08-10
+1088,179,Scented Candle,Home,12.5,3,2025-10-08
+1089,179,Smart Watch,Electronics,149.99,2,2025-09-18
+1090,179,USB-C Hub,Electronics,39.99,3,2026-06-25
+1091,180,Running Shoes,Apparel,65.0,2,2026-05-10
+1092,180,Coffee Maker,Home,49.99,2,2025-04-29
+1093,180,Graphic T-Shirt,Apparel,19.99,2,2025-06-27
+1094,180,Graphic T-Shirt,Apparel,19.99,3,2026-06-06
+1095,180,Sunglasses,Apparel,24.99,1,2025-08-29
+1096,180,Mystery Novel: Dark Woods,Books,12.99,1,2025-07-10
+1097,180,Python Programming Guide,Books,34.99,3,2025-05-24
+1098,180,USB-C Hub,Electronics,39.99,2,2026-04-19
+1099,181,Running Shoes,Apparel,65.0,1,2024-11-05
+1100,181,History of the World,Books,18.99,3,2024-11-17
+1101,181,Mechanical Keyboard,Electronics,89.99,2,2024-11-25
+1102,181,Mystery Novel: Dark Woods,Books,12.99,1,2026-05-07
+1103,181,Smart Thermostat,Home,129.99,2,2026-06-08
+1104,181,Running Shoes,Apparel,65.0,3,2025-12-16
+1105,181,USB-C Hub,Electronics,39.99,3,2024-07-30
+1106,181,USB-C Hub,Electronics,39.99,1,2025-04-24
+1107,182,Sunglasses,Apparel,24.99,3,2025-02-22
+1108,182,Mechanical Keyboard,Electronics,89.99,3,2025-02-19
+1109,182,Graphic T-Shirt,Apparel,19.99,3,2026-02-21
+1110,182,History of the World,Books,18.99,2,2025-12-14
+1111,182,Smart Thermostat,Home,129.99,2,2026-03-21
+1112,182,Mechanical Keyboard,Electronics,89.99,3,2026-06-30
+1113,183,Smart Thermostat,Home,129.99,1,2025-04-29
+1114,183,History of the World,Books,18.99,1,2026-06-13
+1115,183,Water Bottle,Home,18.0,2,2026-03-21
+1116,183,History of the World,Books,18.99,2,2025-04-16
+1117,183,Leather Backpack,Apparel,79.99,2,2025-07-18
+1118,183,Running Shoes,Apparel,65.0,3,2025-02-17
+1119,184,History of the World,Books,18.99,3,2025-11-23
+1120,184,Running Shoes,Apparel,65.0,3,2025-01-02
+1121,184,Data Science Handbook,Books,44.99,2,2026-06-23
+1122,184,Business Strategy Guide,Books,24.99,3,2025-11-09
+1123,184,Mechanical Keyboard,Electronics,89.99,2,2026-05-05
+1124,184,Denim Jacket,Apparel,55.0,2,2025-05-22
+1125,184,Smart Watch,Electronics,149.99,3,2024-09-11
+1126,184,Water Bottle,Home,18.0,2,2026-03-17
+1127,185,Mystery Novel: Dark Woods,Books,12.99,1,2025-10-23
+1128,185,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-10
+1129,185,Data Science Handbook,Books,44.99,1,2025-09-15
+1130,185,Running Shoes,Apparel,65.0,1,2026-05-19
+1131,185,History of the World,Books,18.99,3,2026-02-25
+1132,185,Mechanical Keyboard,Electronics,89.99,1,2026-06-21
+1133,185,Coffee Maker,Home,49.99,1,2025-10-14
+1134,185,Desk Lamp,Home,29.99,1,2025-12-16
+1135,186,Water Bottle,Home,18.0,2,2025-10-28
+1136,186,Data Science Handbook,Books,44.99,1,2025-07-12
+1137,186,Ergonomic Chair,Home,189.99,1,2026-05-23
+1138,186,Business Strategy Guide,Books,24.99,1,2025-03-28
+1139,186,Wireless Mouse,Electronics,29.99,1,2024-09-25
+1140,186,Ergonomic Chair,Home,189.99,2,2025-02-03
+1141,187,Smart Thermostat,Home,129.99,2,2025-11-08
+1142,188,Mystery Novel: Dark Woods,Books,12.99,3,2025-01-28
+1143,188,Water Bottle,Home,18.0,2,2026-01-16
+1144,188,Python Programming Guide,Books,34.99,2,2024-05-09
+1145,188,Business Strategy Guide,Books,24.99,3,2024-03-18
+1146,189,Wireless Mouse,Electronics,29.99,2,2025-11-06
+1147,189,Wireless Mouse,Electronics,29.99,2,2026-04-19
+1148,189,History of the World,Books,18.99,3,2025-06-02
+1149,189,Smart Watch,Electronics,149.99,3,2024-11-30
+1150,189,Noise Cancelling Headphones,Electronics,199.99,1,2025-09-13
+1151,189,Business Strategy Guide,Books,24.99,1,2025-05-17
+1152,189,Smart Thermostat,Home,129.99,3,2024-12-02
+1153,189,Mechanical Keyboard,Electronics,89.99,2,2026-02-22
+1154,189,Sunglasses,Apparel,24.99,2,2025-02-16
+1155,189,Wireless Mouse,Electronics,29.99,1,2025-11-01
+1156,189,Smart Watch,Electronics,149.99,2,2024-08-04
+1157,189,History of the World,Books,18.99,3,2026-02-07
+1158,189,USB-C Hub,Electronics,39.99,1,2025-01-03
+1159,190,Smart Watch,Electronics,149.99,3,2025-04-09
+1160,190,Data Science Handbook,Books,44.99,1,2025-06-03
+1161,190,Python Programming Guide,Books,34.99,2,2024-09-26
+1162,190,Leather Backpack,Apparel,79.99,2,2025-12-11
+1163,190,Python Programming Guide,Books,34.99,2,2026-05-03
+1164,190,Running Shoes,Apparel,65.0,2,2025-04-12
+1165,190,Water Bottle,Home,18.0,3,2025-05-18
+1166,190,Smart Thermostat,Home,129.99,2,2024-10-22
+1167,190,Leather Backpack,Apparel,79.99,3,2025-02-13
+1168,190,Sport Socks (5 pack),Apparel,14.99,3,2025-11-04
+1169,190,Leather Backpack,Apparel,79.99,3,2026-07-12
+1170,190,Wireless Mouse,Electronics,29.99,2,2024-12-10
+1171,190,Python Programming Guide,Books,34.99,2,2025-03-14
+1172,190,Noise Cancelling Headphones,Electronics,199.99,1,2026-03-24
+1173,191,Mechanical Keyboard,Electronics,89.99,2,2026-02-18
+1174,191,Ergonomic Chair,Home,189.99,2,2025-08-13
+1175,191,Data Science Handbook,Books,44.99,1,2025-07-24
+1176,191,Sunglasses,Apparel,24.99,3,2025-12-06
+1177,191,Desk Lamp,Home,29.99,1,2025-05-27
+1178,191,Sunglasses,Apparel,24.99,3,2025-08-02
+1179,192,Water Bottle,Home,18.0,3,2026-06-29
+1180,192,Leather Backpack,Apparel,79.99,2,2026-05-24
+1181,193,Running Shoes,Apparel,65.0,2,2025-08-28
+1182,193,Sci-Fi Novel: The Stars,Books,14.99,1,2025-05-15
+1183,193,Ergonomic Chair,Home,189.99,3,2026-06-16
+1184,193,Business Strategy Guide,Books,24.99,2,2026-06-08
+1185,193,Data Science Handbook,Books,44.99,2,2025-04-25
+1186,194,Coffee Maker,Home,49.99,3,2024-09-12
+1187,194,Sunglasses,Apparel,24.99,2,2024-08-29
+1188,194,Denim Jacket,Apparel,55.0,3,2024-05-05
+1189,195,"27"" Monitor",Electronics,249.99,1,2025-07-04
+1190,195,Business Strategy Guide,Books,24.99,1,2026-03-18
+1191,195,Desk Lamp,Home,29.99,1,2025-05-18
+1192,195,Wireless Mouse,Electronics,29.99,1,2025-03-04
+1193,195,Sci-Fi Novel: The Stars,Books,14.99,3,2025-12-24
+1194,195,Denim Jacket,Apparel,55.0,3,2026-06-03
+1195,195,Mystery Novel: Dark Woods,Books,12.99,3,2026-05-30
+1196,195,Smart Watch,Electronics,149.99,2,2025-02-26
+1197,195,Smart Watch,Electronics,149.99,1,2026-06-10
+1198,196,Business Strategy Guide,Books,24.99,2,2026-01-25
+1199,196,Mechanical Keyboard,Electronics,89.99,3,2026-01-07
+1200,196,Wireless Mouse,Electronics,29.99,3,2026-07-11
+1201,196,Business Strategy Guide,Books,24.99,3,2026-07-13
+1202,196,Coffee Maker,Home,49.99,1,2025-11-11
+1203,196,Desk Lamp,Home,29.99,2,2026-01-27
+1204,196,Ergonomic Chair,Home,189.99,3,2026-05-05
+1205,196,Desk Lamp,Home,29.99,2,2025-10-18
+1206,196,Leather Backpack,Apparel,79.99,2,2026-07-01
+1207,196,Ergonomic Chair,Home,189.99,2,2025-12-18
+1208,196,Graphic T-Shirt,Apparel,19.99,2,2026-03-17
+1209,196,Scented Candle,Home,12.5,3,2025-11-13
+1210,196,Business Strategy Guide,Books,24.99,2,2025-11-07
+1211,196,Ergonomic Chair,Home,189.99,3,2026-05-25
+1212,196,Water Bottle,Home,18.0,1,2026-05-19
+1213,197,Sci-Fi Novel: The Stars,Books,14.99,1,2026-02-06
+1214,197,Leather Backpack,Apparel,79.99,1,2025-12-31
+1215,197,Scented Candle,Home,12.5,2,2026-05-02
+1216,197,Sci-Fi Novel: The Stars,Books,14.99,1,2026-06-29
+1217,198,Business Strategy Guide,Books,24.99,3,2026-05-25
+1218,198,Running Shoes,Apparel,65.0,3,2026-06-05
+1219,198,Business Strategy Guide,Books,24.99,3,2025-01-19
+1220,198,History of the World,Books,18.99,1,2025-12-06
+1221,198,Ergonomic Chair,Home,189.99,1,2024-12-29
+1222,198,Desk Lamp,Home,29.99,3,2025-12-22
+1223,199,Business Strategy Guide,Books,24.99,3,2025-09-22
+1224,199,Scented Candle,Home,12.5,2,2025-03-05
+1225,199,Desk Lamp,Home,29.99,3,2025-09-08
+1226,199,Mystery Novel: Dark Woods,Books,12.99,2,2025-06-09
+1227,199,Mystery Novel: Dark Woods,Books,12.99,1,2025-08-05
+1228,199,Desk Lamp,Home,29.99,2,2025-09-19
+1229,199,Leather Backpack,Apparel,79.99,2,2025-01-07
+1230,199,Scented Candle,Home,12.5,2,2025-05-21
+1231,200,Sci-Fi Novel: The Stars,Books,14.99,3,2025-08-10
+1232,200,Running Shoes,Apparel,65.0,3,2025-11-11
+1233,200,Denim Jacket,Apparel,55.0,3,2025-02-22
+1234,200,Sunglasses,Apparel,24.99,1,2025-06-30
+1235,200,Python Programming Guide,Books,34.99,2,2025-09-08
+1236,200,Graphic T-Shirt,Apparel,19.99,1,2025-06-04
+1237,200,Scented Candle,Home,12.5,2,2026-02-17
+1238,200,Sport Socks (5 pack),Apparel,14.99,2,2025-03-30
+1239,201,Mystery Novel: Dark Woods,Books,12.99,2,2025-12-18
+1240,201,"27"" Monitor",Electronics,249.99,3,2026-02-24
+1241,201,Scented Candle,Home,12.5,3,2026-03-29
+1242,201,Graphic T-Shirt,Apparel,19.99,3,2025-12-24
+1243,202,USB-C Hub,Electronics,39.99,3,2026-03-22
+1244,202,Mechanical Keyboard,Electronics,89.99,1,2026-06-25
+1245,202,Noise Cancelling Headphones,Electronics,199.99,1,2026-06-14
+1246,202,Python Programming Guide,Books,34.99,3,2026-06-28
+1247,202,Coffee Maker,Home,49.99,3,2026-06-16
+1248,202,Graphic T-Shirt,Apparel,19.99,1,2026-05-23
+1249,203,Desk Lamp,Home,29.99,1,2025-12-21
+1250,203,Data Science Handbook,Books,44.99,3,2026-03-05
+1251,203,Smart Watch,Electronics,149.99,3,2026-02-24
+1252,203,Denim Jacket,Apparel,55.0,2,2026-06-09
+1253,203,Sport Socks (5 pack),Apparel,14.99,2,2026-05-30
+1254,203,Graphic T-Shirt,Apparel,19.99,3,2025-07-15
+1255,203,Noise Cancelling Headphones,Electronics,199.99,2,2025-11-18
+1256,204,Ergonomic Chair,Home,189.99,3,2026-06-02
+1257,204,Smart Thermostat,Home,129.99,2,2026-03-07
+1258,204,Noise Cancelling Headphones,Electronics,199.99,1,2025-10-06
+1259,204,Business Strategy Guide,Books,24.99,1,2025-06-01
+1260,204,Smart Watch,Electronics,149.99,3,2025-10-06
+1261,204,"27"" Monitor",Electronics,249.99,2,2026-02-18
+1262,204,History of the World,Books,18.99,2,2026-04-27
+1263,204,Data Science Handbook,Books,44.99,1,2026-05-26
+1264,205,Running Shoes,Apparel,65.0,1,2025-08-24
+1265,205,"27"" Monitor",Electronics,249.99,3,2024-09-22
+1266,205,USB-C Hub,Electronics,39.99,1,2025-01-25
+1267,205,Python Programming Guide,Books,34.99,1,2024-10-06
+1268,205,Scented Candle,Home,12.5,1,2024-09-15
+1269,205,Mechanical Keyboard,Electronics,89.99,2,2024-11-22
+1270,205,Denim Jacket,Apparel,55.0,1,2024-08-31
+1271,206,Running Shoes,Apparel,65.0,1,2026-01-08
+1272,206,Scented Candle,Home,12.5,2,2025-03-25
+1273,206,Smart Thermostat,Home,129.99,1,2025-05-03
+1274,206,Python Programming Guide,Books,34.99,1,2025-06-12
+1275,206,Desk Lamp,Home,29.99,1,2026-01-20
+1276,207,Leather Backpack,Apparel,79.99,3,2026-04-17
+1277,207,Coffee Maker,Home,49.99,2,2026-05-19
+1278,207,Noise Cancelling Headphones,Electronics,199.99,2,2026-04-13
+1279,207,Graphic T-Shirt,Apparel,19.99,1,2026-04-27
+1280,207,Leather Backpack,Apparel,79.99,2,2026-04-06
+1281,207,Coffee Maker,Home,49.99,3,2026-06-15
+1282,208,USB-C Hub,Electronics,39.99,2,2025-12-18
+1283,208,Data Science Handbook,Books,44.99,3,2025-06-17
+1284,208,Python Programming Guide,Books,34.99,1,2025-05-16
+1285,208,Scented Candle,Home,12.5,1,2025-03-23
+1286,208,Wireless Mouse,Electronics,29.99,2,2025-05-15
+1287,208,Coffee Maker,Home,49.99,1,2025-06-25
+1288,208,Running Shoes,Apparel,65.0,2,2026-06-08
+1289,208,Scented Candle,Home,12.5,3,2025-09-29
+1290,208,Smart Watch,Electronics,149.99,1,2026-06-24
+1291,208,Sunglasses,Apparel,24.99,2,2026-05-24
+1292,208,Scented Candle,Home,12.5,2,2026-01-06
+1293,208,Leather Backpack,Apparel,79.99,2,2026-04-28
+1294,208,Graphic T-Shirt,Apparel,19.99,2,2025-08-16
+1295,208,Sport Socks (5 pack),Apparel,14.99,1,2025-08-18
+1296,208,USB-C Hub,Electronics,39.99,2,2025-06-15
+1297,208,Noise Cancelling Headphones,Electronics,199.99,1,2025-09-11
+1298,208,Leather Backpack,Apparel,79.99,3,2025-10-22
+1299,208,Sport Socks (5 pack),Apparel,14.99,3,2025-03-13
+1300,208,Mystery Novel: Dark Woods,Books,12.99,2,2025-04-27
+1301,209,Business Strategy Guide,Books,24.99,1,2025-12-18
+1302,209,Wireless Mouse,Electronics,29.99,3,2025-10-08
+1303,209,Scented Candle,Home,12.5,1,2025-10-04
+1304,209,Leather Backpack,Apparel,79.99,2,2025-11-26
+1305,209,Mystery Novel: Dark Woods,Books,12.99,3,2025-08-06
+1306,209,Wireless Mouse,Electronics,29.99,1,2026-02-17
+1307,210,Mystery Novel: Dark Woods,Books,12.99,1,2026-07-05
+1308,210,Desk Lamp,Home,29.99,2,2026-05-31
+1309,210,"27"" Monitor",Electronics,249.99,3,2026-06-06
+1310,211,Business Strategy Guide,Books,24.99,3,2026-03-28
+1311,211,Noise Cancelling Headphones,Electronics,199.99,1,2025-08-09
+1312,211,Leather Backpack,Apparel,79.99,1,2026-05-25
+1313,212,"27"" Monitor",Electronics,249.99,3,2026-02-21
+1314,212,Python Programming Guide,Books,34.99,3,2026-05-23
+1315,212,Sport Socks (5 pack),Apparel,14.99,3,2025-09-01
+1316,212,Wireless Mouse,Electronics,29.99,2,2024-05-03
+1317,212,Noise Cancelling Headphones,Electronics,199.99,2,2024-09-03
+1318,212,Smart Thermostat,Home,129.99,3,2024-09-11
+1319,212,Business Strategy Guide,Books,24.99,2,2025-06-02
+1320,213,Leather Backpack,Apparel,79.99,3,2024-12-17
+1321,213,Sunglasses,Apparel,24.99,2,2024-06-09
+1322,213,Sunglasses,Apparel,24.99,1,2025-11-06
+1323,214,Wireless Mouse,Electronics,29.99,3,2025-09-21
+1324,214,Scented Candle,Home,12.5,1,2025-09-12
+1325,214,Denim Jacket,Apparel,55.0,1,2025-07-21
+1326,215,Graphic T-Shirt,Apparel,19.99,3,2026-03-23
+1327,215,Desk Lamp,Home,29.99,3,2025-03-27
+1328,215,Sunglasses,Apparel,24.99,1,2026-03-06
+1329,216,Mechanical Keyboard,Electronics,89.99,3,2024-02-21
+1330,216,Water Bottle,Home,18.0,1,2026-06-10
+1331,217,Noise Cancelling Headphones,Electronics,199.99,1,2025-12-26
+1332,217,Water Bottle,Home,18.0,2,2026-06-14
+1333,217,Smart Thermostat,Home,129.99,3,2025-12-14
+1334,217,Noise Cancelling Headphones,Electronics,199.99,2,2026-05-07
+1335,217,Denim Jacket,Apparel,55.0,3,2025-12-31
+1336,217,Running Shoes,Apparel,65.0,3,2026-07-06
+1337,218,Graphic T-Shirt,Apparel,19.99,1,2026-07-11
+1338,218,Leather Backpack,Apparel,79.99,3,2026-06-17
+1339,218,History of the World,Books,18.99,2,2026-05-22
+1340,218,Running Shoes,Apparel,65.0,2,2025-12-14
+1341,218,USB-C Hub,Electronics,39.99,1,2026-04-23
+1342,218,Desk Lamp,Home,29.99,3,2026-04-23
+1343,218,Scented Candle,Home,12.5,1,2026-07-13
+1344,218,Ergonomic Chair,Home,189.99,1,2026-02-16
+1345,218,Coffee Maker,Home,49.99,1,2025-12-23
+1346,218,Denim Jacket,Apparel,55.0,3,2026-04-29
+1347,218,Smart Watch,Electronics,149.99,2,2026-03-24
+1348,218,Denim Jacket,Apparel,55.0,1,2026-01-07
+1349,218,Leather Backpack,Apparel,79.99,1,2026-01-23
+1350,218,Python Programming Guide,Books,34.99,1,2026-07-09
+1351,218,Water Bottle,Home,18.0,3,2026-05-21
+1352,218,Mechanical Keyboard,Electronics,89.99,2,2026-02-07
+1353,218,Mechanical Keyboard,Electronics,89.99,2,2025-12-08
+1354,219,Coffee Maker,Home,49.99,3,2025-10-07
+1355,219,USB-C Hub,Electronics,39.99,2,2026-05-06
+1356,219,Smart Watch,Electronics,149.99,3,2025-12-11
+1357,219,Mystery Novel: Dark Woods,Books,12.99,3,2025-09-27
+1358,220,Python Programming Guide,Books,34.99,2,2023-12-31
+1359,221,Graphic T-Shirt,Apparel,19.99,2,2026-02-11
+1360,221,Wireless Mouse,Electronics,29.99,2,2026-01-23
+1361,221,Water Bottle,Home,18.0,1,2026-06-18
+1362,221,Business Strategy Guide,Books,24.99,3,2026-06-23
+1363,221,Coffee Maker,Home,49.99,3,2026-03-17
+1364,221,Sci-Fi Novel: The Stars,Books,14.99,3,2026-02-09
+1365,221,Sunglasses,Apparel,24.99,2,2026-05-26
+1366,222,Leather Backpack,Apparel,79.99,3,2026-04-12
+1367,222,Python Programming Guide,Books,34.99,2,2026-05-19
+1368,223,Sunglasses,Apparel,24.99,3,2025-10-18
+1369,223,History of the World,Books,18.99,1,2026-04-17
+1370,223,Sunglasses,Apparel,24.99,1,2026-01-05
+1371,223,Sci-Fi Novel: The Stars,Books,14.99,3,2026-02-13
+1372,223,Coffee Maker,Home,49.99,2,2025-08-09
+1373,223,Wireless Mouse,Electronics,29.99,1,2026-06-16
+1374,223,Data Science Handbook,Books,44.99,2,2026-03-12
+1375,223,Denim Jacket,Apparel,55.0,1,2025-11-22
+1376,223,Coffee Maker,Home,49.99,3,2025-12-11
+1377,223,Mystery Novel: Dark Woods,Books,12.99,2,2025-09-29
+1378,223,Mystery Novel: Dark Woods,Books,12.99,2,2025-08-23
+1379,223,Denim Jacket,Apparel,55.0,2,2026-02-13
+1380,223,Denim Jacket,Apparel,55.0,3,2025-08-20
+1381,223,Ergonomic Chair,Home,189.99,2,2026-06-05
+1382,223,Scented Candle,Home,12.5,1,2026-04-23
+1383,223,Coffee Maker,Home,49.99,1,2025-12-06
+1384,224,Ergonomic Chair,Home,189.99,1,2025-08-19
+1385,224,Mystery Novel: Dark Woods,Books,12.99,1,2026-01-12
+1386,224,Wireless Mouse,Electronics,29.99,2,2025-11-17
+1387,224,History of the World,Books,18.99,3,2026-02-15
+1388,225,Wireless Mouse,Electronics,29.99,2,2025-08-02
+1389,225,Scented Candle,Home,12.5,2,2025-08-05
+1390,225,Sport Socks (5 pack),Apparel,14.99,3,2026-06-01
+1391,225,Ergonomic Chair,Home,189.99,3,2025-01-25
+1392,225,"27"" Monitor",Electronics,249.99,2,2025-05-28
+1393,225,Graphic T-Shirt,Apparel,19.99,2,2025-09-22
+1394,225,Sci-Fi Novel: The Stars,Books,14.99,3,2024-09-28
+1395,226,Mechanical Keyboard,Electronics,89.99,3,2023-12-12
+1396,226,Denim Jacket,Apparel,55.0,3,2024-03-29
+1397,227,Noise Cancelling Headphones,Electronics,199.99,3,2026-01-02
+1398,227,Mechanical Keyboard,Electronics,89.99,2,2025-03-14
+1399,227,Denim Jacket,Apparel,55.0,3,2024-06-30
+1400,227,"27"" Monitor",Electronics,249.99,2,2026-01-21
+1401,227,Running Shoes,Apparel,65.0,3,2025-06-14
+1402,227,Wireless Mouse,Electronics,29.99,2,2026-04-01
+1403,227,Desk Lamp,Home,29.99,1,2025-09-03
+1404,227,Sunglasses,Apparel,24.99,3,2026-06-14
+1405,227,Business Strategy Guide,Books,24.99,2,2026-06-28
+1406,227,Smart Thermostat,Home,129.99,3,2025-01-28
+1407,228,Denim Jacket,Apparel,55.0,1,2024-10-28
+1408,228,Wireless Mouse,Electronics,29.99,2,2025-12-12
+1409,228,Water Bottle,Home,18.0,1,2026-07-01
+1410,228,Wireless Mouse,Electronics,29.99,3,2024-03-08
+1411,229,Mechanical Keyboard,Electronics,89.99,2,2026-05-13
+1412,229,Coffee Maker,Home,49.99,2,2026-04-02
+1413,229,Coffee Maker,Home,49.99,2,2025-09-23
+1414,230,Smart Watch,Electronics,149.99,2,2025-10-06
+1415,230,"27"" Monitor",Electronics,249.99,2,2026-02-09
+1416,230,Desk Lamp,Home,29.99,1,2025-11-12
+1417,230,"27"" Monitor",Electronics,249.99,2,2026-01-23
+1418,230,Mechanical Keyboard,Electronics,89.99,2,2025-08-11
+1419,230,Smart Watch,Electronics,149.99,1,2025-07-28
+1420,231,Graphic T-Shirt,Apparel,19.99,3,2026-02-18
+1421,231,Sci-Fi Novel: The Stars,Books,14.99,1,2025-12-30
+1422,231,Desk Lamp,Home,29.99,1,2025-12-08
+1423,231,Coffee Maker,Home,49.99,3,2025-12-04
+1424,231,"27"" Monitor",Electronics,249.99,1,2026-05-10
+1425,232,Python Programming Guide,Books,34.99,3,2024-12-15
+1426,232,Denim Jacket,Apparel,55.0,1,2024-09-11
+1427,232,Wireless Mouse,Electronics,29.99,3,2024-07-26
+1428,232,Noise Cancelling Headphones,Electronics,199.99,2,2025-10-05
+1429,232,"27"" Monitor",Electronics,249.99,2,2025-04-20
+1430,232,Sunglasses,Apparel,24.99,2,2025-09-29
+1431,232,Business Strategy Guide,Books,24.99,1,2025-02-06
+1432,232,Mystery Novel: Dark Woods,Books,12.99,3,2024-09-14
+1433,232,Sci-Fi Novel: The Stars,Books,14.99,3,2025-05-26
+1434,232,History of the World,Books,18.99,2,2025-06-10
+1435,232,"27"" Monitor",Electronics,249.99,3,2026-03-15
+1436,232,Sci-Fi Novel: The Stars,Books,14.99,3,2025-05-05
+1437,232,Mechanical Keyboard,Electronics,89.99,3,2025-03-09
+1438,232,Running Shoes,Apparel,65.0,1,2024-12-27
+1439,232,Data Science Handbook,Books,44.99,1,2024-10-02
+1440,232,Running Shoes,Apparel,65.0,1,2026-02-07
+1441,232,Sunglasses,Apparel,24.99,1,2025-08-24
+1442,232,Smart Thermostat,Home,129.99,1,2026-04-24
+1443,232,Smart Watch,Electronics,149.99,3,2024-09-11
+1444,232,Python Programming Guide,Books,34.99,1,2025-05-23
+1445,233,Smart Thermostat,Home,129.99,2,2025-06-20
+1446,233,Water Bottle,Home,18.0,1,2026-05-24
+1447,233,Data Science Handbook,Books,44.99,2,2025-12-29
+1448,233,Graphic T-Shirt,Apparel,19.99,2,2025-10-21
+1449,233,History of the World,Books,18.99,3,2025-12-02
+1450,233,Sci-Fi Novel: The Stars,Books,14.99,1,2024-12-05
+1451,233,Coffee Maker,Home,49.99,3,2024-12-10
+1452,234,Scented Candle,Home,12.5,2,2026-06-02
+1453,234,Mystery Novel: Dark Woods,Books,12.99,2,2026-07-16
+1454,235,Mechanical Keyboard,Electronics,89.99,3,2026-06-12
+1455,235,Noise Cancelling Headphones,Electronics,199.99,2,2026-05-16
+1456,235,Sci-Fi Novel: The Stars,Books,14.99,1,2026-02-22
+1457,236,Wireless Mouse,Electronics,29.99,2,2026-04-13
+1458,236,Denim Jacket,Apparel,55.0,3,2026-07-16
+1459,236,Leather Backpack,Apparel,79.99,1,2026-04-27
+1460,236,Coffee Maker,Home,49.99,3,2026-01-16
+1461,236,Desk Lamp,Home,29.99,2,2026-07-14
+1462,236,Python Programming Guide,Books,34.99,3,2025-11-05
+1463,236,Sunglasses,Apparel,24.99,1,2025-11-10
+1464,236,Graphic T-Shirt,Apparel,19.99,3,2026-06-10
+1465,237,Noise Cancelling Headphones,Electronics,199.99,3,2025-10-09
+1466,237,Running Shoes,Apparel,65.0,2,2025-12-20
+1467,238,History of the World,Books,18.99,3,2026-05-05
+1468,238,Smart Watch,Electronics,149.99,3,2026-02-18
+1469,238,Water Bottle,Home,18.0,2,2026-02-23
+1470,239,Sport Socks (5 pack),Apparel,14.99,3,2026-07-12
+1471,239,Ergonomic Chair,Home,189.99,2,2026-07-16
+1472,240,Sport Socks (5 pack),Apparel,14.99,2,2026-05-22
+1473,240,Denim Jacket,Apparel,55.0,1,2026-05-11
+1474,240,Sunglasses,Apparel,24.99,2,2026-01-14
+1475,240,USB-C Hub,Electronics,39.99,1,2026-03-12
+1476,241,Smart Thermostat,Home,129.99,1,2024-05-26
+1477,241,Smart Thermostat,Home,129.99,3,2024-08-26
+1478,241,Noise Cancelling Headphones,Electronics,199.99,2,2024-04-15
+1479,242,Coffee Maker,Home,49.99,2,2025-05-07
+1480,242,Desk Lamp,Home,29.99,1,2026-04-10
+1481,242,Water Bottle,Home,18.0,3,2024-09-17
+1482,242,Business Strategy Guide,Books,24.99,3,2024-09-27
+1483,242,Noise Cancelling Headphones,Electronics,199.99,1,2025-02-27
+1484,242,Wireless Mouse,Electronics,29.99,2,2024-06-23
+1485,242,Smart Watch,Electronics,149.99,2,2024-03-22
+1486,242,Coffee Maker,Home,49.99,1,2025-06-15
+1487,242,History of the World,Books,18.99,1,2026-05-26
+1488,242,Ergonomic Chair,Home,189.99,2,2024-03-08
+1489,242,Ergonomic Chair,Home,189.99,3,2024-10-25
+1490,242,Scented Candle,Home,12.5,3,2025-03-29
+1491,242,Python Programming Guide,Books,34.99,1,2026-06-17
+1492,242,Noise Cancelling Headphones,Electronics,199.99,1,2026-02-28
+1493,242,Wireless Mouse,Electronics,29.99,3,2024-04-30
+1494,242,Graphic T-Shirt,Apparel,19.99,2,2024-11-16
+1495,243,Smart Watch,Electronics,149.99,3,2024-11-16
+1496,243,Business Strategy Guide,Books,24.99,2,2024-11-15
+1497,243,Mechanical Keyboard,Electronics,89.99,3,2024-11-26
+1498,244,Ergonomic Chair,Home,189.99,1,2024-06-23
+1499,244,Mystery Novel: Dark Woods,Books,12.99,3,2024-06-12
+1500,245,Sunglasses,Apparel,24.99,1,2026-03-15
+1501,245,Noise Cancelling Headphones,Electronics,199.99,3,2026-05-01
+1502,245,Sunglasses,Apparel,24.99,1,2024-09-04
+1503,245,Graphic T-Shirt,Apparel,19.99,2,2025-11-05
+1504,245,History of the World,Books,18.99,2,2024-04-25
+1505,245,Sci-Fi Novel: The Stars,Books,14.99,1,2026-02-27
+1506,245,Mechanical Keyboard,Electronics,89.99,3,2024-10-27
+1507,246,Sport Socks (5 pack),Apparel,14.99,2,2026-05-16
+1508,247,Python Programming Guide,Books,34.99,3,2024-03-29
+1509,248,Business Strategy Guide,Books,24.99,1,2025-01-13
+1510,248,Water Bottle,Home,18.0,1,2026-02-15
+1511,249,Sci-Fi Novel: The Stars,Books,14.99,3,2026-04-14
+1512,249,Sunglasses,Apparel,24.99,3,2025-12-27
+1513,249,Wireless Mouse,Electronics,29.99,2,2026-04-11
+1514,250,Desk Lamp,Home,29.99,3,2026-06-29
+1515,250,History of the World,Books,18.99,2,2026-05-13
+1516,250,Water Bottle,Home,18.0,3,2026-07-07
+1517,250,Desk Lamp,Home,29.99,1,2026-05-25
+1518,250,Sunglasses,Apparel,24.99,3,2026-06-15
+1519,250,Running Shoes,Apparel,65.0,3,2026-07-11
+1520,251,Smart Thermostat,Home,129.99,2,2025-10-03
+1521,251,History of the World,Books,18.99,3,2025-04-21
+1522,251,Sport Socks (5 pack),Apparel,14.99,3,2026-06-03
+1523,251,Scented Candle,Home,12.5,3,2025-04-14
+1524,252,Sunglasses,Apparel,24.99,2,2024-12-17
+1525,252,"27"" Monitor",Electronics,249.99,1,2025-05-23
+1526,252,Data Science Handbook,Books,44.99,3,2026-07-04
+1527,252,Smart Watch,Electronics,149.99,1,2026-05-08
+1528,252,Sci-Fi Novel: The Stars,Books,14.99,2,2025-09-27
+1529,252,History of the World,Books,18.99,3,2026-05-19
+1530,253,History of the World,Books,18.99,3,2026-07-11
+1531,253,Smart Watch,Electronics,149.99,3,2026-05-18
+1532,253,Sunglasses,Apparel,24.99,2,2026-06-21
+1533,253,Coffee Maker,Home,49.99,3,2026-05-19
+1534,253,Denim Jacket,Apparel,55.0,2,2026-07-06
+1535,254,History of the World,Books,18.99,2,2026-04-13
+1536,254,Sunglasses,Apparel,24.99,1,2026-02-23
+1537,254,Denim Jacket,Apparel,55.0,3,2026-06-10
+1538,255,Desk Lamp,Home,29.99,1,2025-05-26
+1539,255,Sci-Fi Novel: The Stars,Books,14.99,2,2025-07-04
+1540,255,"27"" Monitor",Electronics,249.99,3,2025-08-08
+1541,255,Sunglasses,Apparel,24.99,3,2026-06-06
+1542,255,Business Strategy Guide,Books,24.99,1,2026-02-22
+1543,255,Data Science Handbook,Books,44.99,2,2025-09-10
+1544,255,Mechanical Keyboard,Electronics,89.99,1,2026-05-14
+1545,255,Ergonomic Chair,Home,189.99,3,2025-11-29
+1546,256,Python Programming Guide,Books,34.99,2,2025-12-05
+1547,256,Sci-Fi Novel: The Stars,Books,14.99,1,2026-04-04
+1548,256,Smart Watch,Electronics,149.99,1,2026-01-03
+1549,256,Ergonomic Chair,Home,189.99,2,2026-06-12
+1550,257,USB-C Hub,Electronics,39.99,3,2025-09-28
+1551,257,Mechanical Keyboard,Electronics,89.99,2,2025-10-20
+1552,257,Sci-Fi Novel: The Stars,Books,14.99,2,2025-04-09
+1553,257,Running Shoes,Apparel,65.0,2,2026-02-02
+1554,257,Scented Candle,Home,12.5,3,2025-11-23
+1555,258,Smart Thermostat,Home,129.99,2,2026-02-04
+1556,258,Wireless Mouse,Electronics,29.99,1,2025-12-06
+1557,258,Desk Lamp,Home,29.99,2,2026-06-12
+1558,259,Sci-Fi Novel: The Stars,Books,14.99,3,2026-05-14
+1559,259,Noise Cancelling Headphones,Electronics,199.99,2,2026-06-20
+1560,259,Coffee Maker,Home,49.99,3,2026-04-26
+1561,259,Noise Cancelling Headphones,Electronics,199.99,3,2026-04-21
+1562,260,"27"" Monitor",Electronics,249.99,3,2025-05-16
+1563,260,Coffee Maker,Home,49.99,2,2025-05-17
+1564,260,Business Strategy Guide,Books,24.99,1,2026-04-15
+1565,260,Mechanical Keyboard,Electronics,89.99,3,2025-11-14
+1566,260,Business Strategy Guide,Books,24.99,2,2025-02-17
+1567,260,"27"" Monitor",Electronics,249.99,3,2025-11-18
+1568,260,Python Programming Guide,Books,34.99,3,2025-05-16
+1569,260,Running Shoes,Apparel,65.0,2,2025-11-30
+1570,261,Smart Thermostat,Home,129.99,1,2026-04-10
+1571,261,Graphic T-Shirt,Apparel,19.99,3,2026-04-04
+1572,261,Graphic T-Shirt,Apparel,19.99,3,2026-04-16
+1573,261,Smart Watch,Electronics,149.99,3,2026-02-20
+1574,261,Denim Jacket,Apparel,55.0,3,2026-03-27
+1575,261,Data Science Handbook,Books,44.99,3,2026-03-12
+1576,261,Business Strategy Guide,Books,24.99,2,2026-01-08
+1577,262,Leather Backpack,Apparel,79.99,3,2025-11-07
+1578,262,Ergonomic Chair,Home,189.99,3,2024-03-19
+1579,262,Leather Backpack,Apparel,79.99,2,2024-09-19
+1580,262,Graphic T-Shirt,Apparel,19.99,1,2025-02-07
+1581,263,Data Science Handbook,Books,44.99,1,2026-05-04
+1582,263,Desk Lamp,Home,29.99,3,2026-02-25
+1583,263,Scented Candle,Home,12.5,3,2026-01-06
+1584,263,Sport Socks (5 pack),Apparel,14.99,2,2025-10-28
+1585,263,Business Strategy Guide,Books,24.99,1,2025-12-15
+1586,264,Desk Lamp,Home,29.99,3,2026-07-05
+1587,264,Running Shoes,Apparel,65.0,3,2026-06-25
+1588,264,Sunglasses,Apparel,24.99,2,2026-04-14
+1589,264,Data Science Handbook,Books,44.99,1,2026-06-23
+1590,264,Scented Candle,Home,12.5,1,2025-10-03
+1591,264,Mystery Novel: Dark Woods,Books,12.99,2,2026-04-10
+1592,264,Smart Thermostat,Home,129.99,1,2025-08-31
+1593,265,Scented Candle,Home,12.5,2,2025-09-04
+1594,265,Sunglasses,Apparel,24.99,2,2025-09-18
+1595,265,Data Science Handbook,Books,44.99,1,2025-10-03
+1596,266,"27"" Monitor",Electronics,249.99,1,2026-05-23
+1597,266,Running Shoes,Apparel,65.0,2,2025-12-07
+1598,266,Water Bottle,Home,18.0,1,2026-06-13
+1599,266,Coffee Maker,Home,49.99,3,2026-02-15
+1600,266,Leather Backpack,Apparel,79.99,2,2025-12-28
+1601,266,Sport Socks (5 pack),Apparel,14.99,1,2025-11-13
+1602,267,Mechanical Keyboard,Electronics,89.99,3,2024-12-04
+1603,267,Graphic T-Shirt,Apparel,19.99,3,2025-05-14
+1604,267,Mystery Novel: Dark Woods,Books,12.99,2,2024-03-16
+1605,267,Graphic T-Shirt,Apparel,19.99,3,2024-11-01
+1606,268,Smart Watch,Electronics,149.99,1,2026-06-13
+1607,268,Ergonomic Chair,Home,189.99,3,2026-06-06
+1608,268,Python Programming Guide,Books,34.99,3,2026-07-07
+1609,268,Smart Thermostat,Home,129.99,1,2026-07-02
+1610,268,Sci-Fi Novel: The Stars,Books,14.99,1,2026-06-30
+1611,269,Running Shoes,Apparel,65.0,2,2025-12-01
+1612,269,Denim Jacket,Apparel,55.0,2,2026-03-10
+1613,270,Scented Candle,Home,12.5,3,2025-02-20
+1614,270,Business Strategy Guide,Books,24.99,2,2025-03-25
+1615,270,Scented Candle,Home,12.5,1,2025-04-15
+1616,271,Smart Watch,Electronics,149.99,2,2024-10-11
+1617,271,Graphic T-Shirt,Apparel,19.99,1,2025-08-04
+1618,271,Desk Lamp,Home,29.99,2,2026-01-01
+1619,271,History of the World,Books,18.99,1,2025-04-19
+1620,271,Mystery Novel: Dark Woods,Books,12.99,3,2024-12-31
+1621,271,Water Bottle,Home,18.0,2,2025-05-02
+1622,271,Ergonomic Chair,Home,189.99,3,2025-05-29
+1623,271,"27"" Monitor",Electronics,249.99,1,2026-05-23
+1624,272,Leather Backpack,Apparel,79.99,3,2025-12-21
+1625,272,"27"" Monitor",Electronics,249.99,2,2026-04-29
+1626,272,Noise Cancelling Headphones,Electronics,199.99,1,2026-05-11
+1627,272,Mechanical Keyboard,Electronics,89.99,2,2026-03-04
+1628,272,Leather Backpack,Apparel,79.99,1,2025-12-27
+1629,272,Smart Watch,Electronics,149.99,1,2026-05-30
+1630,273,Business Strategy Guide,Books,24.99,1,2023-12-03
+1631,273,Water Bottle,Home,18.0,3,2024-11-24
+1632,273,Ergonomic Chair,Home,189.99,2,2024-08-20
+1633,273,Ergonomic Chair,Home,189.99,2,2026-04-29
+1634,273,Python Programming Guide,Books,34.99,1,2025-01-04
+1635,273,Water Bottle,Home,18.0,1,2024-11-27
+1636,273,Wireless Mouse,Electronics,29.99,2,2024-01-05
+1637,273,Ergonomic Chair,Home,189.99,3,2026-01-11
+1638,273,Mystery Novel: Dark Woods,Books,12.99,3,2024-06-28
+1639,273,Leather Backpack,Apparel,79.99,1,2025-08-08
+1640,273,Leather Backpack,Apparel,79.99,2,2026-01-19
+1641,273,Data Science Handbook,Books,44.99,1,2024-05-26
+1642,273,Data Science Handbook,Books,44.99,3,2023-11-12
+1643,273,Scented Candle,Home,12.5,3,2023-12-22
+1644,273,Wireless Mouse,Electronics,29.99,2,2024-03-25
+1645,273,Leather Backpack,Apparel,79.99,1,2024-05-21
+1646,273,Wireless Mouse,Electronics,29.99,2,2025-11-22
+1647,273,Python Programming Guide,Books,34.99,1,2024-10-24
+1648,273,"27"" Monitor",Electronics,249.99,3,2025-04-26
+1649,273,Business Strategy Guide,Books,24.99,3,2025-04-11
+1650,274,Leather Backpack,Apparel,79.99,3,2026-06-17
+1651,274,Scented Candle,Home,12.5,2,2026-03-15
+1652,275,Ergonomic Chair,Home,189.99,3,2025-04-19
+1653,275,Noise Cancelling Headphones,Electronics,199.99,3,2026-02-24
+1654,275,Leather Backpack,Apparel,79.99,2,2025-09-17
+1655,275,"27"" Monitor",Electronics,249.99,1,2025-08-28
+1656,275,Data Science Handbook,Books,44.99,3,2025-08-19
+1657,275,History of the World,Books,18.99,1,2024-09-25
+1658,276,Leather Backpack,Apparel,79.99,2,2025-03-05
+1659,276,Running Shoes,Apparel,65.0,1,2025-03-28
+1660,276,Noise Cancelling Headphones,Electronics,199.99,1,2025-05-09
+1661,276,Ergonomic Chair,Home,189.99,1,2026-03-01
+1662,276,History of the World,Books,18.99,1,2024-12-15
+1663,276,Denim Jacket,Apparel,55.0,2,2025-11-01
+1664,277,Scented Candle,Home,12.5,3,2025-09-04
+1665,277,Ergonomic Chair,Home,189.99,2,2025-11-30
+1666,277,Sport Socks (5 pack),Apparel,14.99,3,2024-07-23
+1667,277,Smart Thermostat,Home,129.99,3,2025-03-30
+1668,278,History of the World,Books,18.99,1,2026-03-05
+1669,278,Smart Thermostat,Home,129.99,3,2026-06-02
+1670,278,USB-C Hub,Electronics,39.99,3,2026-04-29
+1671,278,Noise Cancelling Headphones,Electronics,199.99,2,2026-05-29
+1672,278,Smart Thermostat,Home,129.99,1,2026-05-30
+1673,279,USB-C Hub,Electronics,39.99,3,2026-05-23
+1674,279,Leather Backpack,Apparel,79.99,2,2026-04-11
+1675,280,Smart Thermostat,Home,129.99,2,2024-06-07
+1676,280,Smart Watch,Electronics,149.99,3,2024-10-25
+1677,281,Leather Backpack,Apparel,79.99,1,2026-03-10
+1678,281,Sunglasses,Apparel,24.99,1,2025-02-27
+1679,281,Leather Backpack,Apparel,79.99,3,2026-06-22
+1680,282,Desk Lamp,Home,29.99,2,2026-07-15
+1681,282,History of the World,Books,18.99,3,2026-06-09
+1682,282,Sunglasses,Apparel,24.99,2,2026-07-15
+1683,282,Mystery Novel: Dark Woods,Books,12.99,3,2026-05-26
+1684,282,Smart Watch,Electronics,149.99,2,2026-07-15
+1685,282,Sci-Fi Novel: The Stars,Books,14.99,2,2026-06-22
+1686,282,Sunglasses,Apparel,24.99,3,2026-06-04
+1687,282,Sport Socks (5 pack),Apparel,14.99,1,2026-06-13
+1688,282,Data Science Handbook,Books,44.99,1,2026-07-13
+1689,282,Mechanical Keyboard,Electronics,89.99,1,2026-07-07
+1690,282,Smart Thermostat,Home,129.99,2,2026-07-01
+1691,282,Running Shoes,Apparel,65.0,3,2026-06-25
+1692,282,Coffee Maker,Home,49.99,2,2026-06-11
+1693,282,USB-C Hub,Electronics,39.99,2,2026-06-11
+1694,282,Smart Watch,Electronics,149.99,2,2026-07-11
+1695,282,Scented Candle,Home,12.5,2,2026-06-07
+1696,283,Leather Backpack,Apparel,79.99,2,2026-06-26
+1697,283,Noise Cancelling Headphones,Electronics,199.99,3,2026-05-19
+1698,283,Smart Thermostat,Home,129.99,1,2026-06-24
+1699,283,Noise Cancelling Headphones,Electronics,199.99,2,2026-05-26
+1700,283,Scented Candle,Home,12.5,1,2026-06-14
+1701,283,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-05
+1702,283,Sci-Fi Novel: The Stars,Books,14.99,2,2026-06-10
+1703,283,Noise Cancelling Headphones,Electronics,199.99,2,2026-07-03
+1704,283,Mechanical Keyboard,Electronics,89.99,3,2026-05-16
+1705,283,Wireless Mouse,Electronics,29.99,3,2026-07-10
+1706,283,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-23
+1707,283,Business Strategy Guide,Books,24.99,1,2026-06-07
+1708,283,Mystery Novel: Dark Woods,Books,12.99,1,2026-07-16
+1709,283,Wireless Mouse,Electronics,29.99,1,2026-07-04
+1710,283,Smart Watch,Electronics,149.99,2,2026-05-27
+1711,283,USB-C Hub,Electronics,39.99,2,2026-06-06
+1712,283,USB-C Hub,Electronics,39.99,3,2026-06-25
+1713,284,Sci-Fi Novel: The Stars,Books,14.99,2,2025-03-10
+1714,284,Graphic T-Shirt,Apparel,19.99,3,2026-02-13
+1715,284,Sport Socks (5 pack),Apparel,14.99,1,2025-08-18
+1716,284,Smart Thermostat,Home,129.99,2,2025-11-07
+1717,284,Mechanical Keyboard,Electronics,89.99,1,2026-07-09
+1718,284,Python Programming Guide,Books,34.99,3,2025-06-12
+1719,284,Smart Watch,Electronics,149.99,2,2025-12-03
+1720,284,Denim Jacket,Apparel,55.0,2,2026-06-12
+1721,284,Sport Socks (5 pack),Apparel,14.99,3,2026-02-09
+1722,284,History of the World,Books,18.99,1,2025-05-22
+1723,284,History of the World,Books,18.99,3,2025-09-02
+1724,284,Coffee Maker,Home,49.99,1,2026-04-24
+1725,284,Denim Jacket,Apparel,55.0,2,2026-06-01
+1726,285,Smart Thermostat,Home,129.99,1,2026-07-07
+1727,285,Smart Watch,Electronics,149.99,1,2024-01-17
+1728,285,Desk Lamp,Home,29.99,1,2024-08-12
+1729,285,Ergonomic Chair,Home,189.99,1,2024-12-13
+1730,285,Leather Backpack,Apparel,79.99,1,2025-03-14
+1731,286,Denim Jacket,Apparel,55.0,2,2025-09-02
+1732,286,Smart Thermostat,Home,129.99,2,2026-06-03
+1733,286,USB-C Hub,Electronics,39.99,1,2026-03-24
+1734,286,History of the World,Books,18.99,3,2025-12-24
+1735,286,"27"" Monitor",Electronics,249.99,1,2025-05-27
+1736,286,History of the World,Books,18.99,2,2026-07-07
+1737,286,Noise Cancelling Headphones,Electronics,199.99,2,2025-04-19
+1738,286,Mechanical Keyboard,Electronics,89.99,2,2025-04-14
+1739,287,Water Bottle,Home,18.0,2,2026-02-21
+1740,287,Water Bottle,Home,18.0,1,2025-10-20
+1741,287,Smart Thermostat,Home,129.99,1,2025-02-08
+1742,287,Ergonomic Chair,Home,189.99,3,2025-08-01
+1743,287,Scented Candle,Home,12.5,3,2025-11-12
+1744,287,Data Science Handbook,Books,44.99,1,2025-03-21
+1745,287,"27"" Monitor",Electronics,249.99,3,2026-05-03
+1746,287,Mechanical Keyboard,Electronics,89.99,1,2025-04-29
+1747,288,Graphic T-Shirt,Apparel,19.99,2,2025-12-01
+1748,288,Smart Thermostat,Home,129.99,3,2025-08-18
+1749,288,Wireless Mouse,Electronics,29.99,1,2025-10-10
+1750,288,Data Science Handbook,Books,44.99,3,2026-06-29
+1751,289,Python Programming Guide,Books,34.99,2,2024-09-29
+1752,290,Denim Jacket,Apparel,55.0,1,2026-03-03
+1753,290,Water Bottle,Home,18.0,1,2025-07-30
+1754,290,Desk Lamp,Home,29.99,2,2024-04-04
+1755,290,Smart Thermostat,Home,129.99,1,2024-01-08
+1756,291,Leather Backpack,Apparel,79.99,3,2025-02-25
+1757,291,Scented Candle,Home,12.5,3,2025-09-04
+1758,291,Wireless Mouse,Electronics,29.99,3,2025-08-18
+1759,291,Mystery Novel: Dark Woods,Books,12.99,2,2025-10-31
+1760,292,Smart Watch,Electronics,149.99,3,2026-05-04
+1761,292,Smart Thermostat,Home,129.99,3,2026-04-19
+1762,292,Sunglasses,Apparel,24.99,2,2026-05-23
+1763,292,Mystery Novel: Dark Woods,Books,12.99,3,2026-04-15
+1764,292,Sci-Fi Novel: The Stars,Books,14.99,1,2026-06-21
+1765,292,Sunglasses,Apparel,24.99,1,2026-04-22
+1766,292,Desk Lamp,Home,29.99,3,2026-04-20
+1767,292,Noise Cancelling Headphones,Electronics,199.99,1,2026-07-14
+1768,292,Running Shoes,Apparel,65.0,2,2026-05-08
+1769,292,Ergonomic Chair,Home,189.99,1,2026-05-03
+1770,292,"27"" Monitor",Electronics,249.99,2,2026-06-23
+1771,292,Ergonomic Chair,Home,189.99,3,2026-07-10
+1772,292,Coffee Maker,Home,49.99,3,2026-05-01
+1773,292,Denim Jacket,Apparel,55.0,1,2026-06-13
+1774,292,Sport Socks (5 pack),Apparel,14.99,3,2026-05-15
+1775,292,Noise Cancelling Headphones,Electronics,199.99,2,2026-06-04
+1776,292,Sunglasses,Apparel,24.99,2,2026-04-15
+1777,292,Graphic T-Shirt,Apparel,19.99,3,2026-04-07
+1778,292,Sci-Fi Novel: The Stars,Books,14.99,3,2026-06-20
+1779,292,Sci-Fi Novel: The Stars,Books,14.99,3,2026-03-27
+1780,293,Python Programming Guide,Books,34.99,3,2026-05-07
+1781,293,USB-C Hub,Electronics,39.99,1,2026-04-26
+1782,294,Wireless Mouse,Electronics,29.99,3,2026-05-09
+1783,294,Leather Backpack,Apparel,79.99,2,2026-06-16
+1784,294,Data Science Handbook,Books,44.99,2,2026-04-28
+1785,294,Data Science Handbook,Books,44.99,1,2026-01-24
+1786,294,Water Bottle,Home,18.0,3,2026-04-23
+1787,295,Coffee Maker,Home,49.99,1,2025-09-22
+1788,295,Water Bottle,Home,18.0,1,2024-12-19
+1789,295,Noise Cancelling Headphones,Electronics,199.99,1,2025-01-02
+1790,295,Desk Lamp,Home,29.99,2,2025-12-27
+1791,295,Python Programming Guide,Books,34.99,1,2026-04-01
+1792,295,Coffee Maker,Home,49.99,2,2025-05-02
+1793,295,"27"" Monitor",Electronics,249.99,3,2025-08-25
+1794,295,Mechanical Keyboard,Electronics,89.99,2,2025-04-20
+1795,295,Sunglasses,Apparel,24.99,3,2025-10-28
+1796,295,Mechanical Keyboard,Electronics,89.99,3,2026-04-19
+1797,295,Running Shoes,Apparel,65.0,2,2025-10-21
+1798,295,History of the World,Books,18.99,3,2026-01-30
+1799,295,USB-C Hub,Electronics,39.99,3,2025-07-10
+1800,295,Coffee Maker,Home,49.99,2,2025-08-01
+1801,295,Denim Jacket,Apparel,55.0,2,2026-03-31
+1802,295,Sci-Fi Novel: The Stars,Books,14.99,3,2024-12-06
+1803,295,Wireless Mouse,Electronics,29.99,2,2025-03-02
+1804,295,Sci-Fi Novel: The Stars,Books,14.99,1,2025-11-04
+1805,296,Business Strategy Guide,Books,24.99,2,2026-05-30
+1806,296,Noise Cancelling Headphones,Electronics,199.99,1,2026-06-04
+1807,296,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-19
+1808,296,Wireless Mouse,Electronics,29.99,2,2026-06-30
+1809,296,Ergonomic Chair,Home,189.99,3,2026-05-14
+1810,296,Ergonomic Chair,Home,189.99,2,2026-06-13
+1811,296,Smart Thermostat,Home,129.99,2,2026-05-14
+1812,296,Wireless Mouse,Electronics,29.99,2,2026-05-10
+1813,297,Smart Watch,Electronics,149.99,1,2025-12-29
+1814,297,Coffee Maker,Home,49.99,1,2025-08-18
+1815,297,Denim Jacket,Apparel,55.0,2,2026-07-16
+1816,297,History of the World,Books,18.99,1,2025-10-16
+1817,297,Business Strategy Guide,Books,24.99,2,2026-01-04
+1818,298,Business Strategy Guide,Books,24.99,2,2026-01-23
+1819,298,Water Bottle,Home,18.0,2,2026-02-08
+1820,298,Scented Candle,Home,12.5,3,2026-03-22
+1821,298,Smart Watch,Electronics,149.99,3,2026-03-28
+1822,298,History of the World,Books,18.99,3,2026-01-14
+1823,298,Coffee Maker,Home,49.99,1,2026-01-10
+1824,298,Desk Lamp,Home,29.99,3,2026-07-07
+1825,298,Running Shoes,Apparel,65.0,3,2026-02-24
+1826,299,Noise Cancelling Headphones,Electronics,199.99,1,2026-05-30
+1827,299,Leather Backpack,Apparel,79.99,1,2025-12-25
+1828,299,Business Strategy Guide,Books,24.99,2,2026-05-26
+1829,299,Business Strategy Guide,Books,24.99,1,2026-03-13
+1830,299,Ergonomic Chair,Home,189.99,2,2026-02-27
+1831,299,"27"" Monitor",Electronics,249.99,1,2026-01-19
+1832,299,Sunglasses,Apparel,24.99,3,2026-01-15
+1833,299,Sunglasses,Apparel,24.99,1,2025-12-08
+1834,300,"27"" Monitor",Electronics,249.99,2,2026-02-22
+1835,300,Data Science Handbook,Books,44.99,3,2025-05-02
+1836,300,Python Programming Guide,Books,34.99,1,2025-12-22
+1837,300,Sport Socks (5 pack),Apparel,14.99,2,2026-07-07
+1838,300,Scented Candle,Home,12.5,3,2025-04-05
+1839,300,Desk Lamp,Home,29.99,1,2026-03-13
+1840,300,Business Strategy Guide,Books,24.99,2,2025-06-04
+1841,300,Smart Thermostat,Home,129.99,3,2025-04-15
+1842,301,Scented Candle,Home,12.5,1,2025-04-13
+1843,301,Python Programming Guide,Books,34.99,2,2025-04-18
+1844,301,Noise Cancelling Headphones,Electronics,199.99,3,2025-06-19
+1845,301,Ergonomic Chair,Home,189.99,2,2025-12-26
+1846,301,Sport Socks (5 pack),Apparel,14.99,1,2026-01-05
+1847,301,Sport Socks (5 pack),Apparel,14.99,3,2025-06-27
+1848,301,Leather Backpack,Apparel,79.99,2,2026-06-15
+1849,301,USB-C Hub,Electronics,39.99,1,2026-03-29
+1850,301,Graphic T-Shirt,Apparel,19.99,2,2026-07-11
+1851,301,Python Programming Guide,Books,34.99,2,2025-12-07
+1852,301,History of the World,Books,18.99,1,2026-04-25
+1853,301,Business Strategy Guide,Books,24.99,1,2026-06-28
+1854,302,Running Shoes,Apparel,65.0,3,2026-06-30
+1855,302,Mechanical Keyboard,Electronics,89.99,2,2026-05-01
+1856,302,Sport Socks (5 pack),Apparel,14.99,2,2026-06-12
+1857,302,Ergonomic Chair,Home,189.99,3,2026-07-12
+1858,302,Water Bottle,Home,18.0,3,2026-06-06
+1859,302,Data Science Handbook,Books,44.99,2,2026-07-02
+1860,302,Denim Jacket,Apparel,55.0,2,2026-07-17
+1861,302,Mechanical Keyboard,Electronics,89.99,1,2026-07-05
+1862,303,USB-C Hub,Electronics,39.99,1,2025-11-17
+1863,303,Denim Jacket,Apparel,55.0,3,2025-09-16
+1864,303,Graphic T-Shirt,Apparel,19.99,2,2026-05-17
+1865,303,Smart Watch,Electronics,149.99,3,2025-09-08
+1866,303,Noise Cancelling Headphones,Electronics,199.99,3,2025-02-06
+1867,303,Leather Backpack,Apparel,79.99,3,2025-06-16
+1868,303,"27"" Monitor",Electronics,249.99,2,2026-03-07
+1869,303,Smart Thermostat,Home,129.99,1,2025-12-24
+1870,303,Wireless Mouse,Electronics,29.99,2,2025-12-12
+1871,303,Python Programming Guide,Books,34.99,3,2025-06-15
+1872,303,Graphic T-Shirt,Apparel,19.99,3,2025-03-28
+1873,303,Running Shoes,Apparel,65.0,2,2025-08-30
+1874,303,"27"" Monitor",Electronics,249.99,3,2025-05-13
+1875,303,Data Science Handbook,Books,44.99,2,2025-04-19
+1876,303,Leather Backpack,Apparel,79.99,1,2025-03-01
+1877,303,History of the World,Books,18.99,2,2025-04-04
+1878,303,Denim Jacket,Apparel,55.0,3,2026-06-25
+1879,303,USB-C Hub,Electronics,39.99,3,2025-12-30
+1880,303,Running Shoes,Apparel,65.0,3,2026-02-27
+1881,304,Desk Lamp,Home,29.99,2,2026-07-07
+1882,304,Denim Jacket,Apparel,55.0,3,2026-07-01
+1883,304,"27"" Monitor",Electronics,249.99,1,2026-07-12
+1884,304,"27"" Monitor",Electronics,249.99,3,2026-06-17
+1885,304,Business Strategy Guide,Books,24.99,1,2026-05-29
+1886,304,Denim Jacket,Apparel,55.0,2,2026-06-15
+1887,304,Scented Candle,Home,12.5,3,2026-05-26
+1888,305,Water Bottle,Home,18.0,2,2026-05-18
+1889,305,Graphic T-Shirt,Apparel,19.99,1,2026-04-01
+1890,306,Desk Lamp,Home,29.99,3,2025-05-08
+1891,306,Scented Candle,Home,12.5,1,2026-03-09
+1892,306,Coffee Maker,Home,49.99,1,2026-02-21
+1893,306,Python Programming Guide,Books,34.99,3,2026-03-22
+1894,306,Sunglasses,Apparel,24.99,3,2025-02-02
+1895,307,Mechanical Keyboard,Electronics,89.99,1,2024-11-22
+1896,307,Business Strategy Guide,Books,24.99,2,2025-07-10
+1897,307,Smart Thermostat,Home,129.99,2,2026-05-10
+1898,307,Wireless Mouse,Electronics,29.99,3,2025-09-08
+1899,307,Coffee Maker,Home,49.99,2,2025-05-24
+1900,307,Sunglasses,Apparel,24.99,3,2026-04-10
+1901,307,Graphic T-Shirt,Apparel,19.99,1,2025-02-09
+1902,307,Water Bottle,Home,18.0,3,2025-03-30
+1903,307,Smart Watch,Electronics,149.99,1,2026-04-12
+1904,307,Coffee Maker,Home,49.99,2,2026-03-31
+1905,307,Scented Candle,Home,12.5,1,2025-07-05
+1906,307,Coffee Maker,Home,49.99,1,2025-06-01
+1907,307,Scented Candle,Home,12.5,1,2025-04-30
+1908,307,Graphic T-Shirt,Apparel,19.99,1,2025-12-14
+1909,307,Python Programming Guide,Books,34.99,2,2025-09-20
+1910,308,Ergonomic Chair,Home,189.99,3,2025-12-19
+1911,308,USB-C Hub,Electronics,39.99,3,2025-08-15
+1912,308,"27"" Monitor",Electronics,249.99,2,2026-05-03
+1913,308,Wireless Mouse,Electronics,29.99,3,2026-05-04
+1914,308,Running Shoes,Apparel,65.0,1,2025-10-08
+1915,309,Denim Jacket,Apparel,55.0,2,2024-11-22
+1916,309,Mystery Novel: Dark Woods,Books,12.99,3,2024-12-01
+1917,310,Mechanical Keyboard,Electronics,89.99,3,2024-12-07
+1918,310,USB-C Hub,Electronics,39.99,2,2025-09-14
+1919,310,Ergonomic Chair,Home,189.99,2,2025-04-04
+1920,310,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-19
+1921,310,Smart Watch,Electronics,149.99,1,2025-05-09
+1922,310,Business Strategy Guide,Books,24.99,3,2025-07-31
+1923,310,Smart Watch,Electronics,149.99,3,2025-01-12
+1924,310,Running Shoes,Apparel,65.0,1,2025-06-03
+1925,310,Wireless Mouse,Electronics,29.99,2,2025-05-04
+1926,310,Wireless Mouse,Electronics,29.99,3,2026-03-15
+1927,311,Scented Candle,Home,12.5,2,2025-10-18
+1928,311,Denim Jacket,Apparel,55.0,2,2026-02-24
+1929,311,Desk Lamp,Home,29.99,1,2026-02-27
+1930,312,Ergonomic Chair,Home,189.99,3,2025-05-15
+1931,312,Noise Cancelling Headphones,Electronics,199.99,2,2025-04-16
+1932,313,Noise Cancelling Headphones,Electronics,199.99,1,2026-07-14
+1933,313,"27"" Monitor",Electronics,249.99,1,2026-05-14
+1934,314,Noise Cancelling Headphones,Electronics,199.99,1,2025-08-19
+1935,314,USB-C Hub,Electronics,39.99,1,2025-12-07
+1936,315,Leather Backpack,Apparel,79.99,3,2024-07-11
+1937,315,Coffee Maker,Home,49.99,3,2024-11-02
+1938,316,Desk Lamp,Home,29.99,2,2026-06-19
+1939,316,Data Science Handbook,Books,44.99,3,2026-06-18
+1940,316,Smart Thermostat,Home,129.99,1,2025-12-30
+1941,316,Mystery Novel: Dark Woods,Books,12.99,3,2026-04-30
+1942,316,Sci-Fi Novel: The Stars,Books,14.99,3,2025-11-06
+1943,316,Wireless Mouse,Electronics,29.99,2,2025-12-10
+1944,316,Scented Candle,Home,12.5,1,2026-06-15
+1945,317,Mystery Novel: Dark Woods,Books,12.99,3,2026-02-07
+1946,317,Ergonomic Chair,Home,189.99,1,2025-09-28
+1947,317,Ergonomic Chair,Home,189.99,3,2024-10-02
+1948,317,Scented Candle,Home,12.5,1,2025-12-16
+1949,317,Wireless Mouse,Electronics,29.99,2,2024-12-03
+1950,317,Mystery Novel: Dark Woods,Books,12.99,1,2025-10-20
+1951,317,Sport Socks (5 pack),Apparel,14.99,3,2025-01-25
+1952,317,Sunglasses,Apparel,24.99,2,2024-12-03
+1953,318,Business Strategy Guide,Books,24.99,2,2026-03-24
+1954,318,Mechanical Keyboard,Electronics,89.99,1,2026-02-10
+1955,318,Python Programming Guide,Books,34.99,3,2026-02-26
+1956,318,Running Shoes,Apparel,65.0,3,2026-04-21
+1957,318,Water Bottle,Home,18.0,3,2026-05-16
+1958,318,Sport Socks (5 pack),Apparel,14.99,1,2026-01-13
+1959,318,Graphic T-Shirt,Apparel,19.99,3,2026-03-28
+1960,318,Smart Watch,Electronics,149.99,3,2026-02-23
+1961,318,Mechanical Keyboard,Electronics,89.99,3,2026-01-15
+1962,318,Leather Backpack,Apparel,79.99,2,2026-02-07
+1963,318,Wireless Mouse,Electronics,29.99,3,2026-05-17
+1964,319,Desk Lamp,Home,29.99,1,2026-05-18
+1965,319,History of the World,Books,18.99,3,2026-05-03
+1966,319,Coffee Maker,Home,49.99,2,2025-01-12
+1967,319,"27"" Monitor",Electronics,249.99,2,2025-02-01
+1968,319,Scented Candle,Home,12.5,3,2025-11-01
+1969,319,USB-C Hub,Electronics,39.99,2,2025-11-20
+1970,319,History of the World,Books,18.99,1,2025-02-03
+1971,319,Scented Candle,Home,12.5,1,2026-06-05
+1972,320,Business Strategy Guide,Books,24.99,1,2026-03-04
+1973,320,Graphic T-Shirt,Apparel,19.99,3,2026-03-27
+1974,320,Denim Jacket,Apparel,55.0,3,2026-06-14
+1975,320,Running Shoes,Apparel,65.0,2,2026-06-16
+1976,320,Sci-Fi Novel: The Stars,Books,14.99,2,2026-02-28
+1977,320,Data Science Handbook,Books,44.99,3,2026-06-04
+1978,321,Smart Thermostat,Home,129.99,1,2025-11-15
+1979,321,Scented Candle,Home,12.5,1,2025-02-18
+1980,321,Water Bottle,Home,18.0,3,2025-08-04
+1981,321,Noise Cancelling Headphones,Electronics,199.99,1,2026-01-17
+1982,321,Wireless Mouse,Electronics,29.99,1,2025-06-18
+1983,321,Scented Candle,Home,12.5,2,2025-12-16
+1984,322,Data Science Handbook,Books,44.99,3,2026-02-12
+1985,322,Desk Lamp,Home,29.99,1,2026-04-15
+1986,322,Smart Watch,Electronics,149.99,3,2026-04-14
+1987,323,Python Programming Guide,Books,34.99,1,2026-03-11
+1988,323,Smart Thermostat,Home,129.99,3,2026-06-02
+1989,323,Running Shoes,Apparel,65.0,1,2026-05-17
+1990,323,Denim Jacket,Apparel,55.0,3,2026-01-02
+1991,323,Data Science Handbook,Books,44.99,1,2026-03-27
+1992,323,Leather Backpack,Apparel,79.99,2,2026-04-23
+1993,323,Water Bottle,Home,18.0,1,2026-05-27
+1994,323,Sport Socks (5 pack),Apparel,14.99,2,2026-01-06
+1995,324,Coffee Maker,Home,49.99,1,2026-05-06
+1996,324,Smart Thermostat,Home,129.99,1,2026-06-04
+1997,324,Mechanical Keyboard,Electronics,89.99,3,2026-05-07
+1998,324,USB-C Hub,Electronics,39.99,3,2026-05-16
+1999,324,Graphic T-Shirt,Apparel,19.99,1,2026-05-08
+2000,324,Desk Lamp,Home,29.99,2,2026-06-10
+2001,324,Water Bottle,Home,18.0,3,2026-06-16
+2002,324,Water Bottle,Home,18.0,3,2026-06-29
+2003,325,History of the World,Books,18.99,1,2024-04-12
+2004,325,Desk Lamp,Home,29.99,3,2025-12-25
+2005,325,"27"" Monitor",Electronics,249.99,1,2025-06-19
+2006,325,Graphic T-Shirt,Apparel,19.99,3,2025-04-11
+2007,325,Running Shoes,Apparel,65.0,2,2024-02-21
+2008,326,Ergonomic Chair,Home,189.99,3,2025-05-27
+2009,326,Sport Socks (5 pack),Apparel,14.99,3,2025-06-24
+2010,326,Scented Candle,Home,12.5,2,2025-02-16
+2011,327,Wireless Mouse,Electronics,29.99,1,2025-05-26
+2012,327,Leather Backpack,Apparel,79.99,2,2025-06-28
+2013,327,Leather Backpack,Apparel,79.99,3,2025-06-27
+2014,327,Leather Backpack,Apparel,79.99,2,2025-07-03
+2015,327,USB-C Hub,Electronics,39.99,2,2026-04-11
+2016,327,Business Strategy Guide,Books,24.99,3,2025-04-01
+2017,327,Business Strategy Guide,Books,24.99,3,2025-03-01
+2018,327,Wireless Mouse,Electronics,29.99,3,2024-12-28
+2019,327,Graphic T-Shirt,Apparel,19.99,1,2025-01-02
+2020,327,Graphic T-Shirt,Apparel,19.99,3,2024-11-10
+2021,327,Desk Lamp,Home,29.99,3,2026-05-24
+2022,327,Data Science Handbook,Books,44.99,1,2026-05-14
+2023,327,History of the World,Books,18.99,1,2025-09-18
+2024,327,Sport Socks (5 pack),Apparel,14.99,1,2026-02-14
+2025,327,USB-C Hub,Electronics,39.99,2,2025-12-17
+2026,327,Coffee Maker,Home,49.99,2,2025-04-24
+2027,327,Sci-Fi Novel: The Stars,Books,14.99,3,2026-06-21
+2028,327,Denim Jacket,Apparel,55.0,3,2025-07-30
+2029,327,Desk Lamp,Home,29.99,1,2025-12-28
+2030,327,Graphic T-Shirt,Apparel,19.99,3,2025-05-20
+2031,328,Scented Candle,Home,12.5,3,2025-12-31
+2032,328,Smart Thermostat,Home,129.99,2,2026-02-25
+2033,328,Sport Socks (5 pack),Apparel,14.99,1,2025-07-13
+2034,328,Smart Watch,Electronics,149.99,1,2025-12-07
+2035,328,Coffee Maker,Home,49.99,2,2025-07-12
+2036,328,Denim Jacket,Apparel,55.0,1,2025-02-01
+2037,328,Scented Candle,Home,12.5,3,2025-08-19
+2038,328,Ergonomic Chair,Home,189.99,2,2026-02-13
+2039,328,USB-C Hub,Electronics,39.99,3,2025-09-17
+2040,328,Graphic T-Shirt,Apparel,19.99,3,2026-07-17
+2041,329,Business Strategy Guide,Books,24.99,1,2025-01-12
+2042,329,Wireless Mouse,Electronics,29.99,2,2024-09-09
+2043,329,Smart Watch,Electronics,149.99,3,2025-05-27
+2044,329,Python Programming Guide,Books,34.99,2,2025-06-11
+2045,329,History of the World,Books,18.99,2,2025-12-07
+2046,329,Leather Backpack,Apparel,79.99,3,2024-02-04
+2047,329,Leather Backpack,Apparel,79.99,2,2026-06-18
+2048,329,Desk Lamp,Home,29.99,1,2025-08-11
+2049,329,Water Bottle,Home,18.0,2,2025-07-04
+2050,329,Desk Lamp,Home,29.99,3,2024-09-14
+2051,329,Wireless Mouse,Electronics,29.99,1,2024-09-13
+2052,329,Sunglasses,Apparel,24.99,2,2023-12-06
+2053,329,Mechanical Keyboard,Electronics,89.99,3,2025-10-24
+2054,329,"27"" Monitor",Electronics,249.99,3,2024-04-25
+2055,329,Business Strategy Guide,Books,24.99,3,2026-06-21
+2056,329,Wireless Mouse,Electronics,29.99,3,2024-04-12
+2057,330,Leather Backpack,Apparel,79.99,3,2025-12-28
+2058,330,Smart Watch,Electronics,149.99,3,2026-06-27
+2059,330,Sport Socks (5 pack),Apparel,14.99,2,2026-02-18
+2060,330,Sunglasses,Apparel,24.99,1,2026-02-09
+2061,330,Desk Lamp,Home,29.99,2,2026-05-28
+2062,331,Water Bottle,Home,18.0,2,2026-03-23
+2063,331,Sport Socks (5 pack),Apparel,14.99,3,2026-06-02
+2064,332,Ergonomic Chair,Home,189.99,2,2025-05-29
+2065,332,History of the World,Books,18.99,1,2025-06-05
+2066,332,Smart Watch,Electronics,149.99,1,2026-03-05
+2067,332,USB-C Hub,Electronics,39.99,1,2025-05-03
+2068,333,Sunglasses,Apparel,24.99,2,2026-05-26
+2069,333,Sunglasses,Apparel,24.99,2,2026-03-26
+2070,334,Mystery Novel: Dark Woods,Books,12.99,2,2024-09-12
+2071,335,USB-C Hub,Electronics,39.99,2,2026-03-01
+2072,335,Sci-Fi Novel: The Stars,Books,14.99,1,2026-01-24
+2073,335,Sunglasses,Apparel,24.99,1,2026-07-13
+2074,335,Data Science Handbook,Books,44.99,2,2026-05-06
+2075,336,Leather Backpack,Apparel,79.99,1,2024-07-03
+2076,336,Coffee Maker,Home,49.99,1,2024-06-22
+2077,336,Mechanical Keyboard,Electronics,89.99,3,2024-10-18
+2078,337,Water Bottle,Home,18.0,3,2025-06-11
+2079,337,Python Programming Guide,Books,34.99,2,2026-02-19
+2080,337,Smart Thermostat,Home,129.99,1,2026-06-20
+2081,337,Running Shoes,Apparel,65.0,2,2026-03-03
+2082,337,Python Programming Guide,Books,34.99,1,2026-06-11
+2083,338,Desk Lamp,Home,29.99,3,2024-12-05
+2084,338,Sci-Fi Novel: The Stars,Books,14.99,3,2024-10-03
+2085,339,Wireless Mouse,Electronics,29.99,2,2025-11-15
+2086,339,Coffee Maker,Home,49.99,1,2025-12-16
+2087,339,Running Shoes,Apparel,65.0,1,2026-06-16
+2088,339,Sci-Fi Novel: The Stars,Books,14.99,1,2025-07-29
+2089,339,Smart Watch,Electronics,149.99,1,2026-01-09
+2090,339,Smart Thermostat,Home,129.99,3,2025-08-24
+2091,339,Sci-Fi Novel: The Stars,Books,14.99,1,2025-10-30
+2092,339,"27"" Monitor",Electronics,249.99,3,2025-12-01
+2093,339,Water Bottle,Home,18.0,3,2025-10-06
+2094,340,Desk Lamp,Home,29.99,2,2026-06-16
+2095,340,Sport Socks (5 pack),Apparel,14.99,3,2026-06-15
+2096,340,USB-C Hub,Electronics,39.99,1,2026-05-16
+2097,340,Coffee Maker,Home,49.99,1,2026-06-09
+2098,340,Mystery Novel: Dark Woods,Books,12.99,1,2026-06-21
+2099,340,Data Science Handbook,Books,44.99,3,2026-06-30
+2100,340,"27"" Monitor",Electronics,249.99,1,2026-05-26
+2101,340,Mechanical Keyboard,Electronics,89.99,2,2026-05-28
+2102,341,Graphic T-Shirt,Apparel,19.99,2,2025-06-15
+2103,341,Noise Cancelling Headphones,Electronics,199.99,2,2025-08-14
+2104,341,Noise Cancelling Headphones,Electronics,199.99,1,2025-03-02
+2105,341,Coffee Maker,Home,49.99,3,2025-07-26
+2106,342,Ergonomic Chair,Home,189.99,3,2024-07-02
+2107,342,Mechanical Keyboard,Electronics,89.99,3,2025-02-19
+2108,343,USB-C Hub,Electronics,39.99,3,2025-12-04
+2109,343,Graphic T-Shirt,Apparel,19.99,3,2025-10-02
+2110,343,Noise Cancelling Headphones,Electronics,199.99,2,2025-12-28
+2111,344,USB-C Hub,Electronics,39.99,3,2026-07-06
+2112,344,"27"" Monitor",Electronics,249.99,3,2026-06-23
+2113,344,USB-C Hub,Electronics,39.99,1,2026-06-16
+2114,345,Running Shoes,Apparel,65.0,2,2024-06-30
+2115,345,Mystery Novel: Dark Woods,Books,12.99,2,2024-08-23
+2116,345,Sport Socks (5 pack),Apparel,14.99,2,2026-03-11
+2117,345,Python Programming Guide,Books,34.99,2,2025-11-01
+2118,345,History of the World,Books,18.99,1,2026-01-01
+2119,346,Sport Socks (5 pack),Apparel,14.99,2,2025-09-04
+2120,346,Ergonomic Chair,Home,189.99,1,2024-09-12
+2121,346,USB-C Hub,Electronics,39.99,2,2025-09-04
+2122,347,Coffee Maker,Home,49.99,3,2025-03-30
+2123,347,Denim Jacket,Apparel,55.0,1,2025-04-20
+2124,348,Scented Candle,Home,12.5,2,2026-01-15
+2125,348,History of the World,Books,18.99,1,2026-07-17
+2126,348,Business Strategy Guide,Books,24.99,1,2025-07-27
+2127,348,Business Strategy Guide,Books,24.99,1,2025-01-16
+2128,348,Data Science Handbook,Books,44.99,2,2025-06-16
+2129,348,Leather Backpack,Apparel,79.99,2,2025-11-18
+2130,348,"27"" Monitor",Electronics,249.99,1,2026-07-11
+2131,348,Sport Socks (5 pack),Apparel,14.99,2,2025-10-19
+2132,349,Smart Thermostat,Home,129.99,1,2025-11-18
+2133,349,Smart Thermostat,Home,129.99,1,2025-12-30
+2134,349,Smart Thermostat,Home,129.99,3,2026-07-14
+2135,350,Coffee Maker,Home,49.99,3,2024-12-15
+2136,350,History of the World,Books,18.99,2,2025-02-23
+2137,351,USB-C Hub,Electronics,39.99,2,2025-01-22
+2138,352,Python Programming Guide,Books,34.99,3,2026-01-20
+2139,352,Scented Candle,Home,12.5,1,2026-01-17
+2140,352,Scented Candle,Home,12.5,2,2026-05-28
+2141,352,Leather Backpack,Apparel,79.99,2,2026-05-07
+2142,352,Water Bottle,Home,18.0,1,2026-02-09
+2143,352,Mystery Novel: Dark Woods,Books,12.99,3,2026-03-31
+2144,352,Smart Thermostat,Home,129.99,2,2025-10-26
+2145,352,Leather Backpack,Apparel,79.99,1,2026-05-26
+2146,352,Data Science Handbook,Books,44.99,2,2025-09-19
+2147,352,Graphic T-Shirt,Apparel,19.99,2,2026-01-03
+2148,352,Desk Lamp,Home,29.99,1,2025-12-30
+2149,352,Wireless Mouse,Electronics,29.99,2,2026-04-14
+2150,352,Ergonomic Chair,Home,189.99,2,2025-08-11
+2151,352,Graphic T-Shirt,Apparel,19.99,3,2026-03-08
+2152,352,Python Programming Guide,Books,34.99,1,2026-03-15
+2153,352,Desk Lamp,Home,29.99,1,2026-05-21
+2154,352,Coffee Maker,Home,49.99,2,2025-11-07
+2155,353,Scented Candle,Home,12.5,1,2025-03-29
+2156,353,Sci-Fi Novel: The Stars,Books,14.99,3,2024-09-07
+2157,353,Sport Socks (5 pack),Apparel,14.99,3,2024-09-08
+2158,354,Python Programming Guide,Books,34.99,2,2025-03-01
+2159,354,Water Bottle,Home,18.0,3,2024-11-28
+2160,355,Sunglasses,Apparel,24.99,3,2025-09-15
+2161,355,Mechanical Keyboard,Electronics,89.99,2,2025-06-15
+2162,355,Desk Lamp,Home,29.99,2,2026-01-22
+2163,355,Sci-Fi Novel: The Stars,Books,14.99,1,2026-05-15
+2164,355,Data Science Handbook,Books,44.99,2,2025-12-10
+2165,355,Mechanical Keyboard,Electronics,89.99,3,2026-01-29
+2166,355,Coffee Maker,Home,49.99,1,2026-02-20
+2167,355,Leather Backpack,Apparel,79.99,1,2026-07-09
+2168,355,Sport Socks (5 pack),Apparel,14.99,1,2025-07-10
+2169,355,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-06
+2170,355,Coffee Maker,Home,49.99,2,2025-12-01
+2171,355,History of the World,Books,18.99,1,2025-12-09
+2172,355,Wireless Mouse,Electronics,29.99,1,2026-04-03
+2173,356,Python Programming Guide,Books,34.99,3,2025-03-05
+2174,356,History of the World,Books,18.99,2,2025-12-11
+2175,357,Wireless Mouse,Electronics,29.99,2,2025-08-03
+2176,357,"27"" Monitor",Electronics,249.99,3,2025-05-17
+2177,357,Mystery Novel: Dark Woods,Books,12.99,3,2024-09-24
+2178,357,USB-C Hub,Electronics,39.99,2,2025-02-22
+2179,357,Noise Cancelling Headphones,Electronics,199.99,3,2024-11-08
+2180,358,Denim Jacket,Apparel,55.0,2,2026-07-04
+2181,358,Business Strategy Guide,Books,24.99,3,2025-09-21
+2182,358,Sunglasses,Apparel,24.99,1,2026-03-21
+2183,359,Wireless Mouse,Electronics,29.99,2,2024-11-07
+2184,359,Sunglasses,Apparel,24.99,3,2024-11-27
+2185,359,USB-C Hub,Electronics,39.99,3,2024-09-30
+2186,360,Denim Jacket,Apparel,55.0,3,2026-02-08
+2187,360,Sci-Fi Novel: The Stars,Books,14.99,1,2025-12-09
+2188,360,Desk Lamp,Home,29.99,2,2026-04-14
+2189,360,Wireless Mouse,Electronics,29.99,2,2026-05-06
+2190,360,Mystery Novel: Dark Woods,Books,12.99,2,2026-02-23
+2191,360,Mystery Novel: Dark Woods,Books,12.99,1,2026-03-25
+2192,360,Data Science Handbook,Books,44.99,1,2026-05-04
+2193,361,Data Science Handbook,Books,44.99,2,2025-10-13
+2194,361,Ergonomic Chair,Home,189.99,2,2025-07-15
+2195,361,Graphic T-Shirt,Apparel,19.99,2,2026-03-24
+2196,362,Scented Candle,Home,12.5,3,2026-06-25
+2197,362,Leather Backpack,Apparel,79.99,1,2025-11-11
+2198,362,Sunglasses,Apparel,24.99,2,2026-02-04
+2199,362,Mystery Novel: Dark Woods,Books,12.99,3,2025-10-05
+2200,362,Coffee Maker,Home,49.99,3,2026-03-15
+2201,362,Coffee Maker,Home,49.99,3,2025-08-28
+2202,362,Noise Cancelling Headphones,Electronics,199.99,2,2026-04-21
+2203,362,Denim Jacket,Apparel,55.0,1,2025-12-26
+2204,362,Coffee Maker,Home,49.99,2,2026-02-26
+2205,362,USB-C Hub,Electronics,39.99,2,2026-01-18
+2206,362,Mystery Novel: Dark Woods,Books,12.99,1,2025-08-26
+2207,362,Leather Backpack,Apparel,79.99,3,2025-10-10
+2208,362,USB-C Hub,Electronics,39.99,3,2025-10-24
+2209,362,Mystery Novel: Dark Woods,Books,12.99,3,2025-05-21
+2210,362,Noise Cancelling Headphones,Electronics,199.99,2,2025-08-10
+2211,362,Sunglasses,Apparel,24.99,2,2025-06-15
+2212,363,Sci-Fi Novel: The Stars,Books,14.99,2,2024-02-11
+2213,363,"27"" Monitor",Electronics,249.99,2,2024-09-21
+2214,363,Sport Socks (5 pack),Apparel,14.99,3,2026-05-14
+2215,363,Smart Thermostat,Home,129.99,1,2026-02-05
+2216,363,Mystery Novel: Dark Woods,Books,12.99,1,2024-07-05
+2217,363,Leather Backpack,Apparel,79.99,2,2025-01-12
+2218,363,Desk Lamp,Home,29.99,2,2026-02-11
+2219,363,Water Bottle,Home,18.0,3,2024-07-09
+2220,363,Business Strategy Guide,Books,24.99,1,2025-11-04
+2221,363,Mechanical Keyboard,Electronics,89.99,3,2025-01-21
+2222,363,Desk Lamp,Home,29.99,1,2025-12-29
+2223,363,Business Strategy Guide,Books,24.99,1,2025-01-24
+2224,363,History of the World,Books,18.99,3,2026-07-14
+2225,363,Smart Watch,Electronics,149.99,1,2024-03-06
+2226,363,Python Programming Guide,Books,34.99,2,2024-08-20
+2227,364,Business Strategy Guide,Books,24.99,2,2025-03-05
+2228,364,History of the World,Books,18.99,1,2026-04-10
+2229,364,Smart Thermostat,Home,129.99,1,2026-02-16
+2230,364,Leather Backpack,Apparel,79.99,1,2025-03-08
+2231,364,Data Science Handbook,Books,44.99,3,2026-02-20
+2232,364,Noise Cancelling Headphones,Electronics,199.99,3,2026-01-20
+2233,364,Ergonomic Chair,Home,189.99,3,2025-01-21
+2234,364,"27"" Monitor",Electronics,249.99,3,2025-10-05
+2235,365,Scented Candle,Home,12.5,1,2026-04-22
+2236,365,Mystery Novel: Dark Woods,Books,12.99,3,2026-06-20
+2237,365,Mechanical Keyboard,Electronics,89.99,1,2026-03-14
+2238,365,Data Science Handbook,Books,44.99,1,2025-10-17
+2239,365,Mechanical Keyboard,Electronics,89.99,1,2025-08-02
+2240,365,Water Bottle,Home,18.0,3,2026-02-28
+2241,365,Wireless Mouse,Electronics,29.99,2,2025-12-31
+2242,366,Denim Jacket,Apparel,55.0,1,2025-03-01
+2243,366,Sport Socks (5 pack),Apparel,14.99,1,2024-11-13
+2244,367,Smart Thermostat,Home,129.99,2,2026-05-16
+2245,367,Python Programming Guide,Books,34.99,2,2025-12-31
+2246,367,Business Strategy Guide,Books,24.99,1,2026-02-25
+2247,367,Sci-Fi Novel: The Stars,Books,14.99,2,2025-11-04
+2248,368,Wireless Mouse,Electronics,29.99,1,2025-05-02
+2249,368,History of the World,Books,18.99,1,2026-02-08
+2250,368,Smart Watch,Electronics,149.99,1,2026-06-16
+2251,368,Business Strategy Guide,Books,24.99,1,2025-12-17
+2252,369,Sci-Fi Novel: The Stars,Books,14.99,2,2026-03-23
+2253,369,Wireless Mouse,Electronics,29.99,2,2025-09-08
+2254,369,Noise Cancelling Headphones,Electronics,199.99,3,2026-06-28
+2255,369,Graphic T-Shirt,Apparel,19.99,2,2025-01-04
+2256,370,History of the World,Books,18.99,1,2026-07-08
+2257,370,Smart Watch,Electronics,149.99,2,2026-06-18
+2258,370,Leather Backpack,Apparel,79.99,2,2026-06-21
+2259,370,Smart Watch,Electronics,149.99,2,2026-06-29
+2260,370,Water Bottle,Home,18.0,1,2026-06-23
+2261,370,USB-C Hub,Electronics,39.99,3,2026-07-02
+2262,371,Desk Lamp,Home,29.99,1,2026-03-19
+2263,371,Noise Cancelling Headphones,Electronics,199.99,3,2026-05-28
+2264,371,Smart Watch,Electronics,149.99,2,2025-09-30
+2265,371,Leather Backpack,Apparel,79.99,2,2025-03-04
+2266,371,Smart Thermostat,Home,129.99,3,2025-05-23
+2267,371,USB-C Hub,Electronics,39.99,3,2025-01-09
+2268,371,"27"" Monitor",Electronics,249.99,3,2025-11-04
+2269,371,"27"" Monitor",Electronics,249.99,1,2026-04-08
+2270,371,Business Strategy Guide,Books,24.99,3,2024-11-12
+2271,371,Sunglasses,Apparel,24.99,3,2026-03-24
+2272,371,Sport Socks (5 pack),Apparel,14.99,2,2026-07-03
+2273,371,Coffee Maker,Home,49.99,2,2026-06-08
+2274,372,Water Bottle,Home,18.0,2,2026-03-26
+2275,372,Water Bottle,Home,18.0,1,2026-05-18
+2276,372,Sci-Fi Novel: The Stars,Books,14.99,3,2025-09-15
+2277,372,Leather Backpack,Apparel,79.99,3,2025-09-08
+2278,372,Water Bottle,Home,18.0,2,2025-09-12
+2279,372,Sunglasses,Apparel,24.99,3,2026-04-25
+2280,372,Denim Jacket,Apparel,55.0,1,2026-05-12
+2281,372,Sport Socks (5 pack),Apparel,14.99,1,2026-01-11
+2282,372,Business Strategy Guide,Books,24.99,1,2025-08-29
+2283,372,Mystery Novel: Dark Woods,Books,12.99,1,2025-10-08
+2284,372,Smart Watch,Electronics,149.99,1,2026-04-12
+2285,372,Sunglasses,Apparel,24.99,1,2025-08-12
+2286,372,Coffee Maker,Home,49.99,1,2025-09-24
+2287,372,Mechanical Keyboard,Electronics,89.99,1,2025-10-30
+2288,372,Sci-Fi Novel: The Stars,Books,14.99,1,2025-07-20
+2289,372,"27"" Monitor",Electronics,249.99,2,2026-01-22
+2290,372,Noise Cancelling Headphones,Electronics,199.99,3,2025-10-09
+2291,373,Noise Cancelling Headphones,Electronics,199.99,1,2026-01-15
+2292,373,"27"" Monitor",Electronics,249.99,1,2025-02-12
+2293,373,Desk Lamp,Home,29.99,1,2025-07-30
+2294,373,"27"" Monitor",Electronics,249.99,2,2025-08-06
+2295,373,Ergonomic Chair,Home,189.99,2,2025-07-22
+2296,373,Running Shoes,Apparel,65.0,3,2025-09-27
+2297,373,History of the World,Books,18.99,1,2026-05-06
+2298,373,Mechanical Keyboard,Electronics,89.99,3,2025-12-27
+2299,374,Business Strategy Guide,Books,24.99,3,2025-04-13
+2300,374,Graphic T-Shirt,Apparel,19.99,1,2025-03-27
+2301,374,Leather Backpack,Apparel,79.99,1,2025-06-28
+2302,375,Mechanical Keyboard,Electronics,89.99,2,2025-06-28
+2303,375,Wireless Mouse,Electronics,29.99,3,2026-02-23
+2304,376,Noise Cancelling Headphones,Electronics,199.99,2,2025-07-02
+2305,376,Data Science Handbook,Books,44.99,2,2025-04-21
+2306,376,Python Programming Guide,Books,34.99,2,2026-07-14
+2307,376,"27"" Monitor",Electronics,249.99,1,2025-06-02
+2308,377,Denim Jacket,Apparel,55.0,1,2026-03-07
+2309,377,Running Shoes,Apparel,65.0,3,2024-10-14
+2310,377,History of the World,Books,18.99,2,2025-08-25
+2311,377,USB-C Hub,Electronics,39.99,3,2025-05-24
+2312,377,Sunglasses,Apparel,24.99,3,2024-07-19
+2313,378,Mechanical Keyboard,Electronics,89.99,1,2024-06-30
+2314,378,Coffee Maker,Home,49.99,3,2024-09-25
+2315,379,Ergonomic Chair,Home,189.99,1,2026-05-24
+2316,379,Business Strategy Guide,Books,24.99,2,2026-04-19
+2317,379,Smart Thermostat,Home,129.99,3,2026-05-10
+2318,379,USB-C Hub,Electronics,39.99,1,2026-06-15
+2319,380,Graphic T-Shirt,Apparel,19.99,3,2025-12-15
+2320,380,Mystery Novel: Dark Woods,Books,12.99,1,2025-06-12
+2321,380,Smart Thermostat,Home,129.99,2,2025-04-20
+2322,380,"27"" Monitor",Electronics,249.99,1,2025-07-14
+2323,380,USB-C Hub,Electronics,39.99,1,2026-07-16
+2324,381,Coffee Maker,Home,49.99,1,2026-05-27
+2325,381,"27"" Monitor",Electronics,249.99,2,2026-07-10
+2326,381,Smart Watch,Electronics,149.99,2,2026-05-29
+2327,381,Graphic T-Shirt,Apparel,19.99,3,2026-06-26
+2328,381,Ergonomic Chair,Home,189.99,3,2026-07-05
+2329,381,Running Shoes,Apparel,65.0,3,2026-07-04
+2330,381,USB-C Hub,Electronics,39.99,3,2026-06-09
+2331,381,"27"" Monitor",Electronics,249.99,3,2026-06-29
+2332,382,Ergonomic Chair,Home,189.99,1,2025-10-09
+2333,382,Wireless Mouse,Electronics,29.99,1,2026-03-12
+2334,382,Smart Thermostat,Home,129.99,1,2025-10-01
+2335,382,Scented Candle,Home,12.5,1,2026-03-23
+2336,383,Denim Jacket,Apparel,55.0,1,2024-09-27
+2337,384,USB-C Hub,Electronics,39.99,3,2026-07-11
+2338,384,Mystery Novel: Dark Woods,Books,12.99,2,2025-09-09
+2339,384,Smart Thermostat,Home,129.99,3,2025-11-17
+2340,384,Sci-Fi Novel: The Stars,Books,14.99,2,2025-11-05
+2341,384,Smart Thermostat,Home,129.99,3,2025-10-03
+2342,384,Business Strategy Guide,Books,24.99,1,2026-01-19
+2343,384,Graphic T-Shirt,Apparel,19.99,1,2026-03-05
+2344,385,Wireless Mouse,Electronics,29.99,1,2023-12-27
+2345,385,Coffee Maker,Home,49.99,3,2025-02-03
+2346,385,Scented Candle,Home,12.5,2,2024-12-13
+2347,385,Sci-Fi Novel: The Stars,Books,14.99,1,2024-10-07
+2348,385,Leather Backpack,Apparel,79.99,3,2024-03-20
+2349,385,Mystery Novel: Dark Woods,Books,12.99,3,2023-11-24
+2350,385,Mechanical Keyboard,Electronics,89.99,3,2025-03-05
+2351,385,Coffee Maker,Home,49.99,1,2025-10-08
+2352,386,Graphic T-Shirt,Apparel,19.99,1,2025-02-21
+2353,386,History of the World,Books,18.99,2,2025-04-24
+2354,386,Ergonomic Chair,Home,189.99,1,2025-06-05
+2355,387,Smart Watch,Electronics,149.99,2,2026-03-15
+2356,387,Coffee Maker,Home,49.99,3,2026-06-24
+2357,387,Running Shoes,Apparel,65.0,2,2026-06-20
+2358,387,Running Shoes,Apparel,65.0,3,2026-02-09
+2359,388,Water Bottle,Home,18.0,1,2025-06-15
+2360,388,Water Bottle,Home,18.0,3,2026-01-02
+2361,388,Noise Cancelling Headphones,Electronics,199.99,2,2025-06-06
+2362,388,USB-C Hub,Electronics,39.99,3,2025-12-04
+2363,388,Scented Candle,Home,12.5,1,2026-05-28
+2364,388,Sport Socks (5 pack),Apparel,14.99,3,2025-07-08
+2365,388,Water Bottle,Home,18.0,1,2026-01-01
+2366,388,Mechanical Keyboard,Electronics,89.99,3,2026-01-26
+2367,389,Mechanical Keyboard,Electronics,89.99,1,2026-03-23
+2368,389,Sport Socks (5 pack),Apparel,14.99,1,2026-04-06
+2369,389,Mechanical Keyboard,Electronics,89.99,1,2026-06-09
+2370,389,Smart Watch,Electronics,149.99,3,2025-12-11
+2371,389,Coffee Maker,Home,49.99,3,2026-03-04
+2372,389,USB-C Hub,Electronics,39.99,3,2026-01-02
+2373,389,Mechanical Keyboard,Electronics,89.99,2,2026-01-29
+2374,389,Sci-Fi Novel: The Stars,Books,14.99,1,2026-02-25
+2375,390,Smart Thermostat,Home,129.99,1,2026-06-27
+2376,390,Sci-Fi Novel: The Stars,Books,14.99,3,2026-07-08
+2377,390,Water Bottle,Home,18.0,3,2026-07-03
+2378,391,Sci-Fi Novel: The Stars,Books,14.99,1,2025-08-10
+2379,391,History of the World,Books,18.99,1,2026-06-01
+2380,391,Graphic T-Shirt,Apparel,19.99,1,2026-05-11
+2381,391,Smart Watch,Electronics,149.99,1,2025-12-08
+2382,392,Scented Candle,Home,12.5,2,2025-11-07
+2383,392,Desk Lamp,Home,29.99,1,2025-12-18
+2384,392,Smart Watch,Electronics,149.99,3,2025-12-18
+2385,393,Mechanical Keyboard,Electronics,89.99,3,2025-06-18
+2386,393,Graphic T-Shirt,Apparel,19.99,2,2024-10-24
+2387,393,Data Science Handbook,Books,44.99,2,2024-10-24
+2388,393,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-30
+2389,393,Running Shoes,Apparel,65.0,3,2026-04-28
+2390,393,Desk Lamp,Home,29.99,2,2025-07-05
+2391,394,"27"" Monitor",Electronics,249.99,1,2025-03-12
+2392,394,Smart Watch,Electronics,149.99,3,2025-02-22
+2393,395,Smart Watch,Electronics,149.99,1,2024-04-13
+2394,395,Sport Socks (5 pack),Apparel,14.99,3,2024-03-08
+2395,395,Denim Jacket,Apparel,55.0,3,2025-12-05
+2396,395,Desk Lamp,Home,29.99,1,2023-12-02
+2397,395,Scented Candle,Home,12.5,3,2024-09-06
+2398,395,Ergonomic Chair,Home,189.99,3,2023-11-25
+2399,395,"27"" Monitor",Electronics,249.99,2,2024-01-08
+2400,396,Ergonomic Chair,Home,189.99,1,2026-05-26
+2401,396,Scented Candle,Home,12.5,3,2025-12-06
+2402,396,Graphic T-Shirt,Apparel,19.99,1,2025-10-07
+2403,396,Graphic T-Shirt,Apparel,19.99,3,2026-02-13
+2404,396,Leather Backpack,Apparel,79.99,1,2025-12-20
+2405,397,Smart Watch,Electronics,149.99,2,2026-07-08
+2406,397,Smart Watch,Electronics,149.99,1,2026-07-04
+2407,397,Mechanical Keyboard,Electronics,89.99,3,2026-06-29
+2408,398,Smart Watch,Electronics,149.99,2,2025-05-03
+2409,398,Python Programming Guide,Books,34.99,3,2025-05-21
+2410,398,Sci-Fi Novel: The Stars,Books,14.99,2,2026-06-19
+2411,398,Running Shoes,Apparel,65.0,2,2026-04-15
+2412,398,Desk Lamp,Home,29.99,2,2026-03-14
+2413,398,Noise Cancelling Headphones,Electronics,199.99,1,2026-06-10
+2414,398,USB-C Hub,Electronics,39.99,1,2026-03-09
+2415,398,Mystery Novel: Dark Woods,Books,12.99,3,2026-03-14
+2416,398,Sport Socks (5 pack),Apparel,14.99,2,2025-09-05
+2417,398,Sunglasses,Apparel,24.99,1,2026-01-20
+2418,398,Noise Cancelling Headphones,Electronics,199.99,1,2025-10-21
+2419,398,Ergonomic Chair,Home,189.99,2,2025-05-06
+2420,398,Python Programming Guide,Books,34.99,3,2025-12-28
+2421,398,Business Strategy Guide,Books,24.99,2,2026-05-27
+2422,398,Business Strategy Guide,Books,24.99,2,2026-06-07
+2423,398,Mystery Novel: Dark Woods,Books,12.99,1,2025-12-31
+2424,398,Business Strategy Guide,Books,24.99,1,2025-09-18
+2425,399,Python Programming Guide,Books,34.99,1,2026-06-19
+2426,399,Running Shoes,Apparel,65.0,3,2026-05-28
+2427,399,USB-C Hub,Electronics,39.99,1,2026-04-20
+2428,399,Smart Thermostat,Home,129.99,2,2026-06-21
+2429,400,Desk Lamp,Home,29.99,3,2025-05-12
+2430,400,USB-C Hub,Electronics,39.99,2,2026-05-12
+2431,400,Python Programming Guide,Books,34.99,2,2025-04-20
+2432,401,Wireless Mouse,Electronics,29.99,2,2024-02-03
+2433,401,Denim Jacket,Apparel,55.0,1,2025-04-11
+2434,401,Scented Candle,Home,12.5,2,2025-01-11
+2435,401,Sport Socks (5 pack),Apparel,14.99,2,2025-04-24
+2436,402,Leather Backpack,Apparel,79.99,2,2026-05-23
+2437,402,History of the World,Books,18.99,1,2026-07-07
+2438,402,Noise Cancelling Headphones,Electronics,199.99,1,2026-07-11
+2439,402,Sport Socks (5 pack),Apparel,14.99,2,2026-06-16
+2440,403,Denim Jacket,Apparel,55.0,1,2025-11-21
+2441,403,"27"" Monitor",Electronics,249.99,1,2026-02-20
+2442,403,History of the World,Books,18.99,1,2026-01-20
+2443,404,Scented Candle,Home,12.5,1,2025-10-19
+2444,404,Mechanical Keyboard,Electronics,89.99,3,2026-02-10
+2445,404,Business Strategy Guide,Books,24.99,2,2025-11-16
+2446,405,Python Programming Guide,Books,34.99,3,2026-03-08
+2447,405,Coffee Maker,Home,49.99,3,2025-12-16
+2448,405,Sport Socks (5 pack),Apparel,14.99,2,2025-04-25
+2449,405,Smart Thermostat,Home,129.99,1,2026-01-19
+2450,405,Water Bottle,Home,18.0,1,2026-01-13
+2451,406,Smart Thermostat,Home,129.99,3,2025-12-13
+2452,406,Graphic T-Shirt,Apparel,19.99,3,2026-01-03
+2453,406,History of the World,Books,18.99,2,2025-08-01
+2454,406,Running Shoes,Apparel,65.0,1,2025-07-02
+2455,406,Smart Watch,Electronics,149.99,1,2025-09-19
+2456,407,Python Programming Guide,Books,34.99,1,2026-05-21
+2457,407,Water Bottle,Home,18.0,3,2025-12-18
+2458,407,Water Bottle,Home,18.0,2,2025-06-18
+2459,407,Running Shoes,Apparel,65.0,2,2025-07-08
+2460,408,Smart Watch,Electronics,149.99,2,2025-02-19
+2461,409,Data Science Handbook,Books,44.99,2,2026-01-23
+2462,409,Smart Watch,Electronics,149.99,1,2025-04-19
+2463,409,Noise Cancelling Headphones,Electronics,199.99,2,2025-09-15
+2464,409,Denim Jacket,Apparel,55.0,2,2025-01-09
+2465,409,"27"" Monitor",Electronics,249.99,2,2026-01-17
+2466,409,Denim Jacket,Apparel,55.0,2,2026-04-20
+2467,410,Smart Watch,Electronics,149.99,1,2025-08-10
+2468,410,Mystery Novel: Dark Woods,Books,12.99,2,2026-05-14
+2469,410,"27"" Monitor",Electronics,249.99,1,2026-01-15
+2470,410,Running Shoes,Apparel,65.0,1,2026-05-28
+2471,410,Noise Cancelling Headphones,Electronics,199.99,3,2026-02-05
+2472,410,Smart Watch,Electronics,149.99,3,2025-05-02
+2473,410,Desk Lamp,Home,29.99,2,2026-02-25
+2474,410,Coffee Maker,Home,49.99,2,2025-11-19
+2475,411,Denim Jacket,Apparel,55.0,1,2024-07-24
+2476,411,Scented Candle,Home,12.5,2,2025-08-07
+2477,411,"27"" Monitor",Electronics,249.99,1,2025-03-01
+2478,411,Sunglasses,Apparel,24.99,1,2025-09-09
+2479,411,Sci-Fi Novel: The Stars,Books,14.99,3,2024-08-21
+2480,411,Denim Jacket,Apparel,55.0,2,2026-02-04
+2481,411,Sunglasses,Apparel,24.99,3,2026-05-13
+2482,411,Coffee Maker,Home,49.99,1,2025-07-11
+2483,411,Leather Backpack,Apparel,79.99,1,2026-02-17
+2484,411,Desk Lamp,Home,29.99,3,2026-04-24
+2485,411,Python Programming Guide,Books,34.99,2,2026-02-01
+2486,411,Smart Thermostat,Home,129.99,2,2026-05-12
+2487,411,Sci-Fi Novel: The Stars,Books,14.99,1,2025-08-03
+2488,411,Water Bottle,Home,18.0,2,2025-04-14
+2489,412,Sport Socks (5 pack),Apparel,14.99,3,2025-12-03
+2490,412,Data Science Handbook,Books,44.99,3,2025-01-20
+2491,412,Mystery Novel: Dark Woods,Books,12.99,3,2025-05-02
+2492,412,Running Shoes,Apparel,65.0,3,2026-02-14
+2493,412,Mechanical Keyboard,Electronics,89.99,2,2025-01-20
+2494,412,Sunglasses,Apparel,24.99,3,2025-09-04
+2495,412,Water Bottle,Home,18.0,3,2025-05-10
+2496,412,History of the World,Books,18.99,1,2025-03-02
+2497,412,Graphic T-Shirt,Apparel,19.99,1,2026-06-18
+2498,412,Data Science Handbook,Books,44.99,2,2025-10-07
+2499,412,Water Bottle,Home,18.0,1,2024-11-06
+2500,412,Python Programming Guide,Books,34.99,2,2025-09-06
+2501,412,Python Programming Guide,Books,34.99,2,2025-05-04
+2502,412,History of the World,Books,18.99,2,2024-11-16
+2503,412,Ergonomic Chair,Home,189.99,2,2026-05-26
+2504,412,History of the World,Books,18.99,2,2025-11-03
+2505,412,Data Science Handbook,Books,44.99,3,2024-10-13
+2506,412,Coffee Maker,Home,49.99,3,2024-12-24
+2507,412,Ergonomic Chair,Home,189.99,2,2026-06-27
+2508,413,Graphic T-Shirt,Apparel,19.99,1,2024-09-25
+2509,414,Wireless Mouse,Electronics,29.99,2,2026-06-19
+2510,414,Python Programming Guide,Books,34.99,1,2026-06-02
+2511,415,Smart Watch,Electronics,149.99,1,2026-06-21
+2512,415,Desk Lamp,Home,29.99,1,2024-04-15
+2513,415,"27"" Monitor",Electronics,249.99,1,2024-05-20
+2514,415,Mystery Novel: Dark Woods,Books,12.99,3,2024-04-21
+2515,415,Mystery Novel: Dark Woods,Books,12.99,2,2025-04-17
+2516,415,Ergonomic Chair,Home,189.99,3,2024-08-16
+2517,415,Ergonomic Chair,Home,189.99,2,2026-04-12
+2518,416,History of the World,Books,18.99,1,2024-03-14
+2519,416,USB-C Hub,Electronics,39.99,2,2024-06-13
+2520,416,Scented Candle,Home,12.5,2,2024-05-01
+2521,417,Wireless Mouse,Electronics,29.99,1,2025-06-21
+2522,417,Smart Watch,Electronics,149.99,1,2025-04-17
+2523,417,Python Programming Guide,Books,34.99,2,2025-12-22
+2524,417,Mechanical Keyboard,Electronics,89.99,2,2025-07-08
+2525,418,Sport Socks (5 pack),Apparel,14.99,2,2025-06-24
+2526,418,Smart Watch,Electronics,149.99,2,2025-11-11
+2527,418,Smart Thermostat,Home,129.99,2,2025-01-25
+2528,418,Mechanical Keyboard,Electronics,89.99,3,2026-06-28
+2529,418,Denim Jacket,Apparel,55.0,2,2026-07-07
+2530,418,Wireless Mouse,Electronics,29.99,2,2025-05-11
+2531,418,Running Shoes,Apparel,65.0,2,2025-12-01
+2532,418,Desk Lamp,Home,29.99,1,2025-03-29
+2533,419,Wireless Mouse,Electronics,29.99,2,2024-04-11
+2534,419,Sport Socks (5 pack),Apparel,14.99,1,2024-07-23
+2535,419,Running Shoes,Apparel,65.0,2,2025-10-27
+2536,419,Data Science Handbook,Books,44.99,3,2025-11-21
+2537,419,Desk Lamp,Home,29.99,2,2025-11-26
+2538,419,Coffee Maker,Home,49.99,1,2025-11-30
+2539,419,Leather Backpack,Apparel,79.99,2,2026-05-27
+2540,420,Sunglasses,Apparel,24.99,2,2024-09-17
+2541,420,Denim Jacket,Apparel,55.0,1,2025-12-19
+2542,420,Mechanical Keyboard,Electronics,89.99,3,2024-12-09
+2543,420,Running Shoes,Apparel,65.0,3,2025-05-14
+2544,420,Scented Candle,Home,12.5,3,2024-09-18
+2545,420,History of the World,Books,18.99,3,2025-12-16
+2546,421,Sci-Fi Novel: The Stars,Books,14.99,3,2026-05-17
+2547,421,Business Strategy Guide,Books,24.99,2,2025-11-10
+2548,421,Business Strategy Guide,Books,24.99,1,2025-02-08
+2549,421,Mechanical Keyboard,Electronics,89.99,2,2026-07-03
+2550,421,Mystery Novel: Dark Woods,Books,12.99,3,2025-02-11
+2551,421,Running Shoes,Apparel,65.0,1,2025-01-13
+2552,421,Sport Socks (5 pack),Apparel,14.99,2,2025-03-06
+2553,421,Sport Socks (5 pack),Apparel,14.99,1,2025-09-05
+2554,422,Mystery Novel: Dark Woods,Books,12.99,3,2025-04-17
+2555,422,Smart Watch,Electronics,149.99,1,2025-08-13
+2556,422,Desk Lamp,Home,29.99,1,2025-08-03
+2557,422,Noise Cancelling Headphones,Electronics,199.99,2,2025-02-08
+2558,422,Data Science Handbook,Books,44.99,3,2025-11-21
+2559,422,Wireless Mouse,Electronics,29.99,1,2026-03-20
+2560,422,"27"" Monitor",Electronics,249.99,1,2025-02-23
+2561,422,Graphic T-Shirt,Apparel,19.99,1,2025-02-07
+2562,422,Wireless Mouse,Electronics,29.99,2,2025-03-29
+2563,422,Desk Lamp,Home,29.99,1,2025-01-27
+2564,422,History of the World,Books,18.99,1,2025-06-05
+2565,422,Wireless Mouse,Electronics,29.99,1,2025-12-14
+2566,422,Ergonomic Chair,Home,189.99,1,2026-05-22
+2567,422,Smart Thermostat,Home,129.99,2,2025-08-04
+2568,422,Smart Watch,Electronics,149.99,1,2026-01-12
+2569,423,Sport Socks (5 pack),Apparel,14.99,2,2026-05-23
+2570,423,History of the World,Books,18.99,1,2025-03-03
+2571,423,Running Shoes,Apparel,65.0,2,2025-01-18
+2572,423,Ergonomic Chair,Home,189.99,3,2025-08-30
+2573,423,Sport Socks (5 pack),Apparel,14.99,2,2024-11-10
+2574,423,Leather Backpack,Apparel,79.99,1,2025-10-03
+2575,423,History of the World,Books,18.99,3,2025-09-19
+2576,424,Sci-Fi Novel: The Stars,Books,14.99,2,2026-06-30
+2577,424,History of the World,Books,18.99,1,2025-11-01
+2578,424,Smart Watch,Electronics,149.99,2,2026-05-26
+2579,424,Sci-Fi Novel: The Stars,Books,14.99,2,2026-04-08
+2580,425,Ergonomic Chair,Home,189.99,1,2026-05-16
+2581,425,Wireless Mouse,Electronics,29.99,1,2026-07-11
+2582,426,Sport Socks (5 pack),Apparel,14.99,1,2024-08-21
+2583,426,Scented Candle,Home,12.5,2,2025-07-10
+2584,426,Mystery Novel: Dark Woods,Books,12.99,1,2026-05-20
+2585,426,Coffee Maker,Home,49.99,1,2024-10-26
+2586,426,Desk Lamp,Home,29.99,2,2025-11-11
+2587,426,Sport Socks (5 pack),Apparel,14.99,1,2024-10-25
+2588,426,Sci-Fi Novel: The Stars,Books,14.99,1,2024-05-26
+2589,426,Python Programming Guide,Books,34.99,1,2025-04-17
+2590,426,Leather Backpack,Apparel,79.99,1,2026-04-26
+2591,426,Graphic T-Shirt,Apparel,19.99,1,2026-02-11
+2592,426,Mechanical Keyboard,Electronics,89.99,1,2026-04-06
+2593,426,Sunglasses,Apparel,24.99,3,2026-01-21
+2594,426,Mystery Novel: Dark Woods,Books,12.99,1,2024-03-07
+2595,426,Business Strategy Guide,Books,24.99,1,2024-12-31
+2596,426,Coffee Maker,Home,49.99,2,2025-01-29
+2597,426,Denim Jacket,Apparel,55.0,2,2024-09-12
+2598,426,Business Strategy Guide,Books,24.99,1,2024-11-21
+2599,426,Smart Watch,Electronics,149.99,1,2025-01-29
+2600,427,Leather Backpack,Apparel,79.99,1,2025-09-18
+2601,427,Sunglasses,Apparel,24.99,3,2025-11-14
+2602,427,Noise Cancelling Headphones,Electronics,199.99,1,2025-03-11
+2603,427,Denim Jacket,Apparel,55.0,3,2025-05-03
+2604,427,Data Science Handbook,Books,44.99,3,2026-01-26
+2605,427,Mechanical Keyboard,Electronics,89.99,2,2025-03-01
+2606,427,History of the World,Books,18.99,3,2024-12-27
+2607,428,History of the World,Books,18.99,2,2025-11-01
+2608,428,Noise Cancelling Headphones,Electronics,199.99,1,2024-12-27
+2609,428,Sport Socks (5 pack),Apparel,14.99,2,2026-07-14
+2610,428,Coffee Maker,Home,49.99,1,2026-01-07
+2611,428,Sunglasses,Apparel,24.99,3,2026-05-16
+2612,428,Business Strategy Guide,Books,24.99,1,2026-03-19
+2613,428,Sci-Fi Novel: The Stars,Books,14.99,3,2025-05-24
+2614,428,Running Shoes,Apparel,65.0,1,2026-03-12
+2615,429,Ergonomic Chair,Home,189.99,2,2025-03-26
+2616,429,Noise Cancelling Headphones,Electronics,199.99,3,2024-12-14
+2617,429,Water Bottle,Home,18.0,1,2026-01-25
+2618,429,Running Shoes,Apparel,65.0,1,2026-01-19
+2619,429,Scented Candle,Home,12.5,2,2025-05-01
+2620,429,Desk Lamp,Home,29.99,1,2026-05-11
+2621,429,Sunglasses,Apparel,24.99,3,2026-03-15
+2622,429,USB-C Hub,Electronics,39.99,3,2025-05-30
+2623,429,Smart Watch,Electronics,149.99,1,2025-02-14
+2624,429,Water Bottle,Home,18.0,1,2025-05-11
+2625,429,Sunglasses,Apparel,24.99,2,2025-03-05
+2626,429,Ergonomic Chair,Home,189.99,3,2026-07-10
+2627,429,Smart Thermostat,Home,129.99,1,2025-08-28
+2628,429,Sunglasses,Apparel,24.99,1,2025-07-11
+2629,429,Denim Jacket,Apparel,55.0,1,2026-03-06
+2630,429,Leather Backpack,Apparel,79.99,2,2026-03-07
+2631,429,Business Strategy Guide,Books,24.99,3,2026-02-01
+2632,429,Denim Jacket,Apparel,55.0,3,2026-01-08
+2633,429,Desk Lamp,Home,29.99,2,2025-11-24
+2634,430,Data Science Handbook,Books,44.99,2,2025-04-25
+2635,430,Scented Candle,Home,12.5,1,2025-05-26
+2636,430,Sci-Fi Novel: The Stars,Books,14.99,3,2025-11-22
+2637,431,Python Programming Guide,Books,34.99,3,2026-02-21
+2638,431,History of the World,Books,18.99,3,2026-04-30
+2639,431,Scented Candle,Home,12.5,3,2026-05-16
+2640,431,Graphic T-Shirt,Apparel,19.99,1,2026-02-06
+2641,431,Scented Candle,Home,12.5,2,2026-07-11
+2642,431,Mystery Novel: Dark Woods,Books,12.99,1,2026-05-04
+2643,431,Denim Jacket,Apparel,55.0,2,2026-07-09
+2644,431,Business Strategy Guide,Books,24.99,1,2026-02-23
+2645,432,Wireless Mouse,Electronics,29.99,3,2026-04-30
+2646,432,Water Bottle,Home,18.0,3,2025-08-31
+2647,432,Noise Cancelling Headphones,Electronics,199.99,2,2026-01-10
+2648,432,Data Science Handbook,Books,44.99,1,2026-06-09
+2649,432,Sport Socks (5 pack),Apparel,14.99,1,2025-04-19
+2650,432,Desk Lamp,Home,29.99,2,2025-05-02
+2651,432,Denim Jacket,Apparel,55.0,2,2025-05-17
+2652,432,Scented Candle,Home,12.5,2,2026-01-03
+2653,432,Sunglasses,Apparel,24.99,3,2025-08-11
+2654,432,Water Bottle,Home,18.0,2,2025-03-10
+2655,432,Noise Cancelling Headphones,Electronics,199.99,1,2025-12-01
+2656,432,Running Shoes,Apparel,65.0,3,2025-03-13
+2657,432,Denim Jacket,Apparel,55.0,1,2025-09-29
+2658,432,Desk Lamp,Home,29.99,1,2026-03-31
+2659,432,Ergonomic Chair,Home,189.99,3,2025-10-09
+2660,432,USB-C Hub,Electronics,39.99,3,2026-03-23
+2661,433,Business Strategy Guide,Books,24.99,1,2025-10-14
+2662,433,Scented Candle,Home,12.5,1,2026-07-03
+2663,433,"27"" Monitor",Electronics,249.99,1,2026-05-09
+2664,433,Sport Socks (5 pack),Apparel,14.99,2,2026-04-21
+2665,433,History of the World,Books,18.99,3,2025-11-26
+2666,433,Python Programming Guide,Books,34.99,2,2025-08-19
+2667,434,Noise Cancelling Headphones,Electronics,199.99,2,2025-08-22
+2668,434,Water Bottle,Home,18.0,2,2025-02-08
+2669,434,Sport Socks (5 pack),Apparel,14.99,2,2024-03-14
+2670,434,Sport Socks (5 pack),Apparel,14.99,2,2026-05-01
+2671,434,Sci-Fi Novel: The Stars,Books,14.99,3,2026-01-30
+2672,434,Graphic T-Shirt,Apparel,19.99,2,2025-08-21
+2673,435,Mechanical Keyboard,Electronics,89.99,3,2025-03-06
+2674,435,Sci-Fi Novel: The Stars,Books,14.99,1,2025-07-23
+2675,435,Desk Lamp,Home,29.99,1,2026-03-06
+2676,435,Running Shoes,Apparel,65.0,1,2026-06-07
+2677,435,Sunglasses,Apparel,24.99,3,2025-06-27
+2678,435,Business Strategy Guide,Books,24.99,1,2025-04-29
+2679,435,Running Shoes,Apparel,65.0,3,2025-05-01
+2680,436,Running Shoes,Apparel,65.0,1,2026-07-14
+2681,436,Scented Candle,Home,12.5,1,2026-05-25
+2682,437,"27"" Monitor",Electronics,249.99,1,2026-05-15
+2683,437,Data Science Handbook,Books,44.99,2,2025-03-19
+2684,437,Smart Thermostat,Home,129.99,3,2025-09-14
+2685,437,Denim Jacket,Apparel,55.0,1,2025-01-13
+2686,437,Data Science Handbook,Books,44.99,1,2026-06-22
+2687,437,Mystery Novel: Dark Woods,Books,12.99,3,2025-09-25
+2688,438,Sunglasses,Apparel,24.99,3,2026-06-13
+2689,438,Smart Watch,Electronics,149.99,3,2025-12-14
+2690,438,Sunglasses,Apparel,24.99,3,2026-04-05
+2691,438,Graphic T-Shirt,Apparel,19.99,1,2026-04-11
+2692,438,Wireless Mouse,Electronics,29.99,2,2026-05-31
+2693,438,"27"" Monitor",Electronics,249.99,2,2026-03-31
+2694,438,Water Bottle,Home,18.0,3,2026-06-19
+2695,439,Ergonomic Chair,Home,189.99,3,2026-06-05
+2696,439,"27"" Monitor",Electronics,249.99,3,2026-07-06
+2697,439,"27"" Monitor",Electronics,249.99,1,2026-06-19
+2698,439,Business Strategy Guide,Books,24.99,2,2026-04-26
+2699,439,Sport Socks (5 pack),Apparel,14.99,3,2026-05-03
+2700,439,Sunglasses,Apparel,24.99,3,2026-05-22
+2701,439,Smart Watch,Electronics,149.99,2,2026-05-05
+2702,439,Sport Socks (5 pack),Apparel,14.99,3,2026-05-23
+2703,439,"27"" Monitor",Electronics,249.99,2,2026-06-10
+2704,439,Smart Watch,Electronics,149.99,1,2026-05-16
+2705,439,"27"" Monitor",Electronics,249.99,1,2026-07-09
+2706,439,Graphic T-Shirt,Apparel,19.99,2,2026-05-29
+2707,439,Sport Socks (5 pack),Apparel,14.99,3,2026-07-08
+2708,440,History of the World,Books,18.99,2,2026-03-12
+2709,440,Denim Jacket,Apparel,55.0,3,2025-09-13
+2710,440,Python Programming Guide,Books,34.99,1,2026-01-09
+2711,440,Mechanical Keyboard,Electronics,89.99,2,2026-05-23
+2712,440,Denim Jacket,Apparel,55.0,2,2025-07-23
+2713,440,Denim Jacket,Apparel,55.0,1,2025-08-02
+2714,440,Mystery Novel: Dark Woods,Books,12.99,1,2024-09-04
+2715,440,Coffee Maker,Home,49.99,1,2025-09-21
+2716,441,Mystery Novel: Dark Woods,Books,12.99,2,2025-10-18
+2717,441,Water Bottle,Home,18.0,2,2025-10-12
+2718,441,Mechanical Keyboard,Electronics,89.99,1,2026-05-22
+2719,441,Smart Watch,Electronics,149.99,1,2025-06-24
+2720,441,Mechanical Keyboard,Electronics,89.99,1,2025-05-12
+2721,441,Python Programming Guide,Books,34.99,1,2026-01-28
+2722,441,Noise Cancelling Headphones,Electronics,199.99,2,2025-04-14
+2723,441,Leather Backpack,Apparel,79.99,2,2025-04-03
+2724,441,"27"" Monitor",Electronics,249.99,1,2025-09-08
+2725,441,USB-C Hub,Electronics,39.99,1,2025-12-28
+2726,441,Water Bottle,Home,18.0,3,2025-04-16
+2727,442,Ergonomic Chair,Home,189.99,1,2026-06-25
+2728,442,Running Shoes,Apparel,65.0,2,2026-07-15
+2729,442,Water Bottle,Home,18.0,2,2026-06-18
+2730,442,Wireless Mouse,Electronics,29.99,1,2026-06-26
+2731,442,Coffee Maker,Home,49.99,1,2026-06-30
+2732,442,Leather Backpack,Apparel,79.99,1,2026-06-26
+2733,442,Sport Socks (5 pack),Apparel,14.99,2,2026-07-06
+2734,442,Mystery Novel: Dark Woods,Books,12.99,1,2026-07-15
+2735,442,Denim Jacket,Apparel,55.0,2,2026-06-23
+2736,442,Leather Backpack,Apparel,79.99,2,2026-06-24
+2737,442,Scented Candle,Home,12.5,2,2026-06-29
+2738,442,Smart Watch,Electronics,149.99,3,2026-06-16
+2739,442,Coffee Maker,Home,49.99,1,2026-06-17
+2740,442,Scented Candle,Home,12.5,2,2026-06-18
+2741,442,Mechanical Keyboard,Electronics,89.99,1,2026-06-29
+2742,443,Python Programming Guide,Books,34.99,2,2026-05-27
+2743,443,Running Shoes,Apparel,65.0,1,2026-05-05
+2744,443,Desk Lamp,Home,29.99,2,2026-04-17
+2745,444,Mechanical Keyboard,Electronics,89.99,3,2026-03-01
+2746,444,Noise Cancelling Headphones,Electronics,199.99,2,2026-06-17
+2747,444,Scented Candle,Home,12.5,3,2026-02-27
+2748,445,Sunglasses,Apparel,24.99,2,2026-04-05
+2749,446,Running Shoes,Apparel,65.0,3,2024-12-12
+2750,446,Sunglasses,Apparel,24.99,1,2025-05-25
+2751,446,Denim Jacket,Apparel,55.0,1,2026-02-16
+2752,446,Smart Thermostat,Home,129.99,3,2025-11-18
+2753,447,Desk Lamp,Home,29.99,2,2025-06-09
+2754,447,USB-C Hub,Electronics,39.99,3,2026-04-18
+2755,447,Wireless Mouse,Electronics,29.99,3,2026-01-26
+2756,447,Data Science Handbook,Books,44.99,2,2024-06-29
+2757,448,Denim Jacket,Apparel,55.0,3,2025-09-26
+2758,448,Leather Backpack,Apparel,79.99,2,2026-02-12
+2759,448,"27"" Monitor",Electronics,249.99,1,2024-08-23
+2760,448,Smart Thermostat,Home,129.99,1,2024-04-11
+2761,448,Coffee Maker,Home,49.99,2,2025-07-25
+2762,448,Coffee Maker,Home,49.99,2,2025-10-08
+2763,448,Scented Candle,Home,12.5,2,2025-12-26
+2764,448,USB-C Hub,Electronics,39.99,1,2024-05-15
+2765,448,Sport Socks (5 pack),Apparel,14.99,3,2025-10-22
+2766,448,Denim Jacket,Apparel,55.0,1,2025-03-19
+2767,449,Scented Candle,Home,12.5,3,2025-05-28
+2768,449,Mystery Novel: Dark Woods,Books,12.99,3,2026-03-10
+2769,449,Data Science Handbook,Books,44.99,3,2026-06-15
+2770,449,Mystery Novel: Dark Woods,Books,12.99,2,2026-01-25
+2771,449,Desk Lamp,Home,29.99,2,2025-03-28
+2772,450,Sci-Fi Novel: The Stars,Books,14.99,2,2026-04-13
+2773,450,Mechanical Keyboard,Electronics,89.99,3,2025-09-09
+2774,450,Coffee Maker,Home,49.99,3,2025-10-18
+2775,451,Coffee Maker,Home,49.99,1,2026-02-07
+2776,451,Sunglasses,Apparel,24.99,3,2026-01-14
+2777,451,Business Strategy Guide,Books,24.99,1,2025-06-01
+2778,451,USB-C Hub,Electronics,39.99,2,2025-11-06
+2779,451,Desk Lamp,Home,29.99,2,2025-05-27
+2780,452,Sci-Fi Novel: The Stars,Books,14.99,3,2026-04-20
+2781,452,Sunglasses,Apparel,24.99,1,2026-02-14
+2782,452,Sunglasses,Apparel,24.99,3,2026-03-04
+2783,452,Sunglasses,Apparel,24.99,1,2026-06-01
+2784,453,Sport Socks (5 pack),Apparel,14.99,1,2026-04-22
+2785,453,Desk Lamp,Home,29.99,1,2026-03-18
+2786,453,Ergonomic Chair,Home,189.99,2,2025-09-20
+2787,453,Business Strategy Guide,Books,24.99,3,2025-01-31
+2788,454,Ergonomic Chair,Home,189.99,3,2026-01-01
+2789,454,"27"" Monitor",Electronics,249.99,3,2025-08-12
+2790,454,Sunglasses,Apparel,24.99,2,2024-11-07
+2791,454,Mystery Novel: Dark Woods,Books,12.99,3,2024-10-17
+2792,454,Mystery Novel: Dark Woods,Books,12.99,3,2025-02-27
+2793,454,"27"" Monitor",Electronics,249.99,1,2025-02-23
+2794,455,Mechanical Keyboard,Electronics,89.99,3,2026-05-15
+2795,455,Smart Watch,Electronics,149.99,2,2025-10-25
+2796,455,Data Science Handbook,Books,44.99,1,2025-11-03
+2797,455,Ergonomic Chair,Home,189.99,1,2025-09-22
+2798,455,USB-C Hub,Electronics,39.99,3,2026-02-19
+2799,456,Sci-Fi Novel: The Stars,Books,14.99,1,2024-07-10
+2800,457,Python Programming Guide,Books,34.99,3,2026-05-18
+2801,457,Wireless Mouse,Electronics,29.99,2,2026-05-23
+2802,457,USB-C Hub,Electronics,39.99,1,2026-07-14
+2803,457,Denim Jacket,Apparel,55.0,3,2026-05-21
+2804,457,Ergonomic Chair,Home,189.99,1,2026-04-23
+2805,457,Python Programming Guide,Books,34.99,3,2026-05-04
+2806,457,Smart Thermostat,Home,129.99,2,2026-07-07
+2807,457,Smart Thermostat,Home,129.99,2,2026-05-25
+2808,457,Sport Socks (5 pack),Apparel,14.99,1,2026-05-20
+2809,457,Sport Socks (5 pack),Apparel,14.99,1,2026-05-02
+2810,457,Python Programming Guide,Books,34.99,3,2026-04-23
+2811,457,History of the World,Books,18.99,2,2026-05-10
+2812,458,Graphic T-Shirt,Apparel,19.99,1,2026-04-21
+2813,458,"27"" Monitor",Electronics,249.99,1,2026-05-25
+2814,458,Sport Socks (5 pack),Apparel,14.99,2,2026-04-25
+2815,458,USB-C Hub,Electronics,39.99,3,2026-05-11
+2816,458,Running Shoes,Apparel,65.0,2,2026-07-14
+2817,458,Sci-Fi Novel: The Stars,Books,14.99,3,2026-06-30
+2818,458,Leather Backpack,Apparel,79.99,3,2026-06-18
+2819,458,Wireless Mouse,Electronics,29.99,3,2026-06-26
+2820,458,Ergonomic Chair,Home,189.99,3,2026-06-18
+2821,458,Scented Candle,Home,12.5,1,2026-07-12
+2822,459,Sunglasses,Apparel,24.99,1,2026-06-19
+2823,459,Coffee Maker,Home,49.99,3,2026-01-25
+2824,459,Scented Candle,Home,12.5,3,2026-03-01
+2825,459,Sci-Fi Novel: The Stars,Books,14.99,1,2025-12-18
+2826,460,Water Bottle,Home,18.0,3,2025-08-06
+2827,460,Leather Backpack,Apparel,79.99,1,2025-04-28
+2828,460,Mechanical Keyboard,Electronics,89.99,2,2025-08-09
+2829,461,Water Bottle,Home,18.0,3,2024-06-17
+2830,461,Python Programming Guide,Books,34.99,3,2024-06-25
+2831,461,History of the World,Books,18.99,1,2024-04-17
+2832,462,Leather Backpack,Apparel,79.99,3,2026-02-22
+2833,462,Graphic T-Shirt,Apparel,19.99,2,2025-07-16
+2834,462,Running Shoes,Apparel,65.0,3,2025-10-03
+2835,462,Scented Candle,Home,12.5,3,2026-03-02
+2836,462,Mystery Novel: Dark Woods,Books,12.99,3,2025-10-30
+2837,462,Mystery Novel: Dark Woods,Books,12.99,2,2025-11-01
+2838,462,Sci-Fi Novel: The Stars,Books,14.99,3,2026-04-24
+2839,463,Smart Watch,Electronics,149.99,2,2026-07-13
+2840,463,"27"" Monitor",Electronics,249.99,3,2026-06-20
+2841,463,Python Programming Guide,Books,34.99,2,2026-06-30
+2842,464,Desk Lamp,Home,29.99,2,2026-01-31
+2843,464,Scented Candle,Home,12.5,1,2026-01-22
+2844,464,History of the World,Books,18.99,2,2026-07-04
+2845,464,Python Programming Guide,Books,34.99,1,2026-02-08
+2846,464,Graphic T-Shirt,Apparel,19.99,1,2026-01-07
+2847,464,Data Science Handbook,Books,44.99,3,2026-04-26
+2848,465,Water Bottle,Home,18.0,3,2024-10-27
+2849,465,Business Strategy Guide,Books,24.99,1,2024-07-17
+2850,465,Running Shoes,Apparel,65.0,2,2024-06-13
+2851,465,Mechanical Keyboard,Electronics,89.99,2,2025-09-23
+2852,465,Graphic T-Shirt,Apparel,19.99,3,2024-11-20
+2853,465,Desk Lamp,Home,29.99,2,2026-04-15
+2854,466,Mystery Novel: Dark Woods,Books,12.99,2,2026-05-21
+2855,466,"27"" Monitor",Electronics,249.99,3,2026-03-21
+2856,466,Desk Lamp,Home,29.99,2,2026-03-26
+2857,466,Running Shoes,Apparel,65.0,3,2026-06-18
+2858,466,Scented Candle,Home,12.5,2,2026-06-15
+2859,466,Scented Candle,Home,12.5,2,2026-06-11
+2860,466,Desk Lamp,Home,29.99,2,2026-05-02
+2861,466,Python Programming Guide,Books,34.99,2,2026-06-26
+2862,467,"27"" Monitor",Electronics,249.99,3,2025-05-20
+2863,467,"27"" Monitor",Electronics,249.99,3,2025-11-04
+2864,467,Wireless Mouse,Electronics,29.99,2,2024-10-27
+2865,467,Scented Candle,Home,12.5,3,2025-06-26
+2866,467,Scented Candle,Home,12.5,2,2025-07-17
+2867,467,Coffee Maker,Home,49.99,3,2025-06-23
+2868,467,Water Bottle,Home,18.0,3,2024-09-07
+2869,467,"27"" Monitor",Electronics,249.99,1,2026-06-09
+2870,467,Smart Watch,Electronics,149.99,3,2025-01-04
+2871,467,Wireless Mouse,Electronics,29.99,2,2025-05-06
+2872,467,History of the World,Books,18.99,2,2026-02-16
+2873,467,Leather Backpack,Apparel,79.99,2,2025-02-14
+2874,467,Wireless Mouse,Electronics,29.99,2,2025-10-31
+2875,467,"27"" Monitor",Electronics,249.99,2,2025-10-02
+2876,468,Sunglasses,Apparel,24.99,3,2026-05-08
+2877,468,Water Bottle,Home,18.0,3,2025-09-02
+2878,468,Graphic T-Shirt,Apparel,19.99,2,2026-04-06
+2879,468,Denim Jacket,Apparel,55.0,2,2026-01-02
+2880,468,"27"" Monitor",Electronics,249.99,2,2026-07-14
+2881,468,Smart Thermostat,Home,129.99,2,2025-05-18
+2882,468,Mystery Novel: Dark Woods,Books,12.99,2,2025-11-15
+2883,468,Leather Backpack,Apparel,79.99,2,2026-06-09
+2884,468,Smart Watch,Electronics,149.99,2,2025-07-22
+2885,468,Wireless Mouse,Electronics,29.99,2,2026-03-26
+2886,468,Wireless Mouse,Electronics,29.99,1,2025-05-18
+2887,468,Graphic T-Shirt,Apparel,19.99,2,2025-09-14
+2888,468,Data Science Handbook,Books,44.99,2,2026-02-24
+2889,468,Coffee Maker,Home,49.99,3,2025-11-05
+2890,468,Sunglasses,Apparel,24.99,1,2026-04-13
+2891,468,Python Programming Guide,Books,34.99,3,2026-05-11
+2892,468,Denim Jacket,Apparel,55.0,1,2026-03-29
+2893,468,Smart Watch,Electronics,149.99,1,2025-08-13
+2894,468,Leather Backpack,Apparel,79.99,1,2026-02-18
+2895,468,Coffee Maker,Home,49.99,2,2025-06-14
+2896,469,Sport Socks (5 pack),Apparel,14.99,3,2026-02-16
+2897,469,Sport Socks (5 pack),Apparel,14.99,1,2026-04-23
+2898,469,Coffee Maker,Home,49.99,2,2026-01-07
+2899,470,Mystery Novel: Dark Woods,Books,12.99,2,2026-04-24
+2900,470,Business Strategy Guide,Books,24.99,3,2026-05-23
+2901,471,Sunglasses,Apparel,24.99,3,2024-09-07
+2902,471,Smart Watch,Electronics,149.99,1,2024-08-23
+2903,471,Coffee Maker,Home,49.99,3,2024-07-20
+2904,472,History of the World,Books,18.99,1,2025-03-30
+2905,472,Business Strategy Guide,Books,24.99,2,2025-02-05
+2906,472,Mechanical Keyboard,Electronics,89.99,2,2024-01-19
+2907,472,Data Science Handbook,Books,44.99,3,2024-03-04
+2908,472,Sport Socks (5 pack),Apparel,14.99,2,2026-04-30
+2909,472,Wireless Mouse,Electronics,29.99,1,2025-03-17
+2910,472,"27"" Monitor",Electronics,249.99,2,2026-01-02
+2911,472,Sport Socks (5 pack),Apparel,14.99,3,2026-02-22
+2912,472,Water Bottle,Home,18.0,2,2024-12-22
+2913,472,Desk Lamp,Home,29.99,3,2025-06-26
+2914,472,USB-C Hub,Electronics,39.99,1,2024-03-20
+2915,472,Ergonomic Chair,Home,189.99,2,2024-07-05
+2916,472,Smart Watch,Electronics,149.99,3,2024-04-12
+2917,472,History of the World,Books,18.99,2,2025-08-19
+2918,472,Smart Thermostat,Home,129.99,2,2026-02-25
+2919,473,Mechanical Keyboard,Electronics,89.99,2,2026-02-19
+2920,473,Business Strategy Guide,Books,24.99,2,2026-06-20
+2921,473,Sci-Fi Novel: The Stars,Books,14.99,1,2026-02-21
+2922,474,Mystery Novel: Dark Woods,Books,12.99,2,2026-06-15
+2923,474,Mystery Novel: Dark Woods,Books,12.99,3,2025-12-15
+2924,474,Ergonomic Chair,Home,189.99,2,2026-06-08
+2925,474,Graphic T-Shirt,Apparel,19.99,1,2025-11-19
+2926,474,Ergonomic Chair,Home,189.99,2,2026-06-06
+2927,474,Denim Jacket,Apparel,55.0,2,2025-09-13
+2928,474,"27"" Monitor",Electronics,249.99,3,2026-06-05
+2929,474,Python Programming Guide,Books,34.99,3,2025-11-08
+2930,474,History of the World,Books,18.99,2,2024-11-25
+2931,474,Running Shoes,Apparel,65.0,2,2024-05-19
+2932,474,USB-C Hub,Electronics,39.99,3,2024-10-16
+2933,474,Sci-Fi Novel: The Stars,Books,14.99,3,2026-02-09
+2934,474,Python Programming Guide,Books,34.99,3,2025-09-15
+2935,474,"27"" Monitor",Electronics,249.99,2,2025-09-18
+2936,474,Python Programming Guide,Books,34.99,3,2025-04-21
+2937,474,Coffee Maker,Home,49.99,3,2024-09-14
+2938,474,Sunglasses,Apparel,24.99,1,2026-04-04
+2939,474,Desk Lamp,Home,29.99,1,2025-07-05
+2940,475,Mechanical Keyboard,Electronics,89.99,1,2026-03-21
+2941,475,Business Strategy Guide,Books,24.99,3,2026-06-11
+2942,476,Business Strategy Guide,Books,24.99,3,2025-12-02
+2943,476,Smart Watch,Electronics,149.99,2,2025-11-11
+2944,476,Coffee Maker,Home,49.99,2,2026-02-03
+2945,476,Sci-Fi Novel: The Stars,Books,14.99,2,2026-05-22
+2946,476,Mystery Novel: Dark Woods,Books,12.99,2,2026-05-18
+2947,476,Sport Socks (5 pack),Apparel,14.99,2,2026-03-12
+2948,476,Leather Backpack,Apparel,79.99,3,2025-11-18
+2949,476,Noise Cancelling Headphones,Electronics,199.99,1,2025-09-23
+2950,476,Ergonomic Chair,Home,189.99,2,2026-05-24
+2951,476,Data Science Handbook,Books,44.99,3,2026-05-14
+2952,476,"27"" Monitor",Electronics,249.99,2,2025-10-21
+2953,476,Sunglasses,Apparel,24.99,1,2026-07-02
+2954,476,Sunglasses,Apparel,24.99,3,2026-04-04
+2955,476,Desk Lamp,Home,29.99,3,2026-01-12
+2956,476,Graphic T-Shirt,Apparel,19.99,1,2025-12-23
+2957,476,USB-C Hub,Electronics,39.99,1,2025-12-12
+2958,476,Sunglasses,Apparel,24.99,2,2026-02-27
+2959,477,Data Science Handbook,Books,44.99,1,2025-03-28
+2960,477,History of the World,Books,18.99,2,2026-07-14
+2961,477,Mechanical Keyboard,Electronics,89.99,2,2024-09-19
+2962,477,Mechanical Keyboard,Electronics,89.99,1,2024-11-01
+2963,477,Sport Socks (5 pack),Apparel,14.99,1,2025-07-22
+2964,477,Business Strategy Guide,Books,24.99,2,2025-06-09
+2965,477,Denim Jacket,Apparel,55.0,2,2025-08-13
+2966,477,Mystery Novel: Dark Woods,Books,12.99,3,2025-09-01
+2967,478,Graphic T-Shirt,Apparel,19.99,1,2025-09-13
+2968,478,Smart Watch,Electronics,149.99,3,2025-11-19
+2969,479,Business Strategy Guide,Books,24.99,2,2026-06-19
+2970,479,Leather Backpack,Apparel,79.99,2,2026-06-28
+2971,480,Running Shoes,Apparel,65.0,2,2024-07-07
+2972,480,Scented Candle,Home,12.5,2,2024-08-07
+2973,481,Data Science Handbook,Books,44.99,1,2026-03-19
+2974,481,Mechanical Keyboard,Electronics,89.99,2,2025-11-24
+2975,482,Noise Cancelling Headphones,Electronics,199.99,2,2025-10-24
+2976,482,USB-C Hub,Electronics,39.99,1,2025-06-28
+2977,483,Business Strategy Guide,Books,24.99,1,2023-12-09
+2978,483,Scented Candle,Home,12.5,1,2024-12-17
+2979,483,USB-C Hub,Electronics,39.99,1,2024-03-13
+2980,483,Mystery Novel: Dark Woods,Books,12.99,3,2024-04-04
+2981,483,"27"" Monitor",Electronics,249.99,1,2026-05-22
+2982,483,Leather Backpack,Apparel,79.99,2,2024-04-30
+2983,483,Water Bottle,Home,18.0,1,2024-03-12
+2984,484,Sunglasses,Apparel,24.99,3,2025-09-10
+2985,484,Ergonomic Chair,Home,189.99,3,2026-02-23
+2986,484,Denim Jacket,Apparel,55.0,1,2026-03-07
+2987,485,Smart Thermostat,Home,129.99,3,2026-05-23
+2988,485,Wireless Mouse,Electronics,29.99,3,2024-03-29
+2989,485,Smart Watch,Electronics,149.99,1,2024-10-02
+2990,485,Python Programming Guide,Books,34.99,1,2025-09-23
+2991,485,Python Programming Guide,Books,34.99,3,2025-08-01
+2992,485,Python Programming Guide,Books,34.99,1,2026-05-01
+2993,485,History of the World,Books,18.99,1,2025-07-01
+2994,485,Sport Socks (5 pack),Apparel,14.99,1,2026-01-23
+2995,486,Noise Cancelling Headphones,Electronics,199.99,3,2026-01-06
+2996,486,Sunglasses,Apparel,24.99,1,2025-07-03
+2997,486,Business Strategy Guide,Books,24.99,1,2025-10-25
+2998,486,Coffee Maker,Home,49.99,2,2025-10-07
+2999,486,Denim Jacket,Apparel,55.0,3,2025-07-30
+3000,486,History of the World,Books,18.99,1,2026-04-15
+3001,486,Running Shoes,Apparel,65.0,3,2025-06-03
+3002,486,Sunglasses,Apparel,24.99,2,2025-07-03
+3003,486,Ergonomic Chair,Home,189.99,1,2026-06-05
+3004,486,Smart Thermostat,Home,129.99,1,2025-09-18
+3005,486,Denim Jacket,Apparel,55.0,1,2025-11-25
+3006,487,Wireless Mouse,Electronics,29.99,2,2025-04-22
+3007,487,Denim Jacket,Apparel,55.0,2,2025-03-23
+3008,487,Noise Cancelling Headphones,Electronics,199.99,1,2025-04-08
+3009,487,Ergonomic Chair,Home,189.99,1,2025-07-08
+3010,488,Scented Candle,Home,12.5,3,2026-03-01
+3011,488,Sport Socks (5 pack),Apparel,14.99,3,2026-02-19
+3012,488,Sci-Fi Novel: The Stars,Books,14.99,3,2025-08-10
+3013,488,Sunglasses,Apparel,24.99,2,2025-11-13
+3014,488,Noise Cancelling Headphones,Electronics,199.99,3,2024-12-15
+3015,488,Water Bottle,Home,18.0,1,2025-05-13
+3016,488,Smart Thermostat,Home,129.99,2,2025-07-14
+3017,488,Smart Watch,Electronics,149.99,2,2024-07-10
+3018,488,Water Bottle,Home,18.0,3,2024-07-19
+3019,488,Desk Lamp,Home,29.99,3,2025-05-18
+3020,488,Mechanical Keyboard,Electronics,89.99,3,2026-04-01
+3021,488,Noise Cancelling Headphones,Electronics,199.99,3,2025-02-15
+3022,488,Water Bottle,Home,18.0,1,2025-03-15
+3023,488,Sport Socks (5 pack),Apparel,14.99,2,2025-07-07
+3024,488,Graphic T-Shirt,Apparel,19.99,1,2024-10-16
+3025,488,"27"" Monitor",Electronics,249.99,1,2024-11-09
+3026,488,Sunglasses,Apparel,24.99,3,2025-12-19
+3027,488,Sport Socks (5 pack),Apparel,14.99,1,2025-10-09
+3028,488,Scented Candle,Home,12.5,3,2024-08-19
+3029,488,USB-C Hub,Electronics,39.99,3,2025-06-03
+3030,489,Sunglasses,Apparel,24.99,1,2025-10-20
+3031,490,Mechanical Keyboard,Electronics,89.99,1,2025-08-16
+3032,490,Graphic T-Shirt,Apparel,19.99,1,2026-07-08
+3033,490,Desk Lamp,Home,29.99,1,2026-04-23
+3034,491,Leather Backpack,Apparel,79.99,2,2024-08-05
+3035,491,Ergonomic Chair,Home,189.99,3,2025-06-15
+3036,491,Water Bottle,Home,18.0,2,2024-03-13
+3037,491,Ergonomic Chair,Home,189.99,3,2025-05-29
+3038,491,Python Programming Guide,Books,34.99,1,2025-03-23
+3039,492,Ergonomic Chair,Home,189.99,2,2024-10-16
+3040,492,Sunglasses,Apparel,24.99,1,2024-08-03
+3041,492,Sci-Fi Novel: The Stars,Books,14.99,3,2024-07-27
+3042,493,Water Bottle,Home,18.0,1,2026-02-28
+3043,493,Smart Thermostat,Home,129.99,2,2025-04-20
+3044,493,Wireless Mouse,Electronics,29.99,3,2025-02-05
+3045,493,Sport Socks (5 pack),Apparel,14.99,3,2026-05-24
+3046,494,Mystery Novel: Dark Woods,Books,12.99,2,2026-02-19
+3047,494,Mystery Novel: Dark Woods,Books,12.99,2,2026-05-31
+3048,494,Graphic T-Shirt,Apparel,19.99,3,2025-06-17
+3049,494,Sport Socks (5 pack),Apparel,14.99,3,2025-05-13
+3050,494,Leather Backpack,Apparel,79.99,3,2026-04-08
+3051,495,Leather Backpack,Apparel,79.99,2,2024-06-08
+3052,495,Denim Jacket,Apparel,55.0,2,2026-05-09
+3053,495,Python Programming Guide,Books,34.99,1,2025-11-02
+3054,495,Mechanical Keyboard,Electronics,89.99,3,2024-08-02
+3055,496,Sport Socks (5 pack),Apparel,14.99,1,2026-07-12
+3056,496,Denim Jacket,Apparel,55.0,2,2026-07-15
+3057,496,Sci-Fi Novel: The Stars,Books,14.99,2,2026-01-14
+3058,496,Python Programming Guide,Books,34.99,1,2025-09-13
+3059,496,Graphic T-Shirt,Apparel,19.99,2,2025-10-02
+3060,496,"27"" Monitor",Electronics,249.99,3,2026-04-03
+3061,496,Water Bottle,Home,18.0,1,2025-11-27
+3062,496,Smart Thermostat,Home,129.99,1,2026-05-11
+3063,496,Scented Candle,Home,12.5,2,2025-09-18
+3064,496,Sunglasses,Apparel,24.99,2,2025-10-20
+3065,496,History of the World,Books,18.99,2,2026-01-31
+3066,496,USB-C Hub,Electronics,39.99,2,2026-02-10
+3067,496,Sunglasses,Apparel,24.99,3,2026-04-30
+3068,496,Business Strategy Guide,Books,24.99,3,2025-09-07
+3069,497,History of the World,Books,18.99,2,2026-01-04
+3070,497,Graphic T-Shirt,Apparel,19.99,3,2026-02-12
+3071,497,Running Shoes,Apparel,65.0,3,2026-02-19
+3072,497,Coffee Maker,Home,49.99,2,2025-11-01
+3073,497,"27"" Monitor",Electronics,249.99,3,2026-03-28
+3074,497,Denim Jacket,Apparel,55.0,2,2026-03-02
+3075,498,Mechanical Keyboard,Electronics,89.99,2,2026-06-07
+3076,498,Running Shoes,Apparel,65.0,3,2026-06-12
+3077,499,Noise Cancelling Headphones,Electronics,199.99,2,2024-12-07
+3078,499,Smart Thermostat,Home,129.99,2,2024-12-07
+3079,499,Mystery Novel: Dark Woods,Books,12.99,2,2025-10-04
+3080,500,Desk Lamp,Home,29.99,2,2025-02-13
+3081,500,History of the World,Books,18.99,1,2024-05-28
+3082,500,Sport Socks (5 pack),Apparel,14.99,3,2024-06-11
+3083,500,Coffee Maker,Home,49.99,3,2025-10-31
+3084,500,Sci-Fi Novel: The Stars,Books,14.99,2,2026-03-27
+3085,500,Coffee Maker,Home,49.99,3,2024-01-04
+3086,500,Scented Candle,Home,12.5,3,2026-05-10

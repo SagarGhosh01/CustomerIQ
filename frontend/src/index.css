@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+}
+
+/* Custom visual utilities */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-hover {
+  @apply transition-all duration-300 hover:border-brand-500/30 hover:shadow-lg hover:shadow-brand-500/5;
+}
+
+.card-gradient-blue {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(14, 141, 233, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
+}
+
+.card-gradient-purple {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(139, 92, 246, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
+}
+
+.card-gradient-emerald {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(16, 185, 129, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
+}
+
+.card-gradient-rose {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(244, 63, 94, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
+}
+
+/* Chrome / Edge / Safari Autofill Override for Dark Mode */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #f1f5f9 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #0f172a inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}

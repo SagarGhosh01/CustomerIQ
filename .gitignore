@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# Python virtual environment and cache
+venv/
+.venv/
+env/
+__pycache__/
+backend/__pycache__/
+*.pyc
+.pytest_cache/
+backend/.env
+
+# Local SQLite databases (prevent committing seeded demo state)
+database/*.db
+database/customer.db
+
+# Model binaries (regenerated on build/train)
+ml/*.joblib
+ml/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
