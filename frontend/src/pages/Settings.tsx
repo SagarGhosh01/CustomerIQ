@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
+import { API_BASE_URL } from '../config';
 import { Shield, Settings as SettingsIcon, Database, RefreshCw, Cpu, Server, Lock } from 'lucide-react';
 
 export const Settings: React.FC = () => {
@@ -14,7 +15,7 @@ export const Settings: React.FC = () => {
     setSuccessMsg(null);
     try {
       // 1. Re-generate data and re-train models on backend
-      const response = await fetch('http://localhost:8000/api/analytics/train', {
+      const response = await fetch(`${API_BASE_URL}/api/analytics/train`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` }
       });
@@ -123,7 +124,7 @@ export const Settings: React.FC = () => {
                 <span className="text-slate-500">FastAPI backend gateway</span>
                 <span className="text-emerald-400 font-semibold flex items-center gap-1.5">
                   <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                  http://localhost:8000
+                  {API_BASE_URL}
                 </span>
               </div>
               <div className="flex justify-between items-center py-1.5 border-b border-slate-850/50">

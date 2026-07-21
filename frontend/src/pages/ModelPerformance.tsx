@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
+import { API_BASE_URL } from '../config';
 import { Shield, BrainCircuit, Activity, HelpCircle, AlertCircle, BarChart3 } from 'lucide-react';
 
 interface ModelMetric {
@@ -31,7 +32,7 @@ export const ModelPerformance: React.FC = () => {
   useEffect(() => {
     const fetchPerformance = async () => {
       try {
-        const response = await fetch('http://localhost:8000/api/analytics/performance', {
+        const response = await fetch(`${API_BASE_URL}/api/analytics/performance`, {
           headers: { Authorization: `Bearer ${token}` }
         });
         if (response.ok) {

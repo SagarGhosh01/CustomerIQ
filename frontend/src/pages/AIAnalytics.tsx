@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
+import { API_BASE_URL } from '../config';
 import { 
   Sparkles, Sliders, Play, TrendingUp, RefreshCw, 
   HelpCircle, ArrowRight, ShieldCheck, AlertCircle, CheckCircle2, 
@@ -39,7 +40,7 @@ export const AIAnalytics: React.FC = () => {
   const fetchInsights = async () => {
     setInsightsLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/analytics/insights', {
+      const response = await fetch(`${API_BASE_URL}/api/analytics/insights`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (response.ok) {
@@ -62,7 +63,7 @@ export const AIAnalytics: React.FC = () => {
   const handleSimulate = async () => {
     setSimLoading(true);
     try {
-      const url = `http://localhost:8000/api/analytics/simulate?age=${simAge}&recency=${simRecency}&frequency=${simFrequency}&monetary=${simMonetary}&avg_rating=${simRating}`;
+      const url = `${API_BASE_URL}/api/analytics/simulate?age=${simAge}&recency=${simRecency}&frequency=${simFrequency}&monetary=${simMonetary}&avg_rating=${simRating}`;
       const response = await fetch(url, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` }
@@ -83,7 +84,7 @@ export const AIAnalytics: React.FC = () => {
     if (!window.confirm("Do you want to re-execute model training on the backend? This runs in the background.")) return;
     setTraining(true);
     try {
-      const response = await fetch('http://localhost:8000/api/analytics/train', {
+      const response = await fetch(`${API_BASE_URL}/api/analytics/train`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` }
       });

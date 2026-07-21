@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
+import { API_BASE_URL } from '../config';
 import { 
   Users, DollarSign, ShoppingBag, Star, 
   ArrowUpRight, ShieldCheck, UserCheck, AlertTriangle, TrendingUp 
@@ -39,7 +40,7 @@ export const Dashboard: React.FC = () => {
   useEffect(() => {
     const fetchDashboard = async () => {
       try {
-        const response = await fetch('http://localhost:8000/api/analytics/dashboard', {
+        const response = await fetch(`${API_BASE_URL}/api/analytics/dashboard`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

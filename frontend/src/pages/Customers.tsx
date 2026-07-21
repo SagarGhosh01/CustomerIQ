@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context/AuthContext';
+import { API_BASE_URL } from '../config';
 import { 
   Search, SlidersHorizontal, ChevronLeft, ChevronRight, X, 
   Plus, Edit, Trash, Upload, Loader2, Sparkles, User, Calendar, 
@@ -97,7 +98,7 @@ export const Customers: React.FC = () => {
     setLoading(true);
     setError(null);
     try {
-      let url = `http://localhost:8000/api/customers/?skip=${skip}&limit=${limit}&sort_by=${sortBy}&sort_order=${sortOrder}`;
+      let url = `${API_BASE_URL}/api/customers/?skip=${skip}&limit=${limit}&sort_by=${sortBy}&sort_order=${sortOrder}`;
       if (search) url += `&search=${encodeURIComponent(search)}`;
       if (segment) url += `&segment=${encodeURIComponent(segment)}`;
       if (churnRisk) url += `&churn_risk=${encodeURIComponent(churnRisk)}`;
@@ -123,7 +124,7 @@ export const Customers: React.FC = () => {
   const fetchCustomerDetails = async (id: number) => {
     setDetailsLoading(true);
     try {
-      const response = await fetch(`http://localhost:8000/api/customers/${id}`, {
+      const response = await fetch(`${API_BASE_URL}/api/customers/${id}`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (response.ok) {
@@ -131,7 +132,7 @@ export const Customers: React.FC = () => {
         setDetails(data);
         
         // Fetch recommendations & simulation outputs
-        const recResponse = await fetch(`http://localhost:8000/api/analytics/simulate?age=${data.age}&recency=${data.churn_risk === 'High' ? 200 : 30}&frequency=${data.orders.length}&monetary=${data.orders.reduce((acc: number, o: any) => acc + (o.price * o.quantity), 0)}&avg_rating=${data.avg_sentiment >= 0.5 ? 4.5 : 3.0}`, {
+        const recResponse = await fetch(`${API_BASE_URL}/api/analytics/simulate?age=${data.age}&recency=${data.churn_risk === 'High' ? 200 : 30}&frequency=${data.orders.length}&monetary=${data.orders.reduce((acc: number, o: any) => acc + (o.price * o.quantity), 0)}&avg_rating=${data.avg_sentiment >= 0.5 ? 4.5 : 3.0}`, {
           headers: { Authorization: `Bearer ${token}` }
         });
         if (recResponse.ok) {
@@ -174,7 +175,7 @@ export const Customers: React.FC = () => {
     formData.append('file', file);
     
     try {
-      const response = await fetch('http://localhost:8000/api/customers/upload', {
+      const response = await fetch(`${API_BASE_URL}/api/customers/upload`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` },
         body: formData
@@ -199,7 +200,7 @@ export const Customers: React.FC = () => {
     e.preventDefault();
     setFormError(null);
     try {
-      const response = await fetch('http://localhost:8000/api/customers/', {
+      const response = await fetch(`${API_BASE_URL}/api/customers/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -248,7 +249,7 @@ export const Customers: React.FC = () => {
     if (!editCustomer) return;
     setFormError(null);
     try {
-      const response = await fetch(`http://localhost:8000/api/customers/${editCustomer.id}`, {
+      const response = await fetch(`${API_BASE_URL}/api/customers/${editCustomer.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -279,7 +280,7 @@ export const Customers: React.FC = () => {
   const handleDeleteCustomer = async (id: number) => {
     if (!window.confirm('Are you sure you want to delete this customer? This will permanently remove all order and review history.')) return;
     try {
-      const response = await fetch(`http://localhost:8000/api/customers/${id}`, {
+      const response = await fetch(`${API_BASE_URL}/api/customers/${id}`, {
         method: 'DELETE',
         headers: { Authorization: `Bearer ${token}` }
       });
