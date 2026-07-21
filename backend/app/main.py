@@ -34,6 +34,23 @@ def seed_default_users():
             db.add(employee_user)
             print("Seeded employee account (employee@customeriq.com / employee123)")
             
+        # Check if customers exist
+        customer_count = db.query(models.Customer).count()
+        if customer_count == 0:
+            print("No customers found in database. Running ML training pipeline to seed 500 records...")
+            import subprocess
+            import os
+            try:
+                base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+                train_script = os.path.join(base_dir, "ml", "train_model.py")
+                if os.path.exists(train_script):
+                    subprocess.run(["python", train_script], check=True)
+                    print("ML training pipeline and database seeding completed successfully!")
+                else:
+                    print(f"Seeding script not found at {train_script}")
+            except Exception as e:
+                print(f"Error executing seeder: {e}")
+
         db.commit()
     except Exception as e:
         print(f"Error seeding default users: {e}")
