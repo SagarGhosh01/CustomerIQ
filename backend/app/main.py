@@ -40,16 +40,19 @@ def seed_default_users():
             print("No customers found in database. Running ML training pipeline to seed 500 records...")
             import subprocess
             import os
+            import sys
+            import traceback
             try:
                 base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
                 train_script = os.path.join(base_dir, "ml", "train_model.py")
                 if os.path.exists(train_script):
-                    subprocess.run(["python", train_script], check=True)
+                    subprocess.run([sys.executable, train_script], check=True)
                     print("ML training pipeline and database seeding completed successfully!")
                 else:
                     print(f"Seeding script not found at {train_script}")
             except Exception as e:
                 print(f"Error executing seeder: {e}")
+                traceback.print_exc()
 
         db.commit()
     except Exception as e:
