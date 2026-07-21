@@ -49,9 +49,16 @@ app = FastAPI(
 )
 
 # CORS configurations
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://customer-iq-two.vercel.app"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, lock this down. For local college demo, allow all.
+    allow_origins=origins,
+    allow_origin_regex="https://.*\\.vercel\\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
