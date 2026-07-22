@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white;
+    @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white transition-colors duration-300;
   }
 }
 
@@ -17,15 +17,23 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-slate-900;
+  @apply bg-slate-100 dark:bg-slate-900 transition-colors duration-300;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+  @apply bg-slate-300 dark:bg-slate-800 rounded-full hover:bg-slate-400 dark:hover:bg-slate-700 transition-colors duration-300;
 }
 
 /* Custom visual utilities */
 .glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  @apply transition-all duration-300;
+}
+
+.dark .glass-panel {
   background: rgba(15, 23, 42, 0.65);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -33,35 +41,96 @@
 }
 
 .glass-panel-hover {
-  @apply transition-all duration-300 hover:border-brand-500/30 hover:shadow-lg hover:shadow-brand-500/5;
+  @apply transition-all duration-300 hover:border-brand-500/30 hover:shadow-lg hover:shadow-brand-500/5 hover:-translate-y-0.5;
 }
 
 .card-gradient-blue {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(14, 141, 233, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.dark .card-gradient-blue {
   background: radial-gradient(100% 100% at 0% 0%, rgba(14, 141, 233, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
 }
 
 .card-gradient-purple {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(139, 92, 246, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.dark .card-gradient-purple {
   background: radial-gradient(100% 100% at 0% 0%, rgba(139, 92, 246, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
 }
 
 .card-gradient-emerald {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(16, 185, 129, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.dark .card-gradient-emerald {
   background: radial-gradient(100% 100% at 0% 0%, rgba(16, 185, 129, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
 }
 
 .card-gradient-rose {
+  background: radial-gradient(100% 100% at 0% 0%, rgba(244, 63, 94, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.dark .card-gradient-rose {
   background: radial-gradient(100% 100% at 0% 0%, rgba(244, 63, 94, 0.1) 0%, rgba(15, 23, 42, 0) 100%);
 }
 
-/* Chrome / Edge / Safari Autofill Override for Dark Mode */
+/* Animations system */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Delay modifiers for staggered load-ins */
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+
+/* Chrome / Edge / Safari Autofill Override */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #0f172a !important;
+  -webkit-box-shadow: 0 0 0px 1000px #f8fafc inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover, 
+.dark input:-webkit-autofill:focus {
   -webkit-text-fill-color: #f1f5f9 !important;
   -webkit-box-shadow: 0 0 0px 1000px #0f172a inset !important;
   transition: background-color 5000s ease-in-out 0s;
