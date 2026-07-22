@@ -599,165 +599,269 @@ export const Customers: React.FC = () => {
           </div>
         </div>
 
-        {/* Side Details Panel */}
+        {/* Customer 360° Profile Modal */}
         {selectedCustomerId !== null && (
-          <div className="glass-panel border border-slate-200 dark:border-slate-800 rounded-xl p-5 shadow-xl relative overflow-y-auto max-h-[75vh] animate-slide-in">
-            <button 
-              onClick={() => setSelectedCustomerId(null)}
-              className="absolute right-4 top-4 text-slate-400 hover:text-slate-700 dark:text-slate-500 dark:hover:text-slate-300"
-            >
-              <X size={18} />
-            </button>
+          <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in">
+            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden shadow-2xl relative flex flex-col animate-slide-up">
+              <button 
+                onClick={() => setSelectedCustomerId(null)}
+                className="absolute right-6 top-6 text-slate-400 hover:text-slate-700 dark:text-slate-500 dark:hover:text-slate-300 z-10"
+              >
+                <X size={20} />
+              </button>
 
-            {detailsLoading || !details ? (
-              <div className="flex flex-col items-center justify-center h-48 space-y-3">
-                <Loader2 className="animate-spin text-brand-500" size={24} />
-                <span className="text-xs text-slate-500">Calculating AI Insights...</span>
-              </div>
-            ) : (
-              <div className="space-y-6">
-                {/* Header */}
-                <div className="flex items-center gap-3 pb-4 border-b border-slate-200 dark:border-slate-800 transition-colors">
-                  <div className="w-12 h-12 rounded-full bg-brand-500/10 border border-brand-500/30 flex items-center justify-center font-bold text-lg text-brand-600 dark:text-brand-400">
-                    {details.name.charAt(0)}
-                  </div>
-                  <div>
-                    <h2 className="text-lg font-bold text-slate-900 dark:text-white leading-snug transition-colors">{details.name}</h2>
-                    <span className="text-xs text-slate-500 dark:text-slate-400">Customer ID: #{details.id}</span>
-                  </div>
+              {detailsLoading || !details ? (
+                <div className="flex flex-col items-center justify-center h-96 space-y-3">
+                  <Loader2 className="animate-spin text-brand-500" size={32} />
+                  <span className="text-sm font-semibold text-slate-500">Compiling Customer 360° Data...</span>
                 </div>
-
-                {/* Demographics Card */}
-                <div className="grid grid-cols-2 gap-4 text-xs">
-                  <div className="flex items-center gap-2 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 px-3 py-2 rounded-lg transition-colors">
-                    <Mail size={14} className="text-slate-450 dark:text-slate-500" />
-                    <div className="flex flex-col truncate">
-                      <span className="text-[10px] text-slate-500">Email</span>
-                      <span className="text-slate-750 dark:text-slate-300 font-semibold truncate">{details.email}</span>
+              ) : (
+                <div className="flex-1 overflow-y-auto p-8 space-y-6">
+                  {/* Modal Header */}
+                  <div className="flex items-center gap-4 pb-6 border-b border-slate-200 dark:border-slate-800 transition-colors">
+                    <div className="w-14 h-14 rounded-full bg-brand-500/10 border border-brand-500/30 flex items-center justify-center font-extrabold text-xl text-brand-600 dark:text-brand-400">
+                      {details.name.charAt(0)}
                     </div>
-                  </div>
-                  <div className="flex items-center gap-2 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 px-3 py-2 rounded-lg transition-colors">
-                    <MapPin size={14} className="text-slate-450 dark:text-slate-500" />
-                    <div className="flex flex-col">
-                      <span className="text-[10px] text-slate-500">Location</span>
-                      <span className="text-slate-750 dark:text-slate-300 font-semibold">{details.city}</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 px-3 py-2 rounded-lg transition-colors">
-                    <User size={14} className="text-slate-450 dark:text-slate-500" />
-                    <div className="flex flex-col">
-                      <span className="text-[10px] text-slate-500">Age / Gender</span>
-                      <span className="text-slate-750 dark:text-slate-300 font-semibold">{details.age}y / {details.gender}</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 px-3 py-2 rounded-lg transition-colors">
-                    <Calendar size={14} className="text-slate-450 dark:text-slate-500" />
-                    <div className="flex flex-col">
-                      <span className="text-[10px] text-slate-500">Member Since</span>
-                      <span className="text-slate-755 dark:text-slate-300 font-semibold">{details.join_date}</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* AI Predictions */}
-                <div className="bg-slate-50/60 dark:bg-slate-900/35 border border-slate-200 dark:border-slate-800 rounded-xl p-4 space-y-4 transition-colors">
-                  <div className="flex items-center gap-1.5 text-xs text-brand-600 dark:text-brand-400 font-bold uppercase tracking-wider">
-                    <Sparkles size={14} />
-                    AI Intelligence Insights
-                  </div>
-                  
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex flex-col">
-                      <span className="text-[10px] text-slate-500 font-semibold uppercase">Lifetime Value (CLV)</span>
-                      <span className="text-xl font-extrabold text-slate-900 dark:text-white mt-0.5">${details.predicted_clv.toFixed(2)}</span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="text-[10px] text-slate-500 font-semibold uppercase">Churn Risk Badge</span>
-                      <span className="mt-1"><span className={`px-2.5 py-0.5 rounded-full text-[9px] font-bold border transition-colors ${CHURN_COLORS[details.churn_risk as keyof typeof CHURN_COLORS] || ''}`}>{details.churn_risk} Risk</span></span>
-                    </div>
-                  </div>
-
-                  {/* Recommendations */}
-                  <div className="border-t border-slate-200 dark:border-slate-800 pt-3 transition-colors">
-                    <span className="text-[10px] text-slate-500 font-semibold uppercase block mb-2">Recommended Next Products</span>
-                    <div className="flex flex-wrap gap-2">
-                      {recommendations.map((prod, idx) => (
-                        <span key={idx} className="bg-brand-500/10 border border-brand-500/20 text-brand-600 dark:text-brand-400 text-xs px-2.5 py-1 rounded-md font-semibold transition-colors">
-                          {prod}
+                    <div>
+                      <div className="flex items-center gap-3">
+                        <h2 className="text-xl font-extrabold text-slate-900 dark:text-white leading-snug transition-colors">{details.name}</h2>
+                        <span className={`px-2 py-0.5 rounded text-[9px] font-extrabold border uppercase tracking-wider ${
+                          details.segment === 'VIP' ? 'text-brand-600 bg-brand-500/10 border-brand-500/20' : 'text-violet-600 bg-violet-500/10 border-violet-500/20'
+                        }`}>
+                          {details.segment} Segment
                         </span>
+                      </div>
+                      <span className="text-xs text-slate-500 dark:text-slate-400">Customer ID: #{details.id} | Email: {details.email}</span>
+                    </div>
+                  </div>
+
+                  {/* Core 360 Metrics Dashboard */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    {/* Health Score Card */}
+                    <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex items-center gap-4 transition-colors">
+                      {/* Radial Progress Ring */}
+                      <div className="relative w-14 h-14 flex items-center justify-center shrink-0">
+                        <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                          <path
+                            className="text-slate-200 dark:text-slate-800"
+                            strokeWidth="3"
+                            stroke="currentColor"
+                            fill="none"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <path
+                            className="text-emerald-500"
+                            strokeDasharray={`${
+                              details.churn_probability > 0.7 ? 35 : details.churn_probability > 0.3 ? 65 : 88
+                            }, 100`}
+                            strokeWidth="3.5"
+                            strokeLinecap="round"
+                            stroke="currentColor"
+                            fill="none"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                        </svg>
+                        <span className="absolute text-xs font-extrabold text-slate-900 dark:text-white">
+                          {details.churn_probability > 0.7 ? 35 : details.churn_probability > 0.3 ? 65 : 88}
+                        </span>
+                      </div>
+                      <div className="flex flex-col">
+                        <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Health Score</span>
+                        <span className="text-xs font-bold text-slate-700 dark:text-slate-300">
+                          {details.churn_probability > 0.7 ? 'Needs Review' : details.churn_probability > 0.3 ? 'Average' : 'Excellent'}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Loyalty Tier Card */}
+                    <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors">
+                      <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Loyalty Level</span>
+                      <span className="text-md font-extrabold text-slate-900 dark:text-white mt-1">
+                        {details.predicted_clv > 1500 ? '⭐ Gold Tier' : details.predicted_clv > 500 ? '⭐ Silver Tier' : '⭐ Bronze Tier'}
+                      </span>
+                      <span className="text-[9px] text-slate-500 mt-0.5">
+                        {details.predicted_clv > 1500 ? '1200 points' : details.predicted_clv > 500 ? '600 points' : '250 points'}
+                      </span>
+                    </div>
+
+                    {/* Projected CLV */}
+                    <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors">
+                      <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Projected CLV</span>
+                      <span className="text-md font-extrabold text-slate-900 dark:text-white mt-1">${details.predicted_clv.toFixed(2)}</span>
+                      <span className="text-[9px] text-slate-500 mt-0.5">Forecasted 12-month value</span>
+                    </div>
+
+                    {/* Churn Likelihood */}
+                    <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors">
+                      <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Churn Likelihood</span>
+                      <span className="text-md font-extrabold text-slate-900 dark:text-white mt-1">{Math.round(details.churn_probability * 100)}%</span>
+                      <span className="text-[9px] text-slate-500 mt-0.5">Risk Rank: {details.churn_risk}</span>
+                    </div>
+                  </div>
+
+                  {/* Customer Journey Pipeline */}
+                  <div className="bg-slate-50/60 dark:bg-slate-900/35 border border-slate-200 dark:border-slate-800 rounded-xl p-5 space-y-4">
+                    <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider block">Customer Lifecycle Journey Funnel</span>
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-4 relative">
+                      {/* Progress Line on desktop */}
+                      <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-slate-200 dark:bg-slate-800 -translate-y-1/2 z-0" />
+                      
+                      {[
+                        { label: 'Visited Website', active: true },
+                        { label: 'Viewed Product', active: true },
+                        { label: 'Added to Cart', active: true },
+                        { label: 'Order Placed', active: details.orders.length > 0 },
+                        { label: 'Repeat Purchase', active: details.orders.length > 1 }
+                      ].map((step, sIdx) => (
+                        <div key={sIdx} className="flex flex-col items-center z-10 bg-white dark:bg-slate-900 p-2 md:p-0 rounded-lg border border-slate-100 md:border-transparent">
+                          <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs border ${
+                            step.active 
+                              ? 'bg-emerald-500 border-emerald-400 text-white shadow-md shadow-emerald-500/10' 
+                              : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-slate-400'
+                          }`}>
+                            {sIdx + 1}
+                          </div>
+                          <span className="text-[9px] font-bold text-slate-650 dark:text-slate-400 mt-2 text-center">{step.label}</span>
+                        </div>
                       ))}
                     </div>
                   </div>
-                </div>
 
-                {/* Order History */}
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide flex items-center gap-1.5">
-                      <ShoppingBag size={14} className="text-slate-500" />
-                      Order History ({details.orders.length})
-                    </span>
-                  </div>
-                  <div className="max-h-36 overflow-y-auto border border-slate-200 dark:border-slate-800 rounded-lg text-xs transition-colors">
-                    {details.orders.length === 0 ? (
-                      <div className="p-4 text-center text-slate-500">No orders recorded.</div>
-                    ) : (
-                      <table className="w-full text-left">
-                        <thead>
-                          <tr className="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 text-slate-550 dark:text-slate-450 font-bold uppercase transition-colors">
-                            <th className="px-3 py-2">Item</th>
-                            <th className="px-3 py-2 text-center">Qty</th>
-                            <th className="px-3 py-2 text-right">Price</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-150 dark:divide-slate-850 transition-colors">
-                          {details.orders.map(o => (
-                            <tr key={o.id} className="text-slate-650 dark:text-slate-350 hover:bg-slate-100/50 dark:hover:bg-slate-900/20 transition-colors">
-                              <td className="px-3 py-2 flex flex-col">
-                                <span className="font-semibold text-slate-900 dark:text-white transition-colors">{o.product}</span>
-                                <span className="text-[10px] text-slate-500">{o.date}</span>
-                              </td>
-                              <td className="px-3 py-2 text-center font-medium">{o.quantity}</td>
-                              <td className="px-3 py-2 text-right font-bold text-slate-800 dark:text-slate-200 transition-colors">${(o.price * o.quantity).toFixed(2)}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    )}
-                  </div>
-                </div>
-
-                {/* Feedback Reviews */}
-                <div className="space-y-2">
-                  <span className="text-xs font-bold text-slate-750 dark:text-slate-300 uppercase tracking-wide flex items-center gap-1.5">
-                    <FileText size={14} className="text-slate-500" />
-                    Review Feedback ({details.reviews.length})
-                  </span>
-                  <div className="space-y-3">
-                    {details.reviews.length === 0 ? (
-                      <div className="p-4 text-center text-slate-550 border border-slate-200 dark:border-slate-800 rounded-lg text-xs">No feedback commentaries.</div>
-                    ) : (
-                      details.reviews.map(r => (
-                        <div key={r.id} className="border border-slate-200 dark:border-slate-800 rounded-lg p-3 bg-slate-50/40 dark:bg-slate-900/20 text-xs space-y-2 transition-colors">
-                          <div className="flex justify-between items-center">
-                            <div className="flex items-center gap-0.5">
-                              {[...Array(5)].map((_, i) => (
-                                <Star key={i} size={12} className={i < r.rating ? 'fill-amber-400 text-amber-400' : 'text-slate-300 dark:text-slate-600'} />
-                              ))}
-                            </div>
-                            <span className={`px-2 py-0.5 rounded text-[9px] font-bold border ${r.sentiment_label === 'Positive' ? 'text-emerald-600 border-emerald-500/20 bg-emerald-500/5' : r.sentiment_label === 'Negative' ? 'text-rose-500 border-rose-500/20 bg-rose-500/5' : 'text-slate-500 border-slate-200 bg-slate-100 dark:text-slate-400 dark:border-slate-700 dark:bg-slate-800/10'}`}>
-                              {r.sentiment_label}
-                            </span>
+                  {/* Detailed Layout Grid */}
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    {/* Left: Demographics & Explainable AI */}
+                    <div className="space-y-4 flex flex-col justify-between">
+                      <div className="glass-panel border border-slate-200 dark:border-slate-800 rounded-xl p-4 space-y-4">
+                        <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide block">Demographics</span>
+                        <div className="space-y-2 text-xs">
+                          <div className="flex justify-between border-b border-slate-100 dark:border-slate-850 pb-1.5">
+                            <span className="text-slate-500">Gender / Age</span>
+                            <span className="font-semibold text-slate-800 dark:text-slate-300">{details.gender} / {details.age} yrs</span>
                           </div>
-                          <p className="text-slate-700 dark:text-slate-300 italic font-medium transition-colors">"{r.comment}"</p>
-                          <div className="text-[10px] text-slate-500 text-right">{r.date}</div>
+                          <div className="flex justify-between border-b border-slate-100 dark:border-slate-850 pb-1.5">
+                            <span className="text-slate-500">Location City</span>
+                            <span className="font-semibold text-slate-800 dark:text-slate-300">{details.city}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-slate-500">Join Date</span>
+                            <span className="font-semibold text-slate-800 dark:text-slate-300">{details.join_date}</span>
+                          </div>
                         </div>
-                      ))
-                    )}
+                      </div>
+
+                      {/* Explainable AI Reasons */}
+                      <div className="bg-slate-50/60 dark:bg-slate-900/35 border border-slate-200 dark:border-slate-800 rounded-xl p-4 space-y-3">
+                        <div className="flex items-center gap-1.5 text-xs text-brand-600 dark:text-brand-400 font-bold uppercase tracking-wider">
+                          <Sparkles size={14} />
+                          Explainable Churn Signals
+                        </div>
+                        <div className="space-y-2">
+                          {details.churn_probability > 0.7 ? (
+                            <>
+                              <div className="flex items-start gap-2 text-[10px] text-rose-650 dark:text-rose-450 bg-rose-500/5 p-2 rounded-lg border border-rose-500/10">
+                                <AlertTriangle size={12} className="shrink-0 mt-0.5" />
+                                <span>High Recency: No transactions recorded in active 90-day pipeline.</span>
+                              </div>
+                              <div className="flex items-start gap-2 text-[10px] text-rose-650 dark:text-rose-450 bg-rose-500/5 p-2 rounded-lg border border-rose-500/10">
+                                <AlertTriangle size={12} className="shrink-0 mt-0.5" />
+                                <span>Low Sentiment feedback: Negative comments in customer reviews.</span>
+                              </div>
+                            </>
+                          ) : details.churn_probability > 0.3 ? (
+                            <div className="flex items-start gap-2 text-[10px] text-amber-650 dark:text-amber-400 bg-amber-500/5 p-2 rounded-lg border border-amber-500/10">
+                              <AlertTriangle size={12} className="shrink-0 mt-0.5" />
+                              <span>Moderate Frequency: Consistent purchase history but low ticket values.</span>
+                            </div>
+                          ) : (
+                            <div className="flex items-start gap-2 text-[10px] text-emerald-650 dark:text-emerald-400 bg-emerald-500/5 p-2 rounded-lg border border-emerald-500/10">
+                              <CheckCircle size={12} className="shrink-0 mt-0.5" />
+                              <span>Strong Loyalty Indicators: High purchase frequency, positive sentiment ratings, low recency.</span>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Middle & Right: Order History */}
+                    <div className="space-y-3 lg:col-span-2">
+                      <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide flex items-center gap-1.5">
+                        <ShoppingBag size={14} className="text-slate-500" />
+                        Order History ({details.orders.length})
+                      </span>
+                      <div className="max-h-60 overflow-y-auto border border-slate-200 dark:border-slate-800 rounded-xl text-xs transition-colors shadow-sm">
+                        {details.orders.length === 0 ? (
+                          <div className="p-4 text-center text-slate-500">No orders recorded.</div>
+                        ) : (
+                          <table className="w-full text-left">
+                            <thead>
+                              <tr className="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 text-slate-550 dark:text-slate-450 font-bold uppercase transition-colors">
+                                <th className="px-4 py-2.5">Item</th>
+                                <th className="px-4 py-2.5 text-center">Qty</th>
+                                <th className="px-4 py-2.5 text-right">Price</th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-150 dark:divide-slate-850 transition-colors">
+                              {details.orders.map(o => (
+                                <tr key={o.id} className="text-slate-650 dark:text-slate-350 hover:bg-slate-100/50 dark:hover:bg-slate-900/20 transition-colors">
+                                  <td className="px-4 py-3 flex flex-col text-left">
+                                    <span className="font-semibold text-slate-900 dark:text-white transition-colors">{o.product}</span>
+                                    <span className="text-[10px] text-slate-450">{o.date} | Category: Electronics</span>
+                                  </td>
+                                  <td className="px-4 py-3 text-center font-medium">{o.quantity}</td>
+                                  <td className="px-4 py-3 text-right font-bold text-slate-800 dark:text-slate-200 transition-colors">${(o.price * o.quantity).toFixed(2)}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Bottom Recommendations and Reviews */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-slate-100 dark:border-slate-850">
+                    {/* Recommendations */}
+                    <div className="space-y-3">
+                      <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide block text-left">Next Best Recommendations</span>
+                      <div className="flex flex-wrap gap-2">
+                        {recommendations.map((prod, idx) => (
+                          <span key={idx} className="bg-brand-500/10 border border-brand-500/20 text-brand-600 dark:text-brand-400 text-xs px-3 py-1.5 rounded-md font-semibold transition-colors">
+                            {prod}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Customer Review Feedback */}
+                    <div className="space-y-3">
+                      <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide block text-left">Feedback Reviews</span>
+                      <div className="space-y-2">
+                        {details.reviews.length === 0 ? (
+                          <div className="p-3 text-center text-slate-500 border border-slate-200 dark:border-slate-800 rounded-lg text-xs">No feedback commentaries.</div>
+                        ) : (
+                          details.reviews.map(r => (
+                            <div key={r.id} className="border border-slate-200 dark:border-slate-800 rounded-xl p-3 bg-slate-50/40 dark:bg-slate-900/20 text-xs space-y-2 transition-colors text-left">
+                              <div className="flex justify-between items-center">
+                                <div className="flex items-center gap-0.5">
+                                  {[...Array(5)].map((_, i) => (
+                                    <Star key={i} size={11} className={i < r.rating ? 'fill-amber-400 text-amber-400' : 'text-slate-300 dark:text-slate-650'} />
+                                  ))}
+                                </div>
+                                <span className={`px-2 py-0.5 rounded text-[9px] font-bold border ${r.sentiment_label === 'Positive' ? 'text-emerald-600 border-emerald-500/20 bg-emerald-500/5' : r.sentiment_label === 'Negative' ? 'text-rose-500 border-rose-500/20 bg-rose-500/5' : 'text-slate-550 border-slate-200 bg-slate-100 dark:text-slate-400 dark:border-slate-700 dark:bg-slate-800/10'}`}>
+                                  {r.sentiment_label}
+                                </span>
+                              </div>
+                              <p className="text-slate-700 dark:text-slate-350 italic font-medium">"{r.comment}"</p>
+                              <div className="text-[9px] text-slate-400 text-right">{r.date}</div>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
         )}
       </div>

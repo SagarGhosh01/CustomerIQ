@@ -7,16 +7,19 @@ import { Customers } from './pages/Customers';
 import { AIAnalytics } from './pages/AIAnalytics';
 import { ModelPerformance } from './pages/ModelPerformance';
 import { Settings } from './pages/Settings';
+import { AICopilot } from './pages/AICopilot';
+import { Campaigns } from './pages/Campaigns';
 import { 
   LayoutDashboard, Users, Sparkles, Activity, Settings as SettingsIcon, 
-  LogOut, Shield, ChevronRight, Menu, X, Sun, Moon, Bell, AlertTriangle
+  LogOut, Shield, ChevronRight, Menu, X, Sun, Moon, Bell, AlertTriangle,
+  Bot, Megaphone
 } from 'lucide-react';
 import { API_BASE_URL } from './config';
 
 const MainLayout: React.FC = () => {
   const { user, logout, token, isAuthenticated } = useAuth();
   const { theme, toggleTheme } = useTheme();
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'customers' | 'ai-analytics' | 'performance' | 'settings'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'customers' | 'ai-analytics' | 'performance' | 'settings' | 'ai-copilot' | 'campaigns'>('dashboard');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   // alerts: Stores high-churn risk profiles retrieved from the customer database
   const [alerts, setAlerts] = useState<any[]>([]);
@@ -57,6 +60,8 @@ const MainLayout: React.FC = () => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: <LayoutDashboard size={18} /> },
     { id: 'customers', label: 'Customer Database', icon: <Users size={18} /> },
+    { id: 'ai-copilot', label: 'AI Chat Copilot', icon: <Bot size={18} /> },
+    { id: 'campaigns', label: 'Marketing Campaigns', icon: <Megaphone size={18} /> },
     { id: 'ai-analytics', label: 'AI Intelligence Lab', icon: <Sparkles size={18} /> },
     { id: 'performance', label: 'Model Performance', icon: <Activity size={18} /> },
     { id: 'settings', label: 'System Settings', icon: <SettingsIcon size={18} /> },
@@ -72,6 +77,10 @@ const MainLayout: React.FC = () => {
               return <Dashboard />;
             case 'customers':
               return <Customers />;
+            case 'ai-copilot':
+              return <AICopilot />;
+            case 'campaigns':
+              return <Campaigns />;
             case 'ai-analytics':
               return <AIAnalytics />;
             case 'performance':
