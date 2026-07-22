@@ -5,7 +5,7 @@ import { API_BASE_URL } from '../config';
 import { 
   Sparkles, Sliders, Play, TrendingUp, RefreshCw, 
   HelpCircle, ArrowRight, ShieldCheck, AlertCircle, CheckCircle2, 
-  MessageSquare, BrainCircuit, Loader2 
+  MessageSquare, BrainCircuit, Loader2, Sun, Moon
 } from 'lucide-react';
 
 interface Insight {
@@ -17,7 +17,7 @@ interface Insight {
 
 export const AIAnalytics: React.FC = () => {
   const { token, isAdmin } = useAuth();
-  const { theme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const [insights, setInsights] = useState<Insight[]>([]);
   const [insightsLoading, setInsightsLoading] = useState(true);
   const [training, setTraining] = useState(false);
@@ -137,22 +137,32 @@ export const AIAnalytics: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors pr-0 md:pr-16">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors">
         <div>
           <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">AI Intelligence Lab</h2>
           <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Simulate customer parameters and view auto-generated business guidelines</p>
         </div>
         
-        {isAdmin && (
+        <div className="flex items-center gap-3 self-start sm:self-center">
+          {isAdmin && (
+            <button
+              onClick={handleRetrain}
+              disabled={training}
+              className="flex items-center gap-2 bg-white hover:bg-slate-100 border border-slate-200 dark:bg-slate-900 dark:border-slate-800 dark:hover:bg-slate-850 px-4 py-2.5 rounded-lg text-xs text-slate-700 dark:text-slate-300 font-semibold transition-all disabled:opacity-40 shadow-sm"
+            >
+              <RefreshCw className={`text-brand-500 ${training ? 'animate-spin' : ''}`} size={14} />
+              Retrain Models
+            </button>
+          )}
+          
           <button
-            onClick={handleRetrain}
-            disabled={training}
-            className="flex items-center self-start sm:self-center gap-2 bg-white hover:bg-slate-100 border border-slate-200 dark:bg-slate-900 dark:border-slate-800 dark:hover:bg-slate-850 px-4 py-2.5 rounded-lg text-xs text-slate-700 dark:text-slate-300 font-semibold transition-all disabled:opacity-40 shadow-sm"
+            onClick={toggleTheme}
+            className="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-650 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-850 hover:scale-105 active:scale-95 transition-all shadow-sm shrink-0"
+            title="Toggle theme"
           >
-            <RefreshCw className={`text-brand-500 ${training ? 'animate-spin' : ''}`} size={14} />
-            Retrain Models
+            {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
           </button>
-        )}
+        </div>
       </div>
 
       {/* Main Grid */}

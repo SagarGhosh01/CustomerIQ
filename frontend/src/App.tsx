@@ -186,17 +186,7 @@ const MainLayout: React.FC = () => {
         )}
 
         {/* MAIN DISPLAY PANEL */}
-        <main className="flex-1 overflow-y-auto bg-slate-50 dark:bg-slate-950 focus:outline-none transition-colors duration-300 relative">
-          {/* Floating theme toggle in the upper right corner on desktop */}
-          <div className="hidden md:block absolute top-6 right-8 z-30 animate-fade-in">
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all shadow-sm"
-              title="Toggle theme"
-            >
-              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
-            </button>
-          </div>
+        <main className="flex-1 overflow-y-auto bg-slate-50 dark:bg-slate-950 focus:outline-none transition-colors duration-300">
           {renderContent()}
         </main>
       </div>

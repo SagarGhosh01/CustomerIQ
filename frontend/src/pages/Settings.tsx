@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { API_BASE_URL } from '../config';
-import { Shield, Settings as SettingsIcon, Database, RefreshCw, Cpu, Server, Lock } from 'lucide-react';
+import { Shield, Settings as SettingsIcon, Database, RefreshCw, Cpu, Server, Lock, Sun, Moon } from 'lucide-react';
 
 export const Settings: React.FC = () => {
   const { token, user, logout, isAdmin } = useAuth();
-  const { theme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const [resetting, setResetting] = useState(false);
   const [successMsg, setSuccessMsg] = useState<string | null>(null);
 
@@ -36,9 +36,19 @@ export const Settings: React.FC = () => {
   return (
     <div className="space-y-6 max-w-4xl animate-slide-up">
       {/* Header Info */}
-      <div className="pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors pr-0 md:pr-16">
-        <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">System Settings</h2>
-        <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Configure server endpoints, execute system resets, and manage employee accounts</p>
+      <div className="pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+        <div>
+          <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">System Settings</h2>
+          <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Configure server endpoints, execute system resets, and manage employee accounts</p>
+        </div>
+        
+        <button
+          onClick={toggleTheme}
+          className="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-650 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-850 hover:scale-105 active:scale-95 transition-all shadow-sm shrink-0 self-start sm:self-center"
+          title="Toggle theme"
+        >
+          {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+        </button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

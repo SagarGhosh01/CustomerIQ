@@ -6,7 +6,7 @@ import {
   Search, SlidersHorizontal, ChevronLeft, ChevronRight, X, 
   Plus, Edit, Trash, Upload, Loader2, Sparkles, User, Calendar, 
   MapPin, AlertTriangle, ShieldCheck, Mail, ShoppingBag, FileText, CheckCircle,
-  Star 
+  Star, Sun, Moon
 } from 'lucide-react';
 
 interface Customer {
@@ -49,7 +49,7 @@ interface CustomerDetails extends Customer {
 
 export const Customers: React.FC = () => {
   const { token, isAdmin } = useAuth();
-  const { theme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const [customers, setCustomers] = useState<Customer[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -313,15 +313,16 @@ export const Customers: React.FC = () => {
       )}
 
       {/* Header section */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6 pr-0 md:pr-16">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
         <div>
           <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">Customer Registry</h2>
           <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Manage profiles, analyze transactions, and examine ML tags</p>
         </div>
         
-        {/* Admin actions */}
-        {isAdmin && (
-          <div className="flex gap-3">
+        <div className="flex items-center gap-3 self-start md:self-center">
+          {/* Admin actions */}
+          {isAdmin && (
+            <div className="flex gap-3">
             <input 
               type="file" 
               ref={fileInputRef} 
@@ -346,6 +347,15 @@ export const Customers: React.FC = () => {
             </button>
           </div>
         )}
+          
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-650 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-850 hover:scale-105 active:scale-95 transition-all shadow-sm shrink-0"
+            title="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+          </button>
+        </div>
       </div>
 
       {/* Filters Form */}

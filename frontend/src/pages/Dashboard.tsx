@@ -4,7 +4,8 @@ import { useTheme } from '../context/ThemeContext';
 import { API_BASE_URL } from '../config';
 import { 
   Users, DollarSign, ShoppingBag, Star, 
-  ArrowUpRight, ShieldCheck, UserCheck, AlertTriangle, TrendingUp 
+  ArrowUpRight, ShieldCheck, UserCheck, AlertTriangle, TrendingUp,
+  Sun, Moon
 } from 'lucide-react';
 import { 
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -34,7 +35,7 @@ interface DashboardData {
 
 export const Dashboard: React.FC = () => {
   const { token } = useAuth();
-  const { theme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const [data, setData] = useState<DashboardData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -129,14 +130,23 @@ export const Dashboard: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Top Info Bar */}
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors pr-0 md:pr-16">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors">
         <div>
           <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">Platform Summary</h2>
           <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Real-time analytical insights and machine learning outputs</p>
         </div>
-        <div className="flex items-center self-start sm:self-center gap-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 px-4 py-2 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300 shadow-sm transition-colors">
-          <TrendingUp className="text-brand-500" size={14} />
-          <span>Active Period: Live Demo</span>
+        <div className="flex items-center gap-3 self-start sm:self-center">
+          <div className="flex items-center gap-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 px-4 py-2 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300 shadow-sm transition-colors">
+            <TrendingUp className="text-brand-500" size={14} />
+            <span>Active Period: Live Demo</span>
+          </div>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-650 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-850 hover:scale-105 active:scale-95 transition-all shadow-sm shrink-0"
+            title="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+          </button>
         </div>
       </div>
 
