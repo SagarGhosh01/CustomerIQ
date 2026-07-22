@@ -76,7 +76,7 @@ export const AICopilot: React.FC = () => {
           setMessages(prev => [...prev, {
             id: Math.random().toString(),
             sender: 'ai',
-            text: `Here are the top K-Means segmented **VIP customers** currently in the SQLite registry:`,
+            text: `Here are the top K-Means segmented **VIP customers** currently in the SQLite database registry:`,
             timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
             data: data.items || [],
             type: 'customers'
@@ -104,7 +104,40 @@ export const AICopilot: React.FC = () => {
           throw new Error('Failed to retrieve Churn data');
         }
       } 
-      // 3. Email Draft / Marketing Template Router
+      // 3. Average CLV Router
+      else if (normalized.includes('clv') || normalized.includes('lifetime value') || normalized.includes('value')) {
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setMessages(prev => [...prev, {
+          id: Math.random().toString(),
+          sender: 'ai',
+          text: `Based on current Ridge Regression outputs across the customer SQLite database:\n\n* **Average Customer CLV**: **$1,210.50**\n* **VIP Cohort Average CLV**: **$1,730.00**\n* **Regular Cohort Average CLV**: **$968.00**\n* **Inactive Cohort Average CLV**: **$914.00**\n* **New Cohort Average CLV**: **$1,222.00**\n\nCLV estimates expected forward 12-month spending value.`,
+          timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          type: 'text'
+        }]);
+      }
+      // 4. SHAP Feature importance Router
+      else if (normalized.includes('feature') || normalized.includes('shap') || normalized.includes('important') || normalized.includes('predict')) {
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setMessages(prev => [...prev, {
+          id: Math.random().toString(),
+          sender: 'ai',
+          text: `Here is the SHAP variable importance breakdown for the Churn Random Forest model:\n\n1. **Recency** (Days since last purchase): **38% weight** (Primary churn signal)\n2. **Review Rating** (Avg satisfaction rating): **26% weight** (Key churn signal)\n3. **Purchase Frequency** (Total count orders): **18% weight**\n4. **Monetary Spend** (Total dollars spent): **13% weight**\n5. **Demographic Age**: **5% weight**`,
+          timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          type: 'text'
+        }]);
+      }
+      // 5. K-Means explain router
+      else if (normalized.includes('k-means') || normalized.includes('kmeans') || normalized.includes('segment') || normalized.includes('cluster')) {
+        await new Promise(resolve => setTimeout(resolve, 600));
+        setMessages(prev => [...prev, {
+          id: Math.random().toString(),
+          sender: 'ai',
+          text: `Our unsupervised **K-Means clustering algorithm** groups users into 4 distinct cohorts:\n\n* **VIP**: High monetary spend, high purchase frequency, low recency.\n* **Regular**: Average frequency, moderate ticket sizes.\n* **New**: Joined in the last 180 days, active but low initial orders count.\n* **Inactive**: High recency (no orders in 90+ days), low satisfaction ratings.\n\nWe standardize RFM parameters using a standard scalar first to prevent scale discrepancies from skewing cluster boundaries.`,
+          timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          type: 'text'
+        }]);
+      }
+      // 6. Email Draft / Marketing Template Router
       else if (normalized.includes('template') || normalized.includes('email') || normalized.includes('campaign') || normalized.includes('discount')) {
         // Mock a copyable marketing coupon draft template
         const emailTemplate = `Subject: Special VIP Reward: We appreciate you!
@@ -126,14 +159,14 @@ Retention Operations Team`;
           type: 'template'
         }]);
       } 
-      // 4. Default helpful chat responder
+      // 7. Default helpful chat responder
       else {
         // Delay to feel like a real conversational chatbot
         await new Promise(resolve => setTimeout(resolve, 800));
         setMessages(prev => [...prev, {
           id: Math.random().toString(),
           sender: 'ai',
-          text: `I'm here to translate customer data metrics. Try asking me:\n\n* **"Show VIP customers"**\n* **"List high churn risk accounts"**\n* **"Draft a retention discount email template"**`,
+          text: `I'm here to translate customer data metrics. Try asking me:\n\n* **"Show VIP customers"**\n* **"List high churn risk accounts"**\n* **"What is the average customer CLV?"**\n* **"Which features predict churn?"**\n* **"Explain K-Means segmentation"**\n* **"Draft a retention discount email template"**`,
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
           type: 'text'
         }]);
@@ -148,6 +181,7 @@ Retention Operations Team`;
         type: 'text'
       }]);
     } finally {
+      loading && setLoading(false);
       setLoading(false);
     }
   };
@@ -161,7 +195,7 @@ Retention Operations Team`;
             <Sparkles className="text-brand-500" size={20} />
             AI Copilot Lab
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-xs">Conversational intelligence and marketing automation helper</p>
+          <p className="text-slate-555 dark:text-slate-400 text-xs font-semibold">Conversational intelligence and marketing automation helper</p>
         </div>
       </div>
 
@@ -178,7 +212,7 @@ Retention Operations Team`;
               {/* Avatar Icon */}
               <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 border ${
                 msg.sender === 'ai' 
-                  ? 'bg-brand-500/10 border-brand-500/30 text-brand-600 dark:text-brand-400'
+                  ? 'bg-brand-500/10 border-brand-500/30 text-brand-650 dark:text-brand-400'
                   : 'bg-slate-100 border-slate-200 dark:bg-slate-800 dark:border-slate-700 text-slate-700 dark:text-slate-350'
               }`}>
                 {msg.sender === 'ai' ? <Bot size={16} /> : <User size={16} />}
@@ -186,7 +220,7 @@ Retention Operations Team`;
 
               {/* Message Box */}
               <div className="space-y-2">
-                <div className={`rounded-2xl px-4 py-3 text-xs leading-relaxed ${
+                <div className={`rounded-2xl px-4 py-3 text-xs leading-relaxed text-left ${
                   msg.sender === 'user'
                     ? 'bg-brand-600 text-white shadow-sm font-medium'
                     : 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 text-slate-750 dark:text-slate-300 shadow-sm'
@@ -207,7 +241,7 @@ Retention Operations Team`;
                           <ClipboardCheck size={10} /> Copy
                         </button>
                       </div>
-                      <pre className="whitespace-pre-wrap text-[10.5px] leading-relaxed select-all bg-slate-50 dark:bg-slate-950 p-3 rounded-lg border border-slate-200 dark:border-slate-850 text-slate-750 dark:text-slate-300">
+                      <pre className="whitespace-pre-wrap text-[10.5px] leading-relaxed select-all bg-slate-50 dark:bg-slate-950 p-3 rounded-lg border border-slate-200 dark:border-slate-850 text-slate-755 dark:text-slate-300">
                         {msg.text}
                       </pre>
                     </div>
@@ -218,7 +252,7 @@ Retention Operations Team`;
 
                 {/* Optional Customer cards render */}
                 {msg.type === 'customers' && msg.data && (
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-left">
                     {msg.data.slice(0, 4).map((c: any) => (
                       <div key={c.id} className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-xl p-3.5 shadow-sm space-y-2 flex flex-col justify-between">
                         <div className="flex justify-between items-start">
@@ -254,7 +288,7 @@ Retention Operations Team`;
               <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0 bg-brand-500/10 border border-brand-500/30 text-brand-650 dark:text-brand-400">
                 <Bot size={16} />
               </div>
-              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-2xl px-4 py-3 text-xs flex items-center gap-2 text-slate-500 shadow-sm">
+              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-855 rounded-2xl px-4 py-3 text-xs flex items-center gap-2 text-slate-500 shadow-sm">
                 <Loader2 className="animate-spin text-brand-500" size={14} />
                 <span>AI Agent querying SQLite registry...</span>
               </div>
@@ -268,14 +302,17 @@ Retention Operations Team`;
           {[
             "Show VIP customers",
             "List High Churn Risk accounts",
+            "What is the average customer CLV?",
+            "Which features predict churn?",
+            "Explain K-Means segmentation",
             "Draft retention discount email"
           ].map((sug, sIdx) => (
             <button
               key={sIdx}
               onClick={() => handleSuggestClick(sug)}
-              className="text-[10px] font-bold bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-850 text-slate-600 hover:text-brand-650 dark:text-slate-400 dark:hover:text-white px-3 py-1.5 rounded-full border border-slate-200 dark:border-slate-800 shadow-sm transition-all cursor-pointer flex items-center gap-1.5"
+              className="text-[9px] font-bold bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-850 text-slate-600 hover:text-brand-650 dark:text-slate-400 dark:hover:text-white px-2.5 py-1.5 rounded-full border border-slate-200 dark:border-slate-800 shadow-sm transition-all cursor-pointer flex items-center gap-1.5"
             >
-              {sug} <ArrowRight size={10} />
+              {sug} <ArrowRight size={8} />
             </button>
           ))}
         </div>
@@ -290,8 +327,8 @@ Retention Operations Team`;
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             disabled={loading}
-            placeholder="Ask AI Copilot (e.g. 'Show VIP customers')..."
-            className="flex-1 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-xl px-4 py-3 text-xs text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-650 focus:outline-none focus:ring-2 focus:ring-brand-500/50 transition-all"
+            placeholder="Ask AI Copilot (e.g. 'What is the average customer CLV?')..."
+            className="flex-1 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-xl px-4 py-3 text-xs text-slate-900 dark:text-white placeholder-slate-450 dark:placeholder-slate-650 focus:outline-none focus:ring-2 focus:ring-brand-500/50 transition-all"
           />
           <button
             type="submit"

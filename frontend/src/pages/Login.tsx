@@ -15,6 +15,11 @@ export const Login: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [oauthConnecting, setOauthConnecting] = useState<string | null>(null);
 
+  /**
+   * Main submit handler for authentication.
+   * Directs form data to either /api/auth/register or /api/auth/login 
+   * depending on the active isSignUp state toggle.
+   */
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
@@ -22,7 +27,7 @@ export const Login: React.FC = () => {
 
     try {
       if (isSignUp) {
-        // Sign Up API call
+        // Sign Up Mode: POST JSON payload to save new user to database
         const response = await fetch(`${API_BASE_URL}/api/auth/register`, {
           method: 'POST',
           headers: {
@@ -39,7 +44,7 @@ export const Login: React.FC = () => {
         const data = await response.json();
 
         if (response.ok) {
-          // Auto-login after registration
+          // Auto-login: If registration succeeds, fetch JWT token immediately
           const formData = new URLSearchParams();
           formData.append('username', email);
           formData.append('password', password);
@@ -54,6 +59,7 @@ export const Login: React.FC = () => {
 
           const loginData = await loginRes.json();
           if (loginRes.ok) {
+            // Save token and navigate to workspace dashboard
             login(loginData.access_token);
           } else {
             setError('Registration successful! Please sign in manually.');
@@ -63,7 +69,7 @@ export const Login: React.FC = () => {
           setError(data.detail || 'Registration failed. Email might already be taken.');
         }
       } else {
-        // Sign In API call
+        // Sign In Mode: POST urlencoded form data to receive JWT access token
         const formData = new URLSearchParams();
         formData.append('username', email);
         formData.append('password', password);
@@ -79,6 +85,7 @@ export const Login: React.FC = () => {
         const data = await response.json();
 
         if (response.ok) {
+          // Trigger global state auth callback to store token in localStorage
           login(data.access_token);
         } else {
           setError(data.detail || 'Incorrect email or password.');
@@ -91,11 +98,16 @@ export const Login: React.FC = () => {
     }
   };
 
+  /**
+   * Mock OAuth entry point.
+   * Simulates a secure third-party login screen redirection for Google/GitHub.
+   * Resolves by querying the backend demo staff token to verify session flow.
+   */
   const handleOAuthSignIn = async (provider: string) => {
     setError(null);
     setOauthConnecting(provider);
     
-    // Simulate OAuth consent screen handshake loading
+    // Simulate OAuth consent screen handshake loading duration
     await new Promise(resolve => setTimeout(resolve, 1500));
     
     try {
