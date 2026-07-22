@@ -301,7 +301,11 @@ export const ModelPerformance: React.FC = () => {
 
       </div>
 
-      {/* Explainable AI (SHAP Weights) Chart */}
+      {/* 
+        Explainable AI (SHAP Weights) Chart:
+        Plots the feature importances extracted from the backend machine learning model.
+        This provides model explainability (XAI) for business users to verify risk signals.
+      */}
       <div className="glass-panel border border-slate-200 dark:border-slate-800 rounded-xl p-6 shadow-sm animate-slide-up">
         <h3 className="text-md font-bold text-slate-900 dark:text-white mb-2 flex items-center gap-2 transition-colors">
           <BrainCircuit size={18} className="text-brand-500" />
@@ -313,6 +317,11 @@ export const ModelPerformance: React.FC = () => {
         
         <div className="h-60 w-full">
           <ResponsiveContainer width="100%" height="100%">
+            {/* 
+              Vertical BarChart:
+              Renders features stacked vertically so long descriptions (like 'Recency (Days Since Order)') 
+              do not overlap, keeping label readability high on mobile devices.
+            */}
             <BarChart
               layout="vertical"
               data={[
@@ -324,7 +333,10 @@ export const ModelPerformance: React.FC = () => {
               ]}
               margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
             >
+              {/* Horizontal grid lines only, since layout is vertical */}
               <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke={theme === 'dark' ? '#1e293b' : '#f1f5f9'} />
+              
+              {/* X Axis shows percentage importance of the feature */}
               <XAxis 
                 type="number" 
                 tick={{ fill: theme === 'dark' ? '#64748b' : '#94a3b8', fontSize: 10 }}
@@ -332,6 +344,8 @@ export const ModelPerformance: React.FC = () => {
                 tickLine={false}
                 unit="%"
               />
+              
+              {/* Y Axis lists features dynamically */}
               <YAxis 
                 dataKey="name" 
                 type="category" 
@@ -340,6 +354,8 @@ export const ModelPerformance: React.FC = () => {
                 tickLine={false}
                 width={150}
               />
+              
+              {/* Custom tooltip matching active color palette */}
               <Tooltip 
                 contentStyle={theme === 'dark' 
                   ? { backgroundColor: '#1e293b', borderColor: '#334155', borderRadius: 8, fontSize: 11 } 
@@ -349,6 +365,8 @@ export const ModelPerformance: React.FC = () => {
                 labelStyle={{ color: '#38a9f8', fontWeight: 'bold' }}
                 formatter={(value: any) => [`${value}% Importance`, 'SHAP Weight']}
               />
+              
+              {/* Color cells individually to distinguish feature variables */}
               <Bar dataKey="importance" radius={[0, 4, 4, 0]} barSize={16}>
                 {[
                   { fill: '#f43f5e' },

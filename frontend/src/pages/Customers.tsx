@@ -95,27 +95,44 @@ export const Customers: React.FC = () => {
     setTimeout(() => setToast(null), 3000);
   };
 
+  /**
+   * Generates and triggers a browser download for a blank CSV template.
+   * This is used by administrators as a schema guide when importing customer files
+   * to ensure headers align correctly with the backend SQLite database schema.
+   */
   const handleDownloadTemplate = () => {
+    // Define the required fields for our database import schema
     const headers = ['name', 'email', 'age', 'gender', 'city'];
+    // Include one mock demo row so the user sees the expected data format
     const rows = [['John Doe', 'john.doe@example.com', '34', 'Male', 'New York']];
+    // Combine headers and rows with newlines
     const csvContent = "data:text/csv;charset=utf-8," 
       + [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+    // Encode the payload as a download URL URI
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
     link.setAttribute("download", "customer_iq_import_template.csv");
+    // Append link, programmatically click to trigger download prompt, then clean up
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     triggerToast("Download CSV template generated successfully!");
   };
 
+  /**
+   * Serializes the currently loaded customer registry data and triggers a browser download.
+   * This handles escaping double quotes and encapsulating values to prevent CSV formatting issues.
+   */
   const handleExportCSV = () => {
     if (customers.length === 0) {
       triggerToast("No customer records found to export.", "error");
       return;
     }
+    // Define headers visible in the customer registry grid
     const headers = ['Name', 'Email', 'Age', 'Gender', 'City', 'Join Date', 'Segment', 'Churn Risk', 'Churn Prob', 'CLV'];
+    
+    // Map customer objects into string array rows
     const rows = customers.map(c => [
       c.name,
       c.email,
@@ -128,8 +145,11 @@ export const Customers: React.FC = () => {
       `${Math.round(c.churn_probability * 100)}%`,
       `$${c.predicted_clv.toFixed(2)}`
     ]);
+    
+    // Map rows, escape inner double-quotes, and wrap cells in quotes to support commas in values
     const csvContent = "data:text/csv;charset=utf-8," 
       + [headers.join(','), ...rows.map(r => r.map(val => `"${val.replace(/"/g, '""')}"`).join(','))].join('\n');
+    
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);

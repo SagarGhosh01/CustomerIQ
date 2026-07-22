@@ -18,11 +18,19 @@ const MainLayout: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
   const [activeTab, setActiveTab] = useState<'dashboard' | 'customers' | 'ai-analytics' | 'performance' | 'settings'>('dashboard');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // alerts: Stores high-churn risk profiles retrieved from the customer database
   const [alerts, setAlerts] = useState<any[]>([]);
+  // alertsOpen: Controls the visibility dropdown menu state for critical notification alerts
   const [alertsOpen, setAlertsOpen] = useState(false);
 
+  /**
+   * Proactively polls the SQLite backend to pull high-churn risk profiles.
+   * This updates the notification bell badge count dynamically in the background.
+   */
   useEffect(() => {
+    // Only query backend if the user is successfully authenticated
     if (!isAuthenticated || !token) return;
+    
     const fetchAlerts = async () => {
       try {
         const response = await fetch(`${API_BASE_URL}/api/customers/?limit=25&churn_risk=High`, {
@@ -30,15 +38,18 @@ const MainLayout: React.FC = () => {
         });
         if (response.ok) {
           const data = await response.json();
+          // Extract items from query results and save to states
           setAlerts(data.items || []);
         }
       } catch (e) {
         console.error('Failed to load risk notification alerts:', e);
       }
     };
+    
+    // Execute immediately on component mount
     fetchAlerts();
     
-    // Check for alerts every 60 seconds
+    // Poll the database endpoint every 60 seconds (60000ms) to sync active customer threats
     const interval = setInterval(fetchAlerts, 60000);
     return () => clearInterval(interval);
   }, [token, isAuthenticated]);
