@@ -313,7 +313,7 @@ export const Customers: React.FC = () => {
       )}
 
       {/* Header section */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6 pr-0 md:pr-16">
         <div>
           <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">Customer Registry</h2>
           <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Manage profiles, analyze transactions, and examine ML tags</p>

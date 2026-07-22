@@ -129,7 +129,7 @@ export const Dashboard: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Top Info Bar */}
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors pr-0 md:pr-16">
         <div>
           <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">Platform Summary</h2>
           <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Real-time analytical insights and machine learning outputs</p>

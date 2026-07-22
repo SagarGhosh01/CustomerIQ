@@ -36,7 +36,7 @@ export const Settings: React.FC = () => {
   return (
     <div className="space-y-6 max-w-4xl animate-slide-up">
       {/* Header Info */}
-      <div className="pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors">
+      <div className="pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors pr-0 md:pr-16">
         <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">System Settings</h2>
         <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Configure server endpoints, execute system resets, and manage employee accounts</p>
       </div>

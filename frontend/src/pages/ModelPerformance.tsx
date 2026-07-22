@@ -79,7 +79,7 @@ export const ModelPerformance: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Header Info */}
-      <div className="pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors">
+      <div className="pb-2 border-b border-slate-200 dark:border-slate-850/50 transition-colors pr-0 md:pr-16">
         <h2 className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">Model Evaluation Core</h2>
         <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5 transition-colors">Rigorous evaluation metrics and mathematical validation logs for CustomerIQ ML pipelines</p>
       </div>

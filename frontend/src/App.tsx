@@ -144,28 +144,7 @@ const MainLayout: React.FC = () => {
           </div>
         </header>
 
-        {/* DESKTOP HEADER BAR */}
-        <header className="hidden md:flex items-center justify-between px-8 py-4 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-850 shrink-0 transition-colors duration-300">
-          <h1 className="text-lg font-bold text-slate-900 dark:text-white transition-colors">{getPageTitle()}</h1>
-          <div className="flex items-center gap-4">
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-650 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all border border-slate-200 dark:border-slate-800/80 shadow-sm"
-              title="Toggle theme"
-            >
-              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
-            </button>
-            <div className="h-6 w-px bg-slate-200 dark:bg-slate-800 transition-colors" />
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold text-slate-700 dark:text-slate-300 transition-colors">
-                {user?.full_name}
-              </span>
-              <span className="px-2 py-0.5 rounded text-[9px] font-bold border uppercase text-brand-600 dark:text-brand-400 bg-brand-500/10 border-brand-500/25 transition-colors">
-                {user?.role} Access
-              </span>
-            </div>
-          </div>
-        </header>
+
 
         {/* MOBILE MENU DRAWER */}
         {mobileMenuOpen && (
@@ -207,7 +186,17 @@ const MainLayout: React.FC = () => {
         )}
 
         {/* MAIN DISPLAY PANEL */}
-        <main className="flex-1 overflow-y-auto bg-slate-50 dark:bg-slate-950 focus:outline-none transition-colors duration-300">
+        <main className="flex-1 overflow-y-auto bg-slate-50 dark:bg-slate-950 focus:outline-none transition-colors duration-300 relative">
+          {/* Floating theme toggle in the upper right corner on desktop */}
+          <div className="hidden md:block absolute top-6 right-8 z-30 animate-fade-in">
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all shadow-sm"
+              title="Toggle theme"
+            >
+              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+          </div>
           {renderContent()}
         </main>
       </div>
