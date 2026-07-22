@@ -4,7 +4,7 @@ import { useTheme } from '../context/ThemeContext';
 import { API_BASE_URL } from '../config';
 import { 
   Search, SlidersHorizontal, ChevronLeft, ChevronRight, X, 
-  Plus, Edit, Trash, Upload, Loader2, Sparkles, User, Calendar, 
+  Plus, Edit, Trash, Upload, Download, Loader2, Sparkles, User, Calendar, 
   MapPin, AlertTriangle, ShieldCheck, Mail, ShoppingBag, FileText, CheckCircle,
   Star, Sun, Moon
 } from 'lucide-react';
@@ -93,6 +93,51 @@ export const Customers: React.FC = () => {
   const triggerToast = (message: string, type: 'success' | 'error' = 'success') => {
     setToast({ message, type });
     setTimeout(() => setToast(null), 3000);
+  };
+
+  const handleDownloadTemplate = () => {
+    const headers = ['name', 'email', 'age', 'gender', 'city'];
+    const rows = [['John Doe', 'john.doe@example.com', '34', 'Male', 'New York']];
+    const csvContent = "data:text/csv;charset=utf-8," 
+      + [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "customer_iq_import_template.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    triggerToast("Download CSV template generated successfully!");
+  };
+
+  const handleExportCSV = () => {
+    if (customers.length === 0) {
+      triggerToast("No customer records found to export.", "error");
+      return;
+    }
+    const headers = ['Name', 'Email', 'Age', 'Gender', 'City', 'Join Date', 'Segment', 'Churn Risk', 'Churn Prob', 'CLV'];
+    const rows = customers.map(c => [
+      c.name,
+      c.email,
+      c.age.toString(),
+      c.gender,
+      c.city,
+      c.join_date,
+      c.segment,
+      c.churn_risk,
+      `${Math.round(c.churn_probability * 100)}%`,
+      `$${c.predicted_clv.toFixed(2)}`
+    ]);
+    const csvContent = "data:text/csv;charset=utf-8," 
+      + [headers.join(','), ...rows.map(r => r.map(val => `"${val.replace(/"/g, '""')}"`).join(','))].join('\n');
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", `customer_iq_export_${new Date().toISOString().split('T')[0]}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    triggerToast("Customer registry exported successfully!");
   };
 
   // Fetch list of customers
@@ -323,30 +368,47 @@ export const Customers: React.FC = () => {
           {/* Admin actions */}
           {isAdmin && (
             <div className="flex gap-3">
-            <input 
-              type="file" 
-              ref={fileInputRef} 
-              onChange={handleCSVUpload} 
-              accept=".csv" 
-              className="hidden" 
-            />
-            <button 
-              onClick={() => fileInputRef.current?.click()}
-              disabled={uploading}
-              className="flex items-center gap-2 bg-white hover:bg-slate-100 border border-slate-200 dark:bg-slate-900 dark:border-slate-800 dark:hover:bg-slate-850 px-4 py-2.5 rounded-lg text-xs text-slate-700 dark:text-slate-300 font-semibold transition-all shadow-sm"
-            >
-              {uploading ? <Loader2 className="animate-spin" size={14} /> : <Upload size={14} />}
-              Import CSV
-            </button>
-            <button 
-              onClick={() => { setFormError(null); setShowAddModal(true); }}
-              className="flex items-center gap-2 bg-brand-600 hover:bg-brand-500 px-4 py-2.5 rounded-lg text-xs text-white font-semibold shadow-lg shadow-brand-500/10 hover:shadow-brand-500/20 transition-all border border-brand-400/20"
-            >
-              <Plus size={14} />
-              Add Customer
-            </button>
-          </div>
-        )}
+              <input 
+                type="file" 
+                ref={fileInputRef} 
+                onChange={handleCSVUpload} 
+                accept=".csv" 
+                className="hidden" 
+              />
+              <button 
+                onClick={handleDownloadTemplate}
+                className="flex items-center gap-1.5 bg-white hover:bg-slate-100 border border-slate-200 dark:bg-slate-900 dark:border-slate-800 dark:hover:bg-slate-850 px-3.5 py-2.5 rounded-lg text-xs text-slate-600 dark:text-slate-300 font-semibold transition-all shadow-sm"
+                title="Download CSV schema upload template"
+              >
+                <FileText size={14} className="text-slate-400" />
+                Template
+              </button>
+              <button 
+                onClick={() => fileInputRef.current?.click()}
+                disabled={uploading}
+                className="flex items-center gap-2 bg-white hover:bg-slate-100 border border-slate-200 dark:bg-slate-900 dark:border-slate-800 dark:hover:bg-slate-850 px-4 py-2.5 rounded-lg text-xs text-slate-700 dark:text-slate-300 font-semibold transition-all shadow-sm"
+              >
+                {uploading ? <Loader2 className="animate-spin" size={14} /> : <Upload size={14} />}
+                Import CSV
+              </button>
+              <button 
+                onClick={() => { setFormError(null); setShowAddModal(true); }}
+                className="flex items-center gap-2 bg-brand-600 hover:bg-brand-500 px-4 py-2.5 rounded-lg text-xs text-white font-semibold shadow-lg shadow-brand-500/10 hover:shadow-brand-500/20 transition-all border border-brand-400/20"
+              >
+                <Plus size={14} />
+                Add Customer
+              </button>
+            </div>
+          )}
+
+          <button 
+            onClick={handleExportCSV}
+            className="flex items-center gap-1.5 bg-white hover:bg-slate-50 border border-slate-200 dark:bg-slate-900 dark:border-slate-800 dark:hover:bg-slate-850 px-3.5 py-2.5 rounded-lg text-xs text-slate-700 dark:text-slate-300 font-semibold transition-all shadow-sm"
+            title="Export customer list to CSV"
+          >
+            <Download size={14} className="text-brand-500" />
+            Export CSV
+          </button>
           
           <button
             onClick={toggleTheme}

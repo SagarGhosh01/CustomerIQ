@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider, useTheme } from './context/ThemeContext';
 import { Login } from './pages/Login';
@@ -9,14 +9,39 @@ import { ModelPerformance } from './pages/ModelPerformance';
 import { Settings } from './pages/Settings';
 import { 
   LayoutDashboard, Users, Sparkles, Activity, Settings as SettingsIcon, 
-  LogOut, Shield, ChevronRight, Menu, X, Sun, Moon 
+  LogOut, Shield, ChevronRight, Menu, X, Sun, Moon, Bell, AlertTriangle
 } from 'lucide-react';
+import { API_BASE_URL } from './config';
 
 const MainLayout: React.FC = () => {
-  const { user, logout } = useAuth();
+  const { user, logout, token, isAuthenticated } = useAuth();
   const { theme, toggleTheme } = useTheme();
   const [activeTab, setActiveTab] = useState<'dashboard' | 'customers' | 'ai-analytics' | 'performance' | 'settings'>('dashboard');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [alerts, setAlerts] = useState<any[]>([]);
+  const [alertsOpen, setAlertsOpen] = useState(false);
+
+  useEffect(() => {
+    if (!isAuthenticated || !token) return;
+    const fetchAlerts = async () => {
+      try {
+        const response = await fetch(`${API_BASE_URL}/api/customers/?limit=25&churn_risk=High`, {
+          headers: { Authorization: `Bearer ${token}` }
+        });
+        if (response.ok) {
+          const data = await response.json();
+          setAlerts(data.items || []);
+        }
+      } catch (e) {
+        console.error('Failed to load risk notification alerts:', e);
+      }
+    };
+    fetchAlerts();
+    
+    // Check for alerts every 60 seconds
+    const interval = setInterval(fetchAlerts, 60000);
+    return () => clearInterval(interval);
+  }, [token, isAuthenticated]);
 
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: <LayoutDashboard size={18} /> },
@@ -61,13 +86,63 @@ const MainLayout: React.FC = () => {
       <aside className="hidden md:flex flex-col w-64 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-850 justify-between shrink-0 transition-colors duration-300">
         <div className="space-y-6 pt-6">
           {/* Logo / Brand header */}
-          <div className="flex items-center gap-3 px-6 pb-2">
-            <div className="w-9 h-9 bg-brand-600 rounded-lg flex items-center justify-center shadow-md shadow-brand-500/10 border border-brand-400/20">
-              <span className="text-sm font-bold text-white tracking-wider">CIQ</span>
+          <div className="flex items-center justify-between px-4 py-6 border-b border-slate-200 dark:border-slate-800 transition-colors relative">
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 bg-brand-600 rounded-lg flex items-center justify-center shadow-md shadow-brand-500/10 border border-brand-400/20">
+                <span className="text-sm font-bold text-white tracking-wider">CIQ</span>
+              </div>
+              <div>
+                <h2 className="text-md font-bold text-slate-900 dark:text-white leading-none transition-colors">CustomerIQ</h2>
+                <span className="text-[10px] text-slate-500 dark:text-slate-400 font-semibold tracking-wider uppercase transition-colors">SaaS Analytics</span>
+              </div>
             </div>
-            <div>
-              <h2 className="text-md font-bold text-slate-900 dark:text-white leading-none transition-colors">CustomerIQ</h2>
-              <span className="text-[10px] text-slate-500 dark:text-slate-400 font-semibold tracking-wider uppercase transition-colors">SaaS Analytics</span>
+            
+            {/* Notification Bell Dropdown */}
+            <div className="relative">
+              <button 
+                onClick={() => setAlertsOpen(!alertsOpen)}
+                className="p-1.5 rounded-lg bg-slate-50 hover:bg-slate-100 dark:bg-slate-900 dark:hover:bg-slate-800 text-slate-500 hover:text-slate-850 dark:text-slate-400 dark:hover:text-slate-200 transition-all border border-slate-200 dark:border-slate-800 relative shadow-sm"
+                title="View High Risk Churn Threats"
+              >
+                <Bell size={15} />
+                {alerts.length > 0 && (
+                  <span className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-rose-500 rounded-full animate-pulse" />
+                )}
+              </button>
+              
+              {alertsOpen && (
+                <div className="absolute left-0 mt-2 w-72 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-xl z-50 p-4 space-y-3 animate-slide-up">
+                  <div className="flex justify-between items-center pb-2 border-b border-slate-200 dark:border-slate-850">
+                    <span className="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                      <AlertTriangle size={14} className="text-rose-500 animate-bounce" />
+                      Critical Churn Threats ({alerts.length})
+                    </span>
+                    <button onClick={() => setAlertsOpen(false)} className="text-[10px] text-slate-400 hover:text-slate-600">Close</button>
+                  </div>
+                  
+                  <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+                    {alerts.length === 0 ? (
+                      <div className="text-center py-4 text-slate-550 text-[10px]">
+                        No high-risk threats detected.
+                      </div>
+                    ) : (
+                      alerts.map((c, i) => (
+                        <div key={i} className="p-2 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-150 dark:border-slate-850 flex justify-between items-center text-[10px]">
+                          <div className="min-w-0 pr-2">
+                            <span className="font-bold text-slate-900 dark:text-white block truncate text-left">{c.name}</span>
+                            <span className="text-[9px] text-slate-400 block truncate text-left">{c.email}</span>
+                          </div>
+                          <div className="text-right shrink-0">
+                            <span className="px-1.5 py-0.5 rounded bg-rose-500/10 border border-rose-500/25 text-rose-600 dark:text-rose-450 font-bold block">
+                              {Math.round(c.churn_probability * 100)}%
+                            </span>
+                          </div>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -120,24 +195,64 @@ const MainLayout: React.FC = () => {
       {/* MOBILE HEADER & SLIDE NAVIGATION */}
       <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
         {/* MOBILE HEADER */}
-        <header className="md:hidden bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-850 px-4 py-3 flex items-center justify-between shrink-0 transition-colors duration-300">
+        <header className="flex md:hidden items-center justify-between px-4 py-3 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 transition-colors shrink-0">
+          <span className="font-bold text-slate-900 dark:text-white text-sm">CustomerIQ</span>
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-brand-600 rounded flex items-center justify-center border border-brand-400/25">
-              <span className="text-xs font-bold text-white">CIQ</span>
+            
+            {/* Mobile Notification Bell */}
+            <div className="relative">
+              <button 
+                onClick={() => setAlertsOpen(!alertsOpen)}
+                className="p-1.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white relative shadow-sm"
+              >
+                <Bell size={16} />
+                {alerts.length > 0 && (
+                  <span className="absolute top-0 right-0 w-2 h-2 bg-rose-500 rounded-full animate-pulse" />
+                )}
+              </button>
+              
+              {alertsOpen && (
+                <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-xl z-50 p-4 space-y-3 animate-slide-up">
+                  <div className="flex justify-between items-center pb-2 border-b border-slate-200 dark:border-slate-850">
+                    <span className="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                      <AlertTriangle size={14} className="text-rose-500 animate-bounce" />
+                      Critical Alerts ({alerts.length})
+                    </span>
+                    <button onClick={() => setAlertsOpen(false)} className="text-[10px] text-slate-400 hover:text-slate-600">Close</button>
+                  </div>
+                  <div className="space-y-2 max-h-40 overflow-y-auto pr-1">
+                    {alerts.length === 0 ? (
+                      <div className="text-center py-4 text-slate-500 text-[10px]">
+                        No high-risk threats detected.
+                      </div>
+                    ) : (
+                      alerts.map((c, i) => (
+                        <div key={i} className="p-2 rounded-lg bg-slate-50 dark:bg-slate-950/40 border border-slate-150 dark:border-slate-850 flex justify-between items-center text-[10px]">
+                          <div className="min-w-0 pr-2">
+                            <span className="font-bold text-slate-900 dark:text-white block truncate text-left">{c.name}</span>
+                          </div>
+                          <div className="text-right shrink-0">
+                            <span className="px-1.5 py-0.5 rounded bg-rose-500/10 text-rose-600 dark:text-rose-450 font-bold block">
+                              {Math.round(c.churn_probability * 100)}%
+                            </span>
+                          </div>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
-            <span className="font-bold text-slate-900 dark:text-white text-sm transition-colors">CustomerIQ</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <button
+
+            <button 
               onClick={toggleTheme}
-              className="p-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-650 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all border border-slate-200 dark:border-slate-850"
-              title="Toggle theme"
+              className="p-1.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white"
             >
               {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
             </button>
             <button 
               onClick={() => setMobileMenuOpen(true)}
-              className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white p-1.5 rounded hover:bg-slate-100 dark:hover:bg-slate-800"
+              className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white p-1.5 rounded hover:bg-slate-100 dark:hover:bg-slate-850"
             >
               <Menu size={20} />
             </button>
