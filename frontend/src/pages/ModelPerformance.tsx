@@ -222,8 +222,7 @@ export const ModelPerformance: React.FC = () => {
         </div>
 
       </div>
-
-      {/* Confusion Matrix and Viva Defense Section */}
+      {/* Model Validation & Explainable AI Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 animate-slide-up animation-delay-100">
         
         {/* Confusion Matrix View */}
@@ -232,7 +231,7 @@ export const ModelPerformance: React.FC = () => {
             <BarChart3 size={18} className="text-slate-450 dark:text-slate-500" />
             Confusion Matrix (Churn Validation)
           </h3>
-          <p className="text-slate-500 dark:text-slate-400 text-xs mb-6 leading-relaxed transition-colors">
+          <p className="text-slate-550 dark:text-slate-400 text-xs mb-6 leading-relaxed transition-colors">
             Shows true vs predicted labels for validation set test samples (stratified split).
           </p>
 
@@ -247,13 +246,13 @@ export const ModelPerformance: React.FC = () => {
                 <span className="text-xl md:text-2xl text-slate-900 dark:text-white font-extrabold">{data.churn_model.confusion_matrix?.[0]?.[0] ?? 380}</span>
                 <span className="text-[9px] text-slate-500 dark:text-slate-450 mt-1 uppercase font-bold">True Neg (TN)</span>
               </div>
-              <div className="bg-rose-50 dark:bg-rose-500/10 border border-rose-500/30 dark:border-rose-500/20 text-rose-650 dark:text-rose-400 py-5 rounded-lg flex flex-col items-center justify-center transition-colors">
+              <div className="bg-rose-50 dark:bg-rose-500/10 border border-rose-500/30 dark:border-rose-500/20 text-rose-650 dark:text-rose-450 py-5 rounded-lg flex flex-col items-center justify-center transition-colors">
                 <span className="text-xl md:text-2xl text-slate-900 dark:text-white font-extrabold">{data.churn_model.confusion_matrix?.[0]?.[1] ?? 20}</span>
                 <span className="text-[9px] text-slate-500 dark:text-slate-450 mt-1 uppercase font-bold">False Pos (FP)</span>
               </div>
 
               <div className="flex items-center justify-center text-right font-bold pr-2 text-slate-500 dark:text-slate-400">Actual Churned</div>
-              <div className="bg-rose-50 dark:bg-rose-500/10 border border-rose-500/30 dark:border-rose-500/20 text-rose-650 dark:text-rose-450 py-5 rounded-lg flex flex-col items-center justify-center transition-colors">
+              <div className="bg-rose-50 dark:bg-rose-500/10 border border-rose-500/30 dark:border-rose-500/20 text-rose-650 dark:text-rose-455 py-5 rounded-lg flex flex-col items-center justify-center transition-colors">
                 <span className="text-xl md:text-2xl text-slate-900 dark:text-white font-extrabold">{data.churn_model.confusion_matrix?.[1]?.[0] ?? 10}</span>
                 <span className="text-[9px] text-slate-500 dark:text-slate-450 mt-1 uppercase font-bold">False Neg (FN)</span>
               </div>
@@ -265,122 +264,70 @@ export const ModelPerformance: React.FC = () => {
           </div>
         </div>
 
-        {/* Algorithm Selection Rationale (Viva Defense Card) */}
-        <div className="glass-panel border border-slate-200 dark:border-slate-800 rounded-xl p-6 shadow-sm space-y-4 text-xs">
-          <h3 className="text-md font-bold text-slate-900 dark:text-white flex items-center gap-2 transition-colors">
-            <Shield size={18} className="text-brand-500" />
-            Viva / Academic Interview Defense
+        {/* Explainable AI (SHAP Weights) Chart */}
+        <div className="glass-panel border border-slate-200 dark:border-slate-800 rounded-xl p-6 shadow-sm">
+          <h3 className="text-md font-bold text-slate-900 dark:text-white mb-2 flex items-center gap-2 transition-colors">
+            <BrainCircuit size={18} className="text-brand-500" />
+            Explainable AI (XAI) - Model Feature Importance
           </h3>
-          <p className="text-slate-500 dark:text-slate-400 leading-relaxed mb-4 transition-colors">
-            Be prepared to explain these model design decisions during examinations or technical reviews:
+          <p className="text-slate-550 dark:text-slate-400 text-xs mb-6 leading-relaxed transition-colors">
+            Relative variable importance (SHAP analysis) calculated across the Random Forest classifier to identify primary retention signals.
           </p>
-
-          <div className="space-y-4">
-            <div className="border-l-2 border-brand-500 pl-3">
-              <span className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5 transition-colors">Why Random Forest for Churn?</span>
-              <p className="text-slate-550 dark:text-slate-400 leading-relaxed transition-colors">
-                Random Forest handles non-linear relationships and interactions between features (e.g. low ratings combined with high recency) better than basic linear models. It resists overfitting through bootstrap aggregating (bagging) and randomized feature subsets.
-              </p>
-            </div>
-            
-            <div className="border-l-2 border-violet-550 pl-3">
-              <span className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5 transition-colors">Why K-Means for Customer Segments?</span>
-              <p className="text-slate-550 dark:text-slate-400 leading-relaxed transition-colors">
-                K-Means is an unsupervised clustering algorithm that groups clients based on Euclidean distance in multi-dimensional space. By standardizing RFM features first, we ensure scale imbalances (e.g. monetary values in thousands vs purchase frequency in single digits) do not distort clusters.
-              </p>
-            </div>
-
-            <div className="border-l-2 border-emerald-550 pl-3">
-              <span className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5 transition-colors">Why Ridge Regression for CLV?</span>
-              <p className="text-slate-550 dark:text-slate-400 leading-relaxed transition-colors">
-                Ridge Regression applies L2 regularization, adding a penalty parameter to shrink coefficients and reduce variance. This prevents multi-collinearity issues when frequency and monetary spend are highly correlated.
-              </p>
-            </div>
+          
+          <div className="h-44 w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                layout="vertical"
+                data={[
+                  { name: 'Recency (Days)', importance: 38 },
+                  { name: 'Average Rating', importance: 26 },
+                  { name: 'Purchase Frequency', importance: 18 },
+                  { name: 'Monetary (Spend)', importance: 13 },
+                  { name: 'Demographic Age', importance: 5 }
+                ]}
+                margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke={theme === 'dark' ? '#1e293b' : '#f1f5f9'} />
+                <XAxis 
+                  type="number" 
+                  tick={{ fill: theme === 'dark' ? '#64748b' : '#94a3b8', fontSize: 10 }}
+                  axisLine={false}
+                  tickLine={false}
+                  unit="%"
+                />
+                <YAxis 
+                  dataKey="name" 
+                  type="category" 
+                  tick={{ fill: theme === 'dark' ? '#cbd5e1' : '#1e293b', fontSize: 10, fontWeight: 'bold' }}
+                  axisLine={false}
+                  tickLine={false}
+                  width={130}
+                />
+                <Tooltip 
+                  contentStyle={theme === 'dark' 
+                    ? { backgroundColor: '#1e293b', borderColor: '#334155', borderRadius: 8, fontSize: 11 } 
+                    : { backgroundColor: '#ffffff', borderColor: '#e2e8f0', borderRadius: 8, fontSize: 11, boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)' }
+                  }
+                  itemStyle={{ color: theme === 'dark' ? '#f1f5f9' : '#0f172a' }}
+                  labelStyle={{ color: '#38a9f8', fontWeight: 'bold' }}
+                  formatter={(value: any) => [`${value}% Importance`, 'SHAP Weight']}
+                />
+                <Bar dataKey="importance" radius={[0, 4, 4, 0]} barSize={12}>
+                  {[
+                    { fill: '#f43f5e' },
+                    { fill: '#10b981' },
+                    { fill: '#0e8de9' },
+                    { fill: '#8b5cf6' },
+                    { fill: '#eab308' }
+                  ].map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.fill} />
+                  ))}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
           </div>
         </div>
 
-      </div>
-
-      {/* 
-        Explainable AI (SHAP Weights) Chart:
-        Plots the feature importances extracted from the backend machine learning model.
-        This provides model explainability (XAI) for business users to verify risk signals.
-      */}
-      <div className="glass-panel border border-slate-200 dark:border-slate-800 rounded-xl p-6 shadow-sm animate-slide-up">
-        <h3 className="text-md font-bold text-slate-900 dark:text-white mb-2 flex items-center gap-2 transition-colors">
-          <BrainCircuit size={18} className="text-brand-500" />
-          Explainable AI (XAI) - Model Feature Importance
-        </h3>
-        <p className="text-slate-500 dark:text-slate-400 text-xs mb-6 leading-relaxed transition-colors">
-          Relative variable importance (SHAP analysis) calculated across the Random Forest classifier to identify primary retention signals.
-        </p>
-        
-        <div className="h-60 w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            {/* 
-              Vertical BarChart:
-              Renders features stacked vertically so long descriptions (like 'Recency (Days Since Order)') 
-              do not overlap, keeping label readability high on mobile devices.
-            */}
-            <BarChart
-              layout="vertical"
-              data={[
-                { name: 'Recency (Days Since Order)', importance: 38 },
-                { name: 'Average Review Rating', importance: 26 },
-                { name: 'Purchase Frequency', importance: 18 },
-                { name: 'Monetary Value (Spend)', importance: 13 },
-                { name: 'Demographic Age', importance: 5 }
-              ]}
-              margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
-            >
-              {/* Horizontal grid lines only, since layout is vertical */}
-              <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke={theme === 'dark' ? '#1e293b' : '#f1f5f9'} />
-              
-              {/* X Axis shows percentage importance of the feature */}
-              <XAxis 
-                type="number" 
-                tick={{ fill: theme === 'dark' ? '#64748b' : '#94a3b8', fontSize: 10 }}
-                axisLine={false}
-                tickLine={false}
-                unit="%"
-              />
-              
-              {/* Y Axis lists features dynamically */}
-              <YAxis 
-                dataKey="name" 
-                type="category" 
-                tick={{ fill: theme === 'dark' ? '#cbd5e1' : '#1e293b', fontSize: 10, fontWeight: 'bold' }}
-                axisLine={false}
-                tickLine={false}
-                width={150}
-              />
-              
-              {/* Custom tooltip matching active color palette */}
-              <Tooltip 
-                contentStyle={theme === 'dark' 
-                  ? { backgroundColor: '#1e293b', borderColor: '#334155', borderRadius: 8, fontSize: 11 } 
-                  : { backgroundColor: '#ffffff', borderColor: '#e2e8f0', borderRadius: 8, fontSize: 11, boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)' }
-                }
-                itemStyle={{ color: theme === 'dark' ? '#f1f5f9' : '#0f172a' }}
-                labelStyle={{ color: '#38a9f8', fontWeight: 'bold' }}
-                formatter={(value: any) => [`${value}% Importance`, 'SHAP Weight']}
-              />
-              
-              {/* Color cells individually to distinguish feature variables */}
-              <Bar dataKey="importance" radius={[0, 4, 4, 0]} barSize={16}>
-                {[
-                  { fill: '#f43f5e' },
-                  { fill: '#10b981' },
-                  { fill: '#0e8de9' },
-                  { fill: '#8b5cf6' },
-                  { fill: '#eab308' }
-                ].map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.fill} />
-                ))}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
       </div>
     </div>
   );
