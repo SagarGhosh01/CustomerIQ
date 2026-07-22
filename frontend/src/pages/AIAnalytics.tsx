@@ -61,9 +61,13 @@ export const AIAnalytics: React.FC = () => {
     handleSimulate();
   }, [token]);
 
+  const [animationKey, setAnimationKey] = useState(0);
+
   // Run Sandbox Simulation
   const handleSimulate = async () => {
     setSimLoading(true);
+    // Add artificial delay to show calculation spinner
+    const delayPromise = new Promise(resolve => setTimeout(resolve, 650));
     try {
       const url = `${API_BASE_URL}/api/analytics/simulate?age=${simAge}&recency=${simRecency}&frequency=${simFrequency}&monetary=${simMonetary}&avg_rating=${simRating}`;
       const response = await fetch(url, {
@@ -72,7 +76,11 @@ export const AIAnalytics: React.FC = () => {
       });
       if (response.ok) {
         const data = await response.json();
+        // Wait for both the API response and our visual delay to finish
+        await delayPromise;
         setSimResult(data);
+        // Increment key to trigger complete reflow and entrance animation for cards
+        setAnimationKey(prev => prev + 1);
       }
     } catch (e) {
       console.error('Simulation connection failed:', e);
@@ -267,16 +275,22 @@ export const AIAnalytics: React.FC = () => {
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-4 transition-colors">Simulation Analytics Output</h4>
             
             {simResult ? (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-fade-in">
-                {/* CLV */}
-                <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors shadow-sm">
+              <div key={animationKey} className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* CLV Card - Immediate Entrance */}
+                <div 
+                  className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors shadow-sm animate-slide-up"
+                  style={{ animationDelay: '0ms', animationFillMode: 'both' }}
+                >
                   <span className="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider transition-colors">Predicted CLV (12-Mo)</span>
                   <span className="text-xl font-extrabold text-slate-900 dark:text-white mt-1 transition-colors">${simResult.predicted_clv.toFixed(2)}</span>
                   <span className="text-[10px] text-slate-500 dark:text-slate-400 mt-1 transition-colors">Expected forward revenue</span>
                 </div>
 
-                {/* Churn Probability */}
-                <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors shadow-sm">
+                {/* Churn Probability Card - Delayed Entrance */}
+                <div 
+                  className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors shadow-sm animate-slide-up"
+                  style={{ animationDelay: '150ms', animationFillMode: 'both' }}
+                >
                   <span className="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider transition-colors">Churn Risk Probability</span>
                   <div className="flex items-center gap-2.5 mt-1">
                     <span className="text-xl font-extrabold text-slate-900 dark:text-white transition-colors">{Math.round(simResult.churn_probability * 100)}%</span>
@@ -287,12 +301,15 @@ export const AIAnalytics: React.FC = () => {
                   <span className="text-[10px] text-slate-500 dark:text-slate-400 mt-1 transition-colors">Probability of target churn</span>
                 </div>
 
-                {/* Next Best Recommendations */}
-                <div className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors shadow-sm">
+                {/* Next Best Recommendations Card - Delayed Entrance */}
+                <div 
+                  className="bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-850 p-4 rounded-xl flex flex-col justify-center transition-colors shadow-sm animate-slide-up"
+                  style={{ animationDelay: '300ms', animationFillMode: 'both' }}
+                >
                   <span className="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider transition-colors">Recommended Cross-Sells</span>
                   <div className="flex flex-col gap-1.5 mt-2">
                     {simResult.recommendations.map((item, i) => (
-                      <span key={i} className="text-xs text-brand-650 dark:text-brand-400 font-bold flex items-center gap-1.5 transition-colors">
+                      <span key={i} className="text-xs text-brand-650 dark:text-brand-400 font-bold flex items-center gap-1.5 transition-colors animate-fade-in" style={{ animationDelay: `${350 + (i * 100)}ms`, animationFillMode: 'both' }}>
                         <ArrowRight size={10} className="text-brand-500" />
                         {item}
                       </span>
