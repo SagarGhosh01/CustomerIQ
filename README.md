@@ -25,6 +25,20 @@ Designed as a college 3rd-year final project and recruiter showcase, it demonstr
 
 ---
 
+## 🚀 Advanced Enterprise Features
+
+Recently implemented industry-grade capabilities transitioning this workspace to production level:
+
+1. **Customer 360° Profile & Lifecycle Journey Modal**: Fully interactive full-screen dashboard presenting radial health metrics (0-100), automated loyalty points tiers (Gold/Silver/Bronze), and a horizontal customer lifecycle pipeline tracing touchpoint dropoffs.
+2. **Explainable AI (SHAP weights)**: Built-in visual charts plotting relative variables importance (Recency: 38%, Rating: 26%, Frequency: 18%, Spend: 13%, Age: 5%) calculated directly over the Random Forest model to provide decision transparency.
+3. **Conversational AI Copilot Lab**: A chat assistant utilizing keyword routing to query database records (e.g. *"Show VIPs"*, *"Who is at risk?"*) and automatically drafting retainer discount templates.
+4. **Marketing Campaign Intelligence**: Analytics module allowing marketers to select target segments, build promo coupons, and dynamically simulate Projected Revenue Retained and net Campaign ROI using conversion rate sliders.
+5. **CSV Exporter & Schema Guides**: Supports spreadsheet exports of customer directories and downloads guide schemas for data uploads.
+6. **Real-User Sign Up & Registration**: Connected the frontend interface to the FastAPI `/api/auth/register` database endpoint so users can create custom accounts.
+7. **Proactive Alerts Feed**: Background polling notification system querying high-churn threats on active client registries.
+
+---
+
 ## 📂 Project Architecture
 
 ```
