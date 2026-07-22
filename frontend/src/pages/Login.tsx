@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { API_BASE_URL } from '../config';
-import { ShieldCheck, UserCheck, Eye, EyeOff, Loader2 } from 'lucide-react';
+import { ShieldCheck, UserCheck, Eye, EyeOff, Loader2, UserPlus, LogIn } from 'lucide-react';
 
 export const Login: React.FC = () => {
   const { login } = useAuth();
+  const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [fullName, setFullName] = useState('');
+  const [selectedRole, setSelectedRole] = useState<'admin' | 'employee'>('employee');
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -18,24 +21,68 @@ export const Login: React.FC = () => {
     setIsSubmitting(true);
 
     try {
-      const formData = new URLSearchParams();
-      formData.append('username', email);
-      formData.append('password', password);
+      if (isSignUp) {
+        // Sign Up API call
+        const response = await fetch(`${API_BASE_URL}/api/auth/register`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            email,
+            password,
+            full_name: fullName,
+            role: selectedRole,
+          }),
+        });
 
-      const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: formData,
-      });
+        const data = await response.json();
 
-      const data = await response.json();
+        if (response.ok) {
+          // Auto-login after registration
+          const formData = new URLSearchParams();
+          formData.append('username', email);
+          formData.append('password', password);
 
-      if (response.ok) {
-        login(data.access_token);
+          const loginRes = await fetch(`${API_BASE_URL}/api/auth/login`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: formData,
+          });
+
+          const loginData = await loginRes.json();
+          if (loginRes.ok) {
+            login(loginData.access_token);
+          } else {
+            setError('Registration successful! Please sign in manually.');
+            setIsSignUp(false);
+          }
+        } else {
+          setError(data.detail || 'Registration failed. Email might already be taken.');
+        }
       } else {
-        setError(data.detail || 'Incorrect credentials. Please try again.');
+        // Sign In API call
+        const formData = new URLSearchParams();
+        formData.append('username', email);
+        formData.append('password', password);
+
+        const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: formData,
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+          login(data.access_token);
+        } else {
+          setError(data.detail || 'Incorrect email or password.');
+        }
       }
     } catch (e) {
       setError('Cannot connect to the backend server. Please verify it is running.');
@@ -81,6 +128,7 @@ export const Login: React.FC = () => {
 
   const handleDemoFill = (role: 'admin' | 'employee') => {
     setError(null);
+    setIsSignUp(false);
     if (role === 'admin') {
       setEmail('admin@customeriq.com');
       setPassword('admin123');
@@ -134,31 +182,63 @@ export const Login: React.FC = () => {
           <div className="w-12 h-12 bg-brand-600 rounded-xl flex items-center justify-center shadow-lg shadow-brand-500/20 mb-3 border border-brand-400/30">
             <span className="text-xl font-bold text-white tracking-wider">CIQ</span>
           </div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white transition-colors">Welcome to CustomerIQ</h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm mt-1 transition-colors">AI-Powered Customer Intelligence</p>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-white transition-colors">
+            {isSignUp ? 'Create CIQ Account' : 'Welcome to CustomerIQ'}
+          </h1>
+          <p className="text-slate-550 dark:text-slate-400 text-sm mt-1 transition-colors">
+            {isSignUp ? 'Register administrative workspace credentials' : 'AI-Powered Customer Intelligence'}
+          </p>
         </div>
 
         {error && (
-          <div className="mb-6 p-4 rounded-lg bg-rose-500/10 border border-rose-500/35 text-rose-650 dark:text-rose-200 text-sm">
+          <div className="mb-6 p-4 rounded-lg bg-rose-500/10 border border-rose-500/35 text-rose-650 dark:text-rose-200 text-sm text-left">
             {error}
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form onSubmit={handleSubmit} className="space-y-4 text-left">
+          {isSignUp && (
+            <>
+              <div>
+                <label className="block text-xs font-bold text-slate-550 dark:text-slate-400 mb-1.5 uppercase tracking-wider">Full Name</label>
+                <input
+                  type="text"
+                  required
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
+                  placeholder="e.g. Sarah Jenkins"
+                  className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-2.5 text-slate-900 dark:text-white placeholder-slate-450 dark:placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-transparent transition-all text-xs"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold text-slate-550 dark:text-slate-400 mb-1.5 uppercase tracking-wider">Workspace Role</label>
+                <select
+                  value={selectedRole}
+                  onChange={(e) => setSelectedRole(e.target.value as any)}
+                  className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-3 py-2.5 text-slate-700 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500/50 transition-all text-xs font-semibold"
+                >
+                  <option value="employee">Employee / Staff Analyst</option>
+                  <option value="admin">Administrator / Manager</option>
+                </select>
+              </div>
+            </>
+          )}
+
           <div>
-            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5 transition-colors">Email Address</label>
+            <label className="block text-xs font-bold text-slate-555 dark:text-slate-400 mb-1.5 uppercase tracking-wider">Email Address</label>
             <input
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="e.g. admin@customeriq.com"
-              className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-2.5 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-transparent transition-all"
+              placeholder="e.g. sarah.j@example.com"
+              className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-2.5 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-transparent transition-all text-xs"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5 transition-colors">Password</label>
+            <label className="block text-xs font-bold text-slate-555 dark:text-slate-400 mb-1.5 uppercase tracking-wider">Password</label>
             <div className="relative">
               <input
                 type={showPassword ? 'text' : 'password'}
@@ -166,14 +246,14 @@ export const Login: React.FC = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Enter password"
-                className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-2.5 pr-11 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-transparent transition-all"
+                className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-2.5 pr-11 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-transparent transition-all text-xs"
               />
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
                 className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 dark:text-slate-500 hover:text-slate-650 dark:hover:text-slate-300 focus:outline-none"
               >
-                {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
               </button>
             </div>
           </div>
@@ -181,18 +261,35 @@ export const Login: React.FC = () => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-brand-600 hover:bg-brand-500 disabled:bg-brand-800 text-white font-semibold rounded-lg py-2.5 shadow-lg shadow-brand-500/25 hover:shadow-brand-500/35 border border-brand-400/20 transition-all flex items-center justify-center gap-2 cursor-pointer text-xs"
+            className="w-full bg-brand-600 hover:bg-brand-500 disabled:bg-brand-800 text-white font-semibold rounded-lg py-2.5 mt-2 shadow-lg shadow-brand-500/25 hover:shadow-brand-500/35 border border-brand-400/20 transition-all flex items-center justify-center gap-2 cursor-pointer text-xs"
           >
             {isSubmitting ? (
               <>
-                <Loader2 className="animate-spin" size={18} />
-                Signing in...
+                <Loader2 className="animate-spin" size={16} />
+                {isSignUp ? 'Creating account...' : 'Signing in...'}
               </>
             ) : (
-              'Sign In'
+              <span className="flex items-center gap-1.5">
+                {isSignUp ? <UserPlus size={14} /> : <LogIn size={14} />}
+                {isSignUp ? 'Create Workspace Account' : 'Sign In'}
+              </span>
             )}
           </button>
         </form>
+
+        {/* Toggle between Sign In / Sign Up modes */}
+        <div className="text-center mt-4">
+          <button
+            type="button"
+            onClick={() => {
+              setError(null);
+              setIsSignUp(!isSignUp);
+            }}
+            className="text-xs text-brand-600 dark:text-brand-400 hover:underline font-semibold cursor-pointer"
+          >
+            {isSignUp ? 'Already have an account? Sign In' : "New to CustomerIQ? Sign Up"}
+          </button>
+        </div>
 
         <div className="relative my-5">
           <div className="absolute inset-0 flex items-center">
